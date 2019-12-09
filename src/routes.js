@@ -17,6 +17,7 @@ const routes = [
     component: App, // Change this if you want a different component
     routes: [
       // Add your routes here
+      // addon routes have a higher priority then default routes
       ...defaultRoutes,
     ],
   },

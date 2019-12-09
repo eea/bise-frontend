@@ -1,7 +1,31 @@
 {
     "compilerOptions": {
+        "baseUrl": "src",
         "paths": {
-        },
-        "baseUrl": "src"
+            "volto-addons": [
+                "addons/volto-addons/src"
+            ],
+            "volto-blocks": [
+                "addons/volto-blocks/src"
+            ],
+            "volto-ckeditor": [
+                "addons/volto-ckeditor/src"
+            ],
+            "volto-corsproxy": [
+                "addons/volto-corsproxy/src"
+            ],
+            "volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "volto-drafteditor": [
+                "addons/volto-drafteditor/src"
+            ],
+            "volto-mosaic": [
+                "addons/volto-mosaic/src"
+            ],
+            "volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ]
+        }
     }
 }
