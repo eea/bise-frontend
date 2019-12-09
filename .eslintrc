@@ -1,17 +1,59 @@
 {
-  "extends": "./node_modules/@plone/volto/.eslintrc",
-  "settings": {
-    "import/resolver": {
-      "alias": {
-        "map": [
-          ["@plone/volto", "@plone/volto/src"],
-          ["@package", "./src"]
-        ],
-        "extensions": [".js", ".jsx", ".json"]
-      },
-      "babel-plugin-root-import": {
-        "rootPathSuffix": "src"
-      }
+    "extends": "./node_modules/@plone/volto/.eslintrc", 
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "extensions": [
+                    ".js", 
+                    ".jsx", 
+                    ".json"
+                ], 
+                "map": [
+                    [
+                        "@plone/volto", 
+                        "@plone/volto/src"
+                    ], 
+                    [
+                        "@package", 
+                        "./src"
+                    ], 
+                    [
+                        "volto-mosaic", 
+                        "./src/addons/volto-mosaic/src"
+                    ], 
+                    [
+                        "volto-datablocks", 
+                        "./src/addons/volto-datablocks/src"
+                    ], 
+                    [
+                        "volto-addons", 
+                        "./src/addons/volto-addons/src"
+                    ], 
+                    [
+                        "volto-ckeditor", 
+                        "./src/addons/volto-ckeditor/src"
+                    ], 
+                    [
+                        "volto-blocks", 
+                        "./src/addons/volto-blocks/src"
+                    ], 
+                    [
+                        "volto-corsproxy", 
+                        "./src/addons/volto-corsproxy/src"
+                    ], 
+                    [
+                        "volto-drafteditor", 
+                        "./src/addons/volto-drafteditor/src"
+                    ], 
+                    [
+                        "volto-plotlycharts", 
+                        "./src/addons/volto-plotlycharts/src"
+                    ]
+                ]
+            }, 
+            "babel-plugin-root-import": {
+                "rootPathSuffix": "src"
+            }
+        }
     }
-  }
 }

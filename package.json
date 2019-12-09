@@ -10,7 +10,8 @@
     "build": "razzle build",
     "test": "razzle test --env=jsdom --passWithNoTests",
     "start:prod": "NODE_ENV=production node build/server.js",
-    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js"
+    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
+    "develop": "mrdeveloper --config=jsconfig.json --no-config --output=addons"
   },
   "jest": {
     "snapshotSerializers": [
@@ -62,7 +63,16 @@
     "node": "^8 || ^10"
   },
   "dependencies": {
-    "@plone/volto": "3.2.7"
+    "@plone/volto": "4.0.0-alpha.17",
+    "mr-developer": "^1.4.0",
+    "volto-addons": "file:src/addons/volto-addons",
+    "volto-blocks": "file:src/addons/volto-blocks",
+    "volto-ckeditor": "file:src/addons/volto-ckeditor",
+    "volto-corsproxy": "file:src/addons/volto-corsproxy",
+    "volto-datablocks": "file:src/addons/volto-datablocks",
+    "volto-drafteditor": "file:src/addons/volto-drafteditor",
+    "volto-mosaic": "file:src/addons/volto-mosaic",
+    "volto-plotlycharts": "file:src/addons/volto-plotlycharts"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.0.1",
