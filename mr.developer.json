@@ -1,0 +1,26 @@
+{
+    "volto-mosaic": {
+        "url": "https://github.com/eea/volto-mosaic.git"
+    },
+    "volto-datablocks": {
+        "url": "https://github.com/eea/volto-datablocks.git"
+    },
+    "volto-blocks": {
+      "url": "https://github.com/eea/volto-blocks.git"
+    },
+    "volto-addons": {
+      "url": "https://github.com/eea/volto-addons.git"
+    },
+    "volto-ckeditor": {
+      "url": "https://github.com/eea/volto-ckeditor.git"
+    },
+    "volto-drafteditor": {
+      "url": "https://github.com/eea/volto-drafteditor.git"
+    },
+    "volto-plotlycharts": {
+      "url": "https://github.com/eea/volto-plotlycharts.git"
+    },
+    "volto-corsproxy": {
+      "url": "https://github.com/eea/volto-corsproxy.git"
+    }
+}
