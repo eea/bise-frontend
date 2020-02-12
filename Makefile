@@ -5,7 +5,7 @@ DOCKERIMAGE_FILE="docker-image.txt"
 NAME := $(call image-name-split,$(shell cat $(DOCKERIMAGE_FILE)), 1)
 IMAGE=$(shell cat $(DOCKERIMAGE_FILE))
 
-# VOLTO_ADDONS=$(shell ./pkg_helper.py list)
+# VOLTO_ADDONS=$(shell ./scripts/pkg_helper.py list)
 
 .DEFAULT_GOAL := help
 
@@ -16,11 +16,13 @@ activate:		## Activate an addon package for development
 			echo "You need to specify package name in make command";\
 			echo "Ex: make activate pkg=volto-datablocks";\
 		else \
-			./pkg_helper.py --target=${pkg} activate;\
-			echo "Running npm install src/addons/${pkg}";\
-			npm install "src/addons/$${pkg}";\
+			./scripts/pkg_helper.py --target=${pkg} activate;\
+			echo "Running npm install in src/develop/${pkg}";\
+			cd "src/addons/$${pkg}";\
+			npm install;\
+			cd ../..;\
 			echo "Cleaning up after npm install";\
-			export VOLTO_ADDONS=`./pkg_helper.py list`;\
+			export VOLTO_ADDONS=`./scripts/pkg_helper.py list`;\
 			read -ra ADDR <<< "$${VOLTO_ADDONS}"; \
 			for pkg in "$${ADDR[@]}"; do \
 				echo "removing node_modules/$${pkg}"; \
@@ -33,7 +35,7 @@ PHONY: clean-addons
 clean-addons:
 	set -e; \
 		echo "Cleaning up after npm install";\
-		export VOLTO_ADDONS=`./pkg_helper.py list`;\
+		export VOLTO_ADDONS=`./scripts/pkg_helper.py list`;\
 		read -ra ADDR <<< "$${VOLTO_ADDONS}"; \
 		for pkg in "$${ADDR[@]}"; do \
 			echo "removing node_modules/$${pkg}"; \
@@ -43,7 +45,7 @@ clean-addons:
 .PHONY: activate-all
 activate-all:		## Automatically activates all addons from mr.developer.json
 	@echo "Activating all addon packages"
-	./pkg_helper.py activate-all
+	./scripts/pkg_helper.py activate-all
 
 .PHONY: deactivate
 deactivate:		## Deactivate an addon package for development
@@ -51,7 +53,7 @@ deactivate:		## Deactivate an addon package for development
 		echo "You need to specify package name in make command";\
 		echo "Ex: make deactivate pkg=volto-datablocks";\
 	else \
-		exec ./pkg_helper.py --target=${pkg} deactivate;\
+		exec ./scripts/pkg_helper.py --target=${pkg} deactivate;\
 		rm -rf node_modules/${pkg};\
 		echo "Deactivated ${pkg}";\
 	fi
@@ -100,7 +102,7 @@ bump:
 .PHONY: build-image
 build-image:
 	@echo "Building new docker image: $(IMAGE)";
-	docker build . --network=host -t "$(IMAGE)";
+	docker build . --network=host --build-arg MAX_OLD_SPACE_SIZE=4096 --build-arg NPM_CONFIG_REGISTRY=http://127.0.0.1:4873 -t "$(IMAGE)";
 	@echo "Image built."
 
 .PHONY: push
@@ -115,8 +117,18 @@ init-submodules:		## Initialize the git submodules
 
 .PHONY: develop
 develop:		## Runs "git pull" in all addons
-	./pkg_helper.py develop
+	./scripts/pkg_helper.py develop
 
 .PHONY: help
 help:		## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
+
+.PHONY: build-production
+try-production:		## Build production bundle
+	NODE_OPTIONS=--max_old_space_size=4096 \
+		BUNDLE_ANALYZE=true \
+		RAZZLE_API_PATH=VOLTO_API_PATH \
+		RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH \
+		yarn build
+	./entrypoint-dev.sh
+	echo "Now run: node build/server.js"

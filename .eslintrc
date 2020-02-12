@@ -18,36 +18,48 @@
                         "./src"
                     ], 
                     [
-                        "volto-mosaic", 
-                        "./src/addons/volto-mosaic/src"
-                    ], 
-                    [
-                        "volto-datablocks", 
-                        "./src/addons/volto-datablocks/src"
-                    ], 
-                    [
-                        "volto-addons", 
-                        "./src/addons/volto-addons/src"
-                    ], 
-                    [
-                        "volto-ckeditor", 
-                        "./src/addons/volto-ckeditor/src"
-                    ], 
-                    [
-                        "volto-blocks", 
-                        "./src/addons/volto-blocks/src"
-                    ], 
-                    [
                         "volto-corsproxy", 
                         "./src/addons/volto-corsproxy/src"
                     ], 
                     [
+                        "volto-mosaic", 
+                        "./src/develop/volto-mosaic/src"
+                    ], 
+                    [
+                        "volto-datablocks", 
+                        "./src/develop/volto-datablocks/src"
+                    ], 
+                    [
+                        "volto-addons", 
+                        "./src/develop/volto-addons/src"
+                    ], 
+                    [
+                        "volto-ckeditor", 
+                        "./src/develop/volto-ckeditor/src"
+                    ], 
+                    [
+                        "volto-blocks", 
+                        "./src/develop/volto-blocks/src"
+                    ], 
+                    [
                         "volto-drafteditor", 
-                        "./src/addons/volto-drafteditor/src"
+                        "./src/develop/volto-drafteditor/src"
+                    ], 
+                    [
+                        "volto-base", 
+                        "./src/develop/volto-base/src"
                     ], 
                     [
                         "volto-plotlycharts", 
-                        "./src/addons/volto-plotlycharts/src"
+                        "./src/develop/volto-plotlycharts/src"
+                    ], 
+                    [
+                        "volto-embed", 
+                        "./src/develop/volto-embed/src"
+                    ], 
+                    [
+                        "volto-sidebar", 
+                        "./src/develop/volto-sidebar/src"
                     ]
                 ]
             }, 

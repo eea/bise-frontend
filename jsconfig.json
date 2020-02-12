@@ -1,30 +1,47 @@
 {
+    "addons": [
+        "volto-addons", 
+        "volto-blocks", 
+        "volto-ckeditor", 
+        "volto-corsproxy", 
+        "volto-datablocks", 
+        "volto-drafteditor", 
+        "volto-mosaic", 
+        "volto-plotlycharts", 
+        "volto-sidebar"
+    ], 
     "compilerOptions": {
         "baseUrl": "src", 
         "paths": {
             "volto-addons": [
-                "addons/volto-addons/src"
+                "develop/volto-addons/src"
+            ], 
+            "volto-base": [
+                "develop/volto-base/src"
             ], 
             "volto-blocks": [
-                "addons/volto-blocks/src"
+                "develop/volto-blocks/src"
             ], 
             "volto-ckeditor": [
-                "addons/volto-ckeditor/src"
-            ], 
-            "volto-corsproxy": [
-                "addons/volto-corsproxy/src"
+                "develop/volto-ckeditor/src"
             ], 
             "volto-datablocks": [
-                "addons/volto-datablocks/src"
+                "develop/volto-datablocks/src"
             ], 
             "volto-drafteditor": [
-                "addons/volto-drafteditor/src"
+                "develop/volto-drafteditor/src"
+            ], 
+            "volto-embed": [
+                "develop/volto-embed/src"
             ], 
             "volto-mosaic": [
-                "addons/volto-mosaic/src"
+                "develop/volto-mosaic/src"
             ], 
             "volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
+                "develop/volto-plotlycharts/src"
+            ], 
+            "volto-sidebar": [
+                "develop/volto-sidebar/src"
             ]
         }
     }

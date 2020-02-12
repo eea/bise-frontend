@@ -72,4 +72,5 @@ data
 omelette
 *.old
 *~
-src/addons
+src/develop
+npm-cache
