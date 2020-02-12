@@ -1,1 +1,1 @@
-tiberiuichim/volto-generic-frontend:4.0-0.1
+eeacms/forests-frontend:1.1
