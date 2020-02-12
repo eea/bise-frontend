@@ -14,23 +14,8 @@
 import * as voltoConfig from '@plone/volto/config';
 import {
   applyConfig as addonsConfig,
-  installImageSlides,
+  // installImageSlides,
 } from 'volto-addons/config';
-import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
-import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
-// import { applyConfig as draftConfig } from 'volto-drafteditor/config';
-import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
-import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
-
-const config = [
-  addonsConfig,
-  installImageSlides,
-  plotlyConfig,
-  ckeditorConfig,
-  // draftConfig,
-  mosaicConfig,
-  dataBlocksConfig,
-].reduce((acc, apply) => apply(acc), voltoConfig);
 
 import {
   settings as defaultSettings,
@@ -38,6 +23,21 @@ import {
   widgets as defaultWidgets,
   blocks as defaultblocks,
 } from '@plone/volto/config';
+// import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
+// import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
+// import { applyConfig as draftConfig } from 'volto-drafteditor/config';
+// import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
+// import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
+
+const config = [
+  addonsConfig,
+  // installImageSlides,
+  // plotlyConfig,
+  // ckeditorConfig,
+  // draftConfig,
+  // mosaicConfig,
+  // dataBlocksConfig,
+].reduce((acc, apply) => apply(acc), voltoConfig);
 
 export const settings = {
   ...config.settings,

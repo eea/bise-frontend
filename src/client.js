@@ -3,7 +3,7 @@
  * @module client
  */
 
-import client from '@plone/volto/start-client';
+import client from 'volto-base/start-client';
 
 console.log('Starting');
 client();
