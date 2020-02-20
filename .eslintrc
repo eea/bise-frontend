@@ -67,7 +67,7 @@
             "volto-sidebar",
             "./src/develop/volto-sidebar/src"
           ]
-        ],
+        ]
       },
       "babel-plugin-root-import": {
         "rootPathSuffix": "src"
