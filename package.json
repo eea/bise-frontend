@@ -1,0 +1,162 @@
+{
+  "name": "bise-frontend",
+  "description": "Frontend server for BISE",
+  "license": "MIT",
+  "version": "3.2.7",
+  "scripts": {
+    "start": "NODE_OPTIONS=--max-old-space-size=8192 razzle start",
+    "prebuild": "./scripts/prebuild-fix-modules.sh",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom --passWithNoTests",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
+    "develop": "missdev --config=jsconfig.json --output=develop"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "transform": {
+      "^.+\\.js(x)?$": "babel-jest",
+      "^.+\\.css$": "jest-css-modules",
+      "^.+\\.scss$": "jest-css-modules",
+      "^.+\\.(png)$": "jest-file",
+      "^.+\\.(jpg)$": "jest-file",
+      "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@plone/volto).+\\.js$"
+    ],
+    "moduleNameMapper": {
+      "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
+      "@package/(.*)$": "<rootDir>/src/$1",
+      "~/(.*)$": "<rootDir>/src/$1"
+    },
+    "coverageThreshold": {
+      "global": {
+        "branches": 10,
+        "functions": 10,
+        "lines": 10,
+        "statements": 10
+      }
+    },
+    "setupFiles": [
+      "@plone/volto/test-setup.js"
+    ],
+    "globals": {
+      "__DEV__": true
+    }
+  },
+  "customizationPaths": [
+    "src/customizations/volto/"
+  ],
+  "addonsCustomizationPath": "src/customizations",
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard",
+      "stylelint-config-idiomatic-order",
+      "./node_modules/prettier-stylelint/config.js"
+    ]
+  },
+  "engines": {
+    "node": "^8 || ^10"
+  },
+    "engines": {
+    "node": "^8 || ^10"
+  },
+  "bundlesize": [
+    {
+      "path": "build/public/static/js/*.js",
+      "maxSize": "680kB"
+    }
+  ],
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "build/public/static/js/*.js",
+        "maxSize": "680kB"
+      }
+    ]
+  },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
+  "resolutions": {
+    "browserslist": "4.8.3"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.18.0",
+    "@blueprintjs/icons": "^3.10.0",
+    "@datapunt/matomo-tracker-react": "0.0.16",
+    "@plone/volto": "github:tiberiuichim/volto#kitchen_sink",
+    "immutable": "^3.8.2",
+    "less-loader": "5.0.0",
+    "npm": "^6.13.7",
+    "react": "^16.12.0",
+    "react-component-queries": "^2.3.0",
+    "react-image-gallery": "^0.9.1",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-lazy-load-image-component": "^1.4.0",
+    "react-loadable": "^5.5.0",
+    "react-sizeme": "^2.6.12",
+    "react-slick": "^0.24.0",
+    "react-stickynode": "^2.1.1",
+    "react-toastify": "^5.3.2",
+    "react-visibility-sensor": "^5.1.1",
+    "semantic-ui-css": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "start": "^5.1.0",
+    "webpack-bundle-analyzer": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-do-expressions": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-proposal-function-bind": "^7.8.3",
+    "@babel/plugin-proposal-function-sent": "^7.8.3",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@babel/plugin-proposal-pipeline-operator": "^7.8.3",
+    "@babel/plugin-proposal-throw-expressions": "^7.8.3",
+    "@babel/plugin-syntax-import-meta": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "cypress": "^3.6",
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "mr-developer": "^1.4.0",
+    "mrs-developer": "1.1.3",
+    "postcss-overrides": "3.1.4",
+    "prettier": "1.17.0",
+    "prettier-eslint": "^9.0.0",
+    "prettier-stylelint": "0.4.2",
+    "shelljs": "^0.8.3"
+  },
+  "optimizeLiftPackages": [
+    "immutable"
+  ],
+  "manuallyTranspile": [
+    "prepend-http",
+    "normalize-url",
+    "cidr-regex",
+    "url-regex"
+  ]
+}
