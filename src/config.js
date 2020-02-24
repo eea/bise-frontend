@@ -54,3 +54,16 @@ export const widgets = {
 export const blocks = {
   ...config.blocks,
 };
+
+export const addonReducers = { ...config.addonReducers };
+export const addonRoutes = [...(config.addonRoutes || [])];
+
+export const viewlets = [...(config.viewlets || [])];
+
+export const portlets = {
+  ...config.portlets,
+};
+
+export const editForms = {
+  ...config.editForms,
+};
