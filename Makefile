@@ -16,11 +16,13 @@ activate:		## Activate an addon package for development
 			echo "You need to specify package name in make command";\
 			echo "Ex: make activate pkg=volto-datablocks";\
 		else \
-			./pkg_helper.py --target=${pkg} activate;\
-			echo "Running npm install src/addons/${pkg}";\
-			npm install "src/addons/$${pkg}";\
+			./scripts/pkg_helper.py --target=${pkg} activate;\
+			echo "Running npm install in src/develop/${pkg}";\
+			cd "src/addons/$${pkg}";\
+			npm install;\
+			cd ../..;\
 			echo "Cleaning up after npm install";\
-			export VOLTO_ADDONS=`./pkg_helper.py list`;\
+			export VOLTO_ADDONS=`./scripts/pkg_helper.py list`;\
 			read -ra ADDR <<< "$${VOLTO_ADDONS}"; \
 			for pkg in "$${ADDR[@]}"; do \
 				echo "removing node_modules/$${pkg}"; \
@@ -33,7 +35,7 @@ PHONY: clean-addons
 clean-addons:
 	set -e; \
 		echo "Cleaning up after npm install";\
-		export VOLTO_ADDONS=`./pkg_helper.py list`;\
+		export VOLTO_ADDONS=`./scripts/pkg_helper.py list`;\
 		read -ra ADDR <<< "$${VOLTO_ADDONS}"; \
 		for pkg in "$${ADDR[@]}"; do \
 			echo "removing node_modules/$${pkg}"; \
@@ -42,17 +44,8 @@ clean-addons:
 
 .PHONY: activate-all
 activate-all:		## Automatically activates all addons from mr.developer.json
-	echo "Activating all addon packages"; \
-	export VOLTO_ADDONS=`./pkg_helper.py list`;\
-	read -ra ADDR <<< "$${VOLTO_ADDONS}"; \
-	for pkg in "$${ADDR[@]}"; do \
-		echo "Running npm install src/addons/${pkg}";\
-		npm install "src/addons/$${pkg}";\
-	done; \
-	for pkg in "$${ADDR[@]}"; do \
-		echo "removing node_modules/$${pkg}"; \
-		rm -rf "./node_modules/$${pkg}";\
-	done;
+	@echo "Activating all addon packages"
+	./scripts/pkg_helper.py activate-all
 
 .PHONY: deactivate
 deactivate:		## Deactivate an addon package for development
@@ -60,7 +53,7 @@ deactivate:		## Deactivate an addon package for development
 		echo "You need to specify package name in make command";\
 		echo "Ex: make deactivate pkg=volto-datablocks";\
 	else \
-		exec ./pkg_helper.py --target=${pkg} deactivate;\
+		exec ./scripts/pkg_helper.py --target=${pkg} deactivate;\
 		rm -rf node_modules/${pkg};\
 		echo "Deactivated ${pkg}";\
 	fi
@@ -129,3 +122,17 @@ develop:		## Runs "git pull" in all addons
 .PHONY: help
 help:		## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
+
+.PHONY: build-production
+try-production:		## Build production bundle
+	NODE_OPTIONS=--max_old_space_size=4096 \
+		BUNDLE_ANALYZE=true \
+		RAZZLE_API_PATH=VOLTO_API_PATH \
+		RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH \
+		yarn build
+	./entrypoint-dev.sh
+	echo "Now run: node build/server.js"
+
+.PHONY: sync
+sync: ## Sync repo with eea/volto-starter-kit Github template
+	npx git-upstream-template https://github.com/eea/volto-starter-kit.git

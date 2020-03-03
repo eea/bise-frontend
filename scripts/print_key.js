@@ -1,4 +1,4 @@
-#!/bin/env node
+#!/usr/bin/env node
 
 /*
  * Prints array values from a given key in package.json
