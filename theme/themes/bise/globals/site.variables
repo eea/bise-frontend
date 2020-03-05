@@ -20,6 +20,14 @@
     Border Radius
 --------------------*/
 
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Theme colors  ---*/
+
+@lightGreenColor     : #468900;
+@darkGreenColor      : #003300;
 
 /*-------------------
     Brand Colors

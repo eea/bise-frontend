@@ -1,3 +1,36 @@
 /*******************************
         Global Overrides
 *******************************/
+
+
+/*-------------------
+        Footer
+--------------------*/
+.footer-top-wrapper {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 1.5em 0;
+  margin-bottom: 2.5em;
+}
+
+.footer-nav {
+  padding-left: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding: 0.8em 1em 0.8em 0;
+}
+
+.footer-nav .item {
+  color: @lightGreenColor;
+}
+
+.footerLogos {
+  margin-top: 1.5em;
+}
+
+.footerLogo {
+  height: 40px;
+  width: auto;
+  margin: .5rem 1rem;
+}
