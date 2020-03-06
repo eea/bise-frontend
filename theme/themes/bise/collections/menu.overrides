@@ -116,7 +116,11 @@
     .item {
       padding-top: @relativeBig;
       margin: 0;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
+      color: @lightGreenColor;
+      font-weight: 700;
+      font-size: 18px;
+      font-family: @headerFont;
 
       @media only screen and (min-width: @largestTabletScreen) {
         padding: 1.7em 0 @relativeBig;
@@ -143,16 +147,23 @@
   }
 }
 
+.ui.secondary.pointing.menu {
+  .active.item {
+    color: @darkGreenColor;
+    border-color: transparent;
+  }
+}
+
 .ui.secondary.attached.pointing.menu {
   .item {
     padding: 1.4em 1em;
     color: @blue;
     font-size: @large;
+    border: none;
   }
 
   .active.item {
-    border-color: @teal;
-    color: @black;
+    /* border-color: @teal; */
   }
 }
 

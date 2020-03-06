@@ -39,7 +39,7 @@ const Footer = ({ intl }) => (
         <Grid>
           <Grid.Row>
             <Grid.Column floated='left' width={7}>
-              <ul className="footer-nav">
+              <ul className="footer-nav" id="footer_links">
                 <li>
                   <Link className="item" to="/">
                     <FormattedMessage
@@ -86,9 +86,13 @@ const Footer = ({ intl }) => (
         <Grid.Row>
           <Grid.Column width={6}>
             <div>
-              <p>
-                The Biodiversity information system for Europe is a partnership between the European Commission and the European Environment Agency.{' '}
-              </p>
+              <p class="site-info">
+                The Biodiversity information system for Europe is a partnership
+                between the <a href="https://ec.europa.eu/" target="_blank">
+                European Commission</a> and
+                the <a href="https://www.eea.europa.eu/" target="_blank">
+                European Environment Agency.</a>
+              </p>.{' '}
             </div>
             <div>
               <a href="https://ec.europa.eu/" title="European Commission">

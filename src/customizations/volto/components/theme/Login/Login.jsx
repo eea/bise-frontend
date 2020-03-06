@@ -118,9 +118,19 @@ class Login extends Component {
    */
   UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.token) {
-      this.props.history.push(this.props.returnUrl || '/');
+      const returnUrl =
+        this.props.returnUrl !== '/logout' ? this.props.returnUrl || '/' : '/';
+      this.props.history.push(returnUrl, {
+        isFromLogin: true,
+      });
       if (toast.isActive('loginFailed')) {
         toast.dismiss('loginFailed');
+      }
+    } else {
+      if (this.props.location.pathname === '/logout') {
+        this.props.history.push('/', {
+          isFromLogin: true,
+        });
       }
     }
     if (nextProps.error) {
@@ -320,9 +330,7 @@ export default compose(
       token: state.userSession.token,
       returnUrl:
         qs.parse(props.location.search).return_url ||
-        props.location.pathname
-          .replace(/\/login$/, '')
-          .replace(/\/logout$/, '') ||
+        props.location.pathname.replace('/login', '') ||
         '/',
     }),
     { login },

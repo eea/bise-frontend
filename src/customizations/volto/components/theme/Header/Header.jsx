@@ -7,6 +7,7 @@ import React, { Component } from 'react';
 import { Container, Segment } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Portal } from 'react-portal';
 
 import {
   Anontools,
@@ -54,13 +55,13 @@ class Header extends Component {
               <div className="logo">
                 <Logo />
               </div>
-              <Navigation pathname={this.props.pathname} />
             </div>
             <div className="tools-search-wrapper">
+              <Navigation pathname={this.props.pathname} />
               {!this.props.token && (
-                <div className="tools">
+                <Portal node={__CLIENT__ && document.querySelector('#footer_links')}>
                   <Anontools />
-                </div>
+                </Portal>
               )}
               <div className="search">
                 <SearchWidget pathname={this.props.pathname} />

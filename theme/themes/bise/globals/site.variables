@@ -6,9 +6,25 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Poppins';
+@fontName          : 'Open Sans';
+@headerFontName    : 'Raleway';
 
-@googleFontSizes   : '300,400,500,700,400italic,700italic';
+// @googleFontSizes   : '300,400,500,700,400italic,700italic';
+
+@headerFont        : 'Raleway', sans-serif;
+@pageFont          : 'Open Sans', sans-serif;
+
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '300,400,500,600,700,400italic,700italic';
+@googleSubset      : 'latin';
+
+@googleProtocol    : 'https://';
+@googleFontRequest : '@{googleFontName}:@{googleFontSizes}|@{headerFontName}:@{googleFontSizes}';
+
+
+@bold              : bold;
+@normal            : normal;
 
 
 /*-------------------
@@ -26,7 +42,7 @@
 
 /*---  Theme colors  ---*/
 
-@lightGreenColor     : #468900;
+@lightGreenColor     : #3c8000;
 @darkGreenColor      : #003300;
 
 /*-------------------
