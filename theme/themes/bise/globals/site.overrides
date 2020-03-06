@@ -3,6 +3,7 @@
 *******************************/
 body {
   color: #000;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,16 +48,15 @@ a:hover {
 }
 
 .footer-nav .item {
-  /* color: @lightGreenColor; */
   font-weight: 600;
 }
 
 .footerLogos {
-  margin-top: 1.8em;
+  margin-top: 3em;
 }
 
 .footerLogo {
-  height: 40px;
+  height: 50px;
   width: auto;
   margin: .5rem 1rem;
 }
@@ -70,6 +70,10 @@ a:hover {
 .footer-login svg.icon {
   position: relative;
   top: 3px;
+}
+
+.site-info {
+  font-size: 13px;
 }
 
 .site-info a {

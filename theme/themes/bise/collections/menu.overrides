@@ -120,7 +120,7 @@
       color: @lightGreenColor;
       font-weight: 700;
       font-size: 18px;
-      font-family: @headerFont;
+      font-family: @pageFont;
 
       @media only screen and (min-width: @largestTabletScreen) {
         padding: 1.7em 0 @relativeBig;

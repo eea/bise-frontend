@@ -82,51 +82,53 @@ const Footer = ({ intl }) => (
         </Grid>
       </div>
 
-      <Grid>
-        <Grid.Row>
-          <Grid.Column width={6}>
-            <div>
-              <p class="site-info">
-                The Biodiversity information system for Europe is a partnership
-                between the <a href="https://ec.europa.eu/" target="_blank">
-                European Commission</a> and
-                the <a href="https://www.eea.europa.eu/" target="_blank">
-                European Environment Agency.</a>
-              </p>.{' '}
-            </div>
-            <div>
-              <a href="https://ec.europa.eu/" title="European Commission">
-                <img className="footerLogo" src={ecLogo} alt="" />
-              </a>
-              <a
-                href="https://www.eea.europa.eu/"
-                title="European Environment Agency">
-                <img className="footerLogo" src={eeaLogo} alt="" />
-              </a>
-            </div>
-          </Grid.Column>
-          <Grid.Column width={6}>
-            <div>
-              <p>Other European Information Systems</p>
-            </div>
-            <div className="footerLogos">
-              <a href="https://water.europa.eu/"
-                 title="Water Information System for Europe">
-                <img className="footerLogo" src={wiseLogo} alt="" />
-              </a>
-              <a href="https://forest.eea.europa.eu/"
-                 title="Forest Information System for Europe">
-                <img className="footerLogo" src={fiseLogo} alt="" />
-              </a>
-              <a
-                href="https://climate-adapt.eea.europa.eu/"
-                title="Climate-Adapt">
-                <img className="footerLogo" src={ccaLogo} alt="" />
-              </a>
-            </div>
-          </Grid.Column>
-       </Grid.Row>
-      </Grid>
+      <div className="site-info">
+        <Grid>
+          <Grid.Row>
+            <Grid.Column width={5}>
+              <div>
+                <p>
+                  The Biodiversity information system for Europe is a partnership
+                  between <br /> the <a href="https://ec.europa.eu/" target="_blank">
+                  European Commission</a> and
+                  the <a href="https://www.eea.europa.eu/" target="_blank">
+                  European Environment Agency.</a>
+                </p>.{' '}
+              </div>
+              <div>
+                <a href="https://ec.europa.eu/" title="European Commission">
+                  <img className="footerLogo" src={ecLogo} alt="" />
+                </a>
+                <a
+                  href="https://www.eea.europa.eu/"
+                  title="European Environment Agency">
+                  <img className="footerLogo" src={eeaLogo} alt="" />
+                </a>
+              </div>
+            </Grid.Column>
+            <Grid.Column width={7}>
+              <div>
+                <p>Other European Information Systems</p>
+              </div>
+              <div className="footerLogos">
+                <a href="https://water.europa.eu/"
+                   title="Water Information System for Europe">
+                  <img className="footerLogo" src={wiseLogo} alt="" />
+                </a>
+                <a href="https://forest.eea.europa.eu/"
+                   title="Forest Information System for Europe">
+                  <img className="footerLogo" src={fiseLogo} alt="" />
+                </a>
+                <a
+                  href="https://climate-adapt.eea.europa.eu/"
+                  title="Climate-Adapt">
+                  <img className="footerLogo" src={ccaLogo} alt="" />
+                </a>
+              </div>
+            </Grid.Column>
+         </Grid.Row>
+        </Grid>
+      </div>
     </Container>
   </Segment>
 );
