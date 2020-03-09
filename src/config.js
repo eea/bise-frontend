@@ -23,6 +23,8 @@ import {
   widgets as defaultWidgets,
   blocks as defaultblocks,
 } from '@plone/volto/config';
+
+import HomepageView from '~/components/theme/HomepageView/HomepageView';
 // import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
 // import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
 // import { applyConfig as draftConfig } from 'volto-drafteditor/config';
@@ -45,6 +47,10 @@ export const settings = {
 
 export const views = {
   ...config.views,
+  layoutViews: {
+    ...config.views.layoutViews,
+    homepage_view: HomepageView,
+  },
 };
 
 export const widgets = {

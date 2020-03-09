@@ -8,3 +8,7 @@
  *   Footer,
  * };
  */
+
+ import HomepageView from './HomepageView/HomepageView';
+
+ export { HomepageView };
