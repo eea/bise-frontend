@@ -20,11 +20,6 @@ const routes = [
       // Add your routes here
       // addon routes have a higher priority then default routes
       ...defaultRoutes,
-      {
-        path: '/',
-        component: HomepageView,
-        exact: true,
-      },
     ],
   },
 ];

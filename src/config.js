@@ -47,6 +47,10 @@ export const settings = {
 
 export const views = {
   ...config.views,
+  contentTypesViews: {
+    ...config.views.contentTypesViews,
+    'Plone Site': HomepageView
+  },
   layoutViews: {
     ...config.views.layoutViews,
     homepage_view: HomepageView,
