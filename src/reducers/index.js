@@ -4,6 +4,7 @@
  */
 
 import defaultReducers from '@plone/volto/reducers';
+import frontpage_slides from '~/reducers/frontpage_slides';
 
 /**
  * Root reducer.
@@ -14,6 +15,7 @@ import defaultReducers from '@plone/volto/reducers';
  */
 const reducers = {
   ...defaultReducers,
+  frontpage_slides,
   // Add your reducers here
 };
 

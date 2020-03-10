@@ -23,7 +23,7 @@ export default props => (
         <Grid>
           <Grid.Row columns={4}>
             <Grid.Column>
-              <a href="" className="area-section">
+              <a href="/" className="area-section">
                 <div className="area-image">
                   <img src={image1} alt="" />
                 </div>

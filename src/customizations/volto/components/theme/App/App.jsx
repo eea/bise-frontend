@@ -18,6 +18,8 @@ import trim from 'lodash/trim';
 import cx from 'classnames';
 import { settings } from '~/config';
 
+import { getFrontpageSlides } from '~/actions';
+
 import Error from '@plone/volto/error';
 
 import {
@@ -133,7 +135,11 @@ class App extends Component {
           })}
         />
 
-        <Header pathname={path} />
+        <Header
+          actualPathName={this.props.pathname}
+          pathname={path}
+          frontpage_slides={this.props.frontpage_slides}
+        />
         <Breadcrumbs pathname={path} />
         <Segment basic className="content-area">
           <main>
@@ -191,6 +197,11 @@ export default compose(
         __SERVER__ && dispatch(getContent(getBaseUrl(location.pathname))),
     },
     {
+      key: 'frontpage_slides',
+      promise: ({ store: { dispatch } }) =>
+        __SERVER__ && dispatch(getFrontpageSlides()),
+    },
+    {
       key: 'navigation',
       promise: ({ location, store: { dispatch } }) =>
         __SERVER__ &&
@@ -214,6 +225,7 @@ export default compose(
     (state, props) => ({
       pathname: props.location.pathname,
       content: state.content.data,
+      frontpage_slides: state.frontpage_slides.items,
     }),
     {},
   ),
