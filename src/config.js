@@ -49,12 +49,12 @@ export const views = {
   ...config.views,
   contentTypesViews: {
     ...config.views.contentTypesViews,
-    'Plone Site': HomepageView
+    'Plone Site': HomepageView,
   },
-  layoutViews: {
-    ...config.views.layoutViews,
-    homepage_view: HomepageView,
-  },
+  // layoutViews: {
+  //   ...config.views.layoutViews,
+  //   homepage_view: HomepageView,
+  // },
 };
 
 export const widgets = {
