@@ -205,6 +205,7 @@ a:hover {
 
 .homepage-slide-wrapper {
   height: 500px;
+  position: relative;
 }
 
 .homepage-slide-img {
@@ -213,4 +214,30 @@ a:hover {
   background-repeat: no-repeat;
   background-position: left center;
   background-color: #000c;
+}
+
+.slide-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  color: #fff;
+  z-index: 99;
+}
+
+.slide-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-family: @headerFont;
+}
+
+.slide-description {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 200;
+  max-width: 540px;
 }

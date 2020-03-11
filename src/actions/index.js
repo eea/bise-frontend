@@ -18,7 +18,7 @@ export function getFrontpageSlides() {
     type: GET_FRONTPAGESLIDES,
     request: {
       op: 'get',
-      path: `/frontpage_slides?fullobjects`,
+      path: `/frontpage-slides?fullobjects`,
     },
   };
 }

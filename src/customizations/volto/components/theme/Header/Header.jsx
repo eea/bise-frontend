@@ -123,8 +123,15 @@ class Header extends Component {
           {this.state.isHomepage ? (
             <div className="homepage-slides">
               <HomepageSlider items={this.props.frontpage_slides} />
+
               <div className="homepage-slide-wrapper">
                 <div className="homepage-slide-img" style={{backgroundImage: `url(${homepageSlideIMG})`}}></div>
+                <div className="slide-content ui container">
+                  <div className="slide-title">Nature in Europe</div>
+                  <div className="slide-description">
+                    The source of data and information on biodiversity in Europe.
+                  </div>
+                </div>
               </div>
             </div>
           ) : (
