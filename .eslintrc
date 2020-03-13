@@ -66,6 +66,10 @@
                     [
                         "volto-sidebar", 
                         "./src/develop/volto-sidebar/src"
+                    ], 
+                    [
+                        "react-chart-editor", 
+                        "./src/develop/react-chart-editor/src"
                     ]
                 ]
             }, 

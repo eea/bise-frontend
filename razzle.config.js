@@ -24,5 +24,40 @@ const razzleModify = config.modify;
 
 module.exports = {
   plugins: base.plugins,
-  modify: config.modify, //razzleModify(voltoPath), 
+  modify: function(config, { target, dev }, webpack) {
+    const vc = razzleModify(config, { target, dev }, webpack); //razzleModify(voltoPath),
+    const loader = {
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
+    };
+    // const plugin = [
+    //   'module-resolver',
+    //   {
+    //     root: ['./'],
+    //     alias: {
+    //       components: './src/components',
+    //       lib: './src/lib',
+    //       styles: './src/styles',
+    //     },
+    //   },
+    // ];
+    //
+    const rcePath = vc.resolve.alias['react-chart-editor'] || '';
+    if (!rcePath) {
+      console.warn('react-chart-editor is not yet activated for development');
+    }
+
+    vc.resolve.alias = {
+      ...vc.resolve.alias,
+      components: `${rcePath}/components`,
+      lib: `${rcePath}/lib`,
+      styles: `${rcePath}/styles`,
+    };
+    console.log(vc.resolve.alias);
+
+    vc.module.rules.push(loader);
+    console.log(vc.module.rules);
+
+    return vc;
+  },
 };

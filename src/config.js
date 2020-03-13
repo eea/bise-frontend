@@ -1,31 +1,11 @@
-/**
- * Add your config changes here.
- * @module config
- * @example
- * export const settings = {
- *   ...defaultSettings,
- *   port: 4300,
- *   listBlockTypes: {
- *     ...defaultSettings.listBlockTypes,
- *     'my-list-item',
- *   }
- * }
- */
 import * as voltoConfig from '@plone/volto/config';
 import {
   applyConfig as addonsConfig,
   // installImageSlides,
 } from 'volto-addons/config';
 
-import {
-  settings as defaultSettings,
-  views as defaultViews,
-  widgets as defaultWidgets,
-  blocks as defaultblocks,
-} from '@plone/volto/config';
-
 import HomepageView from '~/components/theme/HomepageView/HomepageView';
-// import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
+import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
 // import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
 // import { applyConfig as draftConfig } from 'volto-drafteditor/config';
 // import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
@@ -33,8 +13,8 @@ import HomepageView from '~/components/theme/HomepageView/HomepageView';
 
 const config = [
   addonsConfig,
+  plotlyConfig,
   // installImageSlides,
-  // plotlyConfig,
   // ckeditorConfig,
   // draftConfig,
   // mosaicConfig,

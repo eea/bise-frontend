@@ -13,6 +13,9 @@
     "compilerOptions": {
         "baseUrl": "src", 
         "paths": {
+            "react-chart-editor": [
+                "develop/react-chart-editor/src"
+            ], 
             "volto-addons": [
                 "develop/volto-addons/src"
             ], 

@@ -38,5 +38,9 @@
     "volto-embed": {
       "url": "https://github.com/eea/volto-embed.git",
       "path": "src"
+    },
+    "react-chart-editor": {
+      "url": "https://github.com/plotly/react-chart-editor.git",
+      "path": "src"
     }
 }

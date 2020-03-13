@@ -18,7 +18,7 @@ activate:		## Activate an addon package for development
 		else \
 			./scripts/pkg_helper.py --target=${pkg} activate;\
 			echo "Running npm install in src/develop/${pkg}";\
-			cd "src/addons/$${pkg}";\
+			cd "src/develop/$${pkg}";\
 			npm install;\
 			cd ../..;\
 			echo "Cleaning up after npm install";\
