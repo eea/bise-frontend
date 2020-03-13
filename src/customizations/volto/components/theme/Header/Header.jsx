@@ -29,10 +29,6 @@ class Header extends Component {
     super(props);
     this.state = {
       isHomepage: this.props.actualPathName === '/',
-      url: null,
-      description: null,
-      title: null,
-      frontPageSlides: null,
     };
   }
   /**
@@ -44,7 +40,6 @@ class Header extends Component {
     token: PropTypes.string,
     pathname: PropTypes.string.isRequired,
     actualPathName: PropTypes.string.isRequired,
-    frontPageSlides: PropTypes.array,
   };
 
   /**
@@ -60,15 +55,6 @@ class Header extends Component {
     if (nextProps.actualPathName !== this.props.actualPathName) {
       this.setState({
         isHomepage: nextProps.actualPathName === '/',
-      });
-    }
-
-    if (
-      JSON.stringify(nextProps.frontPageSlides) !==
-      JSON.stringify(this.props.frontPageSlides)
-    ) {
-      this.setState({
-        frontPageSlides: nextProps.frontPageSlides,
       });
     }
   }
@@ -118,26 +104,12 @@ class Header extends Component {
               this.state.isHomepage ? 'homepage' : 'contentpage'
             }`}
             >
+            {this.state.isHomepage ? (
+              <HomepageSlider />
+            ) : (
+              <div className="header-leadimage"></div>
+            )}
           </div>
-
-          {this.state.isHomepage ? (
-            <div className="homepage-slides">
-              <HomepageSlider items={this.props.frontpage_slides} />
-
-              <div className="homepage-slide-wrapper">
-                <div className="homepage-slide-img" style={{backgroundImage: `url(${homepageSlideIMG})`}}></div>
-                <div className="slide-content ui container">
-                  <div className="slide-title">Nature in Europe</div>
-                  <div className="slide-description">
-                    The source of data and information on biodiversity in Europe.
-                  </div>
-                </div>
-              </div>
-            </div>
-          ) : (
-            <div className="header-image">
-            </div>
-          )}
         </div>
       </div>
     );

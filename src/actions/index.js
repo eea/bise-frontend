@@ -10,15 +10,3 @@
  *   searchContent,
  * };
  */
-
-import { GET_FRONTPAGESLIDES } from '~/constants/ActionTypes';
-
-export function getFrontpageSlides() {
-  return {
-    type: GET_FRONTPAGESLIDES,
-    request: {
-      op: 'get',
-      path: `/frontpage-slides?fullobjects`,
-    },
-  };
-}

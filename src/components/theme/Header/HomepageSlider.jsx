@@ -8,35 +8,32 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Placeholder } from 'semantic-ui-react';
 import { getBasePath } from '~/helpers';
 
-class HomepageSlider extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      slides: [],
-    };
-    this.getSlides = this.getSlides.bind(this);
+import slideIMG1 from '~/components/theme/Header/images/bise-slide.png';
+import slideIMG2 from '~/components/theme/Header/images/forest.jpg';
+
+const images = [
+  {
+    original: slideIMG1,
+    title: 'Nature in Europe',
+    description: 'The source of data and information on biodiversity in Europe.',
+  },
+  {
+    original: slideIMG2,
+    title: 'Nature in Europe',
+    description: 'The source of data and information on biodiversity in Europe.',
   }
+];
 
-  static propTypes = {
-    items: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string,
-        url: PropTypes.string,
-        description: PropTypes.string,
-      }),
-    ),
-  };
+class HomepageSlider extends Component {
 
-  renderSlide = item => {
+  renderSlide = images => {
     return (
       <div className="slider-slide">
-
-        {item.original ? (
           <LazyLoadImage
             className="slide-img"
-            height={601}
+            height={500}
             effect="blur"
-            style={{ backgroundImage: `url(${getBasePath(item.original)})` }}
+            style={{ backgroundImage: `url(${images.original})` }}
             width={'100%'}
             visibleByDefault={true}
             placeholder={
@@ -45,52 +42,27 @@ class HomepageSlider extends Component {
               </Placeholder>
             }
           />
-        ) : (
-          <Placeholder>
-            <Placeholder.Image rectangular />
-          </Placeholder>
-        )}
 
         <div className="slide-overlay" />
         <div className="slide-body">
-          <div className="slide-title">{item.title || ''}</div>
-          <div className="slide-description">{item.description || ''}</div>
+          <div className="slide-title">{images.title || ''}</div>
+          <div className="slide-description">{images.description || ''}</div>
         </div>
       </div>
     );
   };
 
-  getSlides(items) {
-    const slidesArr = items ? items : this.props.items;
-
-    const slidesUrl =
-      (slidesArr &&
-        slidesArr.map((item, index) => {
-          return {
-            original: item.image,
-            thumbnail: item.image,
-            title: item.title,
-            description: item.description,
-          };
-        })) ||
-      [];
-
-    return slidesUrl;
-  }
-
   render() {
-    // if (!this.state.slides.length) return '';
-    const slides = this.getSlides(this.props.items);
+
     return (
       <div className="slider-wrapper">
         <ImageGallery
           className="mainSlider"
-          items={slides}
+          items={images}
           showFullscreenButton={false}
           showPlayButton={false}
           autoPlay
           renderItem={this.renderSlide}
-          renderThumbInner={this.renderThumbnail}
           slideDuration={300}
           slideInterval={10000}
         />
