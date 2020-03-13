@@ -83,20 +83,20 @@ class Breadcrumbs extends Component {
    */
   render() {
     return (
-      <Segment
-        role="navigation"
-        aria-label={this.props.intl.formatMessage(messages.breadcrumbs)}
-        className="breadcrumbs"
-        secondary
-        vertical
-      >
-        <Container>
+      <Container>
+        <Segment
+          role="navigation"
+          aria-label={this.props.intl.formatMessage(messages.breadcrumbs)}
+          className="breadcrumbs"
+          secondary
+          vertical
+          >
           <Breadcrumb>
             <Link
               to="/"
               className="section"
               title={this.props.intl.formatMessage(messages.home)}
-            >
+              >
               <Icon name={homeSVG} size="18px" />
             </Link>
             {this.props.items.map((item, index, items) => [
@@ -112,8 +112,8 @@ class Breadcrumbs extends Component {
               ),
             ])}
           </Breadcrumb>
-        </Container>
-      </Segment>
+        </Segment>
+      </Container>
     );
   }
 }

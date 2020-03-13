@@ -137,7 +137,7 @@ class App extends Component {
           actualPathName={this.props.pathname}
           pathname={path}
         />
-        <Breadcrumbs pathname={path} />
+
         <Segment basic className="content-area">
           <main>
             <OutdatedBrowser />

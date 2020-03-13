@@ -14,6 +14,7 @@ import {
   Logo,
   Navigation,
   SearchWidget,
+  Breadcrumbs,
 } from '@plone/volto/components';
 
 import HomepageSlider from '~/components/theme/Header/HomepageSlider';
@@ -107,7 +108,10 @@ class Header extends Component {
             {this.state.isHomepage ? (
               <HomepageSlider />
             ) : (
-              <div className="header-leadimage"></div>
+              <div style={{ position: 'relative' }}>
+                <Breadcrumbs pathname={this.props.pathname} />
+                <div id="header-leadimage"></div>
+              </div>
             )}
           </div>
         </div>
