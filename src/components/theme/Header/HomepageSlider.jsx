@@ -31,7 +31,7 @@ class HomepageSlider extends Component {
       <div className="slider-slide">
           <LazyLoadImage
             className="slide-img"
-            height={500}
+            height={600}
             effect="blur"
             style={{ backgroundImage: `url(${images.original})` }}
             width={'100%'}
