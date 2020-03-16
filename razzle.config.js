@@ -44,6 +44,7 @@ module.exports = {
     //
     const rcePath = vc.resolve.alias['react-chart-editor'] || '';
     if (!rcePath) {
+      // TODO: take node_modules/react-chart-editor as base
       console.warn('react-chart-editor is not yet activated for development');
     }
 
