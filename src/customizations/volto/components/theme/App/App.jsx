@@ -135,6 +135,7 @@ class App extends Component {
 
         <Header
           actualPathName={this.props.pathname}
+          navigationItems={this.props.navigation}
           pathname={path}
         />
 
@@ -196,9 +197,7 @@ export default compose(
     {
       key: 'navigation',
       promise: ({ location, store: { dispatch } }) =>
-        __SERVER__ &&
-        !settings.contentExpand.includes('navigation') &&
-        dispatch(getNavigation(getBaseUrl(location.pathname))),
+        __SERVER__ && dispatch(getNavigation(getBaseUrl(location.pathname))),
     },
     {
       key: 'types',
@@ -217,6 +216,7 @@ export default compose(
     (state, props) => ({
       pathname: props.location.pathname,
       content: state.content.data,
+      navigation: state.navigation.items,
     }),
     {},
   ),

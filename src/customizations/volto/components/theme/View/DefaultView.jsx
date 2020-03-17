@@ -50,8 +50,8 @@ const DefaultView = ({ content, intl, location }) => {
                   >
                 </div>
                <div className="image-layer"></div>
-               <div class="ui container image-content">
-                 <h1 class="leadimage-title">{content.title}</h1>
+               <div className="ui container image-content">
+                 <h1 className="leadimage-title">{content.title}</h1>
                  <p>{content.description}</p>
                </div>
               </div>

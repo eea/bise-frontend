@@ -86,7 +86,9 @@ class Header extends Component {
                 </div>
               </div>
               <div className="tools-search-wrapper">
-                <Navigation pathname={this.props.pathname} />
+                <Navigation
+                  pathname={this.props.pathname}
+                  navigation={this.props.navigationItems} />
                 {!this.props.token && (
                   <Portal node={__CLIENT__ && document.querySelector('#footer_links')}>
                     <Anontools />

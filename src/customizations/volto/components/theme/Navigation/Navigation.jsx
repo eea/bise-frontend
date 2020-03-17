@@ -10,9 +10,8 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { Link } from 'react-router-dom';
 import { defineMessages, injectIntl } from 'react-intl';
-import { Menu } from 'semantic-ui-react';
+import { Menu, Dropdown } from 'semantic-ui-react';
 import cx from 'classnames';
-import { settings } from '~/config';
 import { getBaseUrl } from '@plone/volto/helpers';
 
 import { getNavigation } from '@plone/volto/actions';
@@ -46,6 +45,7 @@ class Navigation extends Component {
       PropTypes.shape({
         title: PropTypes.string,
         url: PropTypes.string,
+        items: PropTypes.array,
       }),
     ).isRequired,
   };
@@ -70,9 +70,8 @@ class Navigation extends Component {
    * @method componentWillMount
    * @returns {undefined}
    */
-  UNSAFE_componentWillMount() {
-    if (!settings.contentExpand.includes('navigation'))
-      this.props.getNavigation(getBaseUrl(this.props.pathname));
+  componentDidMount() {
+    this.props.getNavigation(getBaseUrl(this.props.pathname), 3);
   }
 
   /**
@@ -81,12 +80,9 @@ class Navigation extends Component {
    * @param {Object} nextProps Next properties
    * @returns {undefined}
    */
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    if (
-      !settings.contentExpand.includes('navigation') &&
-      nextProps.pathname !== this.props.pathname
-    ) {
-      this.props.getNavigation(getBaseUrl(nextProps.pathname));
+  componentDidUpdate(nextProps) {
+    if (nextProps.pathname !== this.props.pathname) {
+      this.props.getNavigation(getBaseUrl(nextProps.pathname), 2);
     }
   }
 
@@ -132,7 +128,7 @@ class Navigation extends Component {
   render() {
     return (
       <nav className="navigation">
-        <div className="hamburger-wrapper mobile tablet only">
+        <div className="hamburger-wrapper mobile only">
           <button
             className={cx('hamburger hamburger--collapse', {
               'is-active': this.state.isMobileMenuOpen,
@@ -170,19 +166,74 @@ class Navigation extends Component {
           className={
             this.state.isMobileMenuOpen
               ? 'open'
-              : 'computer large screen widescreen only'
+              : 'tablet computer large screen widescreen only'
           }
           onClick={this.closeMobileMenu}
         >
-          {this.props.items.map(item => (
-            <Link
-              to={item.url === '' ? '/' : item.url}
-              key={item.url}
-              className={this.isActive(item.url) ? 'item active' : 'item'}
-            >
-              {item.title}
-            </Link>
-          ))}
+          {this.props.items.map(item =>
+            item.items && item.items.length ? (
+              <Dropdown
+                className={this.isActive(item.url)
+                  ? 'item firstLevel menuActive'
+                  : 'item firstLevel'}
+                key={item.url}
+                trigger={<Link to={item.url === '' ? '/' : item.url} key={item.url}>{item.title}</Link>}
+                item
+                simple
+              >
+                <Dropdown.Menu>
+                  {item.items.map(subitem => (
+                    <Dropdown.Item key={subitem.url}>
+                      <Link
+                        to={subitem.url === '' ? '/' : subitem.url}
+                        key={subitem.url}
+                        className={
+                          this.isActive(subitem.url)
+                            ? 'item secondLevel menuActive'
+                            : 'item secondLevel'
+                        }
+                      >
+                        {subitem.title}
+                      </Link>
+                      {subitem.items && (
+                        <div className="submenu-wrapper">
+                          <div className="submenu">
+                            {subitem.items.map(subsubitem => (
+                              <Link
+                                to={
+                                  subsubitem.url === ''
+                                    ? '/'
+                                    : subsubitem.url
+                                }
+                                key={subsubitem.url}
+                                className={
+                                  this.isActive(subsubitem.url)
+                                    ? 'item thirdLevel menuActive'
+                                    : 'item thirdLevel'
+                                }
+                              >
+                                {subsubitem.title}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </Dropdown.Item>
+                  ))}
+                </Dropdown.Menu>
+              </Dropdown>
+            ) : (
+              <Link
+                to={item.url === '' ? '/' : item.url}
+                key={item.url}
+                className={this.isActive(item.url)
+                  ? 'item menuActive firstLevel'
+                  : 'item firstLevel'}
+              >
+                {item.title}
+              </Link>
+            ),
+          )}
         </Menu>
       </nav>
     );
