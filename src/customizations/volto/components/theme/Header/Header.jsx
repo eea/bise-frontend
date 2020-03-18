@@ -84,18 +84,18 @@ class Header extends Component {
                 <div className="logo">
                   <Logo />
                 </div>
-              </div>
-              <div className="tools-search-wrapper">
-                <Navigation
-                  pathname={this.props.pathname}
-                  navigation={this.props.navigationItems} />
-                {!this.props.token && (
-                  <Portal node={__CLIENT__ && document.querySelector('#footer_links')}>
-                    <Anontools />
-                  </Portal>
-                )}
-                <div className="search">
-                  <SearchWidget pathname={this.props.pathname} />
+                <div className="tools-search-wrapper">
+                  <Navigation
+                    pathname={this.props.pathname}
+                    navigation={this.props.navigationItems} />
+                  {!this.props.token && (
+                    <Portal node={__CLIENT__ && document.querySelector('#footer_links')}>
+                      <Anontools />
+                    </Portal>
+                  )}
+                  <div className="search">
+                    <SearchWidget pathname={this.props.pathname} />
+                  </div>
                 </div>
               </div>
             </div>
