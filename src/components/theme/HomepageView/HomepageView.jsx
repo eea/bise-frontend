@@ -21,120 +21,119 @@ export default props => (
       <div className="explore-section-wrapper fp-content">
         <h2>Explore</h2>
         <Grid>
-          <Grid.Row columns={4}>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image1} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Discover <br /> biodiversity
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image2} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Track progress in <br /> protecting nature
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image3} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Explore <br /> ecosystems
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image4} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Understand <br /> protected areas
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-          </Grid.Row>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image1} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Discover <br /> biodiversity
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image2} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Track progress in <br /> protecting nature
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image3} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Explore <br /> ecosystems
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image4} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Understand <br /> protected areas
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+        </Grid>
 
-          <Grid.Row columns={4}>
-            <Grid.Column>
-              <a href="" className="area-section">
-                <div className="area-image">
-                  <img src={image5} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Understand <br /> biodiversity policy
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image6} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Be informed on <br /> Green Infrastructure
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image7} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Find biodiversity <br /> data
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-            <Grid.Column>
-              <a href="/" className="area-section">
-                <div className="area-image">
-                  <img src={image8} alt="" />
-                </div>
-                <div className="area-content">
-                  <h5 className="area-title">
-                    Explore challenges <br /> to biodiversity
-                  </h5>
-                </div>
-              </a>
-            </Grid.Column>
-          </Grid.Row>
+        <Grid>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="" className="area-section">
+              <div className="area-image">
+                <img src={image5} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Understand <br /> biodiversity policy
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image6} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Be informed on <br /> Green Infrastructure
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image7} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Find biodiversity <br /> data
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
+          <Grid.Column mobile={16} tablet={6} computer={3}>
+            <a href="/" className="area-section">
+              <div className="area-image">
+                <img src={image8} alt="" />
+              </div>
+              <div className="area-content">
+                <h5 className="area-title">
+                  Explore challenges <br /> to biodiversity
+                </h5>
+              </div>
+            </a>
+          </Grid.Column>
         </Grid>
       </div>
     </div>
 
     <div className="fp-stats-wrapper">
       <div className="fp-content">
-        <Grid columns="equal">
+        <Grid columns="equal" stackable>
           <Grid.Column width={5}>
             <div className="fp-data-title-wrapper">
               <h1>What does the EU do to protect Biodiversity?</h1>
               <Button content="Explore figures in detail" primary />
             </div>
           </Grid.Column>
+
           <Grid.Column>
             <Grid>
               <Grid.Row columns={2}>
