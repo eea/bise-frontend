@@ -36,9 +36,9 @@ const Footer = ({ intl }) => (
   >
     <Container>
       <div className="footer-top-wrapper">
-        <Grid>
+        <Grid stackable>
           <Grid.Row>
-            <Grid.Column floated='left' width={7}>
+            <Grid.Column mobile={16} tablet={10} computer={10}>
               <ul className="footer-nav" id="footer_links">
                 <li>
                   <Link className="item" to="/">
@@ -71,9 +71,9 @@ const Footer = ({ intl }) => (
                 </li>
               </ul>
             </Grid.Column>
-            <Grid.Column floated='right' width={3}>
+            <Grid.Column mobile={16} tablet={2} computer={2}>
               <img
-                style={{ height: '50px', marginTop: '0.8rem', float: 'right' }}
+                style={{ height: '50px', marginTop: '0.8rem'}}
                 src={LogoImage}
                 alt="BISE"
                 />
@@ -83,9 +83,10 @@ const Footer = ({ intl }) => (
       </div>
 
       <div className="site-info">
-        <Grid>
+        <Grid stackable>
           <Grid.Row>
-            <Grid.Column width={5}>
+            <Grid.Column mobile={16} tablet={16} computer={5}
+                         style={{ marginBottom: '1.5em'}}>
               <div>
                 <p>
                   The Biodiversity information system for Europe is a partnership
@@ -106,7 +107,9 @@ const Footer = ({ intl }) => (
                 </a>
               </div>
             </Grid.Column>
-            <Grid.Column width={7}>
+
+            <Grid.Column mobile={16} tablet={16} computer={7}
+                         style={{ marginBottom: '0.8rem'}}>
               <div>
                 <p>Other European Information Systems</p>
               </div>
