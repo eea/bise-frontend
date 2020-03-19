@@ -10,7 +10,9 @@
     "test": "razzle test --env=jsdom --passWithNoTests",
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
-    "develop": "missdev --config=jsconfig.json --output=develop"
+    "develop": "missdev --config=jsconfig.json --output=develop",
+    "serve": "http-server -p $PORT ./build",
+    "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json"
   },
   "jest": {
     "snapshotSerializers": [
@@ -93,6 +95,7 @@
     "@blueprintjs/icons": "^3.10.0",
     "@datapunt/matomo-tracker-react": "0.0.16",
     "@plone/volto": "github:tiberiuichim/volto#kitchen_sink",
+    "http-server": "^0.12.1",
     "immutable": "^3.8.2",
     "less-loader": "5.0.0",
     "npm": "^6.13.7",
@@ -110,7 +113,7 @@
     "semantic-ui-css": "^2.4.1",
     "slick-carousel": "^1.8.1",
     "start": "^5.1.0",
-    "webpack-bundle-analyzer": "^3.6.0"
+    "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -148,7 +151,8 @@
     "shelljs": "^0.8.3"
   },
   "optimizeLiftPackages": [
-    "immutable"
+    "immutable",
+    "react"
   ],
   "manuallyTranspile": [
     "prepend-http",

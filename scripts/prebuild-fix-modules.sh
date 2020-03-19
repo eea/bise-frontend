@@ -28,7 +28,7 @@ for PKG in "${REMOVE[@]}"; do
     find $f | grep "node_modules/${PKG}$" | xargs echo
   done;
 
-  find ${NODE_MODULES} | grep "node_modules/.*/node_modules/${PKG}$" | xargs echo
+  find ${NODE_MODULES} -type d -name react | grep "node_modules\/.*node_modules\/${PKG}$" | xargs rm -r
 
 done;
 
