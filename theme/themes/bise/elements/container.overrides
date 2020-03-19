@@ -185,7 +185,7 @@ body.has-toolbar-collapsed.has-sidebar-collapsed {
       box-shadow: 1px 1px 3px #13131361;
       margin-top: 17px;
       top: 53px;
-      z-index: 99;
+      z-index: 999;
       margin-right: -1rem;
       margin-left: -1rem;
 

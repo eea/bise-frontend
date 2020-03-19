@@ -21,7 +21,7 @@ export default props => (
       <div className="explore-section-wrapper fp-content">
         <h2>Explore</h2>
         <Grid>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image1} alt="" />
@@ -33,7 +33,7 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image2} alt="" />
@@ -45,7 +45,7 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image3} alt="" />
@@ -57,7 +57,7 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image4} alt="" />
@@ -72,7 +72,7 @@ export default props => (
         </Grid>
 
         <Grid>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="" className="area-section">
               <div className="area-image">
                 <img src={image5} alt="" />
@@ -84,7 +84,7 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image6} alt="" />
@@ -96,7 +96,7 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image7} alt="" />
@@ -108,7 +108,7 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={6} computer={3}>
+          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image8} alt="" />
@@ -129,21 +129,23 @@ export default props => (
         <Grid columns="equal" stackable>
           <Grid.Column width={5}>
             <div className="fp-data-title-wrapper">
-              <h1>What does the EU do to protect Biodiversity?</h1>
-              <Button content="Explore figures in detail" primary />
+              <div className="fp-data-title-box">
+                <h1>What does the EU do to protect Biodiversity?</h1>
+                <Button content="Explore figures in detail" primary />
+              </div>
             </div>
           </Grid.Column>
 
           <Grid.Column>
             <Grid>
               <Grid.Row columns={2}>
-                <Grid.Column>
+                <Grid.Column className="fp-content-data">
                   <div className="fp-data-wrapper">
                     <div className="fp-data-title">127 000</div>
                     <p className="fp-data-desc">protected areas</p>
                   </div>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="fp-content-data">
                   <div className="fp-data-wrapper">
                     <div className="fp-data-title">
                       1 000 000 km<sup>2</sup>
@@ -156,13 +158,13 @@ export default props => (
 
             <Grid>
               <Grid.Row columns={2}>
-                <Grid.Column>
+                <Grid.Column className="fp-content-data">
                   <div className="fp-data-wrapper">
                     <div className="fp-data-title">23%</div>
                     <p className="fp-data-desc">of the EU</p>
                   </div>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="fp-content-data">
                   <div className="fp-data-wrapper">
                     <div className="fp-data-title">
                       600 000 km<sup>2</sup>
@@ -175,13 +177,13 @@ export default props => (
 
             <Grid>
               <Grid.Row columns={2}>
-                <Grid.Column>
+                <Grid.Column className="fp-content-data">
                   <div className="fp-data-wrapper">
                     <div className="fp-data-title">250</div>
                     <p className="fp-data-desc">protected habitats</p>
                   </div>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="fp-content-data">
                   <div className="fp-data-wrapper">
                     <div className="fp-data-title">2 500</div>
                     <p className="fp-data-desc">protected species</p>

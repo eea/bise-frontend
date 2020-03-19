@@ -102,6 +102,11 @@ a:hover {
   max-width: 1127px;
   margin: 0 auto!important;
 }
+.ui.grid > [class*="six wide mobile"].column.area-wrapper {
+  @media (max-width: 480px) {
+    width: 100%!important;
+  }
+}
 
 .explore-section-wrapper {
   text-align: center;
@@ -151,30 +156,66 @@ a:hover {
   background-color: #e8f2d2;
   padding: 6.5em 0 4em 0;
 
+  @media (max-width: 767px) {
+    padding: 2em 0;
+  }
+
   .fp-content>div {
     align-items: center;
   }
 
   .fp-data-title-wrapper {
+    padding: 0.8em 4.5em 0.8em 0.8em;
+
+    @media (max-width: 1024px) {
+      padding-right: 2em;
+    }
+  }
+
+  .fp-data-title-box {
     background-color: #fff;
-    height: 100%;
     min-height: 370px;
-    width: 355px;
     padding: 3em 2em;
     position: relative;
 
-    &:after {
+    @media (max-width: 767px) {
+      width: 100%;
+      min-height: 230px;
+    }
+
+    &:before {
       content: '';
       position: absolute;
       right: 0;
       top: 25%;
       width: 0;
       height: 0;
-      border: 35px solid transparent;
+      border: 32px solid transparent;
       border-left-color: #fff;
       border-right: 0;
-      margin-top: -35px;
-      margin-right: -35px;
+      margin-top: -32px;
+      margin-right: -32px;
+
+      @media (max-width: 767px) {
+        content: none;
+      }
+    }
+
+    &:after {
+      content: none;
+      @media (max-width: 767px) {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        width: 0;
+        height: 0;
+        border: 28px solid transparent;
+        border-top-color: #fff;
+        border-bottom: 0;
+        margin-left: -28px;
+        margin-bottom: -28px;
+      }
     }
 
     h1 {
@@ -182,6 +223,11 @@ a:hover {
       line-height: 47px;
       color: @darkGreenColor;
       margin-bottom: 1em;
+
+      @media (max-width: 1024px) {
+        font-size: 34px;
+        margin-bottom: 2em;
+      }
     }
   }
 
@@ -195,10 +241,27 @@ a:hover {
     font-weight: 700;
     color: @darkGreenColor;
     margin: 0.2em 0;
+
+    @media (max-width: 1024px) {
+      font-size: 34px;
+    }
+    @media (max-width: 550px) {
+      font-size: 28px;
+    }
   }
 
   .fp-data-desc {
     font-size: 22px;
+    @media (max-width: 550px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.ui.grid > [class*="two column"].row > .column.fp-content-data {
+  @media (max-width: 450px) {
+    width: 100% !important;
+    text-align: center;
   }
 }
 
