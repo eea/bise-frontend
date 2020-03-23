@@ -89,7 +89,8 @@ analyze:		## (Inside container) build production resources and start bundle anal
 				 NODE_OPTIONS=--max_old_space_size=4096 \
 				 RAZZLE_API_PATH=VOLTO_API_PATH \
 				 RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH \
-				 yarn build
+				 yarn build; \
+				 npm run analyze
 
 .PHONY: release
 release: bump build-image push		## (Host side) release a new version of frontend docker image

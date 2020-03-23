@@ -4,7 +4,8 @@ import {
   // installImageSlides,
 } from 'volto-addons/config';
 
-import HomepageView from '~/components/theme/HomepageView/HomepageView';
+import HomepageView from '~/components/theme/HomepageView';
+import FactsheetDatabaseListing from '~/components/theme/FactsheetDatabaseListing';
 import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
 import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
 // import { applyConfig as draftConfig } from 'volto-drafteditor/config';
@@ -31,10 +32,10 @@ export const views = {
     ...config.views.contentTypesViews,
     'Plone Site': HomepageView,
   },
-  // layoutViews: {
-  //   ...config.views.layoutViews,
-  //   homepage_view: HomepageView,
-  // },
+  layoutViews: {
+    ...config.views.layoutViews,
+    factsheet_database_listing_view: FactsheetDatabaseListing,
+  },
 };
 
 export const widgets = {
