@@ -46,32 +46,3 @@ for PKG in "${TRANSPILE[@]}"; do
     grep "node_modules/.*/node_modules/${PKG}$" | \
     xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
 done
-
-
-# find node_modules | grep "node_modules/prepend-http$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "node_modules/.*/node_modules/prepend-http$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "src/develop/.*/node_modules/prepend-http$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-#
-# find node_modules | grep "node_modules/normalize-url$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "node_modules/.*/node_modules/normalize-url$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "src/develop/.*/node_modules/normalize-url$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-#
-# find node_modules | grep "node_modules/ip-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "node_modules/.*/node_modules/ip-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "src/develop/.*/node_modules/ip-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-#
-# find node_modules | grep "node_modules/cidr-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "node_modules/.*/node_modules/cidr-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "src/develop/.*/node_modules/cidr-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-#
-# find node_modules | grep "node_modules/url-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "node_modules/.*/node_modules/url-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-# find node_modules | grep "src/develop/.*/node_modules/url-regex$" | xargs -I % ./node_modules/.bin/babel --presets="@babel/env" % --out-dir %
-
-# optimize_lift_packages() {
-#   for PKG in "${PKGS[@]}"; do
-#     echo Will cleanup "${PKG}"
-#     find $1 | grep "node_modules/.*/node_modules/${PKG}$" | xargs echo
-#   done
-# }
-#optimize_lift_packages $ADDONS_DIR
