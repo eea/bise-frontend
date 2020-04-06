@@ -1,0 +1,116 @@
+.keyfacts {
+  padding: 6.5em 0 4em 0;
+
+  @media (max-width: 767px) {
+    padding: 2em 0;
+  }
+
+  & > div {
+    background-color: #e8f2d2;
+  }
+
+  .block-wrapper {
+    max-width: 1127px;
+    display: flex;
+    margin: 0 auto !important;
+
+    .facts-wrapper {
+      width: 67%;
+      margin: 0.5em 0;
+
+      .upper {
+        margin: 0.2em 0;
+        color: @darkGreenColor;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 47px;
+
+        @media (max-width: 1024px) {
+          font-size: 34px;
+        }
+
+        @media (max-width: 550px) {
+          font-size: 28px;
+        }
+      }
+
+      .lower {
+        font-size: 22px;
+
+        @media (max-width: 550px) {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .title-wrapper {
+      width: 33%;
+      padding: 0.8em 4.5em 0.8em 0.8em;
+
+      @media (max-width: 1024px) {
+        padding-right: 2em;
+      }
+
+      .title {
+        position: relative;
+        min-height: 370px;
+        padding: 3em 2em;
+        background-color: #fff;
+
+        @media (max-width: 767px) {
+          width: 100%;
+          min-height: 230px;
+        }
+
+        &::before {
+          position: absolute;
+          top: 25%;
+          right: 0;
+          width: 0;
+          height: 0;
+          margin-top: -32px;
+          margin-right: -32px;
+          border: 32px solid transparent;
+          border-right: 0;
+          border-left-color: #fff;
+          content: '';
+
+          @media (max-width: 767px) {
+            content: none;
+          }
+        }
+
+        &::after {
+          content: none;
+
+          @media (max-width: 767px) {
+            position: absolute;
+            bottom: 0;
+            left: 30%;
+            width: 0;
+            height: 0;
+            margin-bottom: -28px;
+            margin-left: -28px;
+            border: 28px solid transparent;
+            border-top-color: #fff;
+            border-bottom: 0;
+            content: '';
+          }
+        }
+
+        .headline {
+          margin-bottom: 1em;
+          color: @darkGreenColor;
+          font-size: 44px;
+          line-height: 47px;
+
+          @media (max-width: 1024px) {
+            margin-bottom: 2em;
+            font-size: 34px;
+          }
+        }
+      }
+    }
+  }
+
+}

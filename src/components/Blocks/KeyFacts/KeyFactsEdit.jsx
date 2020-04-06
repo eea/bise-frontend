@@ -5,22 +5,23 @@ import { SidebarPortal } from '@plone/volto/components'; // EditBlock
 import { BlockEditForm } from 'volto-addons/BlockForm';
 
 import schema from './schema';
+import KeyFactsView from './KeyFactsView';
 
 class Edit extends Component {
-  componentDidMount() {
-    this.props.changeSidebarState(true);
-  }
-
-  componentDidUpdate(prevProps) {
-    this.props.changeSidebarState(true);
-  }
+  // componentDidMount() {
+  //   this.props.changeSidebarState(true);
+  // }
+  //
+  // componentDidUpdate(prevProps) {
+  //   this.props.changeSidebarState(true);
+  // }
 
   render() {
     return (
       <div className="block selected">
         <div className="block-inner-wrapper" />
 
-        <FrontpageHero />
+        <KeyFactsView data={this.props.data} />
 
         <SidebarPortal selected={this.props.selected}>
           <BlockEditForm

@@ -4,22 +4,22 @@ import {
   // installImageSlides,
 } from 'volto-addons/config';
 
-import HomepageView from '~/components/theme/HomepageView';
-import FactsheetDatabaseListing from '~/components/theme/FactsheetDatabaseListing';
 import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
 import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
-// import { applyConfig as draftConfig } from 'volto-drafteditor/config';
 import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
 import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
+import installBise from './localconfig';
 
 const config = [
   addonsConfig,
-  // installImageSlides,
   plotlyConfig,
   ckeditorConfig,
-  // draftConfig,
   mosaicConfig,
   dataBlocksConfig,
+  installBise,
+
+  // installImageSlides,
+  // draftConfig,
 ].reduce((acc, apply) => apply(acc), voltoConfig);
 
 export const settings = {
@@ -28,14 +28,6 @@ export const settings = {
 
 export const views = {
   ...config.views,
-  contentTypesViews: {
-    ...config.views.contentTypesViews,
-    'Plone Site': HomepageView,
-  },
-  layoutViews: {
-    ...config.views.layoutViews,
-    factsheet_database_listing_view: FactsheetDatabaseListing,
-  },
 };
 
 export const widgets = {
@@ -58,3 +50,5 @@ export const portlets = {
 export const editForms = {
   ...config.editForms,
 };
+
+// import { applyConfig as draftConfig } from 'volto-drafteditor/config';
