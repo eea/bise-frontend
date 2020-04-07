@@ -1,4 +1,4 @@
-.keyfacts {
+.keyfacts-block {
   padding: 6.5em 0 4em 0;
 
   @media (max-width: 767px) {
@@ -10,42 +10,70 @@
   }
 
   .block-wrapper {
-    max-width: 1127px;
     display: flex;
+    max-width: 1127px;
+    max-height: 500px;
     margin: 0 auto !important;
 
     .facts-wrapper {
-      width: 67%;
+      display: flex;
+      width: 60%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 4em 0 4em 2em;
       margin: 0.5em 0;
 
-      .upper {
-        margin: 0.2em 0;
-        color: @darkGreenColor;
-        font-size: 44px;
-        font-weight: 700;
-        line-height: 47px;
+      & :nth-child(3n) {
+        // the bottom fact
+        justify-content: flex-end;
+      }
 
-        @media (max-width: 1024px) {
-          font-size: 34px;
+      & :nth-child(3n+1) {
+        // the first fact
+        justify-content: flex-start;
+      }
+
+      & :nth-child(3n+2) {
+        // the middle fact
+        justify-content: center;
+      }
+
+      .fact {
+        display: flex;
+        width: 50%;
+        flex-basis: 33%;
+        flex-direction: column;
+
+        .upper {
+          margin: 0 0 0.2em 0;
+          color: @darkGreenColor;
+          font-size: 44px;
+          font-weight: 700;
+          line-height: 47px;
+
+          @media (max-width: 1024px) {
+            font-size: 34px;
+          }
+
+          @media (max-width: 550px) {
+            font-size: 28px;
+          }
         }
 
-        @media (max-width: 550px) {
-          font-size: 28px;
+        .lower {
+          font-size: 22px;
+
+          @media (max-width: 550px) {
+            font-size: 18px;
+          }
         }
       }
 
-      .lower {
-        font-size: 22px;
-
-        @media (max-width: 550px) {
-          font-size: 18px;
-        }
-      }
     }
 
     .title-wrapper {
-      width: 33%;
-      padding: 0.8em 4.5em 0.8em 0.8em;
+      width: 40%;
+      padding: 4em 4.5em 4em 0.8em;
 
       @media (max-width: 1024px) {
         padding-right: 2em;
@@ -101,7 +129,9 @@
         .headline {
           margin-bottom: 1em;
           color: @darkGreenColor;
+          font-family: @headerFont;
           font-size: 44px;
+          font-weight: 700;
           line-height: 47px;
 
           @media (max-width: 1024px) {

@@ -1,12 +1,14 @@
 import React from 'react';
 import cx from 'classnames';
+import { Link } from 'react-router-dom';
 
 const View = ({ data }) => {
   const { message, message_link, message_link_text, lines } = data;
+  console.log('data', data);
   return (
     <div
       className={cx(
-        'block align keyfacts',
+        'block align keyfacts-block',
         {
           center: !Boolean(data.align),
         },
@@ -25,7 +27,9 @@ const View = ({ data }) => {
                 <>
                   <div className="headline">{message}</div>
                   {message_link && (
-                    <a href={message_link}>{message_link_text}</a>
+                    <Link className="ui primary button" to={message_link}>
+                      {message_link_text}
+                    </Link>
                   )}
                 </>
               ) : (

@@ -33,11 +33,11 @@ const KeyFactsSchema = {
       id: 'default',
       title: 'Default',
       fields: [
-        'align',
-        'lines',
         'message',
         'message_link_text',
         'message_link',
+        'lines',
+        'align',
       ],
     },
   ],
@@ -63,7 +63,7 @@ const KeyFactsSchema = {
       title: 'Key message link text',
     },
     message_link: {
-      type: 'string',
+      widget: 'object_by_path',
       title: 'Key message link',
     },
   },
