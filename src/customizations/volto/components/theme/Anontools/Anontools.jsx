@@ -13,7 +13,6 @@ import { getBaseUrl } from '@plone/volto/helpers';
 import { settings } from '~/config';
 import user from '@plone/volto/icons/user.svg';
 
-
 /**
  * Anontools container class.
  * @class Anontools

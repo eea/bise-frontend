@@ -45,15 +45,15 @@ const DefaultView = ({ content, intl, location }) => {
           <div className="leadimage-header">
             <div className="leadimage-container">
               <div className="leadimage-wrapper">
-                <div className="leadimage document-image"
+                <div
+                  className="leadimage document-image"
                   style={{ backgroundImage: `url(${content.image.download})` }}
-                  >
+                />
+                <div className="image-layer" />
+                <div className="ui container image-content">
+                  <h1 className="leadimage-title">{content.title}</h1>
+                  <p>{content.description}</p>
                 </div>
-               <div className="image-layer"></div>
-               <div className="ui container image-content">
-                 <h1 className="leadimage-title">{content.title}</h1>
-                 <p>{content.description}</p>
-               </div>
               </div>
             </div>
           </div>
@@ -63,9 +63,9 @@ const DefaultView = ({ content, intl, location }) => {
         <Helmet title={content.title} />
         {map(content[blocksLayoutFieldname].items, block => {
           const Block =
-          blocks.blocksConfig[content[blocksFieldname]?.[block]?.['@type']]?.[
-            'view'
-          ] || null;
+            blocks.blocksConfig[
+              (content[blocksFieldname]?.[block]?.['@type'])
+            ]?.['view'] || null;
           return Block !== null ? (
             <Block
               key={block}
@@ -73,7 +73,7 @@ const DefaultView = ({ content, intl, location }) => {
               properties={content}
               data={content[blocksFieldname][block]}
               path={getBaseUrl(location.pathname)}
-              />
+            />
           ) : (
             <div key={block}>
               {intl.formatMessage(messages.unknownBlock, {

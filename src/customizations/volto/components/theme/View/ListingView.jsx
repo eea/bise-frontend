@@ -22,15 +22,15 @@ const ListingView = ({ content }) => (
         <div className="leadimage-header">
           <div className="leadimage-container">
             <div className="leadimage-wrapper">
-              <div className="leadimage document-image"
+              <div
+                className="leadimage document-image"
                 style={{ backgroundImage: `url(${content.image.download})` }}
-                >
+              />
+              <div className="image-layer" />
+              <div className="ui container image-content">
+                <h1 className="leadimage-title">{content.title}</h1>
+                <p>{content.description}</p>
               </div>
-             <div className="image-layer"></div>
-             <div className="ui container image-content">
-               <h1 className="leadimage-title">{content.title}</h1>
-               <p>{content.description}</p>
-             </div>
             </div>
           </div>
         </div>
@@ -39,25 +39,25 @@ const ListingView = ({ content }) => (
     <Container id="page-home">
       <Helmet title={content.title} />
       <section id="content-core">
-      {content.items.map(item => (
-        <Segment key={item.url} className="listing-item">
-          <Container>
-            <h2>
-              <Link to={item.url} title={item['@type']}>
-              {item.title}
-              </Link>
-            </h2>
-            {item.description && <p>{item.description}</p>}
-          </Container>
-          {item.image && (
-            <Image
-            size="small"
-            alt={item.image_caption ? item.image_caption : item.title}
-            src={item.image.scales.thumb.download}
-            />
-          )}
-        </Segment>
-      ))}
+        {content.items.map(item => (
+          <Segment key={item.url} className="listing-item">
+            <Container>
+              <h2>
+                <Link to={item.url} title={item['@type']}>
+                  {item.title}
+                </Link>
+              </h2>
+              {item.description && <p>{item.description}</p>}
+            </Container>
+            {item.image && (
+              <Image
+                size="small"
+                alt={item.image_caption ? item.image_caption : item.title}
+                src={item.image.scales.thumb.download}
+              />
+            )}
+          </Segment>
+        ))}
       </section>
     </Container>
   </div>

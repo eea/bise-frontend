@@ -90,13 +90,13 @@ class Breadcrumbs extends Component {
           className="breadcrumbs"
           secondary
           vertical
-          >
+        >
           <Breadcrumb>
             <Link
               to="/"
               className="section"
               title={this.props.intl.formatMessage(messages.home)}
-              >
+            >
               <Icon name={homeSVG} size="18px" />
             </Link>
             {this.props.items.map((item, index, items) => [

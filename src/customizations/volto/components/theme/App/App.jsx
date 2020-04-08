@@ -21,7 +21,7 @@ import { settings } from '~/config';
 import Error from '@plone/volto/error';
 
 import {
-  Breadcrumbs,
+  // Breadcrumbs,
   Footer,
   Header,
   Icon,

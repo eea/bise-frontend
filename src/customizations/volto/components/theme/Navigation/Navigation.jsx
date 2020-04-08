@@ -173,11 +173,17 @@ class Navigation extends Component {
           {this.props.items.map(item =>
             item.items && item.items.length ? (
               <Dropdown
-                className={this.isActive(item.url)
-                  ? 'item firstLevel menuActive'
-                  : 'item firstLevel'}
+                className={
+                  this.isActive(item.url)
+                    ? 'item firstLevel menuActive'
+                    : 'item firstLevel'
+                }
                 key={item.url}
-                trigger={<Link to={item.url === '' ? '/' : item.url} key={item.url}>{item.title}</Link>}
+                trigger={
+                  <Link to={item.url === '' ? '/' : item.url} key={item.url}>
+                    {item.title}
+                  </Link>
+                }
                 item
                 simple
               >
@@ -201,9 +207,7 @@ class Navigation extends Component {
                             {subitem.items.map(subsubitem => (
                               <Link
                                 to={
-                                  subsubitem.url === ''
-                                    ? '/'
-                                    : subsubitem.url
+                                  subsubitem.url === '' ? '/' : subsubitem.url
                                 }
                                 key={subsubitem.url}
                                 className={
@@ -226,9 +230,11 @@ class Navigation extends Component {
               <Link
                 to={item.url === '' ? '/' : item.url}
                 key={item.url}
-                className={this.isActive(item.url)
-                  ? 'item menuActive firstLevel'
-                  : 'item firstLevel'}
+                className={
+                  this.isActive(item.url)
+                    ? 'item menuActive firstLevel'
+                    : 'item firstLevel'
+                }
               >
                 {item.title}
               </Link>

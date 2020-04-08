@@ -18,7 +18,7 @@ import {
 } from '@plone/volto/components';
 
 import HomepageSlider from '~/components/theme/Header/HomepageSlider';
-import homepageSlideIMG from '~/components/theme/Header/images/bise-slide.png';
+// import homepageSlideIMG from '~/components/theme/Header/images/bise-slide.png';
 
 /**
  * Header component class.
@@ -65,9 +65,7 @@ class Header extends Component {
         isHomepage: this.props.actualPathName === '/',
       });
     }
-
   }
-
 
   /**
    * Render method.
@@ -87,9 +85,14 @@ class Header extends Component {
                 <div className="tools-search-wrapper">
                   <Navigation
                     pathname={this.props.pathname}
-                    navigation={this.props.navigationItems} />
+                    navigation={this.props.navigationItems}
+                  />
                   {!this.props.token && (
-                    <Portal node={__CLIENT__ && document.querySelector('#footer_links')}>
+                    <Portal
+                      node={
+                        __CLIENT__ && document.querySelector('#footer_links')
+                      }
+                    >
                       <Anontools />
                     </Portal>
                   )}
@@ -106,13 +109,13 @@ class Header extends Component {
             className={`header-bg ${
               this.state.isHomepage ? 'homepage' : 'contentpage'
             }`}
-            >
+          >
             {this.state.isHomepage ? (
               <HomepageSlider />
             ) : (
               <div style={{ position: 'relative' }}>
                 <Breadcrumbs pathname={this.props.pathname} />
-                <div id="header-leadimage"></div>
+                <div id="header-leadimage" />
               </div>
             )}
           </div>
