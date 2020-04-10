@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const View = ({ data }) => {
   const { message, message_link, message_link_text, lines } = data;
-  console.log('data', data);
   return (
     <div
       className={cx(

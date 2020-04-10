@@ -21,7 +21,12 @@ export default props => (
       <div className="explore-section-wrapper fp-content">
         <h2>Explore</h2>
         <Grid>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image1} alt="" />
@@ -33,7 +38,12 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image2} alt="" />
@@ -45,7 +55,12 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image3} alt="" />
@@ -57,7 +72,12 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image4} alt="" />
@@ -72,7 +92,12 @@ export default props => (
         </Grid>
 
         <Grid>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="" className="area-section">
               <div className="area-image">
                 <img src={image5} alt="" />
@@ -84,7 +109,12 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image6} alt="" />
@@ -96,7 +126,12 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image7} alt="" />
@@ -108,7 +143,12 @@ export default props => (
               </div>
             </a>
           </Grid.Column>
-          <Grid.Column className="area-wrapper" mobile={6} tablet={6} computer={3}>
+          <Grid.Column
+            className="area-wrapper"
+            mobile={6}
+            tablet={6}
+            computer={3}
+          >
             <a href="/" className="area-section">
               <div className="area-image">
                 <img src={image8} alt="" />

@@ -1,13 +1,9 @@
-/**
- * Add your components here.
- * @module components
- * @example
- * import Footer from './Footer/Footer';
- *
- * export {
- *   Footer,
- * };
- */
-
 export KeyFactsEdit from './Blocks/KeyFacts/KeyFactsEdit';
 export KeyFactsView from './Blocks/KeyFacts/KeyFactsView';
+
+export ImageCardsView from './Blocks/ImageCards/ImageCardsView';
+export ImageCardsEdit from './Blocks/ImageCards/ImageCardsEdit';
+
+export AttachedImagesListWidget, {
+  AttachedImageWidget,
+} from './Blocks/ImageCards/AttachedImagesListWidget';
