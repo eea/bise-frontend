@@ -1,3 +1,5 @@
+import cx from 'classnames';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import { settings } from '~/config';
 import { flattenToAppURL, getBaseUrl } from '@plone/volto/helpers';
@@ -15,14 +17,14 @@ const Card = props => {
     <div className="card">
       {link ? (
         <>
-          <a href={link}>
+          <Link to={link}>
             <img
               src={flattenToAppURL(thumbUrl(attachedimage) || '')}
               alt={title}
             />
-          </a>
+          </Link>
           <h5>
-            <a href={link}>{title}</a>
+            <Link to={link}>{title}</Link>
           </h5>
         </>
       ) : (
@@ -41,13 +43,27 @@ const Card = props => {
 const RoundTiled = ({ data }) => {
   const { title, cards } = data;
   return (
-    <div className="imagecards">
-      <div className="roundtiled">
-        <h2>{title}</h2>
-        <div className="cards">
-          {(cards || []).map(card => (
-            <Card {...card} />
-          ))}
+    <div
+      className={cx(
+        'block align imagecards-block',
+        {
+          center: !Boolean(data.align),
+        },
+        data.align,
+      )}
+    >
+      <div
+        className={cx({
+          'full-width': data.align === 'full',
+        })}
+      >
+        <div className="roundtiled">
+          <h2>{title}</h2>
+          <div className="cards">
+            {(cards || []).map(card => (
+              <Card {...card} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

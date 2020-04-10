@@ -1,45 +1,41 @@
-.imagecards {
-  .roundtiled {
-    margin-bottom: 1em !important;
-    text-align: center;
+.imagecards-block {
+  div {
+    .roundtiled {
+      margin-bottom: 1em !important;
+      text-align: center;
 
-    h2 {
-      margin-bottom: 0.5em;
-      font-size: 44px;
-    }
-
-    .cards {
-      display: flex;
-      flex-flow: wrap;
-
-      & :nth-child(3n) {
-        // the 4th card
-        margin-right: 0;
+      h2 {
+        margin-bottom: 1em;
+        font-size: 44px;
       }
 
-      .card {
-        width: 10rem;
-        height: 10rem;
-        margin-right: 6rem;
+      .cards {
+        display: flex;
+        flex-flow: wrap;
 
-        img {
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
-        }
+        .card {
+          width: 25%;
+          margin-bottom: 6rem;
 
-        h5 {
-          color: #333;
-          font-family: @pageFont;
-          font-size: 22px;
-          font-weight: normal;
+          img {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+          }
 
-          a {
-            color: inherit;
+          h5 {
+            color: #333;
+            font-family: @pageFont;
+            font-size: 22px;
+            font-weight: normal;
+
+            a {
+              color: inherit;
+            }
           }
         }
       }
-    }
 
+    }
   }
 }
