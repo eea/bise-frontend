@@ -6,8 +6,6 @@ import {
   KeyFactsEdit,
   ImageCardsView,
   ImageCardsEdit,
-  // AttachedImagesListWidget,
-  AttachedImageWidget,
 } from './components';
 
 const applyConfig = config => {
