@@ -8,7 +8,6 @@ const byDisplayType = {
 };
 
 const ImageCardView = props => {
-  console.log('ImageCardView', props);
   const Impl = byDisplayType[props.data.display || 'carousel'];
   return <Impl {...props} />;
 };

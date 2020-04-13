@@ -6,7 +6,7 @@ import {
   KeyFactsEdit,
   ImageCardsView,
   ImageCardsEdit,
-  AttachedImagesListWidget,
+  // AttachedImagesListWidget,
   AttachedImageWidget,
 } from './components';
 
@@ -55,9 +55,6 @@ const applyConfig = config => {
       view: [],
     },
   };
-
-  config.widgets.widget.attachedimages_list = AttachedImagesListWidget;
-  config.widgets.widget.attachedimage = AttachedImageWidget;
 
   return config;
 };

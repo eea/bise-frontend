@@ -55,7 +55,7 @@ const ImageCards = {
       choices: [['round_tiled', 'Round Tiled'], ['carousel', 'Carousel']],
     },
     cards: {
-      widget: 'attachedimages_list',
+      widget: 'objectlist',
       title: 'Images',
       // this is an invention, should confront with dexterity serializer
       schema: ImageCard,
