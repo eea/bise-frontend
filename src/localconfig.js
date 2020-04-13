@@ -1,4 +1,4 @@
-import HomepageView from '~/components/theme/HomepageView';
+// import HomepageView from '~/components/theme/HomepageView';
 import FactsheetDatabaseListing from '~/components/theme/FactsheetDatabaseListing';
 import codeSVG from '@plone/volto/icons/code.svg';
 import {
@@ -15,7 +15,7 @@ const applyConfig = config => {
     ...config.views,
     contentTypesViews: {
       ...config.views.contentTypesViews,
-      'Plone Site': HomepageView,
+      // 'Plone Site': HomepageView,
     },
     layoutViews: {
       ...config.views.layoutViews,
