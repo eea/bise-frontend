@@ -15,33 +15,34 @@ const images = [
   {
     original: slideIMG1,
     title: 'Nature in Europe',
-    description: 'The source of data and information on biodiversity in Europe.',
+    description:
+      'The source of data and information on biodiversity in Europe.',
   },
   {
     original: slideIMG2,
     title: 'Nature in Europe',
-    description: 'The source of data and information on biodiversity in Europe.',
-  }
+    description:
+      'The source of data and information on biodiversity in Europe.',
+  },
 ];
 
 class HomepageSlider extends Component {
-
   renderSlide = images => {
     return (
       <div className="slider-slide">
-          <LazyLoadImage
-            className="slide-img"
-            height={600}
-            effect="blur"
-            style={{ backgroundImage: `url(${images.original})` }}
-            width={'100%'}
-            visibleByDefault={true}
-            placeholder={
-              <Placeholder>
-                <Placeholder.Image rectangular />
-              </Placeholder>
-            }
-          />
+        <LazyLoadImage
+          className="slide-img"
+          height={600}
+          effect="blur"
+          style={{ backgroundImage: `url(${images.original})` }}
+          width={'100%'}
+          visibleByDefault={true}
+          placeholder={
+            <Placeholder>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          }
+        />
 
         <div className="slide-overlay" />
         <div className="slide-body">
@@ -53,7 +54,6 @@ class HomepageSlider extends Component {
   };
 
   render() {
-
     return (
       <div className="slider-wrapper">
         <ImageGallery
