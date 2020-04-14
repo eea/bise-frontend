@@ -1,7 +1,7 @@
 import * as voltoConfig from '@plone/volto/config';
 import {
   applyConfig as addonsConfig,
-  // installImageSlides,
+  installImageSlides,
 } from 'volto-addons/config';
 
 import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
@@ -12,13 +12,13 @@ import installBise from './localconfig';
 
 const config = [
   addonsConfig,
+  installImageSlides,
   plotlyConfig,
   ckeditorConfig,
   mosaicConfig,
   dataBlocksConfig,
   installBise,
 
-  // installImageSlides,
   // draftConfig,
 ].reduce((acc, apply) => apply(acc), voltoConfig);
 
