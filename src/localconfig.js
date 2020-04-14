@@ -1,12 +1,7 @@
 // import HomepageView from '~/components/theme/HomepageView';
 import FactsheetDatabaseListing from '~/components/theme/FactsheetDatabaseListing';
 import codeSVG from '@plone/volto/icons/code.svg';
-import {
-  KeyFactsView,
-  KeyFactsEdit,
-  ImageCardsView,
-  ImageCardsEdit,
-} from './components';
+import { KeyFactsView, KeyFactsEdit } from './components';
 
 const applyConfig = config => {
   config.views = {
@@ -38,22 +33,6 @@ const applyConfig = config => {
       view: [],
     },
   };
-  config.blocks.blocksConfig.imagecards = {
-    id: 'imagecards',
-    title: 'Image Cards',
-    icon: codeSVG,
-    group: 'bise',
-    view: ImageCardsView,
-    edit: ImageCardsEdit,
-    restricted: false,
-    mostUsed: false,
-    sidebarTab: 1,
-    security: {
-      addPermission: [],
-      view: [],
-    },
-  };
-
   return config;
 };
 
