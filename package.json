@@ -139,6 +139,7 @@
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "isomorphic-style-loader": "^5.1.0",
     "mr-developer": "^1.4.0",
     "mrs-developer": "^1.1.4",
     "postcss-overrides": "3.1.4",
