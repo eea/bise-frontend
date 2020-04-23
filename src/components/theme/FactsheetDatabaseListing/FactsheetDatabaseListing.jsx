@@ -5,6 +5,8 @@ import { Portal } from 'react-portal';
 
 import upSVG from '@plone/volto/icons/up-key.svg';
 import downSVG from '@plone/volto/icons/down-key.svg';
+import { Link } from 'react-router-dom';
+import { flattenToAppURL } from '@plone/volto/helpers';
 
 const FactsheetDatabaseListing = props => {
   const sections =
@@ -22,25 +24,32 @@ const FactsheetDatabaseListing = props => {
   return (
     <div>
       <div>
-      <Portal node={__CLIENT__ && document.querySelector('#header-leadimage')}>
-        {props.content.image && (
-          <div className="leadimage-header">
-            <div className="leadimage-container">
-              <div className="leadimage-wrapper">
-                <div className="leadimage document-image"
-                  style={{ backgroundImage: `url(${props.content.image.download})` }}
-                  >
+        <Portal
+          node={__CLIENT__ && document.querySelector('#header-leadimage')}
+        >
+          {props.content.image && (
+            <div className="leadimage-header">
+              <div className="leadimage-container">
+                <div className="leadimage-wrapper">
+                  <div
+                    className="leadimage document-image"
+                    style={{
+                      backgroundImage: `url(${props.content.image.download})`,
+                    }}
+                  />
+                  <div className="image-layer" />
+                  <div className="ui container image-content">
+                    <h1 className="leadimage-title">
+                      Discover biodiversity in Europe
+                    </h1>
+                  </div>
                 </div>
-               <div className="image-layer"></div>
-               <div className="ui container image-content">
-                 <h1 className="leadimage-title">Discover biodiversity in Europe</h1>
-               </div>
               </div>
             </div>
-          </div>
-        )}
-      </Portal>
+          )}
+        </Portal>
       </div>
+
       <div className="factsheet-view">
         <Container>
           {props.content.description && (
@@ -48,7 +57,7 @@ const FactsheetDatabaseListing = props => {
           )}
           <Accordion fluid styled exclusive={false}>
             {sections.map((section, index) => {
-              return(
+              return (
                 <React.Fragment key={section['@id']}>
                   <Accordion.Title
                     active={activeIndex === index}
@@ -58,9 +67,9 @@ const FactsheetDatabaseListing = props => {
                     <span className="section-title">{section.title}</span>
                     <div className="accordion-tools">
                       {activeIndex === index ? (
-                        <Icon name={upSVG} size="40px" color="#f3c715"/>
+                        <Icon name={upSVG} size="40px" color="#f3c715" />
                       ) : (
-                        <Icon name={downSVG} size="40px" color="#f3c715"/>
+                        <Icon name={downSVG} size="40px" color="#f3c715" />
                       )}
                     </div>
                   </Accordion.Title>
@@ -71,30 +80,33 @@ const FactsheetDatabaseListing = props => {
                     <div className="fdl-listing-section" key={section['@id']}>
                       <table className="fdl-table">
                         <thead>
-                        {section.factsheet_group_title && (
-                          <tr>
-                            <th>{''}</th>
-                            <th>{section.factsheet_group_title}</th>
-                          </tr>
-                        )}
+                          {section.factsheet_group_title && (
+                            <tr>
+                              <th>{''}</th>
+                              <th>{section.factsheet_group_title}</th>
+                            </tr>
+                          )}
                         </thead>
                         <tbody>
-                        {section.items.map(item => (
-                          <tr key={item['@id']}>
-                            <td>{item.title}</td>
-                            {section.factsheet_group_title && (
-                              <td>{item.factsheet_group}</td>
-                            )}
-                          </tr>
-                        ))}
+                          {section.items.map(item => (
+                            <tr key={item['@id']}>
+                              <td>
+                                <Link to={flattenToAppURL(item['@id'])}>
+                                  {item.title}
+                                </Link>
+                              </td>
+                              {section.factsheet_group_title && (
+                                <td>{item.factsheet_group}</td>
+                              )}
+                            </tr>
+                          ))}
                         </tbody>
                       </table>
                     </div>
                   </Accordion.Content>
                 </React.Fragment>
               );
-            })
-           }
+            })}
           </Accordion>
         </Container>
       </div>
