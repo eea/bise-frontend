@@ -8,9 +8,12 @@
   @import 'header';
 
   @import 'homepage';
-  /* @import 'slider'; */
+  @import 'leadimage';
 
-  @import 'keyfacts'; /* keyfacts block; */
+  /* keyfacts block; */
+  @import 'keyfacts';
+
+  /* @import 'slider'; */
   /* @import 'imagecards'; // imagecards block */
 
   @import 'factsheets';
