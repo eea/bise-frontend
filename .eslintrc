@@ -28,14 +28,6 @@
                         "./src/addons/@plone/volto/src"
                     ], 
                     [
-                        "volto-mosaic", 
-                        "./src/develop/volto-mosaic/src"
-                    ], 
-                    [
-                        "volto-datablocks", 
-                        "./src/develop/volto-datablocks/src"
-                    ], 
-                    [
                         "volto-addons", 
                         "./src/develop/volto-addons/src"
                     ], 
@@ -66,6 +58,14 @@
                     [
                         "volto-sidebar", 
                         "./src/develop/volto-sidebar/src"
+                    ], 
+                    [
+                        "volto-mosaic", 
+                        "./src/develop/volto-mosaic/src"
+                    ], 
+                    [
+                        "volto-datablocks", 
+                        "./src/develop/volto-datablocks/src"
                     ]
                 ]
             }, 
