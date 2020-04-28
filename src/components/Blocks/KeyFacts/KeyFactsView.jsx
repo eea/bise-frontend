@@ -38,9 +38,12 @@ const View = ({ data }) => {
           </div>
 
           <div className="facts-wrapper">
-            {(lines || []).map(line => (
-              <div class="fact">
-                <div className="upper">{line.upper}</div>
+            {(lines || []).map((line, i) => (
+              <div className="fact" key={i}>
+                <div
+                  className="upper"
+                  dangerouslySetInnerHTML={{ __html: line.upper.data }}
+                />
                 <div className="lower">{line.lower}</div>
               </div>
             ))}

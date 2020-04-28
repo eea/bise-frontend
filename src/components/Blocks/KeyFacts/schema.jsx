@@ -13,8 +13,8 @@ const LineSchema = {
 
   properties: {
     upper: {
-      type: 'string',
       title: 'Upper text',
+      widget: 'richtext',
     },
     lower: {
       type: 'string',
