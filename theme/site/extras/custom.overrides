@@ -9,6 +9,7 @@
 
   @import 'homepage';
   @import 'leadimage';
+  @import 'toolbar';
 
   /* keyfacts block; */
   @import 'keyfacts';
