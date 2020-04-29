@@ -139,8 +139,9 @@ class App extends Component {
           pathname={path}
         />
 
-        <Segment basic className="content-area">
+        <Segment basic className="content-area test">
           <main>
+            <div className="editor-toolbar-wrapper" />
             <OutdatedBrowser />
             {this.state.hasError ? (
               <Error
