@@ -139,7 +139,7 @@ class App extends Component {
           pathname={path}
         />
 
-        <Segment basic className="content-area test">
+        <Segment basic className="content-area">
           <main>
             <div className="editor-toolbar-wrapper" />
             <OutdatedBrowser />

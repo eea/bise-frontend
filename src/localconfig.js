@@ -1,7 +1,10 @@
-// import HomepageView from '~/components/theme/HomepageView';
-import FactsheetDatabaseListing from '~/components/theme/FactsheetDatabaseListing';
 import codeSVG from '@plone/volto/icons/code.svg';
-import { KeyFactsView, KeyFactsEdit } from './components';
+import {
+  FactsheetDatabaseListing,
+  TocNavigationView,
+  KeyFactsView,
+  KeyFactsEdit,
+} from './components';
 
 const applyConfig = config => {
   config.views = {
@@ -13,6 +16,7 @@ const applyConfig = config => {
     layoutViews: {
       ...config.views.layoutViews,
       factsheet_database_listing_view: FactsheetDatabaseListing,
+      toc_nav_view: TocNavigationView,
     },
   };
 
