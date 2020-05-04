@@ -10,6 +10,7 @@
   @import 'homepage';
   @import 'leadimage';
   @import 'toolbar';
+  @import 'tocnav';
 
   /* keyfacts block; */
   @import 'keyfacts';
