@@ -55,27 +55,33 @@ let BlocksWithToc = ({ blockIds, blocksContent, intl, content, location }) => {
       <Grid className="toc-navigation">
         <Grid.Column width={3}>
           <div className="toc-sidebar">
-            <ul className="toc-nav">
+            <div className="toc-nav">
               {map(blockIds, blockId => {
                 const block = blocksContent[blockId];
                 if (!block.text) return null;
                 const draftBlock = block.text.blocks[0];
                 const { text, type, key } = draftBlock;
-                const h4 = type === 'header-four';
+                const tocSubTitle = type === 'header-four';
                 if (!HEADLINES.includes(type)) return null;
                 return (
-                  <li key={blockId}>
-                    <AnchorLink href={`#${key}`} offset={10}
-                       className={cx(`toc-nav-header link-${type}`, {
-                         selected: activeId === key,
-                       })}
-                      >
-                      {text}
-                    </AnchorLink>
-                  </li>
+                  <div key={key}>
+                    {!tocSubTitle ?
+                      <AnchorLink
+                        href={`#${key}`}
+                        offset={10}
+                        className={cx(`toc-nav-header link-${type}`, {
+                          selected: activeId === key,
+                        })}
+                        >
+                        {text}
+                      </AnchorLink>
+                      :
+                      <span className="toc-description">{text}</span>
+                    }
+                  </div>
                 );
               })}
-            </ul>
+            </div>
           </div>
         </Grid.Column>
         <Grid.Column width={9} className="toc-content">
@@ -89,9 +95,11 @@ let BlocksWithToc = ({ blockIds, blocksContent, intl, content, location }) => {
               scrollCheck={true}
               resizeCheck={true}
               scrollThrottle={100}
-              minTopValue={400}
+              minTopValue={500}
               partialVisibility={true}
-              intervalDelay={4000}
+              offset={{top:10}}
+              intervalDelay={3000}
+              key={blockId}
               >
               {({ isVisible }) => {
                 const [textKey, text] = extractTextKey(
