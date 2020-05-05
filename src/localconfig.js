@@ -1,5 +1,6 @@
 import codeSVG from '@plone/volto/icons/code.svg';
 import {
+  ChildrenTabsView,
   FactsheetDatabaseListing,
   TocNavigationView,
   KeyFactsView,
@@ -17,6 +18,7 @@ const applyConfig = config => {
       ...config.views.layoutViews,
       factsheet_database_listing_view: FactsheetDatabaseListing,
       toc_nav_view: TocNavigationView,
+      children_tabs_view: ChildrenTabsView,
     },
   };
 
