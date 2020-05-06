@@ -63,29 +63,6 @@ class ChildrenTabsView extends Component {
   render() {
     return (
       <div className="children-tabs-view">
-        {this.props.content.image && (
-          <Portal
-            node={__CLIENT__ && document.querySelector('#header-leadimage')}
-          >
-            <div className="leadimage-header">
-              <div className="leadimage-container">
-                <div className="leadimage-wrapper">
-                  <div
-                    className="leadimage document-image"
-                    style={{
-                      backgroundImage: `url(${this.props.content.image.download})`,
-                    }}
-                  />
-                  <div className="image-layer" />
-                  <div className="ui container image-content">
-                    <h1 className="leadimage-title">{this.props.content.title}</h1>
-                    <p>{this.props.content.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Portal>
-        )}
         <div id="page-document" className="ui container">
           <Tab
             menu={{ attached: false, tabular: false }}

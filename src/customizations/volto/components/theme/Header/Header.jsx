@@ -17,6 +17,8 @@ import {
   Breadcrumbs,
 } from '@plone/volto/components';
 
+import HeaderImage from './HeaderImage';
+
 // import HomepageSlider from '~/components/theme/Header/HomepageSlider';
 // import homepageSlideIMG from '~/components/theme/Header/images/bise-slide.png';
 
@@ -41,6 +43,7 @@ class Header extends Component {
     token: PropTypes.string,
     pathname: PropTypes.string.isRequired,
     actualPathName: PropTypes.string.isRequired,
+    defaultHeaderImage: PropTypes.any,
   };
 
   /**
@@ -73,6 +76,8 @@ class Header extends Component {
    * @returns {string} Markup for the component.
    */
   render() {
+    const defaultHeaderImage = this.props.defaultHeaderImage;
+    let headerImageUrl = defaultHeaderImage?.image || defaultHeaderImage;
     return (
       <div>
         <Segment basic className="header-wrapper" role="banner">
@@ -113,7 +118,7 @@ class Header extends Component {
             {!this.state.isHomepage && (
               <div style={{ position: 'relative' }}>
                 <Breadcrumbs pathname={this.props.pathname} />
-                <div id="header-leadimage" />
+                <HeaderImage url={headerImageUrl} />
               </div>
             )}
           </div>

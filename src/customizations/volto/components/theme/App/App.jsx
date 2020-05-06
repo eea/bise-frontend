@@ -110,6 +110,8 @@ class App extends Component {
   render() {
     const path = getBaseUrl(this.props.pathname);
     const action = getView(this.props.pathname);
+    const headerImage =
+      this.props.content?.image?.download;
 
     return (
       <Fragment>
@@ -137,6 +139,7 @@ class App extends Component {
           actualPathName={this.props.pathname}
           navigationItems={this.props.navigation}
           pathname={path}
+          defaultHeaderImage={headerImage}
         />
 
         <Segment basic className="content-area">

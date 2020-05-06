@@ -40,26 +40,6 @@ const DefaultView = ({ content, intl, location }) => {
 
   return hasBlocksData(content) ? (
     <div>
-      {content.image && (
-        <Portal
-          node={__CLIENT__ && document.querySelector('#header-leadimage')}>
-            <div className="leadimage-header">
-              <div className="leadimage-container">
-                <div className="leadimage-wrapper">
-                  <div
-                    className="leadimage document-image"
-                    style={{ backgroundImage: `url(${content.image.download})` }}
-                  />
-                  <div className="image-layer" />
-                  <div className="ui container image-content">
-                    <h1 className="leadimage-title">{content.title}</h1>
-                    <p>{content.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </Portal>
-      )}
       <div id="page-document" className="ui container">
         <Helmet title={content.title} />
         {map(content[blocksLayoutFieldname].items, block => {
