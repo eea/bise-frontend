@@ -11,6 +11,7 @@
   @import 'leadimage';
   @import 'toolbar';
   @import 'tocnav';
+  @import 'tabsview';
 
   /* keyfacts block; */
   @import 'keyfacts';

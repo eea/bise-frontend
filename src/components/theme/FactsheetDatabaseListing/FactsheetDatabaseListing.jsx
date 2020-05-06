@@ -24,30 +24,30 @@ const FactsheetDatabaseListing = props => {
   return (
     <div>
       <div>
-        <Portal
-          node={__CLIENT__ && document.querySelector('#header-leadimage')}
-        >
-          {props.content.image && (
-            <div className="leadimage-header">
-              <div className="leadimage-container">
-                <div className="leadimage-wrapper">
-                  <div
-                    className="leadimage document-image"
-                    style={{
-                      backgroundImage: `url(${props.content.image.download})`,
-                    }}
-                  />
-                  <div className="image-layer" />
-                  <div className="ui container image-content">
-                    <h1 className="leadimage-title">
-                      Discover biodiversity in Europe
-                    </h1>
+        {props.content.image && (
+          <Portal
+            node={__CLIENT__ && document.querySelector('#header-leadimage')}
+            >
+              <div className="leadimage-header">
+                <div className="leadimage-container">
+                  <div className="leadimage-wrapper">
+                    <div
+                      className="leadimage document-image"
+                      style={{
+                        backgroundImage: `url(${props.content.image.download})`,
+                      }}
+                    />
+                    <div className="image-layer" />
+                    <div className="ui container image-content">
+                      <h1 className="leadimage-title">
+                        Discover biodiversity in Europe
+                      </h1>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )}
-        </Portal>
+          </Portal>
+        )}
       </div>
 
       <div className="factsheet-view">
