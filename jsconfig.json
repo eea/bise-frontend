@@ -13,35 +13,35 @@
     "compilerOptions": {
         "baseUrl": "src",
         "paths": {
-            "volto-addons": [
-                "develop/volto-addons/src"
-            ],
-            "volto-base": [
-                "develop/volto-base/src"
-            ],
-            "volto-blocks": [
-                "develop/volto-blocks/src"
-            ],
-            "volto-ckeditor": [
-                "develop/volto-ckeditor/src"
+            "volto-mosaic": [
+                "develop/volto-mosaic/src"
             ],
             "volto-datablocks": [
                 "develop/volto-datablocks/src"
             ],
+            "volto-blocks": [
+                "develop/volto-blocks/src"
+            ],
+            "volto-addons": [
+                "develop/volto-addons/src"
+            ],
+            "volto-ckeditor": [
+                "develop/volto-ckeditor/src"
+            ],
             "volto-drafteditor": [
                 "develop/volto-drafteditor/src"
-            ],
-            "volto-embed": [
-                "develop/volto-embed/src"
-            ],
-            "volto-mosaic": [
-                "develop/volto-mosaic/src"
             ],
             "volto-plotlycharts": [
                 "develop/volto-plotlycharts/src"
             ],
             "volto-sidebar": [
                 "develop/volto-sidebar/src"
+            ],
+            "volto-base": [
+                "develop/volto-base/src"
+            ],
+            "volto-embed": [
+                "develop/volto-embed/src"
             ]
         }
     }

@@ -1,23 +1,23 @@
 import * as voltoConfig from '@plone/volto/config';
-import {
-  applyConfig as addonsConfig,
-  installImageSlides,
-} from 'volto-addons/config';
-
-import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
-import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
-import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
-import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
+// import {
+//   applyConfig as addonsConfig,
+//   installImageSlides,
+// } from 'volto-addons/config';
+//
+// import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
+// import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
+// import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
+// import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
 // import { applyConfig as embedConfig } from 'volto-embed/config';
 import installBise from './localconfig';
 
 const config = [
-  addonsConfig,
-  installImageSlides,
-  plotlyConfig,
-  ckeditorConfig,
-  mosaicConfig,
-  dataBlocksConfig,
+  // addonsConfig,
+  // installImageSlides,
+  // plotlyConfig,
+  // ckeditorConfig,
+  // mosaicConfig,
+  // dataBlocksConfig,
   installBise,
   // embedConfig,
 
