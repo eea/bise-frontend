@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { getContent } from '@plone/volto/actions';
 import { map } from 'lodash';
-import { Portal } from 'react-portal';
 import { Tab, Container } from 'semantic-ui-react';
-import { DefaultView } from '@plone/volto/components';
+// import { getContent } from '@plone/volto/actions';
+// import { Portal } from 'react-portal';
+// import { DefaultView } from '@plone/volto/components';
 
 import { settings, blocks } from '~/config';
 import {
@@ -66,12 +66,15 @@ class ChildrenTabsView extends Component {
         <div id="page-document" className="ui container">
           <Tab
             menu={{ attached: false, tabular: false }}
-            panes={this.props.content.items && this.props.content.items.map(child => ({
-              menuItem: child.title,
-              render: () => (
-                <Tab.Pane key={child['@id']}>{renderTab(child)}</Tab.Pane>
-              ),
-            }))}
+            panes={
+              this.props.content.items &&
+              this.props.content.items.map(child => ({
+                menuItem: child.title,
+                render: () => (
+                  <Tab.Pane key={child['@id']}>{renderTab(child)}</Tab.Pane>
+                ),
+              }))
+            }
           />
         </div>
       </div>

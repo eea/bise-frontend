@@ -1,3 +1,4 @@
+import { DefaultView } from '@plone/volto/components';
 import codeSVG from '@plone/volto/icons/code.svg';
 import {
   ChildrenTabsView,
@@ -12,7 +13,7 @@ const applyConfig = config => {
     ...config.views,
     contentTypesViews: {
       ...config.views.contentTypesViews,
-      // 'Plone Site': HomepageView,
+      'Plone Site': DefaultView,
     },
     layoutViews: {
       ...config.views.layoutViews,

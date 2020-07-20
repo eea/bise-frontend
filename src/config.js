@@ -6,7 +6,7 @@ import {
 
 import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
 import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
-import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
+// import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
 import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
 // import { applyConfig as embedConfig } from 'volto-embed/config';
 import installBise from './localconfig';
@@ -16,7 +16,7 @@ const config = [
   installImageSlides,
   plotlyConfig,
   ckeditorConfig,
-  mosaicConfig,
+  // mosaicConfig,
   dataBlocksConfig,
   installBise,
   // embedConfig,
