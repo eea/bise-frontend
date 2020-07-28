@@ -5,7 +5,7 @@
 
 import { App } from '@plone/volto/components';
 import { defaultRoutes } from '@plone/volto/routes';
-import HomepageView from '~/components/theme/HomepageView/HomepageView';
+// import HomepageView from '~/components/theme/HomepageView/HomepageView';
 
 /**
  * Routes array.

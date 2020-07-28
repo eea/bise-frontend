@@ -2,37 +2,80 @@
   "name": "bise-frontend",
   "description": "Frontend server for BISE",
   "license": "MIT",
-  "version": "3.2.7",
+  "version": "1.0.0",
   "private": "true",
   "workspaces": [
-    "src/develop/volto-base",
-    "src/develop/volto-addons",
-    "src/develop/volto-base",
-    "src/develop/volto-blocks",
-    "src/develop/volto-ckeditor",
-    "src/develop/volto-datablocks",
-    "src/develop/volto-drafteditor",
-    "src/develop/volto-embed",
-    "src/develop/volto-mosaic",
-    "src/develop/volto-plotlycharts",
-    "src/develop/volto-sidebar"
+    "src/addons/volto-bise"
   ],
   "scripts": {
-    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=develop && make activate-all && npm run prebuild",
-    "develop": "missdev --config=jsconfig.json --output=develop && make activate-all && npm run prebuild",
-    "postinstall": "rm -rf ./node_modules/volto-*",
-    "start": "NODE_OPTIONS=--max-old-space-size=8192 razzle start",
-    "start:prod": "NODE_ENV=production node build/server.js",
-    "prebuild": "./scripts/prebuild-fix-modules.sh",
-    "build": "razzle build",
-    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
-    "test": "razzle test --env=jsdom --passWithNoTests",
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
-    "serve": "http-server -p $PORT ./build"
+    "build": "razzle build",
+    "ci:cypress:end": "docker stop webapp plone",
+    "ci:cypress:mochawsome:merge": "mochawesome-merge  cypress/mochawesome/json/*.json -o cypress/report/mochawesome.json",
+    "ci:cypress:mochawsome:report": "marge --reportDir=cypress/report --charts=true --reportTitle=ITReport --reportPageTitle='Cypress Integration Tests' cypress/report/mochawesome.json",
+    "ci:cypress:run": "start-test ci:start-api-plone http-get://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone ci:start-tests",
+    "ci:prepare": "localIP=$(ip addr | grep -E '^ *inet ' | grep -vE 'inet (172|127)' | head -n 1 | awk '{print $2}' | cut -f1 -d'/'); sed -i \"s#\\\"localIP\\\":.*#\\\"localIP\\\": \\\"$localIP\\\"#\" package.json",
+    "ci:start-api-plone": "yarn ci:prepare; docker run --name plone --rm -p $npm_package_custom_ploneport:55001 -e ZSERVER_PORT=55001 -e ZSERVER_HOST=0.0.0.0 -e ADDONS='plone.app.robotframework plone.app.contenttypes plone.restapi kitconcept.volto' -e CONFIGURE_PACKAGES=plone.app.contenttypes,plone.restapi,kitconcept.volto,kitconcept.volto.cors -e APPLY_PROFILES=plone.app.contenttypes:plone-content,plone.restapi:default,kitconcept.volto:default-homepage  -e VERSIONS='plone.restapi=6.13.4' -e ZCML='kitconcept.volto.cors' -e CORS_ALLOW_ORIGIN=http://$npm_package_custom_localIP:$npm_package_custom_webappport -e SITE=plone -e PROFILES='plone.app.contenttypes:plone-content plone.restapi:default kitconcept.volto:default-homepage' -v $(./get_correct_pwd.sh)/start-robot-server.sh:/start-robot-server.sh plone /start-robot-server.sh",
+    "ci:start-frontend": "yarn ci:prepare; docker run --name webapp --rm -p $npm_package_custom_webappport:3000 -e RAZZLE_API_PATH=http://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone -e HOST=$npm_package_custom_localIP -e CI=yes -v $(./get_correct_pwd.sh):/$(pwd) -w /$(pwd) --rm node:12-slim /bin/sh -c 'yarn build && yarn start:prod'",
+    "ci:start-tests": "start-test ci:start-frontend http-get://$npm_package_custom_localIP:$npm_package_custom_webappport cypress:run",
+    "code-analysis:i18n": "yarn i18n && git diff -G'^[^\"POT]' --exit-code",
+    "cy:test:fixture:setup": "node cypress/support/reset-fixture.js",
+    "cy:test:fixture:teardown": "node cypress/support/reset-fixture.js teardown",
+    "cypress:run": "yarn ci:prepare; docker run --name cypress --rm -v $(./get_correct_pwd.sh):/e2e -w /e2e  -e NODE_ENV=development -e CYPRESS_API=plone -e CYPRESS_RETRIES=2 -e CI=yes -e CYPRESS_BASE_URL=http://$npm_package_custom_localIP:$npm_package_custom_webappport -e CYPRESS_BACKEND_HOST=$npm_package_custom_localIP -e CYPRESS_BACKEND_PORT=$npm_package_custom_ploneport -e CYPRESS_BACKEND_URL=http://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone --rm cypress/included:4.8.0",
+    "cypress:run:local": "NODE_ENV=development CYPRESS_API=plone CYPRESS_RETRIES=2 cypress open",
+    "develop": "missdev --config=jsconfig.json --output=addons",
+    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
+    "i18n": "NODE_ENV=production node src/i18n.js",
+    "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx}'",
+    "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx}'",
+    "omelette": "ln -sf node_modules/@plone/volto/ omelette",
+    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
+    "postinstall": "yarn omelette",
+    "preinstall": "if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi",
+    "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "pretty": "yarn prettier:fix",
+    "serve": "http-server -p $PORT ./build",
+    "start": "razzle start",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "style": "yarn stylelint:fix",
+    "stylelint": "./node_modules/.bin/stylelint 'theme/**/*.{css,less}' 'src/**/*.{css,less}'",
+    "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
+    "stylelint:overrides": "./node_modules/.bin/stylelint --syntax less 'theme/**/*.overrides' 'src/**/*.overrides'",
+    "test": "razzle test --env=jsdom",
+    "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
+  "dependencies": {
+    "@plone/volto": "github:eea/volto#7.3.0-eea1",
+    "prettier": "2.0.5",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-component-queries": "^2.3.0",
+    "react-image-gallery": "^0.9.1",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-lazy-load-image-component": "^1.4.0",
+    "react-slick": "^0.24.0",
+    "react-stickynode": "^2.1.1",
+    "react-visibility-sensor": "5.1.1",
+    "slick-carousel": "^1.8.1",
+    "stylelint": "13.3.3",
+    "stylelint-config-idiomatic-order": "8.1.0",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-prettier": "1.1.2",
+    "webpack-bundle-analyzer": "^3.6.1"
+  },
+  "optimizeLiftPackages": [
+    "immutable",
+    "react"
+  ],
+  "manuallyTranspile": [
+    "prepend-http",
+    "normalize-url",
+    "cidr-regex",
+    "url-regex"
+  ],
   "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
+    "modulePathIgnorePatterns": [
+      "api"
     ],
     "transform": {
       "^.+\\.js(x)?$": "babel-jest",
@@ -46,6 +89,7 @@
       "/node_modules/(?!@plone/volto).+\\.js$"
     ],
     "moduleNameMapper": {
+      "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
       "@package/(.*)$": "<rootDir>/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
@@ -65,121 +109,42 @@
       "__DEV__": true
     }
   },
-  "customizationPaths": [
-    "src/customizations/volto/"
-  ],
-  "addonsCustomizationPath": "src/customizations",
   "prettier": {
     "trailingComma": "all",
-    "singleQuote": true
-  },
-  "stylelint": {
-    "extends": [
-      "stylelint-config-standard",
-      "stylelint-config-idiomatic-order",
-      "./node_modules/prettier-stylelint/config.js"
-    ]
-  },
-  "engines": {
-    "node": "^8 || ^10"
-  },
-  "bundlesize": [
-    {
-      "path": "build/public/static/js/*.js",
-      "maxSize": "680kB"
-    }
-  ],
-  "bundlewatch": {
-    "files": [
+    "singleQuote": true,
+    "overrides": [
       {
-        "path": "build/public/static/js/*.js",
-        "maxSize": "680kB"
+        "files": "*.overrides",
+        "options": {
+          "parser": "less"
+        }
       }
     ]
   },
-  "browserslist": [
-    ">1%",
-    "last 4 versions",
-    "Firefox ESR",
-    "not ie < 9"
-  ],
-  "resolutions": {
-    "browserslist": "4.8.3"
+  "stylelint": {
+    "extends": [
+      "stylelint-config-idiomatic-order"
+    ],
+    "plugins": [
+      "stylelint-prettier"
+    ],
+    "rules": {
+      "prettier/prettier": true,
+      "rule-empty-line-before": [
+        "always-multi-line",
+        {
+          "except": [
+            "first-nested"
+          ],
+          "ignore": [
+            "after-comment"
+          ]
+        }
+      ]
+    },
+    "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
-  "dependencies": {
-    "@blueprintjs/core": "^3.18.0",
-    "@blueprintjs/icons": "^3.10.0",
-    "@datapunt/matomo-tracker-react": "0.0.16",
-    "@loadable/server": "5.12.0",
-    "@plone/volto": "github:eea/volto#5.2-eea-for-bise",
-    "http-server": "^0.12.1",
-    "immutable": "^3.8.2",
-    "less-loader": "5.0.0",
-    "moment-timezone": "^0.5.31",
-    "npm": "^6.13.7",
-    "react": "^16.13.0",
-    "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-component-queries": "^2.3.0",
-    "react-dom": "16.13.1",
-    "react-image-gallery": "^0.9.1",
-    "react-infinite-scroll-component": "^5.0.4",
-    "react-lazy-load-image-component": "^1.4.0",
-    "react-loadable": "^5.5.0",
-    "react-router-dom": "5.1.2",
-    "react-sizeme": "^2.6.12",
-    "react-slick": "^0.24.0",
-    "react-stickynode": "^2.1.1",
-    "react-toastify": "^5.3.2",
-    "react-visibility-sensor": "^5.1.1",
-    "redux-connect": "10.0.0",
-    "semantic-ui-css": "^2.4.1",
-    "slick-carousel": "^1.8.1",
-    "start": "^5.1.0",
-    "webpack-bundle-analyzer": "^3.6.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/plugin-proposal-decorators": "^7.8.3",
-    "@babel/plugin-proposal-do-expressions": "^7.8.3",
-    "@babel/plugin-proposal-export-default-from": "^7.8.3",
-    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
-    "@babel/plugin-proposal-function-bind": "^7.8.3",
-    "@babel/plugin-proposal-function-sent": "^7.8.3",
-    "@babel/plugin-proposal-logical-assignment-operators": "^7.8.3",
-    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
-    "@babel/plugin-proposal-pipeline-operator": "^7.8.3",
-    "@babel/plugin-proposal-throw-expressions": "^7.8.3",
-    "@babel/plugin-syntax-import-meta": "^7.8.3",
-    "@babel/preset-env": "^7.8.4",
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "compression-webpack-plugin": "^3.1.0",
-    "cypress": "4.5.0",
-    "eslint": "^5.16.0",
-    "eslint-config-react-app": "^5.0.1",
-    "eslint-plugin-flowtype": "^3.13.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "3.0.1",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "mr-developer": "^1.4.0",
-    "mrs-developer": "1.1.3",
-    "postcss-overrides": "3.1.4",
-    "prettier": "1.17.0",
-    "prettier-eslint": "^9.0.0",
-    "prettier-stylelint": "0.4.2",
-    "shelljs": "^0.8.3"
-  },
-  "optimizeLiftPackages": [
-    "immutable",
-    "react"
-  ],
-  "manuallyTranspile": [
-    "prepend-http",
-    "normalize-url",
-    "cidr-regex",
-    "url-regex"
-  ]
+  "engines": {
+    "node": "^10 || ^12"
+  }
 }

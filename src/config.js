@@ -1,56 +1,41 @@
-import * as voltoConfig from '@plone/volto/config';
+/**
+ * Add your config changes here.
+ * @module config
+ * @example
+ * export const settings = {
+ *   ...defaultSettings,
+ *   port: 4300,
+ *   listBlockTypes: {
+ *     ...defaultSettings.listBlockTypes,
+ *     'my-list-item',
+ *   }
+ * }
+ */
+
 import {
-  applyConfig as addonsConfig,
-  installImageSlides,
-} from 'volto-addons/config';
-
-import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
-import { applyConfig as ckeditorConfig } from 'volto-ckeditor/config';
-// import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
-import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
-// import { applyConfig as embedConfig } from 'volto-embed/config';
-import installBise from './localconfig';
-
-const config = [
-  addonsConfig,
-  installImageSlides,
-  plotlyConfig,
-  ckeditorConfig,
-  // mosaicConfig,
-  dataBlocksConfig,
-  installBise,
-  // embedConfig,
-
-  // draftConfig,
-].reduce((acc, apply) => apply(acc), voltoConfig);
+  settings as defaultSettings,
+  views as defaultViews,
+  widgets as defaultWidgets,
+  blocks as defaultBlocks,
+  addonReducers as defaultAddonReducers,
+  addonRoutes as defaultAddonRoutes,
+} from '@plone/volto/config';
 
 export const settings = {
-  ...config.settings,
+  ...defaultSettings,
 };
 
 export const views = {
-  ...config.views,
+  ...defaultViews,
 };
 
 export const widgets = {
-  ...config.widgets,
+  ...defaultWidgets,
 };
 
 export const blocks = {
-  ...config.blocks,
+  ...defaultBlocks,
 };
 
-export const addonReducers = { ...config.addonReducers };
-export const addonRoutes = [...(config.addonRoutes || [])];
-
-export const viewlets = [...(config.viewlets || [])];
-
-export const portlets = {
-  ...config.portlets,
-};
-
-export const editForms = {
-  ...config.editForms,
-};
-
-// import { applyConfig as draftConfig } from 'volto-drafteditor/config';
+export const addonRoutes = [...defaultAddonRoutes];
+export const addonReducers = { ...defaultAddonReducers };
