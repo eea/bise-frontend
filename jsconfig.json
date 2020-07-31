@@ -31,6 +31,9 @@
             ],
             "volto-embed": [
                 "addons/volto-embed/src"
+            ],
+            "volto-slate": [
+                "addons/volto-slate/src"
             ]
         }
     }

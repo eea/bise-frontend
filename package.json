@@ -6,11 +6,13 @@
   "private": "true",
   "workspaces": [
     "src/addons/volto-bise",
-    "src/addons/volto-addons"
+    "src/addons/volto-addons",
+    "src/addons/volto-slate"
   ],
   "addons": [
     "volto-addons:installImageSlides",
-    "volto-bise"
+    "volto-bise",
+    "volto-slate"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
