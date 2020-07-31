@@ -39,3 +39,5 @@ export const blocks = {
 
 export const addonRoutes = [...defaultAddonRoutes];
 export const addonReducers = { ...defaultAddonReducers };
+
+export const portlets = {};

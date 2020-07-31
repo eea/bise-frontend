@@ -5,7 +5,12 @@
   "version": "1.0.0",
   "private": "true",
   "workspaces": [
-    "src/addons/volto-bise"
+    "src/addons/volto-bise",
+    "src/addons/volto-addons"
+  ],
+  "addons": [
+    "volto-addons:installImageSlides",
+    "volto-bise"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -46,13 +51,15 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#7.3.0-eea1",
+    "@plone/volto": "github:eea/volto#kitchen_sink_new",
     "prettier": "2.0.5",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
     "react-infinite-scroll-component": "^5.0.4",
     "react-lazy-load-image-component": "^1.4.0",
+    "react-loadable": "5.5.0",
+    "react-sizeme": "2.6.12",
     "react-slick": "^0.24.0",
     "react-stickynode": "^2.1.1",
     "react-visibility-sensor": "5.1.1",
@@ -146,5 +153,8 @@
   },
   "engines": {
     "node": "^10 || ^12"
+  },
+  "devDependencies": {
+    "yalc": "1.0.0-pre.40"
   }
 }

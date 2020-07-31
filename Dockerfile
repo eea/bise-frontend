@@ -93,3 +93,4 @@ EXPOSE 3000 3001 4000 4001
 
 ENTRYPOINT ["/opt/frontend/entrypoint-prod.sh"]
 CMD ["yarn", "start:prod"]
+USER root
