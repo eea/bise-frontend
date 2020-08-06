@@ -79,7 +79,7 @@
 
 FROM node:12-stretch-slim
 
-RUN apt update && apt install git
+RUN apt-get update && apt-get install -y git
 
 COPY . /opt/frontend/
 RUN chown -R node /opt/frontend/
