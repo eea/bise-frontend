@@ -11,9 +11,9 @@
   ],
   "addons": [
     "volto-addons:installImageSlides",
-    "volto-bise",
     "volto-slate:asDefault",
-    "volto-tabsblock"
+    "volto-tabsblock",
+    "volto-bise"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
