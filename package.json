@@ -159,5 +159,6 @@
     "node": "^10 || ^12"
   },
   "devDependencies": {
+    "jsonlint": "1.6.3"
   }
 }

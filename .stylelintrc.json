@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-config-idiomatic-order"],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "single-quote": true,
+    "trailing-comma": "all",
+    "rule-empty-line-before": [
+      "always-multi-line",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ]
+  },
+  "ignoreFiles": "theme/themes/default/**/*.overrides"
+}
