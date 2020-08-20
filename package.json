@@ -12,7 +12,7 @@
   "addons": [
     "volto-addons:installImageSlides",
     "volto-bise",
-    "volto-slate",
+    "volto-slate:asDefault",
     "volto-tabsblock"
   ],
   "scripts": {
