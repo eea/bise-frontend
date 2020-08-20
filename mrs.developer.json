@@ -44,5 +44,9 @@
     "url": "https://github.com/eea/volto-slate.git",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-tabsblock": {
+    "url": "https://github.com/eea/volto-tabsblock.git",
+    "path": "src"
   }
 }
