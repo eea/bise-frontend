@@ -12,7 +12,7 @@
   "addons": [
     "volto-addons:installImageSlides",
     "volto-slate:asDefault",
-    "@eeacms/tabsblock",
+    "@eeacms/volto-tabs-block",
     "volto-bise"
   ],
   "scripts": {
