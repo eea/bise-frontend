@@ -47,6 +47,7 @@
   },
   "volto-tabsblock": {
     "url": "https://github.com/eea/volto-tabsblock.git",
-    "path": "src"
+    "path": "src",
+    "package": "@eeacms/volto-tabs-block"
   }
 }
