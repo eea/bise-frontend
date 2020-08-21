@@ -7,13 +7,17 @@
   "workspaces": [
     "src/addons/volto-bise",
     "src/addons/volto-addons",
-    "src/addons/volto-slate"
+    "src/addons/volto-slate",
+    "src/addons/volto-datablocks",
+    "src/addons/volto-plotlycharts"
   ],
   "addons": [
     "volto-addons:installImageSlides",
     "volto-slate:asDefault",
     "@eeacms/volto-tabs-block",
-    "volto-bise"
+    "volto-bise",
+    "volto-datablocks",
+    "volto-plotlycharts"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",

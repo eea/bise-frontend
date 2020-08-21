@@ -13,8 +13,7 @@
   },
   "volto-addons": {
     "url": "https://github.com/eea/volto-addons.git",
-    "path": "src",
-    "branch": "volto7-compat"
+    "path": "src"
   },
   "volto-ckeditor": {
     "url": "https://github.com/eea/volto-ckeditor.git",
