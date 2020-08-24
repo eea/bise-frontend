@@ -1,1 +1,1 @@
-tiberiuichim/bise-frontend:4.0-0.30
+eeacms/bise-frontend:4.0-0.35
