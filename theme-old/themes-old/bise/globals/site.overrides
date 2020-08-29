@@ -1,0 +1,8 @@
+.siteroot .ui.basic.segment.content-area {
+  margin-top: 0;
+  padding-top:0;
+}
+
+#toolbar .toolbar-content {
+  z-index: 6!important;
+}

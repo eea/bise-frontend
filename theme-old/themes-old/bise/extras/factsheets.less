@@ -1,0 +1,65 @@
+/*--------------------------------------
+        Factsheet database listing
+--------------------------------------*/
+
+.factsheet-view {
+  background-color: #f7f8f0;
+  margin: -2em -1em 0 -1em;
+  padding: 1.5em 0;
+
+  .ui.styled.accordion,
+  .ui.styled.accordion .accordion {
+    background: none;
+  }
+
+  .ui.accordion .active.content {
+    margin-bottom: 1.5em !important;
+  }
+
+  .ui.accordion .content,
+  .ui.styled.accordion .active.title {
+    margin-bottom: 0;
+  }
+
+  .ui.accordion .active.content,
+  .ui.accordion .accordion .active.content,
+  .ui.styled.accordion .active.title {
+    background: #fff;
+    color: #000;
+  }
+
+  .ui.styled.accordion .title {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 1.5em;
+    color: #000;
+    text-transform: inherit;
+    margin-bottom: 1.5em;
+
+    &:hover {
+      background: #fff;
+    }
+  }
+
+  .section-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .fdl-table {
+    thead {
+      text-align: left;
+      th {
+        font-size: 14px;
+        color: #999;
+        font-weight: normal;
+      }
+    }
+
+    th, td {
+      padding: 0.5em 1.5em;
+      min-width: 280px;
+    }
+  }
+}
