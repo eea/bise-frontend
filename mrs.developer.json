@@ -48,5 +48,10 @@
     "url": "https://github.com/eea/volto-tabs-block.git",
     "path": "src",
     "package": "@eeacms/volto-tabs-block"
+  },
+  "volto-grid-block": {
+    "url": "https://github.com/tiberiuichim/volto-grid-block.git",
+    "path": "src",
+    "package": "@eeacms/volto-grid-block"
   }
 }

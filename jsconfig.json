@@ -37,6 +37,9 @@
             ],
             "@eeacms/volto-tabs-block": [
                 "addons/volto-tabsblock/src"
+            ],
+            "@eeacms/volto-grid-block": [
+                "addons/volto-grid-block/src"
             ]
         }
     }
