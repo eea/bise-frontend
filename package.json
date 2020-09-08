@@ -15,6 +15,7 @@
   "addons": [
     "volto-addons:installImageSlides",
     "volto-slate:asDefault",
+    "volto-embed",
     "@eeacms/volto-tabs-block",
     "volto-bise",
     "volto-datablocks",
