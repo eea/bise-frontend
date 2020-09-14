@@ -37,7 +37,8 @@
   },
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",
-    "path": "src"
+    "path": "src",
+    "branch": "generic_protection_wrapper"
   },
   "volto-slate": {
     "url": "https://github.com/eea/volto-slate.git",
@@ -50,7 +51,12 @@
     "package": "@eeacms/volto-tabs-block"
   },
   "volto-grid-block": {
-    "url": "https://github.com/tiberiuichim/volto-grid-block.git",
+    "url": "https://github.com/eea/volto-grid-block.git",
+    "path": "src",
+    "package": "@eeacms/volto-grid-block"
+  },
+  "volto-object-widget": {
+    "url": "https://github.com/eea/volto-object-widget.git",
     "path": "src",
     "package": "@eeacms/volto-grid-block"
   }

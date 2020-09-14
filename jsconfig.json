@@ -39,7 +39,7 @@
                 "addons/volto-tabsblock/src"
             ],
             "@eeacms/volto-grid-block": [
-                "addons/volto-grid-block/src"
+                "addons/volto-object-widget/src"
             ]
         }
     }
