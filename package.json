@@ -23,7 +23,7 @@
     "volto-bise",
     "volto-datablocks",
     "volto-plotlycharts",
-    "volto-slate-footnote",
+    "@eeacms/volto-slate-footnote",
     "@eeacms/volto-grid-block"
   ],
   "scripts": {
