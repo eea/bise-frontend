@@ -40,6 +40,9 @@
             ],
             "@eeacms/volto-grid-block": [
                 "addons/volto-object-widget/src"
+            ],
+            "@eeacms/volto-slate-footnote": [
+                "addons/volto-slate-footnote/src"
             ]
         }
     }

@@ -11,7 +11,8 @@
     "src/addons/volto-datablocks",
     "src/addons/volto-plotlycharts",
     "src/addons/volto-grid-block",
-    "src/addons/volto-object-widget"
+    "src/addons/volto-object-widget",
+    "src/addons/volto-slate-footnote"
   ],
   "addons": [
     "volto-addons:installImageSlides",
@@ -22,6 +23,7 @@
     "volto-bise",
     "volto-datablocks",
     "volto-plotlycharts",
+    "volto-slate-footnote",
     "@eeacms/volto-grid-block"
   ],
   "scripts": {
