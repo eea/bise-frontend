@@ -39,10 +39,13 @@
                 "addons/volto-tabsblock/src"
             ],
             "@eeacms/volto-grid-block": [
-                "addons/volto-object-widget/src"
+                "addons/volto-grid-block/src"
             ],
             "@eeacms/volto-slate-footnote": [
                 "addons/volto-slate-footnote/src"
+            ],
+            "@eeacms/volto-object-widget": [
+                "addons/volto-object-widget/src"
             ]
         }
     }

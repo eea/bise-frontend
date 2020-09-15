@@ -58,7 +58,7 @@
   "volto-object-widget": {
     "url": "https://github.com/eea/volto-object-widget.git",
     "path": "src",
-    "package": "@eeacms/volto-grid-block"
+    "package": "@eeacms/volto-object-widget"
   },
   "volto-slate-footnote": {
     "url": "https://github.com/eea/volto-slate-footnote.git",
