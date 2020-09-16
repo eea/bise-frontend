@@ -25,7 +25,8 @@
   },
   "volto-plotlycharts": {
     "url": "https://github.com/eea/volto-plotlycharts.git",
-    "path": "src"
+    "path": "src",
+    "branch": "categorical_colors"
   },
   "volto-sidebar": {
     "url": "https://github.com/eea/volto-sidebar.git",
@@ -37,7 +38,8 @@
   },
   "volto-corsproxy": {
     "url": "https://github.com/eea/volto-corsproxy.git",
-    "path": "src"
+    "path": "src",
+    "package": "@eeacms/volto-corsproxy"
   },
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",

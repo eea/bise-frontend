@@ -25,7 +25,7 @@
     "volto-plotlycharts",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-grid-block",
-    "volto-corsproxy"
+    "@eeacms/volto-corsproxy"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
