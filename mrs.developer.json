@@ -70,5 +70,9 @@
     "url": "https://github.com/eea/volto-slate-footnote.git",
     "path": "src",
     "package": "@eeacms/volto-slate-footnote"
+  },
+  "volto-dropdownmenu": {
+    "url": "https://github.com/collective/volto-dropdownmenu.git",
+    "path": "src"
   }
 }

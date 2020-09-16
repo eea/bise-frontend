@@ -49,6 +49,9 @@
             ],
             "@eeacms/volto-corsproxy": [
                 "addons/volto-corsproxy/src"
+            ],
+            "volto-dropdownmenu": [
+                "addons/volto-dropdownmenu/src"
             ]
         }
     }
