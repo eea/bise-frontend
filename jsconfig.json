@@ -1,52 +1,23 @@
 {
-    "compilerOptions": {
-        "baseUrl": "src",
-        "paths": {
-            "volto-bise": [
-                "addons/volto-bise/src"
-            ],
-            "volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "volto-blocks": [
-                "addons/volto-blocks/src"
-            ],
-            "volto-addons": [
-                "addons/volto-addons/src"
-            ],
-            "volto-ckeditor": [
-                "addons/volto-ckeditor/src"
-            ],
-            "volto-drafteditor": [
-                "addons/volto-drafteditor/src"
-            ],
-            "volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "volto-sidebar": [
-                "addons/volto-sidebar/src"
-            ],
-            "volto-base": [
-                "addons/volto-base/src"
-            ],
-            "volto-embed": [
-                "addons/volto-embed/src"
-            ],
-            "volto-slate": [
-                "addons/volto-slate/src"
-            ],
-            "@eeacms/volto-tabs-block": [
-                "addons/volto-tabsblock/src"
-            ],
-            "@eeacms/volto-grid-block": [
-                "addons/volto-grid-block/src"
-            ],
-            "@eeacms/volto-slate-footnote": [
-                "addons/volto-slate-footnote/src"
-            ],
-            "@eeacms/volto-object-widget": [
-                "addons/volto-object-widget/src"
-            ]
-        }
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "volto-bise": ["addons/volto-bise/src"],
+      "volto-datablocks": ["addons/volto-datablocks/src"],
+      "volto-blocks": ["addons/volto-blocks/src"],
+      "volto-addons": ["addons/volto-addons/src"],
+      "volto-ckeditor": ["addons/volto-ckeditor/src"],
+      "volto-drafteditor": ["addons/volto-drafteditor/src"],
+      "volto-plotlycharts": ["addons/volto-plotlycharts/src"],
+      "volto-sidebar": ["addons/volto-sidebar/src"],
+      "volto-base": ["addons/volto-base/src"],
+      "volto-embed": ["addons/volto-embed/src"],
+      "volto-slate": ["addons/volto-slate/src"],
+      "@eeacms/volto-tabs-block": ["addons/volto-tabsblock/src"],
+      "@eeacms/volto-grid-block": ["addons/volto-grid-block/src"],
+      "@eeacms/volto-slate-footnote": ["addons/volto-slate-footnote/src"],
+      "@eeacms/volto-object-widget": ["addons/volto-object-widget/src"],
+      "volto-corsproxy": ["addons/volto-corsproxy/src"]
     }
+  }
 }

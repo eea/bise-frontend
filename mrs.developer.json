@@ -35,6 +35,10 @@
     "url": "https://github.com/eea/volto-base.git",
     "path": "src"
   },
+  "volto-corsproxy": {
+    "url": "https://github.com/eea/volto-corsproxy.git",
+    "path": "src"
+  },
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",
     "path": "src",

@@ -24,7 +24,8 @@
     "volto-datablocks",
     "volto-plotlycharts",
     "@eeacms/volto-slate-footnote",
-    "@eeacms/volto-grid-block"
+    "@eeacms/volto-grid-block",
+    "volto-corsproxy"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -65,7 +66,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#7.14.2-beta.2",
+    "@plone/volto": "github:eea/volto#7.15.1-beta.3",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
