@@ -12,6 +12,7 @@
     "src/addons/volto-plotlycharts",
     "src/addons/volto-grid-block",
     "src/addons/volto-object-widget",
+    "src/addons/volto-columns-block",
     "src/addons/volto-slate-footnote"
   ],
   "addons": [
@@ -25,7 +26,8 @@
     "volto-plotlycharts",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-grid-block",
-    "@eeacms/volto-corsproxy"
+    "@eeacms/volto-corsproxy",
+    "@eeacms/volto-columns-block"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",

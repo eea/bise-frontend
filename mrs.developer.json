@@ -74,5 +74,10 @@
   "volto-dropdownmenu": {
     "url": "https://github.com/collective/volto-dropdownmenu.git",
     "path": "src"
+  },
+  "volto-columns-block": {
+    "url": "https://github.com/eea/volto-columns-block.git",
+    "path": "src",
+    "package": "@eeacms/volto-columns-block"
   }
 }

@@ -52,6 +52,9 @@
             ],
             "volto-dropdownmenu": [
                 "addons/volto-dropdownmenu/src"
+            ],
+            "@eeacms/volto-columns-block": [
+                "addons/volto-columns-block/src"
             ]
         }
     }

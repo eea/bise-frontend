@@ -2089,9 +2089,9 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#7.15.1-beta.3":
+"@plone/volto@github:eea/volto#7.15.1-beta.4":
   version "7.15.0"
-  resolved "https://codeload.github.com/eea/volto/tar.gz/50c1eb071bd2bcfce9ea9255e03c25eaa2f9fdd8"
+  resolved "https://codeload.github.com/eea/volto/tar.gz/15a798e35dbee47a96d01f368df44dc1bea3b440"
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/plugin-proposal-decorators" "7.8.3"
