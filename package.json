@@ -10,7 +10,6 @@
     "src/addons/volto-slate",
     "src/addons/volto-datablocks",
     "src/addons/volto-plotlycharts",
-    "src/addons/volto-grid-block",
     "src/addons/volto-object-widget",
     "src/addons/volto-columns-block",
     "src/addons/volto-slate-footnote"
@@ -25,7 +24,6 @@
     "volto-datablocks",
     "volto-plotlycharts",
     "@eeacms/volto-slate-footnote",
-    "@eeacms/volto-grid-block",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block"
   ],
@@ -68,7 +66,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#7.15.1-beta.4",
+    "@plone/volto": "github:eea/volto#8.0.0-beta.10",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
