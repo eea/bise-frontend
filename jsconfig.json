@@ -55,6 +55,9 @@
             ],
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
             ]
         }
     }

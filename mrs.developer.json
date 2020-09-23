@@ -79,5 +79,10 @@
     "url": "https://github.com/eea/volto-columns-block.git",
     "path": "src",
     "package": "@eeacms/volto-columns-block"
+  },
+  "volto-slate-dataentity": {
+    "url": "https://github.com/tiberiuichim/volto-slate-dataentity.git",
+    "path": "src",
+    "package": "@eeacms/volto-slate-dataentity"
   }
 }
