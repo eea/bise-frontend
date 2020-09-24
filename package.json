@@ -12,7 +12,8 @@
     "src/addons/volto-plotlycharts",
     "src/addons/volto-object-widget",
     "src/addons/volto-columns-block",
-    "src/addons/volto-slate-footnote"
+    "src/addons/volto-slate-footnote",
+    "src/addons/volto-searchkit"
   ],
   "addons": [
     "volto-addons:installImageSlides",
@@ -26,7 +27,8 @@
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
-    "@eeacms/volto-slate-dataentity"
+    "@eeacms/volto-slate-dataentity",
+    "volto-searchkit"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",

@@ -7,6 +7,10 @@
     "url": "https://github.com/eea/volto-datablocks.git",
     "path": "src"
   },
+  "volto-searchkit": {
+    "url": "https://github.com/eea/volto-searchkit.git",
+    "path": "src"
+  },
   "volto-blocks": {
     "url": "https://github.com/eea/volto-blocks.git",
     "path": "src"

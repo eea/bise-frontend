@@ -58,6 +58,9 @@
             ],
             "@eeacms/volto-slate-dataentity": [
                 "addons/volto-slate-dataentity/src"
+            ],
+            "volto-searchkit": [
+                "addons/volto-searchkit/src"
             ]
         }
     }
