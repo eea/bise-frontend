@@ -84,8 +84,14 @@
     "path": "src",
     "package": "@eeacms/volto-columns-block"
   },
+  "volto-blocks-form": {
+    "url": "https://github.com/eea/volto-blocks-form.git",
+    "path": "src",
+    "branch": "refactor_form",
+    "package": "@eeacms/volto-blocks-form"
+  },
   "volto-slate-dataentity": {
-    "url": "https://github.com/tiberiuichim/volto-slate-dataentity.git",
+    "url": "https://github.com/eea/volto-slate-dataentity.git",
     "path": "src",
     "package": "@eeacms/volto-slate-dataentity"
   }

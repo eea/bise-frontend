@@ -61,6 +61,9 @@
             ],
             "volto-searchkit": [
                 "addons/volto-searchkit/src"
+            ],
+            "@eeacms/volto-blocks-form": [
+                "addons/volto-blocks-form/src"
             ]
         }
     }
