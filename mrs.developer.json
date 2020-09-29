@@ -94,5 +94,10 @@
     "url": "https://github.com/eea/volto-slate-dataentity.git",
     "path": "src",
     "package": "@eeacms/volto-slate-dataentity"
+  },
+  "volto-webmap": {
+    "url": "https://github.com/eea/volto-webmap.git",
+    "path": "src",
+    "package": "@eeacms/volto-webmap"
   }
 }

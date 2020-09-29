@@ -64,6 +64,9 @@
             ],
             "@eeacms/volto-blocks-form": [
                 "addons/volto-blocks-form/src"
+            ],
+            "@eeacms/volto-webmap": [
+                "addons/volto-webmap/src"
             ]
         }
     }
