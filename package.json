@@ -13,7 +13,8 @@
     "src/addons/volto-object-widget",
     "src/addons/volto-columns-block",
     "src/addons/volto-slate-footnote",
-    "src/addons/volto-searchkit"
+    "src/addons/volto-searchkit",
+    "src/addons/volto-block-style"
   ],
   "addons": [
     "volto-addons:installImageSlides",
@@ -29,7 +30,8 @@
     "@eeacms/volto-columns-block",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-webmap",
-    "volto-searchkit"
+    "volto-searchkit",
+    "@eeacms/volto-block-style:installDemoStyles"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",

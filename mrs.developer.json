@@ -30,7 +30,7 @@
   "volto-plotlycharts": {
     "url": "https://github.com/eea/volto-plotlycharts.git",
     "path": "src",
-    "branch": "categorical_colors"
+    "branch": "master"
   },
   "volto-sidebar": {
     "url": "https://github.com/eea/volto-sidebar.git",
@@ -99,5 +99,10 @@
     "url": "https://github.com/eea/volto-webmap.git",
     "path": "src",
     "package": "@eeacms/volto-webmap"
+  },
+  "volto-block-style": {
+    "url": "https://github.com/eea/volto-block-style.git",
+    "path": "src",
+    "package": "@eeacms/volto-block-style"
   }
 }
