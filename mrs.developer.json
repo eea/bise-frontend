@@ -104,5 +104,10 @@
     "url": "https://github.com/eea/volto-block-style.git",
     "path": "src",
     "package": "@eeacms/volto-block-style"
+  },
+  "volto-block-divider": {
+    "url": "https://github.com/eea/volto-block-divider.git",
+    "path": "src",
+    "package": "@eeacms/volto-block-divider"
   }
 }
