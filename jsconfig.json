@@ -73,6 +73,9 @@
             ],
             "@eeacms/volto-block-divider": [
                 "addons/volto-block-divider/src"
+            ],
+            "@eeacms/volto-block-toc": [
+                "addons/volto-block-toc/src"
             ]
         }
     }
