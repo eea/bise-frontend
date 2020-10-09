@@ -87,7 +87,6 @@
   "volto-blocks-form": {
     "url": "https://github.com/eea/volto-blocks-form.git",
     "path": "src",
-    "branch": "refactor_form",
     "package": "@eeacms/volto-blocks-form"
   },
   "volto-slate-dataentity": {
