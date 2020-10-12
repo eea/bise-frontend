@@ -76,7 +76,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#8.0.0-beta.11",
+    "@plone/volto": "github:eea/volto#8.2.6-beta.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
