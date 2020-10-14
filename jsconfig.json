@@ -76,6 +76,9 @@
             ],
             "@eeacms/volto-block-toc": [
                 "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-taxonomy": [
+                "addons/volto-taxonomy/src"
             ]
         }
     }

@@ -35,7 +35,8 @@
     "@eeacms/volto-block-divider",
     "volto-searchkit",
     "@eeacms/volto-block-toc",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-taxonomy"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",

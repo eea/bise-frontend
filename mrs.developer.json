@@ -113,5 +113,10 @@
     "url": "https://github.com/eea/volto-block-toc.git",
     "path": "src",
     "package": "@eeacms/volto-block-toc"
+  },
+  "volto-taxonomy": {
+    "url": "https://github.com/tiberiuichim/volto-taxonomy.git",
+    "path": "src",
+    "package": "@eeacms/volto-taxonomy"
   }
 }
