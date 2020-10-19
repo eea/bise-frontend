@@ -11,34 +11,10 @@
     "url": "https://github.com/eea/volto-searchkit.git",
     "path": "src"
   },
-  "volto-blocks": {
-    "url": "https://github.com/eea/volto-blocks.git",
-    "path": "src"
-  },
-  "volto-addons": {
-    "url": "https://github.com/eea/volto-addons.git",
-    "path": "src"
-  },
-  "volto-ckeditor": {
-    "url": "https://github.com/eea/volto-ckeditor.git",
-    "path": "src"
-  },
-  "volto-drafteditor": {
-    "url": "https://github.com/eea/volto-drafteditor.git",
-    "path": "src"
-  },
   "volto-plotlycharts": {
     "url": "https://github.com/eea/volto-plotlycharts.git",
     "path": "src",
     "branch": "master"
-  },
-  "volto-sidebar": {
-    "url": "https://github.com/eea/volto-sidebar.git",
-    "path": "src"
-  },
-  "volto-base": {
-    "url": "https://github.com/eea/volto-base.git",
-    "path": "src"
   },
   "volto-corsproxy": {
     "url": "https://github.com/eea/volto-corsproxy.git",

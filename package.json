@@ -6,7 +6,6 @@
   "private": "true",
   "workspaces": [
     "src/addons/volto-bise",
-    "src/addons/volto-addons",
     "src/addons/volto-slate",
     "src/addons/volto-datablocks",
     "src/addons/volto-plotlycharts",
@@ -14,11 +13,10 @@
     "src/addons/volto-object-widget",
     "src/addons/volto-columns-block",
     "src/addons/volto-slate-footnote",
-    "src/addons/volto-searchkit",
-    "src/addons/volto-block-style"
+    "src/addons/volto-block-style",
+    "src/addons/volto-webmap"
   ],
   "addons": [
-    "volto-addons:installImageSlides",
     "volto-slate:asDefault",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-tabs-block",
@@ -33,7 +31,6 @@
     "@eeacms/volto-webmap",
     "@eeacms/volto-grid-block",
     "@eeacms/volto-block-divider",
-    "volto-searchkit",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-style",
     "@eeacms/volto-taxonomy"

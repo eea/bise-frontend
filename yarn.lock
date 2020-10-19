@@ -1304,11 +1304,6 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bundled-es-modules/pdfjs-dist@2.1.266-rc":
-  version "2.1.266-rc"
-  resolved "https://registry.yarnpkg.com/@bundled-es-modules/pdfjs-dist/-/pdfjs-dist-2.1.266-rc.tgz#d77562dcec57b94f9533e1a774b30a3880fd583b"
-  integrity sha512-idli/i9GA7hUW8uRIs2Y48m5QHKRv3PaVxlM1VEoOuzWoF2qLdtOepOpIy3BTblakDNt2f/gINPN7X/v9DBKoQ==
-
 "@choojs/findup@^0.2.0":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@choojs/findup/-/findup-0.2.1.tgz#ac13c59ae7be6e1da64de0779a0a7f03d75615a3"
@@ -6983,11 +6978,6 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-dompurify@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.0.12.tgz#284a2b041e1c60b8e72d7b4d2fadad36141254ae"
-  integrity sha512-Fl8KseK1imyhErHypFPA8qpq9gPzlsJ/EukA6yk9o0gX23p1TzC+rh9LqNg1qvErRTc0UNMYlKxEGSfSh43NDg==
-
 domutils@1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
@@ -7048,13 +7038,6 @@ double-bits@^1.1.0, double-bits@^1.1.1:
   resolved "https://registry.yarnpkg.com/double-bits/-/double-bits-1.1.1.tgz#58abba45494da4d0fa36b73ad11a286c9184b1c6"
   integrity sha1-WKu6RUlNpND6Nrc60RoobJGEscY=
 
-draft-js-alignment-plugin@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/draft-js-alignment-plugin/-/draft-js-alignment-plugin-2.0.6.tgz#92c53e3bf4d714d9c6add347f29d7212d262e4e3"
-  integrity sha512-sHHrQFrqBa2l17UBMOlshGXdMuQhCne3vmLjGhRfcIGxNZNtaR15BTBd63k5V4s09RSSRR/AL3ldJK8t1cKqjA==
-  dependencies:
-    draft-js-buttons "^2.0.1"
-
 draft-js-block-breakout-plugin@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/draft-js-block-breakout-plugin/-/draft-js-block-breakout-plugin-2.0.1.tgz#a38e3bd68d9538d7af15d4d966844d6e6d2ad850"
@@ -7069,14 +7052,6 @@ draft-js-buttons@2.0.2, draft-js-buttons@^2.0.1:
   dependencies:
     clsx "^1.0.4"
 
-draft-js-focus-plugin@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/draft-js-focus-plugin/-/draft-js-focus-plugin-3.0.1.tgz#235a2b80362ba65b6132f540ca1b2932a3eb19e9"
-  integrity sha512-FuU7dpJ6a6FD0DJTuX31fai2nQcr+itGlCGzS1HXMsBw2pD4+V1QC1RdVCSUKhfuvm1UI/jHN5jILYWsnb3fMQ==
-  dependencies:
-    clsx "^1.0.4"
-    immutable "~3.7.4"
-
 draft-js-import-element@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/draft-js-import-element/-/draft-js-import-element-1.4.0.tgz#8760acbfeb60ed824a1c8319ec049f702681df66"
@@ -7085,14 +7060,14 @@ draft-js-import-element@^1.4.0:
     draft-js-utils "^1.4.0"
     synthetic-dom "^1.4.0"
 
-draft-js-import-html@1.4.1, draft-js-import-html@^1.3.3, draft-js-import-html@^1.4.1:
+draft-js-import-html@1.4.1, draft-js-import-html@^1.3.3:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/draft-js-import-html/-/draft-js-import-html-1.4.1.tgz#c222a3a40ab27dee5874fcf78526b64734fe6ea4"
   integrity sha512-KOZmtgxZriCDgg5Smr3Y09TjubvXe7rHPy/2fuLSsL+aSzwUDwH/aHDA/k47U+WfpmL4qgyg4oZhqx9TYJV0tg==
   dependencies:
     draft-js-import-element "^1.4.0"
 
-draft-js-inline-toolbar-plugin@2.0.3, draft-js-inline-toolbar-plugin@^2.0.3:
+draft-js-inline-toolbar-plugin@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/draft-js-inline-toolbar-plugin/-/draft-js-inline-toolbar-plugin-2.0.3.tgz#f07e6b3a27ec39044896c65c7c13f3e068488fcc"
   integrity sha512-7OD7iaImu/NwBdJmv0/nmP4H4oUhjO10iFcUmDPJlmdc43icoNHABTk4/oUpn7xrunrj2GHxFexsgSEfpOTFlQ==
@@ -7103,14 +7078,6 @@ draft-js-inline-toolbar-plugin@2.0.3, draft-js-inline-toolbar-plugin@^2.0.3:
     immutable "~3.7.4"
     prop-types "^15.5.8"
     union-class-names "^1.0.0"
-
-draft-js-modifiers@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/draft-js-modifiers/-/draft-js-modifiers-0.2.2.tgz#ff715450a04aea86b84993b0e51eea7c25a2591d"
-  integrity sha512-64zeY74S4um+NO5HI66scZAX6fufdpZlr6htI3ttvNkTw5Jx/3r7+ETKJ/PTnGWtzUTC7TVkeF6mP7oqtUBUQw==
-  dependencies:
-    draft-js "~0.10.5"
-    immutable "~3.7.4"
 
 draft-js-plugins-editor@2.1.1:
   version "2.1.1"
@@ -7123,37 +7090,17 @@ draft-js-plugins-editor@2.1.1:
     prop-types "^15.5.8"
     union-class-names "^1.0.0"
 
-draft-js-plugins-editor@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/draft-js-plugins-editor/-/draft-js-plugins-editor-3.0.0.tgz#196d1e065e2c29faebaab4ec081b734fdef294a2"
-  integrity sha512-bFEL0FUIPg9VK3KSeBZ3D+uMqQEVe4Cv7++LWCMASRH02jy6x2f87NRxSZLzTQES5+oL6Qg+OEUlaTn409145A==
-  dependencies:
-    immutable "~3.7.4"
-    prop-types "^15.5.8"
-
 draft-js-plugins-utils@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/draft-js-plugins-utils/-/draft-js-plugins-utils-2.0.3.tgz#ba76c780bd097e05c4a4a02dfb2f72d1e238ab07"
   integrity sha512-MjSIRjaCbSANjE0Fmg3wh4NsVF5y89AkrGxsJLOkMrPS0ZGymK1YHaqIelrBJt+6Kr46ALtHQieaOFxEbqbrdg==
-
-draft-js-resizeable-plugin@^2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/draft-js-resizeable-plugin/-/draft-js-resizeable-plugin-2.0.9.tgz#fd78f4b8f4729dd585fe032ee066edbc526599f8"
-  integrity sha512-hInVpzSt7VK0M+j81BAfEk1S1fGo2sse+KZT8nXu7zTebdUGhJWwBjIMztYuY/NQSq+h+5MqKY40aZ6DkZ1R9w==
 
 draft-js-utils@^1.2.0, draft-js-utils@^1.3.3, draft-js-utils@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/draft-js-utils/-/draft-js-utils-1.4.0.tgz#c60af198108f69b0f1df3572555b23836819d1cf"
   integrity sha512-8s9FFuKC+lOWGwJ0b3om2PF+uXrqQPaEQlPJI7UxdzxTYGMeKouMPA9+YlPn52zcAVElIZtd2tXj6eQmvlKelw==
 
-draft-js-video-plugin@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/draft-js-video-plugin/-/draft-js-video-plugin-2.0.2.tgz#59cd581d4df5edc62e83e7195c2d37a0f31df2b9"
-  integrity sha512-mp6OCyVahsRNTjz5saZvDEqJIycyYk+6uRYq7Dv2aAzAYjY8rOVBv8x7DBEFUefWe9Lh0PgGg7tVgchD2ZbT3Q==
-  dependencies:
-    prop-types "^15.5.8"
-
-draft-js@0.10.5, draft-js@~0.10.5:
+draft-js@0.10.5:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.10.5.tgz#bfa9beb018fe0533dbb08d6675c371a6b08fa742"
   integrity sha512-LE6jSCV9nkPhfVX2ggcRLA4FKs6zWq9ceuO/88BpXdNCS7mjRTgs0NsV6piUCJX9YxMsB9An33wnkMmU2sD2Zg==
@@ -7911,10 +7858,10 @@ esrever@^0.2.0:
   resolved "https://registry.yarnpkg.com/esrever/-/esrever-0.2.0.tgz#96e9d28f4f1b1a76784cd5d490eaae010e7407b8"
   integrity sha1-lunSj08bGnZ4TNXUkOquAQ50B7g=
 
-esri-loader@^2.14.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/esri-loader/-/esri-loader-2.15.0.tgz#c1b47082075c172b2f564ac933448834c2e8703a"
-  integrity sha512-n5LtVQaLURxhQMK0dc/GSfpnC//h3OhV9YkPAqHc3mO3aYkmJ+t8pVkboI2dDTWGKuCbp8MYmR400cZVkuyHmw==
+esri-loader@2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/esri-loader/-/esri-loader-2.16.0.tgz#995c83f2ae93bdae0e64b36bb821d29dc56c039d"
+  integrity sha512-0lneVO6aizdRFt1mbrOsRgbF/F1v4LBUwKg+kfiBmoGJPf2ATFI/OimBlfeDI6J1rEQiWHi1PsALFCF4yRf2mw==
 
 estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.3.0"
@@ -10104,11 +10051,6 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
-
-highlight-words-core@^1.2.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/highlight-words-core/-/highlight-words-core-1.2.2.tgz#1eff6d7d9f0a22f155042a00791237791b1eeaaa"
-  integrity sha512-BXUKIkUuh6cmmxzi5OIbUJxrG8OAk2MqoL1DtO3Wo9D2faJg2ph5ntyuQeLqaHJmzER6H5tllCDA9ZnNe9BVGg==
 
 history@4.10.1, history@^4.9.0:
   version "4.10.1"
@@ -13314,11 +13256,6 @@ mem@^4.0.0:
     map-age-cleaner "^0.1.1"
     mimic-fn "^2.0.0"
     p-is-promise "^2.0.0"
-
-memoize-one@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-4.1.0.tgz#a2387c58c03fff27ca390c31b764a79addf3f906"
-  integrity sha512-2GApq0yI/b22J2j9rhbrAlsHb0Qcz+7yWxeLG8h+95sl1XPUgeLimQSOdur4Vw7cUhrBHwaUZxWFZueojqNRzA==
 
 memoize-one@^5.0.0, memoize-one@^5.1.1:
   version "5.1.1"
@@ -17086,15 +17023,6 @@ react-fast-compare@2.0.4:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-highlight-words@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/react-highlight-words/-/react-highlight-words-0.16.0.tgz#4b4b9824e3d2b98789d3e3b3aedb5e961ae1b7cf"
-  integrity sha512-q34TwCSJOL+5pVDv6LUj3amaoyXdNDwd7zRqVAvceOrO9g1haWLAglK6WkGLMNUa3PFN8EgGedLg/k8Gpndxqg==
-  dependencies:
-    highlight-words-core "^1.2.0"
-    memoize-one "^4.0.0"
-    prop-types "^15.5.8"
-
 react-image-gallery@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-1.0.7.tgz#75e0d3f995d1475762f80f5a6958b4a9bb88bf97"
@@ -17114,19 +17042,6 @@ react-image-gallery@^0.9.1:
   integrity sha512-J0ZDp12QwcHxK/De//Cx0lXvkPk2bL2voNm6xmZItCZ5TWTKJyNAa9U/iOtfi/RKJEpSLsTb2kP/4Lr5wgkJZA==
   dependencies:
     lodash.debounce "^4.0.8"
-    lodash.throttle "^4.1.1"
-    prop-types "^15.5.8"
-    react-swipeable "^5.2.0"
-    resize-observer-polyfill "^1.5.0"
-
-react-image-gallery@^1.0.7:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-1.0.8.tgz#a628d2500b9a0a97854b02f21588f3d14febcda2"
-  integrity sha512-kxS+fUCdq8HerN9JvWnzzg8YdPouwbSgVzXxCzxI7ZcAcvDCr/XKxGjqSQ5Ue8DeUEglsAcNJDOdoLygyNgOwA==
-  dependencies:
-    clsx "^1.0.4"
-    lodash.debounce "^4.0.8"
-    lodash.isequal "^4.5.0"
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
     react-swipeable "^5.2.0"
@@ -17186,7 +17101,7 @@ react-is@^16.12.0, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-i
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-lazy-load-image-component@^1.4.0, react-lazy-load-image-component@^1.4.3:
+react-lazy-load-image-component@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/react-lazy-load-image-component/-/react-lazy-load-image-component-1.5.0.tgz#48939f86cb262b93b345c6fa6322f75ede55160d"
   integrity sha512-dAvuueTq0FNjswHEII8tcd0FRRHZgPoIdVhE1fcAfCdqY7LZ37IHd0xWb2c6rCl+dsSm9Z4AloEffM8JYPxTlA==
@@ -17228,13 +17143,6 @@ react-outside-click-handler@^1.2.4:
     document.contains "^1.0.1"
     object.values "^1.1.0"
     prop-types "^15.7.2"
-
-react-pdf-js@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/react-pdf-js/-/react-pdf-js-5.1.0.tgz#58d6858cb31c596fb0d69e37bf7f7c4ad93170cf"
-  integrity sha512-l/norbM4BocUJcD0o46b5U4XWTZI1FN1+wfhosPKGy0cJ3T7Ck7GGfr3KXsH5ljc8lyifZPMAm6Rvsbe8OzBbQ==
-  dependencies:
-    "@bundled-es-modules/pdfjs-dist" "2.1.266-rc"
 
 react-plotly.js@^2.3.0, react-plotly.js@^2.4.0:
   version "2.4.0"
@@ -17745,7 +17653,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redraft@0.10.2, redraft@^0.10.2:
+redraft@0.10.2:
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/redraft/-/redraft-0.10.2.tgz#e8cbc477bb65cebe2231257199262cbd555db19e"
   integrity sha512-yy5EcJogY+2MlfBu6uwxQ0r5KzWra9lZRfHpG9czGoxOw8k8woHlVD1LlT1hp/n0zLNLvaIJ9EKE1NgcYgfI+A==
