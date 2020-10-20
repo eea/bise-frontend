@@ -33,6 +33,8 @@
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-style",
+    "@eeacms/volto-slate-metadata-mentions",
+    "@eeacms/volto-widgets-view",
     "@eeacms/volto-taxonomy"
   ],
   "scripts": {

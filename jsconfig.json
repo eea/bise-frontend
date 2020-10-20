@@ -79,6 +79,12 @@
             ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
+            ],
+            "@eeacms/volto-slate-metadata-mentions": [
+                "addons/volto-slate-metadata-mentions/src"
+            ],
+            "@eeacms/volto-widgets-view": [
+                "addons/volto-widgets-view/src"
             ]
         }
     }

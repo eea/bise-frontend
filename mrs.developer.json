@@ -70,6 +70,16 @@
     "path": "src",
     "package": "@eeacms/volto-slate-dataentity"
   },
+  "volto-slate-metadata-mentions": {
+    "url": "https://github.com/eea/volto-slate-metadata-mentions.git",
+    "path": "src",
+    "package": "@eeacms/volto-slate-metadata-mentions"
+  },
+  "volto-widgets-view": {
+    "url": "https://github.com/eea/volto-widgets-view.git",
+    "path": "src",
+    "package": "@eeacms/volto-widgets-view"
+  },
   "volto-webmap": {
     "url": "https://github.com/eea/volto-webmap.git",
     "path": "src",
