@@ -85,6 +85,9 @@
             ],
             "@eeacms/volto-widgets-view": [
                 "addons/volto-widgets-view/src"
+            ],
+            "@eeacms/volto-matomo": [
+                "addons/volto-matomo/src"
             ]
         }
     }
