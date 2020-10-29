@@ -14,7 +14,8 @@
     "src/addons/volto-columns-block",
     "src/addons/volto-slate-footnote",
     "src/addons/volto-block-style",
-    "src/addons/volto-webmap"
+    "src/addons/volto-webmap",
+    "src/addons/volto-matomo"
   ],
   "addons": [
     "volto-slate:asDefault",
@@ -77,7 +78,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#8.7.1-eea-beta1",
+    "@plone/volto": "github:eea/volto#8.7.1-eea-beta.2",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
