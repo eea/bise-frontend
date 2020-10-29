@@ -20,7 +20,6 @@
   "addons": [
     "volto-slate:asDefault",
     "@eeacms/volto-object-widget",
-    "@eeacms/volto-tabs-block",
     "volto-embed",
     "volto-datablocks",
     "volto-plotlycharts",
