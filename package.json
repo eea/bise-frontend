@@ -32,10 +32,11 @@
     "@eeacms/volto-grid-block",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
-    "@eeacms/volto-block-style",
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-taxonomy",
+    "@eeacms/volto-middleware-rdf",
+    "@eeacms/volto-block-style",
     "@eeacms/volto-matomo"
   ],
   "scripts": {
@@ -77,7 +78,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#8.7.1-eea-beta.2",
+    "@plone/volto": "github:eea/volto#8.7.1-eea-beta.3",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",

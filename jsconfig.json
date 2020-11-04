@@ -88,6 +88,9 @@
             ],
             "@eeacms/volto-matomo": [
                 "addons/volto-matomo/src"
+            ],
+            "@eeacms/volto-middleware-rdf": [
+                "addons/volto-middleware-rdf/src"
             ]
         }
     }

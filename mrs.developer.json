@@ -109,5 +109,10 @@
     "url": "https://github.com/eea/volto-matomo.git",
     "path": "src",
     "package": "@eeacms/volto-matomo"
+  },
+  "volto-middleware-rdf": {
+    "url": "https://github.com/eea/volto-middleware-rdf.git",
+    "path": "src",
+    "package": "@eeacms/volto-middleware-rdf"
   }
 }
