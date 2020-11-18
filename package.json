@@ -92,10 +92,6 @@
     "react-stickynode": "^2.1.1",
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
-    "stylelint": "13.3.3",
-    "stylelint-config-idiomatic-order": "8.1.0",
-    "stylelint-config-prettier": "8.0.1",
-    "stylelint-prettier": "1.1.2",
     "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
@@ -157,6 +153,41 @@
     "globals": {
       "__DEV__": true
     }
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.overrides",
+        "options": {
+          "parser": "less"
+        }
+      }
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-idiomatic-order"
+    ],
+    "plugins": [
+      "stylelint-prettier"
+    ],
+    "rules": {
+      "prettier/prettier": true,
+      "rule-empty-line-before": [
+        "always-multi-line",
+        {
+          "except": [
+            "first-nested"
+          ],
+          "ignore": [
+            "after-comment"
+          ]
+        }
+      ]
+    },
+    "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
   "engines": {
     "node": "^10 || ^12"
