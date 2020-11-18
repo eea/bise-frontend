@@ -1,1 +1,1 @@
-eeacms/bise-frontend:4.0-0.96
+eeacms/bise-frontend:4.0-1.02

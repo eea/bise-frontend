@@ -14,7 +14,8 @@
     "src/addons/volto-slate-footnote",
     "src/addons/volto-block-style",
     "src/addons/volto-webmap",
-    "src/addons/volto-matomo"
+    "src/addons/volto-matomo",
+    "src/addons/volto-blocks-form"
   ],
   "addons": [
     "volto-slate:asDefault",
@@ -34,8 +35,9 @@
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-taxonomy",
     "@eeacms/volto-middleware-rdf",
-    "@eeacms/volto-block-style",
-    "@eeacms/volto-matomo"
+    "@eeacms/volto-matomo",
+    "@eeacms/volto-blocks-form",
+    "@eeacms/volto-block-style"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
