@@ -15,6 +15,7 @@
     "src/addons/volto-block-style",
     "src/addons/volto-webmap",
     "src/addons/volto-matomo",
+    "src/addons/volto-searchkit",
     "src/addons/volto-blocks-form"
   ],
   "addons": [
@@ -36,6 +37,7 @@
     "@eeacms/volto-taxonomy",
     "@eeacms/volto-middleware-rdf",
     "@eeacms/volto-matomo",
+    "volto-searchkit",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-block-style"
   ],
@@ -155,41 +157,6 @@
     "globals": {
       "__DEV__": true
     }
-  },
-  "prettier": {
-    "trailingComma": "all",
-    "singleQuote": true,
-    "overrides": [
-      {
-        "files": "*.overrides",
-        "options": {
-          "parser": "less"
-        }
-      }
-    ]
-  },
-  "stylelint": {
-    "extends": [
-      "stylelint-config-idiomatic-order"
-    ],
-    "plugins": [
-      "stylelint-prettier"
-    ],
-    "rules": {
-      "prettier/prettier": true,
-      "rule-empty-line-before": [
-        "always-multi-line",
-        {
-          "except": [
-            "first-nested"
-          ],
-          "ignore": [
-            "after-comment"
-          ]
-        }
-      ]
-    },
-    "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
   "engines": {
     "node": "^10 || ^12"
