@@ -106,8 +106,7 @@
     "@babel/preset-env": "7.12.1",
     "babel-loader": "8.1.0",
     "babel-preset-react-app": "10.0.0",
-    "jsonlint": "1.6.3",
-    "razzle-plugin-scss": "3.3.7"
+    "jsonlint": "1.6.3"
   },
   "optimizeLiftPackages": [
     "immutable",
