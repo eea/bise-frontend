@@ -91,6 +91,9 @@
             ],
             "@eeacms/volto-middleware-rdf": [
                 "addons/volto-middleware-rdf/src"
+            ],
+            "volto-blocks-form": [
+                "addons/volto-blocks-form/src"
             ]
         }
     }

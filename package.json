@@ -63,8 +63,9 @@
     "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx}'",
     "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx}'",
     "omelette": "ln -sf node_modules/@plone/volto/ omelette",
+    "stylelint:patches": "patch -p0 -N node_modules/stylelint/lib/getPostcssResult.js < patches/fixstylelint.patch || true",
     "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
-    "postinstall": "yarn omelette",
+    "postinstall": "yarn omelette; yarn patches",
     "preinstallxxx": "if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi",
     "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
     "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
@@ -80,7 +81,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#8.7.1-eea-beta.3",
+    "@plone/volto": "github:eea/volto#kitchen_sink_v9",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
@@ -95,7 +96,6 @@
     "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
-    "@babel/core": "7.12.3",
     "@babel/plugin-proposal-do-expressions": "7.12.1",
     "@babel/plugin-proposal-export-default-from": "7.12.1",
     "@babel/plugin-proposal-function-bind": "7.12.1",
@@ -106,7 +106,8 @@
     "@babel/preset-env": "7.12.1",
     "babel-loader": "8.1.0",
     "babel-preset-react-app": "10.0.0",
-    "jsonlint": "1.6.3"
+    "jsonlint": "1.6.3",
+    "razzle-plugin-scss": "3.3.7"
   },
   "optimizeLiftPackages": [
     "immutable",
@@ -196,7 +197,8 @@
     ">1%",
     "last 4 versions",
     "Firefox ESR",
-    "not ie < 9"
+    "not ie 11",
+    "not dead"
   ],
   "bundlesize": [
     {
