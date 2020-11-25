@@ -2036,9 +2036,9 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#9.1-eea-beta0":
-  version "9.1.0"
-  resolved "https://codeload.github.com/eea/volto/tar.gz/a73a655281a935b226b08508ff25abcc665f7e14"
+"@plone/volto@eea/volto#kitchen_sink_v10":
+  version "9.2.0"
+  resolved "https://codeload.github.com/eea/volto/tar.gz/7d4fb9780bfde58e4da1dabe72826251a70bc300"
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
