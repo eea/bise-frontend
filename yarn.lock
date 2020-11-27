@@ -1365,6 +1365,11 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
+"@eeacms/volto-sentry-rancher-config@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-1.0.1.tgz#4f0a71073a2b17f8e105182f4a5bd542dfa1ee20"
+  integrity sha512-5/Rm+q7l802f5pw9ici7H7Ei8GvtPieSgbIDP49HVpjpqw8ShD1JkVXBOTtXOp1/VA7S3cUyWGPkZabh6Q5JKA==
+
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
   resolved "https://registry.yarnpkg.com/@emotion/babel-utils/-/babel-utils-0.6.10.tgz#83dbf3dfa933fae9fc566e54fbb45f14674c6ccc"
