@@ -3,6 +3,11 @@
     "url": "https://github.com/eea/volto-bise.git",
     "path": "src"
   },
+  "volto-n2k": {
+    "url": "https://github.com/eea/volto-n2k.git",
+    "path": "src",
+    "package": "@eeacms/volto-n2k"
+  },
   "volto-datablocks": {
     "url": "https://github.com/eea/volto-datablocks.git",
     "path": "src"

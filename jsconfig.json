@@ -5,6 +5,9 @@
             "volto-bise": [
                 "addons/volto-bise/src"
             ],
+            "volto-n2k": [
+                "addons/volto-n2k/src"
+            ],
             "volto-datablocks": [
                 "addons/volto-datablocks/src"
             ],
@@ -91,6 +94,9 @@
             ],
             "@eeacms/volto-middleware-rdf": [
                 "addons/volto-middleware-rdf/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
             ]
         }
     }

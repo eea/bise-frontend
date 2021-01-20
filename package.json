@@ -6,6 +6,7 @@
   "private": "true",
   "workspaces": [
     "src/addons/volto-bise",
+    "src/addons/volto-n2k",
     "src/addons/volto-slate",
     "src/addons/volto-datablocks",
     "src/addons/volto-plotlycharts",
@@ -28,6 +29,7 @@
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
     "volto-bise",
+    "@eeacms/volto-n2k",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-webmap",
     "@eeacms/volto-block-divider",
