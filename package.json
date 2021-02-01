@@ -84,7 +84,7 @@
   },
   "dependencies": {
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
-    "@plone/volto": "plone/volto#10.7.0",
+    "@plone/volto": "plone/volto#11.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
