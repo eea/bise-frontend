@@ -94,7 +94,6 @@ ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN git clone https://github.com/collective/mrs-developer.git \
   && cd mrs-developer \
-  && git checkout optional_develop \
   && yalc publish
 
 RUN cd /opt/frontend
