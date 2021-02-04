@@ -61,7 +61,7 @@ To produce the critical CSS based on a website that is not `localhost` install a
 ```shell
 $ npm i -g @plone/critical-css-cli
 $ cd path/to/bise/frontend/dir
-$ critical-cli https://demo-biodiversity.eea.europa.eu/ -o public/critical.css -d 767x1100,990x1100,1655x1100
+$ critical-cli https://biodiversity.europa.eu/ -o public/critical.css -d 767x1100,990x1100,1655x1100
 ```
 
 The resolutions are selected based on the viewport size stats of EEA and on
