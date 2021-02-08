@@ -91,7 +91,7 @@
     "@eeacms/volto-webmap": "github:eea/volto-webmap#master",
     "@eeacms/volto-widgets-view": "1.0.3",
     "@plone/volto": "plone/volto#11.0.0",
-    "mrs-developer": "file:.yalc/mrs-developer",
+    "mrs-developer": "1.6.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
