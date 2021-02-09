@@ -1,1 +1,1 @@
-tiberiuichim/bise-frontend:4.0-1.23
+tiberiuichim/bise-frontend:4.0-1.27
