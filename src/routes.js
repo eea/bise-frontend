@@ -14,8 +14,8 @@ import { addonRoutes } from '~/config';
  */
 const routes = [
   {
-    path: '/n2k/sites/:site_code',
-    realPathname: '/n2k/sites/site',
+    path: '/natura2000/sites/:site_code',
+    realPathname: '/natura2000/sites/site',
     theme: 'n2k',
     component: FakeLocation,
     renderComponent: App,
@@ -25,14 +25,14 @@ const routes = [
       ...defaultRoutes.map((route) => ({
         ...route,
         ...(route.path === '/**' ? { path: route.path + '/:site_code' } : {}),
-        realPathname: '/n2k/sites/site',
+        realPathname: '/natura2000/sites/site',
         component: FakeLocation,
         renderComponent: route.component,
       })),
     ],
   },
   {
-    path: '/n2k',
+    path: '/natura2000',
     theme: 'n2k',
     component: App, // Change this if you want a different component
     routes: [

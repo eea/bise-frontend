@@ -23,7 +23,7 @@ import {
 
 export const settings = {
   ...defaultSettings,
-  ignoreRouterParams: ['site'],
+  ignoreRouteParams: ['site'],
 };
 
 export const views = {
