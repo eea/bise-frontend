@@ -8,7 +8,7 @@
     "url": "https://github.com/eea/volto-n2k.git",
     "path": "src",
     "package": "@eeacms/volto-n2k",
-    "develop": false
+    "develop": true
   },
   "volto-datablocks": {
     "url": "https://github.com/eea/volto-datablocks.git",

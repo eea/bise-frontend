@@ -24,7 +24,6 @@ import {
 export const settings = {
   ...defaultSettings,
   ignoreRouterParams: ['site'],
-  // nonContentRoutes: [...defaultSettings.nonContentRoutes, '/n2k/sites/.*'],
 };
 
 export const views = {
