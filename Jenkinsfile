@@ -3,7 +3,6 @@ pipeline {
 
   environment {
     GIT_NAME="bise-frontend"
-    BRANCH_NAME="develop"
     NAMESPACE = "@eeacms"
     registry = "eeacms/bise-frontend"
     template = "templates/volto-bise"
