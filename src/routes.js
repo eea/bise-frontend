@@ -25,6 +25,7 @@ const routes = [
       ...defaultRoutes.map((route) => ({
         ...route,
         ...(route.path === '/**' ? { path: route.path + '/:site_code' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:site_code/edit' } : {}),
         realPathname: '/natura2000/sites/site',
         component: FakeLocation,
         renderComponent: route.component,
