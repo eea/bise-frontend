@@ -1,4 +1,4 @@
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto.eea.europa.eu/bise-frontend/develop&subject=pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto.eea.europa.eu/job/bise-frontend/job/develop/display/redirect)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/bise-frontend/master&subject=pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/bise-frontend/job/master/display/redirect)
 [![Release](https://img.shields.io/github/v/release/eea/bise-frontend?sort=semver)](https://github.com/eea/bise-frontend/releases)
 
 ## Documentation
