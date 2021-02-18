@@ -16,7 +16,7 @@ const routes = [
   {
     path: '/natura2000/sites/c/:site_code',
     realPathname: '/natura2000/sites/site',
-    theme: 'natura2000',
+    theme: 'n2k',
     component: FakeLocation,
     renderComponent: App,
     routes: [
@@ -34,7 +34,7 @@ const routes = [
   },
   {
     path: '/natura2000',
-    theme: 'natura2000',
+    theme: 'n2k',
     component: App, // Change this if you want a different component
     routes: [
       // Add your routes here
