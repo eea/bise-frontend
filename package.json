@@ -16,6 +16,7 @@
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
+    "@eeacms/volto-columns-tabs-block",
     "@eeacms/volto-n2k",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-webmap",

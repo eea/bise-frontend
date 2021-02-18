@@ -77,7 +77,13 @@
     "url": "https://github.com/eea/volto-columns-block.git",
     "path": "src",
     "package": "@eeacms/volto-columns-block",
-    "develop": false
+    "develop": true
+  },
+  "volto-columns-tabs-block": {
+    "url": "https://github.com/eea/volto-columns-tabs-block.git",
+    "path": "src",
+    "package": "@eeacms/volto-columns-tabs-block",
+    "develop": true
   },
   "volto-blocks-form": {
     "url": "https://github.com/eea/volto-blocks-form.git",

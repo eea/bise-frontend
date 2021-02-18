@@ -14,9 +14,9 @@ import { addonRoutes } from '~/config';
  */
 const routes = [
   {
-    path: '/natura2000/sites/:site_code',
+    path: '/natura2000/sites/c/:site_code',
     realPathname: '/natura2000/sites/site',
-    theme: 'n2k',
+    theme: 'natura2000',
     component: FakeLocation,
     renderComponent: App,
     routes: [
@@ -34,7 +34,7 @@ const routes = [
   },
   {
     path: '/natura2000',
-    theme: 'n2k',
+    theme: 'natura2000',
     component: App, // Change this if you want a different component
     routes: [
       // Add your routes here
