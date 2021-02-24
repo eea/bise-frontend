@@ -13,6 +13,7 @@
   "volto-datablocks": {
     "url": "https://github.com/eea/volto-datablocks.git",
     "path": "src",
+    "branch": "develop",
     "develop": true
   },
   "volto-searchkit": {
