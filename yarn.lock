@@ -13586,8 +13586,10 @@ mri@^1.1.0, mri@^1.1.4:
   resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.5.tgz#ce21dba2c69f74a9b7cf8a1ec62307e089e223e0"
   integrity sha512-d2RKzMD4JNyHMbnbWnznPaa8vbdlq/4pNZ3IgdaGrVbBhebBsGUUE/6qorTMYNS6TwuH3ilfOlD2bf4Igh8CKg==
 
-"mrs-developer@file:.yalc/mrs-developer":
-  version "1.5.0-52669dbb"
+mrs-developer@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/mrs-developer/-/mrs-developer-1.6.0.tgz#e6b312a96c7700ccd74aacf59009705a6479e49d"
+  integrity sha512-vfH88uLyy8i4egoCaPuzbxlK/PNJtT5ibWyziROMfEOo48Dbrr5H+EE6h9OAjIzp/xdwKjsl/wV24Sp7IQ/7Bw==
   dependencies:
     colors "^1.4.0"
     simple-git "^1.132.0"
@@ -21267,6 +21269,12 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+"volto-embed@github:eea/volto-embed#1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/eea/volto-embed/tar.gz/82a2708510eddce42599c10bb6c3a0401d2facf6"
+  dependencies:
+    react-visibility-sensor "5.1.1"
 
 volto-slate@1.0.7:
   version "1.0.7"
