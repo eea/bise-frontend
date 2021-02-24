@@ -35,8 +35,7 @@
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",
     "path": "src",
-    "branch": "generic_protection_wrapper",
-    "develop": true
+    "develop": false
   },
   "volto-slate": {
     "url": "https://github.com/eea/volto-slate.git",
