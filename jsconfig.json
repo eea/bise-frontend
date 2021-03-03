@@ -17,9 +17,6 @@
             "@eeacms/volto-n2k": [
                 "addons/volto-n2k/src"
             ],
-            "@eeacms/volto-columns-block": [
-                "addons/volto-columns-block/src"
-            ],
             "@eeacms/volto-columns-tabs-block": [
                 "addons/volto-columns-tabs-block/src"
             ]
