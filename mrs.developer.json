@@ -48,7 +48,7 @@
     "url": "https://github.com/eea/volto-block-image-cards.git",
     "path": "src",
     "package": "@eeacms/volto-block-image-cards",
-    "develop": true,
+    "develop": false,
     "branch": "12.x"
   },
   "volto-object-widget": {
@@ -73,7 +73,7 @@
     "url": "https://github.com/eea/volto-columns-tabs-block.git",
     "path": "src",
     "package": "@eeacms/volto-columns-tabs-block",
-    "develop": true
+    "develop": false
   },
   "volto-block-divider": {
     "url": "https://github.com/eea/volto-block-divider.git",
@@ -132,11 +132,11 @@
     "url": "https://github.com/eea/volto-n2k.git",
     "path": "src",
     "package": "@eeacms/volto-n2k",
-    "develop": true
+    "develop": false
   },
   "volto-bise": {
     "url": "https://github.com/eea/volto-bise.git",
     "path": "src",
-    "develop": true
+    "develop": false
   }
 }

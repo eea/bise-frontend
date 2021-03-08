@@ -7,32 +7,6 @@
   "workspaces": [
     "src/addons/*"
   ],
-  "addons": [
-    "volto-slate:asDefault",
-    "volto-datablocks",
-    "volto-plotlycharts",
-    "@eeacms/volto-taxonomy",
-    "@eeacms/volto-webmap",
-    "@eeacms/volto-middleware-rdf",
-    "@eeacms/volto-matomo",
-    "@eeacms/volto-slate-dataentity",
-    "@eeacms/volto-block-image-cards",
-    "@eeacms/volto-object-widget",
-    "@eeacms/volto-corsproxy",
-    "@eeacms/volto-columns-block",
-    "@eeacms/volto-columns-tabs-block",
-    "@eeacms/volto-block-divider",
-    "@eeacms/volto-block-style",
-    "@eeacms/volto-block-toc",
-    "@eeacms/volto-slate-footnote",
-    "@eeacms/volto-slate-metadata-mentions",
-    "@eeacms/volto-widgets-view",
-    "@eeacms/volto-blocks-form",
-    "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-n2k",
-    "volto-searchkit",
-    "volto-bise"
-  ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
     "build": "razzle build",
@@ -71,6 +45,32 @@
     "test": "razzle test --env=jsdom",
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
+  "addons": [
+    "volto-slate:asDefault",
+    "volto-datablocks",
+    "volto-plotlycharts",
+    "@eeacms/volto-taxonomy",
+    "@eeacms/volto-webmap",
+    "@eeacms/volto-middleware-rdf",
+    "@eeacms/volto-matomo",
+    "@eeacms/volto-slate-dataentity",
+    "@eeacms/volto-block-image-cards",
+    "@eeacms/volto-object-widget",
+    "@eeacms/volto-corsproxy",
+    "@eeacms/volto-columns-block",
+    "@eeacms/volto-columns-tabs-block",
+    "@eeacms/volto-block-divider",
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-block-toc",
+    "@eeacms/volto-slate-footnote",
+    "@eeacms/volto-slate-metadata-mentions",
+    "@eeacms/volto-widgets-view",
+    "@eeacms/volto-blocks-form",
+    "@eeacms/volto-sentry-rancher-config",
+    "@eeacms/volto-n2k",
+    "volto-searchkit",
+    "volto-bise"
+  ],
   "dependencies": {
     "volto-datablocks": "eea/volto-datablocks#master",
     "volto-plotlycharts": "eea/volto-plotlycharts#master",
@@ -83,7 +83,7 @@
     "@eeacms/volto-object-widget": "2.0.0",
     "@eeacms/volto-corsproxy": "2.0.0",
     "@eeacms/volto-columns-block": "2.0.0",
-    "@eeacms/volto-columns-tabs-block": "eea/volto-n2k#master",
+    "@eeacms/volto-columns-tabs-block": "eea/volto-columns-tabs-block#12.x",
     "@eeacms/volto-block-divider": "2.0.0",
     "@eeacms/volto-block-style": "2.0.0",
     "@eeacms/volto-block-toc": "2.0.0",
@@ -98,8 +98,8 @@
     "volto-slate": "2.0.1"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "3.1.3",
     "mrs-developer": "1.6.0",
+    "eslint-plugin-prettier": "3.1.3",
     "prettier": "2.0.5",
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
@@ -179,7 +179,7 @@
     },
     "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
-  "browserslist": [
+    "browserslist": [
     ">1%",
     "last 4 versions",
     "Firefox ESR",
