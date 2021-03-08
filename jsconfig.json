@@ -3,6 +3,9 @@
         "paths": {
             "volto-searchkit": [
                 "addons/volto-searchkit/src"
+            ],
+            "@eeacms/volto-columns-tabs-block": [
+                "addons/volto-columns-tabs-block/src"
             ]
         },
         "baseUrl": "src"
