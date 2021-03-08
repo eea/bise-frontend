@@ -4,8 +4,14 @@
             "volto-searchkit": [
                 "addons/volto-searchkit/src"
             ],
+            "volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
             "@eeacms/volto-columns-tabs-block": [
                 "addons/volto-columns-tabs-block/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
             ]
         },
         "baseUrl": "src"

@@ -12,7 +12,7 @@
   "volto-plotlycharts": {
     "url": "https://github.com/eea/volto-plotlycharts.git",
     "path": "src",
-    "develop": false
+    "develop": true
   },
   "volto-taxonomy": {
     "url": "https://github.com/eea/volto-taxonomy.git",
@@ -73,8 +73,8 @@
     "url": "https://github.com/eea/volto-columns-tabs-block.git",
     "path": "src",
     "package": "@eeacms/volto-columns-tabs-block",
-    "branch": "12.x",
-    "develop": true
+    "develop": true,
+    "branch": "12.x"
   },
   "volto-block-divider": {
     "url": "https://github.com/eea/volto-block-divider.git",
@@ -133,7 +133,7 @@
     "url": "https://github.com/eea/volto-n2k.git",
     "path": "src",
     "package": "@eeacms/volto-n2k",
-    "develop": false
+    "develop": true
   },
   "volto-bise": {
     "url": "https://github.com/eea/volto-bise.git",
