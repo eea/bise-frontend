@@ -72,15 +72,11 @@
     "volto-searchkit"
   ],
   "dependencies": {
-    "volto-datablocks": "eea/volto-datablocks#master",
     "@eeacms/volto-taxonomy": "eea/volto-taxonomy#master",
     "@eeacms/volto-webmap": "eea/volto-webmap#master",
     "@eeacms/volto-middleware-rdf": "eea/volto-middleware-rdf#master",
     "@eeacms/volto-slate-dataentity": "eea/volto-slate-dataentity#master",
     "@eeacms/volto-block-image-cards": "eea/volto-block-image-cards#12.x",
-    "@eeacms/volto-columns-tabs-block": "eea/volto-columns-tabs-block#12.x",
-    "@eeacms/volto-n2k": "eea/volto-n2k#master",
-    "volto-bise": "eea/volto-bise#master",
     "@eeacms/volto-matomo": "2.0.0",
     "@eeacms/volto-object-widget": "2.0.0",
     "@eeacms/volto-corsproxy": "2.0.0",

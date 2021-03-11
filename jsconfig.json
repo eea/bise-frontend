@@ -7,6 +7,12 @@
             "volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
             ],
+            "volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "volto-bise": [
+                "addons/volto-bise/src"
+            ],
             "@eeacms/volto-columns-tabs-block": [
                 "addons/volto-columns-tabs-block/src"
             ],
