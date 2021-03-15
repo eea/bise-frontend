@@ -73,7 +73,6 @@
     "url": "https://github.com/eea/volto-columns-tabs-block.git",
     "path": "src",
     "package": "@eeacms/volto-columns-tabs-block",
-    "branch": "12.x",
     "develop": true
   },
   "volto-block-divider": {
@@ -86,7 +85,8 @@
     "url": "https://github.com/eea/volto-block-style.git",
     "path": "src",
     "package": "@eeacms/volto-block-style",
-    "develop": false
+    "branch": "css-widget",
+    "develop": true
   },
   "volto-block-toc": {
     "url": "https://github.com/eea/volto-block-toc.git",
