@@ -138,5 +138,10 @@
     "url": "https://github.com/eea/volto-bise.git",
     "path": "src",
     "develop": true
+  },
+  "volto-slate": {
+    "url": "https://github.com/eea/volto-slate.git",
+    "path": "src",
+    "develop": true
   }
 }
