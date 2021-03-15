@@ -13,6 +13,9 @@
             "volto-bise": [
                 "addons/volto-bise/src"
             ],
+            "volto-slate": [
+                "addons/volto-slate/src"
+            ],
             "@eeacms/volto-columns-tabs-block": [
                 "addons/volto-columns-tabs-block/src"
             ],
