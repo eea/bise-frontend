@@ -1,3 +1,6 @@
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/bise-frontend/master&subject=pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/bise-frontend/job/master/display/redirect)
+[![Release](https://img.shields.io/github/v/release/eea/bise-frontend?sort=semver)](https://github.com/eea/bise-frontend/releases)
+
 ## Documentation
 
 A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
