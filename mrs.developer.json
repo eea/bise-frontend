@@ -85,7 +85,7 @@
     "url": "https://github.com/eea/volto-block-style.git",
     "path": "src",
     "package": "@eeacms/volto-block-style",
-    "branch": "css-widget",
+    "branch": "master",
     "develop": true
   },
   "volto-block-toc": {
