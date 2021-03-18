@@ -54,8 +54,6 @@
     "@eeacms/volto-middleware-rdf",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-block-image-cards",
-    "@eeacms/volto-n2k",
-    "volto-bise",
     "@eeacms/volto-matomo",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-corsproxy",
@@ -69,6 +67,8 @@
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
+    "@eeacms/volto-n2k",
+    "volto-bise",
     "volto-searchkit"
   ],
   "dependencies": {
