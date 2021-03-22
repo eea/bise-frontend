@@ -3,7 +3,13 @@
 
 ## Documentation
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+The Volto project for 25bff536947122c6ffe09895da0ea8bd1b1a2b91
+
+## Releases
+
+See https://github.com/eea/eea.docker.plone.bise for details.
+
+To create a new release in this repo, run `env GITHUB_TOKEN=... release-it`
 
 ## Quick Start
 
