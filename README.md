@@ -3,7 +3,7 @@
 
 ## Documentation
 
-The Volto project for 25bff536947122c6ffe09895da0ea8bd1b1a2b91
+The Volto project for https://biodiversity.europa.eu/
 
 ## Releases
 
