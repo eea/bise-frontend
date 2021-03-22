@@ -2,7 +2,11 @@
   "name": "bise-frontend",
   "description": "Frontend server for BISE",
   "license": "MIT",
+<<<<<<< Updated upstream
   "version": "1.29.8",
+=======
+  "version": "1.29.7",
+>>>>>>> Stashed changes
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -58,18 +62,18 @@
     "@eeacms/volto-object-widget",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
-    "@eeacms/volto-columns-tabs-block",
+    "@eeacms/volto-tabs-block",
     "@eeacms/volto-block-divider",
-    "@eeacms/volto-block-style",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
+    "volto-searchkit",
     "@eeacms/volto-n2k",
     "volto-bise",
-    "volto-searchkit"
+    "@eeacms/volto-block-style"
   ],
   "dependencies": {
     "@eeacms/volto-taxonomy": "eea/volto-taxonomy#master",

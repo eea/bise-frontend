@@ -16,8 +16,11 @@
             "volto-slate": [
                 "addons/volto-slate/src"
             ],
-            "@eeacms/volto-columns-tabs-block": [
-                "addons/volto-columns-tabs-block/src"
+            "@eeacms/volto-columns-block": [
+                "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
             ],
             "@eeacms/volto-block-style": [
                 "addons/volto-block-style/src"

@@ -67,12 +67,14 @@
     "url": "https://github.com/eea/volto-columns-block.git",
     "path": "src",
     "package": "@eeacms/volto-columns-block",
-    "develop": false
+    "branch": "develop",
+    "develop": true
   },
-  "volto-columns-tabs-block": {
-    "url": "https://github.com/eea/volto-columns-tabs-block.git",
+  "volto-tabs-block": {
+    "url": "https://github.com/eea/volto-tabs-block.git",
     "path": "src",
-    "package": "@eeacms/volto-columns-tabs-block",
+    "package": "@eeacms/volto-tabs-block",
+    "branch": "master",
     "develop": true
   },
   "volto-block-divider": {
