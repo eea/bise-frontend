@@ -70,6 +70,12 @@
     "branch": "develop",
     "develop": true
   },
+  "volto-columns-tabs-block": {
+    "url": "https://github.com/eea/volto-columns-tabs-block.git",
+    "path": "src",
+    "package": "@eeacms/volto-columns-tabs-block",
+    "develop": true
+  },
   "volto-tabs-block": {
     "url": "https://github.com/eea/volto-tabs-block.git",
     "path": "src",

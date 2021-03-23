@@ -69,7 +69,8 @@
     "volto-searchkit",
     "@eeacms/volto-n2k",
     "volto-bise",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-columns-tabs-block"
   ],
   "dependencies": {
     "@eeacms/volto-taxonomy": "eea/volto-taxonomy#master",
