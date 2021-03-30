@@ -16,6 +16,12 @@
             "volto-slate": [
                 "addons/volto-slate/src"
             ],
+            "@eeacms/volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "@eeacms/volto-object-widget": [
+                "addons/volto-object-widget/src"
+            ],
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
             ],

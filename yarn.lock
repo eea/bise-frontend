@@ -1200,7 +1200,7 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-object-widget@^2.0.0", "@eeacms/volto-object-widget@eea/volto-object-widget":
+"@eeacms/volto-object-widget@eea/volto-object-widget":
   version "2.1.0"
   resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/59eee3c2b65b0d5f911eca0f59169c2687df33f8"
 
@@ -1904,10 +1904,10 @@
   dependencies:
     "@octokit/openapi-types" "^5.3.1"
 
-"@plone/volto@12.2.0":
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.2.0.tgz#64be6d72e09b082261c91d4bd27602b4094efcd6"
-  integrity sha512-FSEm3tmXPc4+1Sik/aHbwEUrh5FwYqXiJwll31kZQhNU7wiK389TMIxKjXrEfmng84nmu9ucPy2h14NlTYEDHw==
+"@plone/volto@12.4.0":
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.4.0.tgz#cc4452203b94cf15347d09492d4b6ff5f7046a49"
+  integrity sha512-elo/nogNrayHLO8ZDvrCaDmZSqL03XhxhaElsI7WtMnkoxUBLtAqDBKl8nCHWNk2R5J0csDmuxAIqpw/KijJig==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"

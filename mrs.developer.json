@@ -48,14 +48,14 @@
     "url": "https://github.com/eea/volto-block-image-cards.git",
     "path": "src",
     "package": "@eeacms/volto-block-image-cards",
-    "develop": false,
+    "develop": true,
     "branch": "12.x"
   },
   "volto-object-widget": {
     "url": "https://github.com/eea/volto-object-widget.git",
     "path": "src",
     "package": "@eeacms/volto-object-widget",
-    "develop": false
+    "develop": true
   },
   "volto-corsproxy": {
     "url": "https://github.com/eea/volto-corsproxy.git",
