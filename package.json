@@ -58,7 +58,6 @@
     "@eeacms/volto-object-widget",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
-    "@eeacms/volto-tabs-block",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-slate-footnote",
@@ -70,6 +69,7 @@
     "@eeacms/volto-n2k",
     "volto-bise",
     "@eeacms/volto-block-style",
+    "@eeacms/volto-tabs-block",
     "@eeacms/volto-columns-tabs-block"
   ],
   "dependencies": {
