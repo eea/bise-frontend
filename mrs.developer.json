@@ -42,14 +42,14 @@
     "url": "https://github.com/eea/volto-slate-dataentity.git",
     "path": "src",
     "package": "@eeacms/volto-slate-dataentity",
-    "develop": false
+    "develop": true
   },
   "volto-block-image-cards": {
     "url": "https://github.com/eea/volto-block-image-cards.git",
     "path": "src",
     "package": "@eeacms/volto-block-image-cards",
-    "develop": true,
-    "branch": "12.x"
+    "branch": "12.x",
+    "develop": true
   },
   "volto-object-widget": {
     "url": "https://github.com/eea/volto-object-widget.git",

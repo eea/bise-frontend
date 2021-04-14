@@ -16,6 +16,9 @@
             "volto-slate": [
                 "addons/volto-slate/src"
             ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
             "@eeacms/volto-block-image-cards": [
                 "addons/volto-block-image-cards/src"
             ],
