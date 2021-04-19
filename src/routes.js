@@ -7,6 +7,7 @@ import { App } from '@plone/volto/components';
 import FakeLocation from '~/FakeLocation';
 import { defaultRoutes } from '@plone/volto/routes';
 import config from '@plone/volto/registry';
+import { Sitemap } from '@eeacms/volto-n2k/components';
 
 /**
  * Routes array.
@@ -103,6 +104,10 @@ const routes = [
     routes: [
       // Add your routes here
       // addon routes have a higher priority then default routes
+      {
+        path: '/natura2000/sitemap',
+        component: Sitemap,
+      },
       ...(config.addonRoutes || []),
       ...defaultRoutes,
     ],

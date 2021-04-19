@@ -1955,10 +1955,10 @@
   dependencies:
     "@octokit/openapi-types" "^6.0.0"
 
-"@plone/volto@12.7.0":
-  version "12.7.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.7.0.tgz#141db52ba76422d7fb3903766edd4e7ea835ea3d"
-  integrity sha512-lxw49ZZJSq5ksjYxKAtyv+/TgEYWy7uyF625x42gxNeH0SexvXw82fbtQMCcysi7aSxwg8LWbhnRKVKP/yV1Og==
+"@plone/volto@12.10.1":
+  version "12.10.1"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.10.1.tgz#3ec8c6730f5efa0370903a4554b2979edacf7602"
+  integrity sha512-2z15Kgo6VuARNE9N2zkN6dgTAt2W1fStVuQQUQVmt6Qhcnh02vAqWfzyXouW3xdU1eO6ao4+ErwruEupp05ocQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2050,7 +2050,7 @@
     prismjs "1.23.0"
     promise-file-reader "1.0.2"
     prop-types "15.7.2"
-    query-string "4.1.0"
+    query-string "7.0.0"
     razzle "3.3.7"
     razzle-plugin-bundle-analyzer "1.2.0"
     rc-time-picker "3.7.3"
@@ -16294,12 +16294,15 @@ quat-slerp@^1.0.0:
   dependencies:
     gl-quat "^1.0.0"
 
-query-string@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.1.0.tgz#a092273bcef2dddad4a2f0d4e1796701beb35a23"
-  integrity sha1-oJInO87y3drUovDU4XlnAb6zWiM=
+query-string@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-7.0.0.tgz#aaad2c8d5c6a6d0c6afada877fecbd56af79e609"
+  integrity sha512-Iy7moLybliR5ZgrK/1R3vjrXq03S13Vz4Rbm5Jg3EFq1LUmQppto0qtXz4vqZ386MSRjZgnTSZ9QC+NZOSd/XA==
   dependencies:
-    strict-uri-encode "^1.0.0"
+    decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
 
 query-string@^4.1.0:
   version "4.3.4"
