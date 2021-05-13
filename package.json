@@ -89,7 +89,7 @@
     "@eeacms/volto-blocks-form": "2.0.0",
     "@eeacms/volto-sentry-rancher-config": "2.0.0",
     "@plone/volto": "12.10.1",
-    "volto-slate": "2.0.1"
+    "volto-slate": "2.4.3"
   },
   "devDependencies": {
     "mrs-developer": "1.6.0",
