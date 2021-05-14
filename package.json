@@ -82,7 +82,7 @@
     "@eeacms/volto-corsproxy": "2.1.1",
     "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-block-divider": "2.0.0",
-    "@eeacms/volto-block-toc": "2.0.0",
+    "@eeacms/volto-block-toc": "2.2.1",
     "@eeacms/volto-slate-footnote": "2.2.1",
     "@eeacms/volto-slate-metadata-mentions": "2.2.1",
     "@eeacms/volto-widgets-view": "2.0.0",
