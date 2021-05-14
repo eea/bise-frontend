@@ -85,7 +85,7 @@
     "@eeacms/volto-block-toc": "2.2.1",
     "@eeacms/volto-slate-footnote": "2.2.1",
     "@eeacms/volto-slate-metadata-mentions": "2.2.1",
-    "@eeacms/volto-widgets-view": "2.0.0",
+    "@eeacms/volto-widgets-view": "2.1.1",
     "@eeacms/volto-blocks-form": "2.0.0",
     "@eeacms/volto-sentry-rancher-config": "2.0.0",
     "@plone/volto": "12.10.1",
