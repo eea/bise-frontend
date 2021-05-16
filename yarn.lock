@@ -1955,10 +1955,10 @@
   dependencies:
     "@octokit/openapi-types" "^6.0.0"
 
-"@plone/volto@12.10.1":
-  version "12.10.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.10.1.tgz#3ec8c6730f5efa0370903a4554b2979edacf7602"
-  integrity sha512-2z15Kgo6VuARNE9N2zkN6dgTAt2W1fStVuQQUQVmt6Qhcnh02vAqWfzyXouW3xdU1eO6ao4+ErwruEupp05ocQ==
+"@plone/volto@12.14.2":
+  version "12.14.2"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.14.2.tgz#1a811cd105a18b4b691c864b23fa6bbcbc928aec"
+  integrity sha512-yoZX5Z6fPM0jG84nUE/voHk/QPfCQOZx0uBpl1dUdS+2yJDN7T1bMpQ+eTurqr888dIvR66LOrxlIkBrIrhnXg==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2060,6 +2060,7 @@
     react-beautiful-dnd "13.0.0"
     react-cookie "1.0.5"
     react-dates "21.5.1"
+    react-detect-click-outside "1.1.1"
     react-dnd "5.0.0"
     react-dnd-html5-backend "5.0.1"
     react-dom "16.14.0"
@@ -10244,6 +10245,11 @@ immer@^5.0.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-5.3.6.tgz#51eab8cbbeb13075fe2244250f221598818cac04"
   integrity sha512-pqWQ6ozVfNOUDjrLfm4Pt7q4Q12cGw2HUZgry4Q5+Myxu9nmHRkWBpI0J4+MK0AxbdFtdMTwEGVl7Vd+vEiK+A==
 
+immer@^7.0.0:
+  version "7.0.15"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.15.tgz#dc3bc6db87401659d2e737c67a21b227c484a4ad"
+  integrity sha512-yM7jo9+hvYgvdCQdqvhCNRRio0SCXc8xDPzA25SvKWa7b1WVPjLwQs1VYU5JPXjcJPTqAa5NP5dqpORGYBQ2AA==
+
 immutability-helper@^2.4.0:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/immutability-helper/-/immutability-helper-2.9.1.tgz#71c423ba387e67b6c6ceba0650572f2a2a6727df"
@@ -16737,6 +16743,11 @@ react-day-picker@^7.4.8:
   dependencies:
     prop-types "^15.6.2"
 
+react-detect-click-outside@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-detect-click-outside/-/react-detect-click-outside-1.1.1.tgz#3a3855639aeb19fb0d28524aac9f283e8ffd1542"
+  integrity sha512-1MqRw9+RaA3dF4zJePSngxBqXut/RgHajFLR91cTV7PRmQyCIrQAUtv979IhQoaoWhVM8rdSx9Eg4/vc/hcReQ==
+
 react-dev-utils@10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.0.tgz#b11cc48aa2be2502fb3c27a50d1dfa95cfa9dfe0"
@@ -18824,10 +18835,25 @@ slate-history@^0.59:
     immer "^5.0.0"
     is-plain-object "^3.0.0"
 
+slate-history@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.yarnpkg.com/slate-history/-/slate-history-0.62.0.tgz#facd2e1ef249f979ecc0d0811d280515877d9352"
+  integrity sha512-nE3fihtHV7kUrDO3zNb+DWzQVUg59uKCZVt0r9GafZLiHB98n0X+qqtcjFHerDPDRPkHgqM8UL4wh1jhL4WzmA==
+  dependencies:
+    immer "^7.0.0"
+    is-plain-object "^3.0.0"
+
 slate-hyperscript@^0.59:
   version "0.59.0"
   resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.59.0.tgz#3bab0c418854b3e26530064c142b8a64b87dc7a8"
   integrity sha512-HvZLA5RSAs27ZznD2r5sy2RP114K7+I/jOt3glFtQLFKEptxsIFTgTsEyxMhD6864tOPqs56m6IyA0tX/jhzjA==
+  dependencies:
+    is-plain-object "^3.0.0"
+
+slate-hyperscript@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.62.0.tgz#ff6f86e94936fbf90f8ec07d2ae8fbcd7e45a927"
+  integrity sha512-PbtxrrIr4qPvtPmKli4/FnvQFjf8zmnF0kyNeDQGHvUzpHnsoSYHM/i4POye3/qt5d8WGukiJBPL03QsIW+SIw==
   dependencies:
     is-plain-object "^3.0.0"
 
@@ -18849,6 +18875,20 @@ slate-react@^0.59:
     lodash "^4.17.4"
     scroll-into-view-if-needed "^2.2.20"
 
+slate-react@^0.62.0:
+  version "0.62.1"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.62.1.tgz#5246fd5adbb680c9b06f08229b72079dec46b755"
+  integrity sha512-D7Gx0JeNpfY9USiFR4CfEuvG5z0dND1W9wSSVLmTCzziGecYgAHvAZJz2vjDBGSF8+Xkw2gRslFo/v6OtXsc9A==
+  dependencies:
+    "@types/is-hotkey" "^0.1.1"
+    "@types/lodash" "^4.14.149"
+    direction "^1.0.3"
+    is-hotkey "^0.1.6"
+    is-plain-object "^3.0.0"
+    lodash "^4.17.4"
+    scroll-into-view-if-needed "^2.2.20"
+    tiny-invariant "1.0.6"
+
 slate@0.59.0, slate@^0.59:
   version "0.59.0"
   resolved "https://registry.yarnpkg.com/slate/-/slate-0.59.0.tgz#3169daf2f036e84aa149f60e0d12ef2fc4c0839e"
@@ -18858,6 +18898,18 @@ slate@0.59.0, slate@^0.59:
     esrever "^0.2.0"
     immer "^5.0.0"
     is-plain-object "^3.0.0"
+    tiny-warning "^1.0.3"
+
+slate@^0.62.0:
+  version "0.62.1"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.62.1.tgz#d17b174e9967f920dda23f77982b30582d9c68a7"
+  integrity sha512-zRY23L945B2gyxo7WvsZ4atbyBTTV4Ce1Ius3ZFyjUr13l3MjxSKHILS3UPqN17MnD/k5Zj87s1n7mdZSbAi0w==
+  dependencies:
+    "@types/esrever" "^0.2.0"
+    esrever "^0.2.0"
+    immer "^7.0.0"
+    is-plain-object "^3.0.0"
+    lodash "^4.17.4"
     tiny-warning "^1.0.3"
 
 slice-ansi@0.0.4:
@@ -20025,6 +20077,11 @@ tiny-emitter@^2.0.0:
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
+tiny-invariant@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.0.6.tgz#b3f9b38835e36a41c843a3b0907a5a7b3755de73"
+  integrity sha512-FOyLWWVjG+aC0UqG76V53yAWdXfH8bO6FNmyZOuUrzDzK8DI3/JRY25UD7+g49JWM1LXwymsKERB+DzI0dTEQA==
+
 tiny-invariant@^1.0.2, tiny-invariant@^1.0.6:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
@@ -21055,23 +21112,6 @@ volto-slate@1.0.7:
     slate-history "^0.59"
     slate-hyperscript "^0.59"
     slate-plain-serializer "0.7.13"
-    slate-react "^0.59"
-    weak-key "^1.0.2"
-
-volto-slate@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.0.1.tgz#22f811cada28e83440577d560658e09c987a3b67"
-  integrity sha512-LJCBBXiRfLvB5dntqiMWkGbHhVL8gqQ1ZA5yEiNR4Gu2J/6b3AXn1g+VJJv0MCok4peqW38OCwUHyrjbjDwgiA==
-  dependencies:
-    "@eeacms/volto-object-widget" "^2.0.0"
-    classnames "2.2.6"
-    image-extensions "1.1.0"
-    is-url "1.2.4"
-    jsdom "16.2.2"
-    react-visibility-sensor "5.1.1"
-    slate "^0.59"
-    slate-history "^0.59"
-    slate-hyperscript "^0.59"
     slate-react "^0.59"
     weak-key "^1.0.2"
 
