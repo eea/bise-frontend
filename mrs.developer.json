@@ -151,7 +151,7 @@
   "volto-slate": {
     "url": "https://github.com/eea/volto-slate.git",
     "path": "src",
-    "branch": "link_with_params",
+    "branch": "master",
     "develop": true
   }
 }
