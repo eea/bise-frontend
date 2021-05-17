@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Frontend server for BISE",
   "license": "MIT",
-  "version": "1.29.29",
+  "version": "1.29.30",
   "private": true,
   "workspaces": [
     "src/addons/*"
