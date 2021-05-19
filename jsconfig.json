@@ -25,6 +25,9 @@
             "@eeacms/volto-object-widget": [
                 "addons/volto-object-widget/src"
             ],
+            "@eeacms/volto-openlayers-map": [
+                "addons/volto-openlayers-map/src"
+            ],
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
             ],

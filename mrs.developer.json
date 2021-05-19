@@ -57,6 +57,12 @@
     "package": "@eeacms/volto-object-widget",
     "develop": true
   },
+  "volto-openlayers-map": {
+    "url": "https://github.com/eea/volto-openlayers-map.git",
+    "path": "src",
+    "package": "@eeacms/volto-openlayers-map",
+    "develop": true
+  },
   "volto-corsproxy": {
     "url": "https://github.com/eea/volto-corsproxy.git",
     "path": "src",

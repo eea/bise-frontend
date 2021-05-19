@@ -68,6 +68,7 @@
     "volto-searchkit",
     "@eeacms/volto-n2k",
     "volto-bise",
+    "@eeacms/volto-openlayers-map",
     "@eeacms/volto-block-style",
     "@eeacms/volto-tabs-block",
     "@eeacms/volto-columns-tabs-block"
