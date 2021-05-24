@@ -1133,6 +1133,16 @@
   dependencies:
     react-color "~2.18.1"
 
+"@eeacms/volto-block-image-cards@eea/volto-block-image-cards#12.x":
+  version "0.1.1"
+  resolved "https://codeload.github.com/eea/volto-block-image-cards/tar.gz/b524ee38e004dd5ff1602193079897425e79b249"
+  dependencies:
+    "@eeacms/volto-object-widget" eea/volto-object-widget
+    react-lazy-load-image-component "^1.4.0"
+    react-slick "^0.24.0"
+    slick-carousel "^1.8.1"
+    volto-slate "1.0.7"
+
 "@eeacms/volto-block-style@^2.1.0", "@eeacms/volto-block-style@^2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.5.1.tgz#c16077800e7943f644c460918296022e81475be6"
@@ -17232,6 +17242,11 @@ react-slick@^0.24.0:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-sticky-el@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/react-sticky-el/-/react-sticky-el-2.0.9.tgz#8cfd17f073c8c116d7c15d2a23156b5e8e372bd9"
+  integrity sha512-JFjFWlaB7gn5bszZlRQ/VKxK3zHiViJdn0EhQ/6WImun5Xbx3OMUX2rirr0QLSEo27dwvoSE4HkIFr30QAScfg==
 
 react-stickynode@^3.0.4:
   version "3.0.4"
