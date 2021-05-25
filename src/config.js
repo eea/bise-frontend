@@ -22,12 +22,12 @@ export default function applyConfig(config) {
     ...config.settings,
     sdf: [
       '/natura2000/sites/natura2000/:site_code',
-      '/natura2000/sites/cdda/:site_code',
-      '/natura2000/habitats/h/:code_2000',
-      '/natura2000/species/s/:id_eunis',
+      // '/natura2000/sites/cdda/:site_code',
+      // '/natura2000/habitats/h/:code_2000',
+      // '/natura2000/species/s/:id_eunis',
       '/natura2000/sites/site',
-      '/natura2000/sites/site_cdda',
-      '/natura2000/habitats/habitat',
+      // '/natura2000/sites/site_cdda',
+      // '/natura2000/habitats/habitat',
       // '/natura2000/species/species',
     ],
   };
