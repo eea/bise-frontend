@@ -1,1 +1,1 @@
-eeacms/bise-frontend:1.29.5
+eeacms/bise-frontend:latest
