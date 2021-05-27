@@ -84,7 +84,7 @@
     "@eeacms/volto-middleware-rdf": "eea/volto-middleware-rdf#master",
     "@eeacms/volto-object-widget": "2.2.1",
     "@eeacms/volto-sentry-rancher-config": "2.1.2",
-    "@eeacms/volto-slate-footnote": "2.2.1",
+    "@eeacms/volto-slate-footnote": "2.2.2",
     "@eeacms/volto-slate-metadata-mentions": "2.2.2",
     "@eeacms/volto-taxonomy": "eea/volto-taxonomy#master",
     "@eeacms/volto-webmap": "eea/volto-webmap#master",
