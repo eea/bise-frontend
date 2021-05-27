@@ -1,6 +1,7 @@
 # Based on https://github.com/plone/volto/blob/master/entrypoint.sh
-FROM node:14-stretch-slim
+FROM node:12-stretch-slim
 
+# Update apt packages
 RUN apt-get update && apt-get install -y git
 
 COPY . /opt/frontend/
@@ -8,6 +9,7 @@ RUN chown -R node /opt/frontend/
 RUN rm -rf /opt/frontend/src/addons/*
 
 WORKDIR /opt/frontend/
+
 RUN npm install -g mrs-developer
 USER node
 
