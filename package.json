@@ -76,7 +76,7 @@
   "dependencies": {
     "@eeacms/volto-block-divider": "2.1.3",
     "@eeacms/volto-block-image-cards": "eea/volto-block-image-cards#12.x",
-    "@eeacms/volto-block-toc": "2.2.1",
+    "@eeacms/volto-block-toc": "2.2.2",
     "@eeacms/volto-blocks-form": "2.0.0",
     "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-corsproxy": "2.1.1",
