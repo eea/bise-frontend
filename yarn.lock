@@ -1660,10 +1660,10 @@
   dependencies:
     volto-slate "^2.0.0"
 
-"@eeacms/volto-slate-metadata-mentions@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-2.2.1.tgz#22a888d3275569c63056ab97c85ca8837bc66bdd"
-  integrity sha512-Ahji7BvsmhN2+b58vORr5CcD5H+1cF7HuPRrfgL8xOTMPIybBcvQ0NhTvt6qgKDCIxxZ40/h1glpYQJkc964hQ==
+"@eeacms/volto-slate-metadata-mentions@2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-2.2.2.tgz#4da080b07df29feb74ff927c5c004826c43f605f"
+  integrity sha512-LQCkJK0EvPsxiE+kmi2m30yr59/StrLvdIMzuPP9riq5+EVJ9J4ykH/Yt60pCcGi/5Ex/gsvZHNC9SCXAsEyWA==
   dependencies:
     "@eeacms/volto-widgets-view" "^2.0.0"
     volto-slate "^2.0.0"
@@ -18772,7 +18772,7 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
-release-it@*:
+release-it@*, release-it@14.7.0:
   version "14.7.0"
   resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.7.0.tgz#57c63bee1ea668e5186f7fd018d88fbd01120ada"
   integrity sha512-g8z6BR7qsO1r0HtS4rquRU5PmwHrIZ5jYTuaaa1ZSLrh91Nm23PBpHR/0jsA549Qzujj4W/mkeskoAAIvHugWQ==

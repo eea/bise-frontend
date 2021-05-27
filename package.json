@@ -98,6 +98,7 @@
     "mrs-developer": "^1.6.0",
     "prettier": "2.0.5",
     "redux-devtools-extension": "2.13.9",
+    "release-it": "14.7.0",
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
