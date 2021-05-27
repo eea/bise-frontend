@@ -88,7 +88,7 @@
     "@eeacms/volto-slate-metadata-mentions": "2.2.2",
     "@eeacms/volto-taxonomy": "eea/volto-taxonomy#master",
     "@eeacms/volto-webmap": "eea/volto-webmap#master",
-    "@eeacms/volto-widgets-view": "2.1.1",
+    "@eeacms/volto-widgets-view": "2.1.2",
     "@plone/volto": "13.1.2",
     "connected-react-router": "6.9.1",
     "volto-slate": "2.5.0"
