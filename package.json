@@ -47,8 +47,8 @@
   },
   "addons": [
     "volto-slate:asDefault",
-    "volto-datablocks",
-    "volto-plotlycharts",
+    "@eeacms/volto-datablocks",
+    "@eeacms/volto-plotlycharts",
     "@eeacms/volto-taxonomy",
     "@eeacms/volto-webmap",
     "@eeacms/volto-middleware-rdf",
