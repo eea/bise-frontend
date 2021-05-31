@@ -71,7 +71,6 @@
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-block-style",
     "@eeacms/volto-tabs-block",
-    "@eeacms/volto-columns-tabs-block"
   ],
   "dependencies": {
     "@eeacms/volto-block-divider": "2.1.3",

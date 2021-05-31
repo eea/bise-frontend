@@ -1,17 +1,23 @@
 {
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",
+    "branch": "develop",
     "path": "src",
+    "package": "@eeacms/volto-embed",
     "develop": false
   },
   "volto-datablocks": {
     "url": "https://github.com/eea/volto-datablocks.git",
+    "branch": "develop",
     "path": "src",
+    "package": "@eeacms/volto-datablocks",
     "develop": true
   },
   "volto-plotlycharts": {
     "url": "https://github.com/eea/volto-plotlycharts.git",
+    "branch": "develop",
     "path": "src",
+    "package": "@eeacms/volto-plotlycharts",
     "develop": true
   },
   "volto-taxonomy": {
@@ -59,6 +65,7 @@
   },
   "volto-openlayers-map": {
     "url": "https://github.com/eea/volto-openlayers-map.git",
+    "branch": "develop",
     "path": "src",
     "package": "@eeacms/volto-openlayers-map",
     "develop": true
@@ -71,22 +78,16 @@
   },
   "volto-columns-block": {
     "url": "https://github.com/eea/volto-columns-block.git",
+    "branch": "develop",
     "path": "src",
     "package": "@eeacms/volto-columns-block",
-    "branch": "develop",
-    "develop": true
-  },
-  "volto-columns-tabs-block": {
-    "url": "https://github.com/eea/volto-columns-tabs-block.git",
-    "path": "src",
-    "package": "@eeacms/volto-columns-tabs-block",
     "develop": true
   },
   "volto-tabs-block": {
     "url": "https://github.com/eea/volto-tabs-block.git",
+    "branch": "develop",
     "path": "src",
     "package": "@eeacms/volto-tabs-block",
-    "branch": "develop",
     "develop": true
   },
   "volto-block-divider": {
@@ -97,9 +98,9 @@
   },
   "volto-block-style": {
     "url": "https://github.com/eea/volto-block-style.git",
+    "branch": "develop",
     "path": "src",
     "package": "@eeacms/volto-block-style",
-    "branch": "develop",
     "develop": true
   },
   "volto-block-toc": {
