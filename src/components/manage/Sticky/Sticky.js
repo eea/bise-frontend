@@ -4,23 +4,8 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 
 export default class Sticky extends Component {
-  static propTypes = {
-    bottomOffset: PropTypes.number,
-    children: PropTypes.func.isRequired,
-    className: PropTypes.string,
-    id: PropTypes.string,
-    relative: PropTypes.bool,
-    role: PropTypes.string,
-    topOffset: PropTypes.number,
-  };
-
   static defaultProps = {
-    bottomOffset: 0,
     className: 'sticky-wrapper',
-    disableCompensation: false,
-    disableHardwareAcceleration: false,
-    relative: false,
-    topOffset: 0,
   };
 
   static contextTypes = {
