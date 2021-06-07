@@ -87,6 +87,13 @@
     "package": "@eeacms/volto-columns-block",
     "develop": true
   },
+  "volto-resize-helper": {
+    "url": "https://github.com/eea/volto-resize-helper.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-resize-helper",
+    "develop": true
+  },
   "volto-tabs-block": {
     "url": "https://github.com/eea/volto-tabs-block.git",
     "branch": "develop",

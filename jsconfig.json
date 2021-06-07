@@ -40,6 +40,9 @@
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
             ],
+            "@eeacms/volto-resize-helper": [
+                "addons/volto-resize-helper/src"
+            ],
             "@eeacms/volto-tabs-block": [
                 "addons/volto-tabs-block/src"
             ],

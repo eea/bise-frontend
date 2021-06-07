@@ -59,6 +59,7 @@
     "@eeacms/volto-object-widget",
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-plotlycharts",
+    "@eeacms/volto-resize-helper",
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-slate-footnote",
