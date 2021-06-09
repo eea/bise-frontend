@@ -1602,21 +1602,16 @@
   dependencies:
     react-visibility-sensor "5.1.1"
 
-"@eeacms/volto-matomo@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-2.0.0.tgz#4506334aa5442a9e38a8981400a7c641a51cc898"
-  integrity sha512-a/kvveG30ujL1lmXmRr6XrVh9IC24N5OE1SAK3mIgYsRJflZjepJndrCtb03enOy8RY28fG5P0v1TZhomJgPDw==
+"@eeacms/volto-matomo@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-2.0.1.tgz#24abe111cc120008a255e12dd5fa4de35d9433af"
+  integrity sha512-CrmiG4g3XBBhMKTe7liViMXeW98JZtBRxVeqUk/BkkW7beItEF+9SlOfNSCP7ZXU0rdKuOh65dcXa6quE/ELeA==
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
 "@eeacms/volto-middleware-rdf@eea/volto-middleware-rdf#1.0.0":
   version "1.0.0"
   resolved "https://codeload.github.com/eea/volto-middleware-rdf/tar.gz/cfd934e51f8dc657564a75c2df7e4f663d384d3f"
-
-"@eeacms/volto-resize-helper@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.1.1.tgz#7148b2560b2a34297183f235ed2f580a72d469dd"
-  integrity sha512-bxxjzYzsOpd4JnbmHSBZpewQgXEs+1MIGdFAJ+mv+uAFYx57ordKpsEm/f32BowIvs/8uECgeKsHkIsTkfw0Gw==
 
 "@eeacms/volto-sentry-rancher-config@2.1.2":
   version "2.1.2"
