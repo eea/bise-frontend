@@ -81,7 +81,7 @@
     "@eeacms/volto-middleware-rdf": "eea/volto-middleware-rdf#1.0.0",
     "@eeacms/volto-sentry-rancher-config": "2.1.2",
     "@eeacms/volto-slate-footnote": "2.2.2",
-    "@eeacms/volto-slate-metadata-mentions": "2.2.2",
+    "@eeacms/volto-slate-metadata-mentions": "2.2.3",
     "@eeacms/volto-widgets-view": "2.1.2",
     "@plone/volto": "13.1.2",
     "connected-react-router": "6.9.1",
