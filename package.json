@@ -55,7 +55,6 @@
     "@eeacms/volto-datablocks",
     "@eeacms/volto-matomo",
     "@eeacms/volto-middleware-rdf",
-    "@eeacms/volto-n2k",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-plotlycharts",
@@ -70,6 +69,7 @@
     "@eeacms/volto-widgets-view",
     "volto-searchkit",
     "@eeacms/volto-block-style",
+    "@eeacms/volto-n2k",
     "@eeacms/volto-block-image-cards",
     "@eeacms/volto-tabs-block"
   ],

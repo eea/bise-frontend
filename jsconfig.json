@@ -57,6 +57,9 @@
             ],
             "@eeacms/volto-bise": [
                 "addons/volto-bise/src"
+            ],
+            "volto-slate": [
+                "addons/volto-slate/src"
             ]
         },
         "baseUrl": "src"
