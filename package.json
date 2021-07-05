@@ -83,7 +83,7 @@
     "@eeacms/volto-slate-footnote": "2.3.1",
     "@eeacms/volto-slate-metadata-mentions": "2.4.0",
     "@eeacms/volto-widgets-view": "2.1.2",
-    "@plone/volto": "13.2.2",
+    "@plone/volto": "13.6.0",
     "connected-react-router": "6.9.1",
     "volto-slate": "^2.6.1"
   },
