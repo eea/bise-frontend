@@ -2739,10 +2739,10 @@
   dependencies:
     "@octokit/openapi-types" "^8.2.1"
 
-"@plone/volto@13.6.0":
-  version "13.6.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.6.0.tgz#9695179a05896c6d0d9bf0def6c8278b397dd2f3"
-  integrity sha512-xxRlHRVFs4ygXSv9qnLJYm3EOJOz7lr1OYXsyJowGEk6+2FIOiJq0Y5vocDGy/SRbM7kZxqpIAcbKS59JEuQNw==
+"@plone/volto@13.8.2":
+  version "13.8.2"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.8.2.tgz#ad1e1682f56eb15e00a1b1ae00dfed365b5e4e64"
+  integrity sha512-UgFG76I6J8z0PYHAsXNLjGaHLAFvQMarX6M1e9uidQQE/UXwPJTnHQDgUh7ZX1SdCzadOcZhFBgvixcAJn/CcQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2821,6 +2821,7 @@
     lodash "4.17.21"
     lodash-move "1.1.1"
     lodash-webpack-plugin "0.11.5"
+    luxon "1.22.0"
     mem "4.0.0"
     mini-css-extract-plugin "0.9.0"
     moment "2.24.0"
@@ -14422,6 +14423,11 @@ lru_map@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/lru_map/-/lru_map-0.3.3.tgz#b5c8351b9464cbd750335a79650a0ec0e56118dd"
   integrity sha1-tcg1G5Rky9dQM1p5ZQoOwOVhGN0=
+
+luxon@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.22.0.tgz#639525c7c69e594953c7b142794466b8ea85b868"
+  integrity sha512-3sLvlfbFo+AxVEY3IqxymbumtnlgBwjDExxK60W3d+trrUzErNAz/PfvPT+mva+vEUrdIodeCOs7fB6zHtRSrw==
 
 luxon@^1.21.3:
   version "1.26.0"
