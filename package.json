@@ -80,7 +80,7 @@
     "@eeacms/volto-matomo": "2.0.2",
     "@eeacms/volto-middleware-rdf": "eea/volto-middleware-rdf#1.0.0",
     "@eeacms/volto-sentry-rancher-config": "2.1.2",
-    "@eeacms/volto-slate-footnote": "3.0.0",
+    "@eeacms/volto-slate-footnote": "3.1.0",
     "@eeacms/volto-slate-metadata-mentions": "3.0.1",
     "@eeacms/volto-widgets-view": "3.0.0",
     "@plone/volto": "13.8.2",
