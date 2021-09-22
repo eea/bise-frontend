@@ -3,7 +3,13 @@
 
 ## Documentation
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+The Volto project for https://biodiversity.europa.eu/
+
+## Releases
+
+See https://github.com/eea/eea.docker.plone.bise for details.
+
+To create a new release in this repo, run `env GITHUB_TOKEN=... release-it`
 
 ## Quick Start
 
@@ -11,7 +17,7 @@ Below is a list of commands you will probably find useful.
 
 ### `yarn start`
 
-Runs the project in development mode.  
+Runs the project in development mode.
 You can view your application at `http://localhost:3000`
 
 The page will reload if you make edits.
@@ -40,40 +46,21 @@ Runs the test i18n runner which extracts all the translation strings and
 generates the needed files.
 
 
-### mrs_developer
+### mrs-developer
 
-[mrs_developer](https://www.npmjs.com/package/mrs-developer) is a great tool
+[mrs-developer](https://github.com/collective/mrs-developer) is a great tool
 for developing multiple packages at the same time.
 
-mrs_developer should work with this project by using the `--config` config option:
+mrs-developer should work with this project by running the configured shortcut script:
 
 ```bash
-missdev --config=jsconfig.json --output=addons
+yarn develop
 ```
 
-Volto's latest razzle config will pay attention to your jsconfig.json file
-for any customizations.# bise-frontend
+Volto's latest razzle config will pay attention to your jsconfig.json file for any customizations.
 
-## Updating `public/critical.css`
+In case you don't want (or can't) install mrs-developer globally, you can install it in this project by running:
 
-Updating it necessitates the existence of a CSS-matching version of BISE on another
-place, not on `localhost` (e.g. production or demo website). If you wish to work with `localhost`, please check the links in [this issue](https://github.com/nileshgulia1/critical-css-generator/issues/2) to see if the issues related to `localhost` are solved in upstream).
-
-To produce the critical CSS based on a website that is not `localhost` install and use [this](https://github.com/plone/critical-css-cli):
-
-```shell
-$ npm i -g @plone/critical-css-cli
-$ cd path/to/bise/frontend/dir
-$ critical-cli https://biodiversity.europa.eu/ -o public/critical.css -d 767x1100,990x1100,1655x1100
+```bash
+yarn add -W mrs-developer
 ```
-
-The resolutions are selected based on the viewport size stats of EEA and on
-search box-related responsive design breakpoints.
-
-1. The viewport size stats say that we should use critical CSS for:
-  a. 480x320
-  b. 1366x500
-  c. 1536x500
-
-2. The resolutions for the search box breakpoints are in the shell command
-   above.

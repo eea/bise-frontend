@@ -3,7 +3,6 @@ pipeline {
 
   environment {
     GIT_NAME="bise-frontend"
-    BRANCH_NAME="develop"
     NAMESPACE = "@eeacms"
     registry = "eeacms/bise-frontend"
     template = "templates/volto-bise"
@@ -11,9 +10,42 @@ pipeline {
     RANCHER_ENVID = "1a333018"
     dockerImage = ''
     tagName = ''
+    SONARQUBE_TAG = "biodiversity.europa.eu"    
   }
 
+
   stages {
+
+    stage('Integration tests') {
+      steps {
+            node(label: 'docker') {
+              script {
+                try {
+                  sh '''docker pull plone; docker run -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="profile-plone.restapi:blocks" plone fg'''
+                  sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
+                } finally {
+                  try {
+                    sh '''rm -rf cypress-reports cypress-results'''
+                    sh '''mkdir -p cypress-reports cypress-results'''
+                    sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
+                    sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
+                    archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+                  }
+                  finally {
+                    catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                        junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
+                    }
+                    sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
+                    sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
+                    sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
+                  }
+                }
+              }
+            }
+        }
+    }
+
+
     stage('Build & Push') {
       steps{
         node(label: 'docker-host') {
@@ -51,6 +83,25 @@ pipeline {
       }
     }
 
+    stage('Update SonarQube Tags') {
+      when {
+        not {
+          environment name: 'SONARQUBE_TAG', value: ''
+        }
+        buildingTag()
+      }
+      steps{
+        node(label: 'docker') {  
+          withSonarQubeEnv('Sonarqube') {
+            withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GIT_TOKEN')]) { 
+              sh '''docker pull eeacms/gitflow'''
+              sh '''docker run -i --rm --name="${BUILD_TAG}-sonar" -e GIT_NAME=${GIT_NAME} -e GIT_TOKEN="${GIT_TOKEN}" -e SONARQUBE_TAG=${SONARQUBE_TAG} -e SONARQUBE_TOKEN=${SONAR_AUTH_TOKEN} -e SONAR_HOST_URL=${SONAR_HOST_URL}  eeacms/gitflow /update_sonarqube_tags.sh'''
+            }
+          }
+        } 
+      }
+    }      
+    
     stage('Upgrade demo') {
       when {
         buildingTag()
@@ -68,24 +119,23 @@ pipeline {
 
   }
 
+
   post {
+    always {
+      cleanWs(cleanWhenAborted: true, cleanWhenFailure: true, cleanWhenNotBuilt: true, cleanWhenSuccess: true, cleanWhenUnstable: true, deleteDirs: true)
+    }
     changed {
       script {
-        def url = "${env.BUILD_URL}/display/redirect"
-        def status = currentBuild.currentResult
-        def subject = "${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
-        def summary = "${subject} (${url})"
-        def details = """<h1>${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - ${status}</h1>
-                         <p>Check console output at <a href="${url}">${env.JOB_BASE_NAME} - #${env.BUILD_NUMBER}</a></p>
+        def details = """<h1>${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}</h1>
+                         <p>Check console output at <a href="${env.BUILD_URL}/display/redirect">${env.JOB_BASE_NAME} - #${env.BUILD_NUMBER}</a></p>
                       """
-
-        def color = '#FFFF00'
-        if (status == 'SUCCESS') {
-          color = '#00FF00'
-        } else if (status == 'FAILURE') {
-          color = '#FF0000'
-        }
-        emailext (subject: '$DEFAULT_SUBJECT', to: '$DEFAULT_RECIPIENTS', body: details)
+        emailext(
+        subject: '$DEFAULT_SUBJECT',
+        body: details,
+        attachLog: true,
+        compressLog: true,
+        recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'CulpritsRecipientProvider']]
+        )
       }
     }
   }

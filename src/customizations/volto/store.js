@@ -4,12 +4,13 @@ import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 import { connectRouter, routerMiddleware } from 'connected-react-router';
 import { save, load } from 'redux-localstorage-simple';
 
-import { settings } from '~/config';
+import config from '@plone/volto/registry';
 import reducers from '~/reducers';
 
 import { api, crashReporter } from '@plone/volto/middleware';
 
 const configureStore = (initialState, history, apiHelper) => {
+  const settings = config.settings;
   let stack = [
     routerMiddleware(history),
     crashReporter,
@@ -28,6 +29,7 @@ const configureStore = (initialState, history, apiHelper) => {
     combineReducers({
       router: connectRouter(history),
       ...reducers,
+      ...config.addonReducers,
     }),
     {
       ...initialState,
