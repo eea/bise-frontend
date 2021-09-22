@@ -13,6 +13,9 @@
             "volto-bise": [
                 "addons/volto-bise/src"
             ],
+            "volto-slate": [
+                "addons/volto-slate/src"
+            ],
             "@eeacms/volto-datablocks": [
                 "addons/volto-datablocks/src"
             ],
@@ -57,9 +60,6 @@
             ],
             "@eeacms/volto-bise": [
                 "addons/volto-bise/src"
-            ],
-            "volto-slate": [
-                "addons/volto-slate/src"
             ]
         },
         "baseUrl": "src"
