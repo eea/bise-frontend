@@ -69,7 +69,7 @@
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#master",
     "@eeacms/volto-tableau": "1.2.3",
     "@eeacms/volto-webmap": "0.1.1",
-    "@eeacms/volto-searchkit": "github:eea/volto-searchkit#master",
+    "volto-searchkit": "github:eea/volto-searchkit#master",
     "@eeacms/volto-n2k": "github:eea/volto-n2k#develop",
     "@plone/volto": "13.8.2",
     "connected-react-router": "6.9.1"
