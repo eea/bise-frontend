@@ -16,8 +16,10 @@ pipeline {
 
   stages {
 
-    stage('Integration tests') {
-      steps {
+   stage('Integration tests') {
+      parallel {
+        stage('Cypress') {
+          steps {
             node(label: 'docker') {
               script {
                 try {
@@ -42,11 +44,85 @@ pipeline {
                 }
               }
             }
+          }
         }
+        
+        stage("Docker test build") {
+             when {
+               not {
+                environment name: 'CHANGE_ID', value: ''
+               }
+               not {
+                 buildingTag()
+               }
+               environment name: 'CHANGE_TARGET', value: 'master'
+             }
+             environment {
+              IMAGE_NAME = BUILD_TAG.toLowerCase()
+             }
+             steps {
+               node(label: 'docker-host') {
+                 script {
+                   checkout scm
+                   try {
+                     dockerImage = docker.build("${IMAGE_NAME}", "--no-cache .")
+                   } finally {
+                     sh script: "docker rmi ${IMAGE_NAME}", returnStatus: true
+                   }
+                 }
+               }
+             }
+          }
+          
+        
+      }
     }
 
+    
+    stage('Pull Request') {
+      when {
+        not {
+          environment name: 'CHANGE_ID', value: ''
+        }
+        environment name: 'CHANGE_TARGET', value: 'master'
+      }
+      steps {
+        node(label: 'docker') {
+          script {
+            if ( env.CHANGE_BRANCH != "develop" &&  !( env.CHANGE_BRANCH.startsWith("hotfix")) ) {
+                error "Pipeline aborted due to PR not made from develop or hotfix branch"
+            }
+           withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
+            sh '''docker pull eeacms/gitflow'''
+            sh '''docker run -i --rm --name="$BUILD_TAG-gitflow-pr" -e GIT_CHANGE_TARGET="$CHANGE_TARGET" -e GIT_CHANGE_BRANCH="$CHANGE_BRANCH" -e GIT_CHANGE_AUTHOR="$CHANGE_AUTHOR" -e GIT_CHANGE_TITLE="$CHANGE_TITLE" -e GIT_TOKEN="$GITHUB_TOKEN" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" -e GIT_ORG="$GIT_ORG" -e GIT_NAME="$GIT_NAME" -e LANGUAGE=javascript eeacms/gitflow'''
+           }
+          }
+        }
+      }
+    }
 
-    stage('Build & Push') {
+  
+    stage('Release') {
+      when {
+        allOf {
+          environment name: 'CHANGE_ID', value: ''
+          branch 'master'
+        }
+      }
+      steps {
+        node(label: 'docker') {
+          withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
+            sh '''docker pull eeacms/gitflow'''
+            sh '''docker run -i --rm --name="$BUILD_TAG-gitflow-master" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_NAME="$GIT_NAME" -e GIT_TOKEN="$GITHUB_TOKEN" -e LANGUAGE=javascript eeacms/gitflow'''
+          }
+        }
+      }
+    }
+
+    stage('Build & Push ( on tag )') {
+      when {
+        buildingTag()
+      }
       steps{
         node(label: 'docker-host') {
           script {
@@ -68,9 +144,8 @@ pipeline {
         }
       }
     }
-
-
-    stage('Release') {
+    
+    stage('Release catalog ( on tag )') {
       when {
         buildingTag()
       }
@@ -78,31 +153,12 @@ pipeline {
         node(label: 'docker') {
           withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN'),  usernamePassword(credentialsId: 'jekinsdockerhub', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
            sh '''docker pull eeacms/gitflow; docker run -i --rm --name="$BUILD_TAG-release"  -e GIT_BRANCH="$BRANCH_NAME" -e GIT_NAME="$GIT_NAME" -e DOCKERHUB_REPO="$registry" -e GIT_TOKEN="$GITHUB_TOKEN" -e DOCKERHUB_USER="$DOCKERHUB_USER" -e DOCKERHUB_PASS="$DOCKERHUB_PASS"  -e RANCHER_CATALOG_PATHS="$template" -e GITFLOW_BEHAVIOR="RUN_ON_TAG" eeacms/gitflow'''
-         }
+          }
         }
       }
     }
-
-    stage('Update SonarQube Tags') {
-      when {
-        not {
-          environment name: 'SONARQUBE_TAG', value: ''
-        }
-        buildingTag()
-      }
-      steps{
-        node(label: 'docker') {  
-          withSonarQubeEnv('Sonarqube') {
-            withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GIT_TOKEN')]) { 
-              sh '''docker pull eeacms/gitflow'''
-              sh '''docker run -i --rm --name="${BUILD_TAG}-sonar" -e GIT_NAME=${GIT_NAME} -e GIT_TOKEN="${GIT_TOKEN}" -e SONARQUBE_TAG=${SONARQUBE_TAG} -e SONARQUBE_TOKEN=${SONAR_AUTH_TOKEN} -e SONAR_HOST_URL=${SONAR_HOST_URL}  eeacms/gitflow /update_sonarqube_tags.sh'''
-            }
-          }
-        } 
-      }
-    }      
     
-    stage('Upgrade demo') {
+    stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
       }
@@ -117,6 +173,24 @@ pipeline {
       }
     }
 
+    stage('Update SonarQube Tags') {
+      when {
+        not {
+          environment name: 'SONARQUBE_TAG', value: ''
+        }
+        buildingTag()
+      }
+      steps{
+        node(label: 'docker') {
+          withSonarQubeEnv('Sonarqube') {
+            withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GIT_TOKEN')]) {
+              sh '''docker pull eeacms/gitflow'''
+              sh '''docker run -i --rm --name="${BUILD_TAG}-sonar" -e GIT_NAME=${GIT_NAME} -e GIT_TOKEN="${GIT_TOKEN}" -e SONARQUBE_TAG=${SONARQUBE_TAG} -e SONARQUBE_TOKEN=${SONAR_AUTH_TOKEN} -e SONAR_HOST_URL=${SONAR_HOST_URL}  eeacms/gitflow /update_sonarqube_tags.sh'''
+            }
+          }
+        }
+      }
+    }
   }
 
 
