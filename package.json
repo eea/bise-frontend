@@ -61,18 +61,18 @@
     "@eeacms/volto-n2k"
   ],
   "dependencies": {
-    "@eeacms/volto-eea-kitkat": "2.0.2",
     "@eeacms/volto-bise": "github:eea/volto-bise#develop",
     "@eeacms/volto-datablocks": "2.0.12",
+    "@eeacms/volto-eea-kitkat": "4.0.0",
+    "@eeacms/volto-n2k": "github:eea/volto-n2k#develop",
     "@eeacms/volto-openlayers-map": "0.1.2",
     "@eeacms/volto-plotlycharts": "2.0.5",
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#master",
     "@eeacms/volto-tableau": "1.2.3",
     "@eeacms/volto-webmap": "0.1.1",
-    "volto-searchkit": "github:eea/volto-searchkit#master",
-    "@eeacms/volto-n2k": "github:eea/volto-n2k#develop",
     "@plone/volto": "13.8.2",
-    "connected-react-router": "6.9.1"
+    "connected-react-router": "6.9.1",
+    "volto-searchkit": "github:eea/volto-searchkit#master"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
