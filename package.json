@@ -63,7 +63,7 @@
   "dependencies": {
     "@eeacms/volto-bise": "github:eea/volto-bise#develop",
     "@eeacms/volto-datablocks": "2.0.12",
-    "@eeacms/volto-eea-kitkat": "4.0.0",
+    "@eeacms/volto-eea-kitkat": "4.0.1",
     "@eeacms/volto-n2k": "github:eea/volto-n2k#develop",
     "@eeacms/volto-openlayers-map": "0.1.2",
     "@eeacms/volto-plotlycharts": "2.0.5",
