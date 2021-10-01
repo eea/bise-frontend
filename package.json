@@ -66,7 +66,7 @@
     "@eeacms/volto-eea-kitkat": "4.0.1",
     "@eeacms/volto-n2k": "github:eea/volto-n2k#develop",
     "@eeacms/volto-openlayers-map": "0.1.2",
-    "@eeacms/volto-plotlycharts": "2.0.5",
+    "@eeacms/volto-plotlycharts": "2.0.6",
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#master",
     "@eeacms/volto-tableau": "1.2.3",
     "@eeacms/volto-webmap": "0.1.1",
