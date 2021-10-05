@@ -1212,18 +1212,19 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
 
-"@eeacms/volto-datablocks@2.0.12", "@eeacms/volto-datablocks@^2.0.1", "@eeacms/volto-datablocks@^2.0.2":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-2.0.12.tgz#cd56975af0d45d15d061f23c01c2c9e3c4418b80"
-  integrity sha512-KgKRuHGTMorekb47lB5d8C79LIAPM4jBFA4rL6QRHjBS9nE7lXit/qrGiajBEKn/BbshK2aifps6ZGjJtCUfNw==
+"@eeacms/volto-datablocks@2.0.13", "@eeacms/volto-datablocks@^2.0.1", "@eeacms/volto-datablocks@^2.0.2":
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-2.0.13.tgz#fcc5b0bc82d218361a63ea15ca94ff60f5c69b76"
+  integrity sha512-FdsKMEZq+dPYNM2HLRyrOdt7KjyhxCufWoT/UnwPhiZQgvfLdaZAdLatmBD9eDRIgscqsotiVAK51xYPF+5RGQ==
   dependencies:
-    "@eeacms/volto-embed" "^2.0.1"
+    "@eeacms/volto-embed" "^2.0.4"
+    d3 "7.1.1"
     humanize-plus "^1.8.2"
     performant-array-to-tree "^1.7.1"
-    plotly.js "1.57.0"
-    react-plotly.js "~2.5.0"
+    plotly.js "^2.5.1"
+    react-plotly.js "^2.5.1"
     sanitize-html "^2.3.3"
-    slate "0.63.0"
+    slate "^0.62.0"
 
 "@eeacms/volto-depiction@0.1.2":
   version "0.1.2"
@@ -1262,10 +1263,10 @@
     "@eeacms/volto-widgets-view" "3.0.0"
     volto-slate "4.0.3"
 
-"@eeacms/volto-embed@^2.0.1":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.3.tgz#b426014e1e92e9d9719a0220a889f760c8d44c1b"
-  integrity sha512-rM8ZIY0eK7TLl7mmclSu8kiluH3gSeTq3MVJSkEFjiOE8S7KdAXpmnNE8JHeD0KLmDurx/SSK/9iIT6A23QsiA==
+"@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.4.tgz#8c8d926945c629f225d32d644d28c7e25fc088c2"
+  integrity sha512-TTjol+c5MADHGO1sHK4PbTkSOeQPFEqaiPmjpkA64eTJWDv08vCLAGNgDfX8YviXxjWSMwm5hDXZCXUmSau2yQ==
   dependencies:
     "@eeacms/volto-corsproxy" "2.1.2"
     react-visibility-sensor "5.1.1"
@@ -2316,6 +2317,11 @@
     d3-collection "1"
     d3-shape "^1.2.0"
 
+"@plotly/d3@3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@plotly/d3/-/d3-3.8.0.tgz#760d41985ad76de4cbabe6c0a785bc713bea8433"
+  integrity sha512-L10iHgzvw3uSic/nQpYehlNzxUQvImwms5U7S95pJAEhrllzkrdQNy1Mc5DW9ab881Yr4fh300gJztKXWZDfkQ==
+
 "@plotly/draft-js-export-html@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@plotly/draft-js-export-html/-/draft-js-export-html-1.2.0.tgz#7a3f034148195593d4caf030cd3236fa4af3b49f"
@@ -2605,7 +2611,7 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@turf/area@^6.0.1":
+"@turf/area@^6.0.1", "@turf/area@^6.4.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@turf/area/-/area-6.5.0.tgz#1d0d7aee01d8a4a3d4c91663ed35cc615f36ad56"
   integrity sha512-xCZdiuojokLbQ+29qR6qoMD89hv+JAgWjLrwSEWL+3JV8IXKeNFl6XkEJz9HGkVpnXvQKJoRz4/liT+8ZZ5Jyg==
@@ -2613,7 +2619,7 @@
     "@turf/helpers" "^6.5.0"
     "@turf/meta" "^6.5.0"
 
-"@turf/bbox@^6.0.1":
+"@turf/bbox@^6.0.1", "@turf/bbox@^6.4.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@turf/bbox/-/bbox-6.5.0.tgz#bec30a744019eae420dac9ea46fb75caa44d8dc5"
   integrity sha512-RBbLaao5hXTYyyg577iuMtDB8ehxMlUqHEJiMs8jT1GHkFhr6sYre3lmLsPeYEi/ZKj5TP5tt7fkzNdJ4GIVyw==
@@ -4378,10 +4384,9 @@ boundary-cells@^2.0.0:
   resolved "https://registry.yarnpkg.com/boundary-cells/-/boundary-cells-2.0.2.tgz#ed28c5a2eb36500413e5714f8eec862ad8ffec14"
   integrity sha512-/S48oUFYEgZMNvdqC87iYRbLBAPHYijPRNrNpm/sS8u7ijIViKm/hrV3YD4sx/W68AsG5zLMyBEditVHApHU5w==
 
-box-intersect@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/box-intersect/-/box-intersect-1.0.2.tgz#4693ad63e828868d0654b114e09364d6281f3fbd"
-  integrity sha512-yJeMwlmFPG1gIa7Rs/cGXeI6iOj6Qz5MG5PE61xLKpElUGzmJ4abm+qsLpzxKJFpsSDq742BQEocr8dI2t8Nxw==
+box-intersect@^1.0.1, "box-intersect@github:plotly/box-intersect#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/box-intersect/tar.gz/1c21ef897c37eb69e5c1efeca7087726dd8d6a23"
   dependencies:
     bit-twiddle "^1.0.2"
     typedarray-pool "^1.1.0"
@@ -6549,12 +6554,34 @@ d3-force@^1.2.1:
   resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-3.0.1.tgz#e41b81b2ab79277141ec1404aa5d05001da64084"
   integrity sha512-hdL7+HBIohpgfolhBxr1KX47VMD6+vVD/oEFrxk5yhmzV2prk99EkFKYpXuhVkFpTgHdJ6/4bYcjdLPPXV4tIA==
 
+d3-format@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-1.4.5.tgz#374f2ba1320e3717eb74a9356c67daee17a7edb4"
+  integrity sha512-J0piedu6Z8iB6TbIGfZgDzfXxUFN3qQRMofy2oPdXzQibYGqPB/9iMcxr/TGalU+2RsyDO+U4f33id8tbnSRMQ==
+
+d3-geo-projection@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/d3-geo-projection/-/d3-geo-projection-2.9.0.tgz#826db62f748e8ecd67cd00aced4c26a236ec030c"
+  integrity sha512-ZULvK/zBn87of5rWAfFMc9mJOipeSo57O+BBitsKIXmU4rTVAnX1kSsJkE0R+TxY8pGNoM1nbyRRE7GYHhdOEQ==
+  dependencies:
+    commander "2"
+    d3-array "1"
+    d3-geo "^1.12.0"
+    resolve "^1.1.10"
+
 d3-geo@3:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/d3-geo/-/d3-geo-3.0.1.tgz#4f92362fd8685d93e3b1fae0fd97dc8980b1ed7e"
   integrity sha512-Wt23xBych5tSy9IYAM1FR2rWIBFWa52B/oF/GYe5zbdHrg08FU8+BuI6X4PvTwPDdqdAdq04fuWJpELtsaEjeA==
   dependencies:
     d3-array "2.5.0 - 3"
+
+d3-geo@^1.12.0, d3-geo@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/d3-geo/-/d3-geo-1.12.1.tgz#7fc2ab7414b72e59fbcbd603e80d9adc029b035f"
+  integrity sha512-XG4d1c/UJSEX9NfU02KwBL6BYPj8YKHxgBEw5om2ZnTRSbIcego6dhHwcxuSR3clxh0EpE38os1DVPOmnYtTPg==
+  dependencies:
+    d3-array "1"
 
 d3-hierarchy@3:
   version "3.0.1"
@@ -6662,7 +6689,7 @@ d3-time-format@^2.2.3:
   dependencies:
     d3-time "1"
 
-d3-time@1:
+d3-time@1, d3-time@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/d3-time/-/d3-time-1.1.0.tgz#b1e19d307dae9c900b7e5b25ffc5dcc249a8a0f1"
   integrity sha512-Xh0isrZ5rPYYdqhAVk8VLnMEidhz5aP7htAADH6MfzgmmicPkTo8LhkLxci61/lCB7n7UmE3bN0leRt+qvkLxA==
@@ -6706,15 +6733,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@^3.5.17:
-  version "3.5.17"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-3.5.17.tgz#bc46748004378b21a360c9fc7cf5231790762fb8"
-  integrity sha1-vEZ0gAQ3iyGjYMn8fPUjF5B2L7g=
-
-d3@^7.0.0:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.0.3.tgz#5c100c0522fedadc2aec43243b16e881e8c07143"
-  integrity sha512-BEQCpEXI+Z9OnnlXLaS6txoYZZvvXuRyjZoudPuAnWGVOzHxGWC0TL8XRUs7V7IeZQPLfvGztcl54+jgOe122g==
+d3@7.1.1, d3@^7.0.0:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.1.1.tgz#77b9a0c9893b13643b8e52316ec65dca3a6a115e"
+  integrity sha512-8zkLMwSvUAnfN9pcJDfkuxU0Nvg4RLUD0A4BZN1KxJPtlnCGzMx3xM5cRl4m8fym/Vy8rlq52tl90UF3m91OnA==
   dependencies:
     d3-array "3"
     d3-axis "3"
@@ -6746,6 +6768,11 @@ d3@^7.0.0:
     d3-timer "3"
     d3-transition "3"
     d3-zoom "3"
+
+d3@^3.5.17:
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-3.5.17.tgz#bc46748004378b21a360c9fc7cf5231790762fb8"
+  integrity sha1-vEZ0gAQ3iyGjYMn8fPUjF5B2L7g=
 
 d@1, d@^1.0.1:
   version "1.0.1"
@@ -6795,7 +6822,7 @@ dayjs@^1.10.4:
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
   integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
 
-debug@2.6.9, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
+debug@2, debug@2.6.9, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
@@ -6837,7 +6864,7 @@ debug@=3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.7:
+debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6, debug@^3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
@@ -9301,7 +9328,7 @@ gl-format-compiler-error@^1.0.2:
     glsl-shader-name "^1.0.0"
     sprintf-js "^1.0.3"
 
-gl-heatmap2d@^1.0.6, gl-heatmap2d@^1.1.0:
+gl-heatmap2d@^1.0.6, gl-heatmap2d@^1.1.0, gl-heatmap2d@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/gl-heatmap2d/-/gl-heatmap2d-1.1.1.tgz#dbbb2c288bfe277002fa50985155b0403d87640f"
   integrity sha512-6Vo1fPIB1vQFWBA/MR6JAA16XuQuhwvZRbSjYEq++m4QV33iqjGS2HcVIRfJGX+fomd5eiz6bwkVZcKm69zQPw==
@@ -9451,7 +9478,7 @@ gl-select-static@^2.0.7:
     ndarray "^1.0.18"
     typedarray-pool "^1.1.0"
 
-gl-shader@^4.2.1:
+gl-shader@4.3.1, gl-shader@^4.2.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/gl-shader/-/gl-shader-4.3.1.tgz#56094cf3c06e802ac6c286b3b2166abce901d882"
   integrity sha512-xLoN6XtRLlg97SEqtuzfKc+pVWpVkQ3YjDI1kuCale8tF7+zMhiKlMfmG4IMQPMdKJZQbIc/Ny8ZusEpfh5U+w==
@@ -9519,7 +9546,7 @@ gl-surface3d@^1.5.2, gl-surface3d@^1.6.0:
     surface-nets "^1.0.2"
     typedarray-pool "^1.1.0"
 
-gl-text@^1.1.8:
+gl-text@^1.1.8, gl-text@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/gl-text/-/gl-text-1.3.1.tgz#f36594464101b5b053178d6d219c3d08fb9144c8"
   integrity sha512-/f5gcEMiZd+UTBJLTl3D+CkCB/0UFGTx3nflH8ZmyWcLkZhsZ1+Xx5YYkw2rgWAzgPeE35xCqBuHSoMKQVsR+w==
@@ -10538,7 +10565,7 @@ i18n-iso-countries@6.2.1:
   dependencies:
     diacritics "1.3.0"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
@@ -10745,10 +10772,9 @@ in-publish@^2.0.0:
   resolved "https://registry.yarnpkg.com/in-publish/-/in-publish-2.0.1.tgz#948b1a535c8030561cea522f73f78f4be357e00c"
   integrity sha512-oDM0kUSNFC31ShNxHKUyfZKy8ZeXZBWMjMdZHKLOk13uvT27VTL/QzRGfRUcevJhpkZAvlhPYuXkF7eNWrtyxQ==
 
-incremental-convex-hull@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/incremental-convex-hull/-/incremental-convex-hull-1.0.1.tgz#51428c14cb9d9a6144bfe69b2851fb377334be1e"
-  integrity sha1-UUKMFMudmmFEv+abKFH7N3M0vh4=
+incremental-convex-hull@^1.0.1, "incremental-convex-hull@github:plotly/incremental-convex-hull#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/incremental-convex-hull/tar.gz/352d9e73861913695fd4e1a4c6ad79898c0c8268"
   dependencies:
     robust-orientation "^1.1.2"
     simplicial-complex "^1.0.0"
@@ -12982,7 +13008,7 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.merge@^4.6.1:
+lodash.merge@^4.6.1, lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
@@ -13345,7 +13371,7 @@ mathml-tag-names@^2.1.3:
   resolved "https://registry.yarnpkg.com/mathml-tag-names/-/mathml-tag-names-2.1.3.tgz#4ddadd67308e780cf16a47685878ee27b736a0a3"
   integrity sha512-APMBEanjybaPzUrfqU0IMU5I0AswKMH7k8OTLs0vvV4KZpExkTkY87nR/zpbuTPj+gARop7aGUbl11pnDfW6xg==
 
-matrix-camera-controller@^2.1.1, matrix-camera-controller@^2.1.3:
+matrix-camera-controller@^2.1.1, matrix-camera-controller@^2.1.3, matrix-camera-controller@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/matrix-camera-controller/-/matrix-camera-controller-2.1.4.tgz#d316ae5e99fe801610c1d7842ab54566d4c62411"
   integrity sha512-zsPGPONclrKSImNpqqKDTcqFpWLAIwMXEJtCde4IFPOw1dA9udzFg4HOFytOTosOFanchrx7+Hqq6glLATIxBA==
@@ -13943,6 +13969,11 @@ napi-build-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/napi-build-utils/-/napi-build-utils-1.0.2.tgz#b1fddc0b2c46e380a0b7a76f984dd47c41a13806"
   integrity sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==
 
+native-promise-only@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
+  integrity sha1-IKMYwwy0X3H+et+/eyHJnBRy7xE=
+
 native-request@^1.0.5:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/native-request/-/native-request-1.1.0.tgz#acdb30fe2eefa3e1bc8c54b3a6852e9c5c0d3cb0"
@@ -13960,19 +13991,16 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-ndarray-extract-contour@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ndarray-extract-contour/-/ndarray-extract-contour-1.0.1.tgz#0aee113a3a33b226b90c4888cf877bf4751305e4"
-  integrity sha1-Cu4ROjozsia5DEiIz4d79HUTBeQ=
+ndarray-extract-contour@^1.0.0, "ndarray-extract-contour@github:plotly/ndarray-extract-contour#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/ndarray-extract-contour/tar.gz/0d8ed3a2fee873f08868c35894d608794e8e9d83"
   dependencies:
     typedarray-pool "^1.0.0"
 
-ndarray-gradient@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ndarray-gradient/-/ndarray-gradient-1.0.1.tgz#16126a78ac241162248224aa662b6db6a5885402"
-  integrity sha512-+xONVi7xxTCGL6KOb11Yyoe0tPNqAUKF39CvFoRjL5pdOmPd2G2pckK9lD5bpLF3q45LLnYNyiUSJSdNmQ2MTg==
+ndarray-gradient@^1.0.0, "ndarray-gradient@github:plotly/ndarray-gradient#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/ndarray-gradient/tar.gz/c43b0856d77084cfac7c9d96c6ddc73aeddc0bd8"
   dependencies:
-    cwise-compiler "^1.0.0"
     dup "^1.0.0"
 
 ndarray-linear-interpolate@^1.0.0:
@@ -13980,19 +14008,14 @@ ndarray-linear-interpolate@^1.0.0:
   resolved "https://registry.yarnpkg.com/ndarray-linear-interpolate/-/ndarray-linear-interpolate-1.0.0.tgz#78bc92b85b9abc15b6e67ee65828f9e2137ae72b"
   integrity sha1-eLySuFuavBW25n7mWCj54hN65ys=
 
-ndarray-ops@^1.1.0, ndarray-ops@^1.2.1, ndarray-ops@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/ndarray-ops/-/ndarray-ops-1.2.2.tgz#59e88d2c32a7eebcb1bc690fae141579557a614e"
-  integrity sha1-WeiNLDKn7ryxvGkPrhQVeVV6YU4=
-  dependencies:
-    cwise-compiler "^1.0.0"
+ndarray-ops@^1.1.0, ndarray-ops@^1.2.1, ndarray-ops@^1.2.2, "ndarray-ops@github:plotly/ndarray-ops#v1.3.0":
+  version "1.3.0"
+  resolved "https://codeload.github.com/plotly/ndarray-ops/tar.gz/afac881492696196c9966f77507558737f60c716"
 
-ndarray-pack@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/ndarray-pack/-/ndarray-pack-1.2.1.tgz#8caebeaaa24d5ecf70ff86020637977da8ee585a"
-  integrity sha1-jK6+qqJNXs9w/4YCBjeXfajuWFo=
+ndarray-pack@^1.2.1, "ndarray-pack@github:plotly/ndarray-pack#v1.3.0":
+  version "1.3.0"
+  resolved "https://codeload.github.com/plotly/ndarray-pack/tar.gz/b0cd1f835c2b623f860a3dbb0c5709c98b30aea0"
   dependencies:
-    cwise-compiler "^1.1.2"
     ndarray "^1.0.13"
 
 ndarray-scratch@^1.2.0:
@@ -14004,20 +14027,26 @@ ndarray-scratch@^1.2.0:
     ndarray-ops "^1.2.1"
     typedarray-pool "^1.0.2"
 
-ndarray-sort@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ndarray-sort/-/ndarray-sort-1.0.1.tgz#fea05b4cb834c7f4e0216a354f3ca751300dfd6a"
-  integrity sha1-/qBbTLg0x/TgIWo1TzynUTAN/Wo=
+ndarray-sort@^1.0.0, "ndarray-sort@github:plotly/ndarray-sort#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/ndarray-sort/tar.gz/8b3c03c0c58906640a0551505601544c9775a87a"
   dependencies:
     typedarray-pool "^1.0.0"
 
-ndarray@^1.0.11, ndarray@^1.0.13, ndarray@^1.0.14, ndarray@^1.0.15, ndarray@^1.0.18, ndarray@^1.0.19:
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/ndarray/-/ndarray-1.0.19.tgz#6785b5f5dfa58b83e31ae5b2a058cfd1ab3f694e"
-  integrity sha512-B4JHA4vdyZU30ELBw3g7/p9bZupyew5a7tX1Y/gGeF2hafrPaQZhgrGQfsvgfYbgdFZjYwuEcnaobeM/WMW+HQ==
+ndarray@^1.0.11, ndarray@^1.0.13, ndarray@^1.0.14, ndarray@^1.0.15, ndarray@^1.0.18, ndarray@^1.0.19, "ndarray@github:plotly/ndarray#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/ndarray/tar.gz/70ec67233be65de444307a6916aba2655e28bd84"
   dependencies:
-    iota-array "^1.0.0"
     is-buffer "^1.0.2"
+
+needle@^2.5.2:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/needle/-/needle-2.9.1.tgz#22d1dffbe3490c2b83e301f7709b6736cd8f2684"
+  integrity sha512-6R9fqJ5Zcmf+uYaFgdIHmLwNldn5HbK8L5ybn7Uz+ylX/rnOsSp1AHcvQSrCaFN+qNM1wpymHqD7mVasEOlHGQ==
+  dependencies:
+    debug "^3.2.6"
+    iconv-lite "^0.4.4"
+    sax "^1.2.4"
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -15541,6 +15570,97 @@ plotly.js@^1.51.2:
     webgl-context "^2.2.0"
     world-calendars "^1.0.3"
 
+plotly.js@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/plotly.js/-/plotly.js-2.5.1.tgz#9cdb05fcb3860adfc130dc6778f757ff92c04f96"
+  integrity sha512-nAQKUwO3jwh9aBq/TSTdw5le1QZvU8EgFQSgpVzq/xEnyNiNvYdcWMKM+8Ku6sji7N5FLb/mbsktrQON/n59+A==
+  dependencies:
+    "@plotly/d3" "3.8.0"
+    "@plotly/d3-sankey" "0.7.2"
+    "@plotly/d3-sankey-circular" "0.33.1"
+    "@plotly/point-cluster" "^3.1.9"
+    "@turf/area" "^6.4.0"
+    "@turf/bbox" "^6.4.0"
+    "@turf/centroid" "^6.0.2"
+    alpha-shape "^1.0.0"
+    box-intersect plotly/box-intersect#v1.1.0
+    canvas-fit "^1.5.0"
+    color-alpha "1.0.4"
+    color-normalize "1.5.0"
+    color-parse "1.3.8"
+    color-rgba "2.1.1"
+    convex-hull "^1.0.3"
+    country-regex "^1.1.0"
+    d3-force "^1.2.1"
+    d3-format "^1.4.5"
+    d3-geo "^1.12.1"
+    d3-geo-projection "^2.9.0"
+    d3-hierarchy "^1.1.9"
+    d3-interpolate "^1.4.0"
+    d3-time "^1.1.0"
+    d3-time-format "^2.2.3"
+    delaunay-triangulate "^1.1.6"
+    fast-isnumeric "^1.1.4"
+    gl-cone3d "^1.5.2"
+    gl-error3d "^1.0.16"
+    gl-heatmap2d "^1.1.1"
+    gl-line3d "1.2.1"
+    gl-mat4 "^1.2.0"
+    gl-mesh3d "^2.3.1"
+    gl-plot2d "^1.4.5"
+    gl-plot3d "^2.4.7"
+    gl-pointcloud2d "^1.0.3"
+    gl-scatter3d "^1.2.3"
+    gl-select-box "^1.0.4"
+    gl-shader "4.3.1"
+    gl-spikes2d "^1.0.2"
+    gl-streamtube3d "^1.4.1"
+    gl-surface3d "^1.6.0"
+    gl-text "^1.3.1"
+    glslify "^7.1.1"
+    has-hover "^1.0.1"
+    has-passive-events "^1.0.0"
+    incremental-convex-hull plotly/incremental-convex-hull#v1.1.0
+    is-mobile "^2.2.2"
+    mapbox-gl "1.10.1"
+    matrix-camera-controller "^2.1.4"
+    mouse-change "^1.4.0"
+    mouse-event-offset "^3.0.2"
+    mouse-wheel "^1.2.0"
+    native-promise-only "^0.8.1"
+    ndarray plotly/ndarray#v1.1.0
+    ndarray-extract-contour plotly/ndarray-extract-contour#v1.1.0
+    ndarray-gradient plotly/ndarray-gradient#v1.1.0
+    ndarray-linear-interpolate "^1.0.0"
+    ndarray-ops plotly/ndarray-ops#v1.3.0
+    ndarray-pack plotly/ndarray-pack#v1.3.0
+    ndarray-sort plotly/ndarray-sort#v1.1.0
+    parse-svg-path "^0.1.2"
+    polybooljs "^1.2.0"
+    probe-image-size "^7.2.1"
+    regl "^2.1.0"
+    regl-error2d "^2.0.12"
+    regl-line2d "^3.1.2"
+    regl-scatter2d "^3.2.8"
+    regl-splom "^1.0.14"
+    right-now "^1.0.0"
+    robust-determinant plotly/robust-determinant#v1.2.1
+    robust-in-sphere "1.2.1"
+    robust-linear-solve plotly/robust-linear-solve#v1.1.1
+    robust-orientation "1.2.1"
+    simplicial-complex-contour plotly/simplicial-complex-contour#v1.1.0
+    strongly-connected-components "^1.0.1"
+    superscript-text "^1.0.0"
+    surface-nets plotly/surface-nets#v1.1.1
+    svg-path-sdf "^1.1.3"
+    tinycolor2 "^1.4.2"
+    to-px "1.0.1"
+    topojson-client "^3.1.0"
+    vectorize-text "3.2.2"
+    webgl-context "^2.2.0"
+    world-calendars "^1.0.3"
+    zero-crossings plotly/zero-crossings#v1.1.0
+
 pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
@@ -16474,6 +16594,15 @@ private@^0.1.8:
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
 
+probe-image-size@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.2.1.tgz#df0c924e67e247bc94f8fcb0fad7f0081061fc44"
+  integrity sha512-d+6L3NvQBCNt4peRDoEfA7r9bPm6/qy18FnLKwg4NWBC5JrJm0pMLRg1kF4XNsPe1bUdt3WIMonPJzQWN2HXjQ==
+  dependencies:
+    lodash.merge "^4.6.2"
+    needle "^2.5.2"
+    stream-parser "~0.3.1"
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -17385,7 +17514,7 @@ react-outside-click-handler@^1.2.4:
     object.values "^1.1.0"
     prop-types "^15.7.2"
 
-react-plotly.js@^2.3.0, react-plotly.js@^2.4.0, react-plotly.js@~2.5.0:
+react-plotly.js@^2.3.0, react-plotly.js@^2.4.0, react-plotly.js@^2.5.1, react-plotly.js@~2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/react-plotly.js/-/react-plotly.js-2.5.1.tgz#11182bf599ef11a0dbfcd171c6f5645535a2b486"
   integrity sha512-Oya14whSHvPsYXdI0nHOGs1pZhMzV2edV7HAW1xFHD58Y73m/LbG2Encvyz1tztL0vfjph0JNhiwO8cGBJnlhg==
@@ -18070,7 +18199,7 @@ regjsparser@^0.7.0:
   dependencies:
     jsesc "~0.5.0"
 
-regl-error2d@^2.0.11, regl-error2d@^2.0.8:
+regl-error2d@^2.0.11, regl-error2d@^2.0.12, regl-error2d@^2.0.8:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/regl-error2d/-/regl-error2d-2.0.12.tgz#3b976e13fe641d5242a154fcacc80aecfa0a9881"
   integrity sha512-r7BUprZoPO9AbyqM5qlJesrSRkl+hZnVKWKsVp7YhOl/3RIpi4UDGASGJY0puQ96u5fBYw/OlqV24IGcgJ0McA==
@@ -18083,7 +18212,7 @@ regl-error2d@^2.0.11, regl-error2d@^2.0.8:
     to-float32 "^1.1.0"
     update-diff "^1.1.0"
 
-regl-line2d@^3.0.15, regl-line2d@^3.0.18:
+regl-line2d@^3.0.15, regl-line2d@^3.0.18, regl-line2d@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/regl-line2d/-/regl-line2d-3.1.2.tgz#2bedef7f44c1f7fae75c90f9918258723ca84c1c"
   integrity sha512-nmT7WWS/WxmXAQMkgaMKWXaVmwJ65KCrjbqHGOUjjqQi6shfT96YbBOvelXwO9hG7/hjvbzjtQ2UO0L3e7YaXQ==
@@ -18101,7 +18230,7 @@ regl-line2d@^3.0.15, regl-line2d@^3.0.18:
     pick-by-alias "^1.2.0"
     to-float32 "^1.1.0"
 
-regl-scatter2d@^3.1.8, regl-scatter2d@^3.2.1, regl-scatter2d@^3.2.3:
+regl-scatter2d@^3.1.8, regl-scatter2d@^3.2.1, regl-scatter2d@^3.2.3, regl-scatter2d@^3.2.8:
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/regl-scatter2d/-/regl-scatter2d-3.2.8.tgz#a1360e803e3fdf628ca09a72a435a0b7d4cf5675"
   integrity sha512-bqrqJyeHkGBa9mEfuBnRd7FUtdtZ1l+gsM2C5Ugr1U3vJG5K3mdWdVWtOAllZ5FHHyWJV/vgjVvftgFUg6CDig==
@@ -18123,7 +18252,7 @@ regl-scatter2d@^3.1.8, regl-scatter2d@^3.2.1, regl-scatter2d@^3.2.3:
     to-float32 "^1.1.0"
     update-diff "^1.1.0"
 
-regl-splom@^1.0.12, regl-splom@^1.0.8:
+regl-splom@^1.0.12, regl-splom@^1.0.14, regl-splom@^1.0.8:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/regl-splom/-/regl-splom-1.0.14.tgz#58800b7bbd7576aa323499a1966868a6c9ea1456"
   integrity sha512-OiLqjmPRYbd7kDlHC6/zDf6L8lxgDC65BhC8JirhP4ykrK4x22ZyS+BnY8EUinXKDeMgmpRwCvUmk7BK4Nweuw==
@@ -18142,7 +18271,7 @@ regl@^1.6.1:
   resolved "https://registry.yarnpkg.com/regl/-/regl-1.7.0.tgz#0d185431044a356bf80e9b775b11b935ef2746d3"
   integrity sha512-bEAtp/qrtKucxXSJkD4ebopFZYP0q1+3Vb2WECWv/T8yQEgKxDxJ7ztO285tAMaYZVR6mM1GgI6CCn8FROtL1w==
 
-regl@^2.0.0:
+regl@^2.0.0, regl@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/regl/-/regl-2.1.0.tgz#7dae71e9ff20f29c4f42f510c70cd92ebb6b657c"
   integrity sha512-oWUce/aVoEvW5l2V0LK7O5KJMzUSKeiOwFuJehzpSFd43dO5spP9r+sSUfhKtsky4u6MCqWJaRL+abzExynfTg==
@@ -18436,7 +18565,7 @@ resolve@^0.6.1:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-0.6.3.tgz#dd957982e7e736debdf53b58a4dd91754575dd46"
   integrity sha1-3ZV5gufnNt699TtYpN2RdUV13UY=
 
-resolve@^1.0.0, resolve@^1.1.5, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.17.0, resolve@^1.20.0, resolve@^1.3.2:
+resolve@^1.0.0, resolve@^1.1.10, resolve@^1.1.5, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.17.0, resolve@^1.20.0, resolve@^1.3.2:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
@@ -18559,10 +18688,9 @@ robust-compress@^1.0.0:
   resolved "https://registry.yarnpkg.com/robust-compress/-/robust-compress-1.0.0.tgz#4cf62c4b318d8308516012bb8c11752f39329b1b"
   integrity sha1-TPYsSzGNgwhRYBK7jBF1Lzkymxs=
 
-robust-determinant@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/robust-determinant/-/robust-determinant-1.1.0.tgz#8ecae79b79caab3e74f6debe2237e5391a27e9c7"
-  integrity sha1-jsrnm3nKqz509t6+IjflORon6cc=
+robust-determinant@^1.1.0, "robust-determinant@github:plotly/robust-determinant#v1.2.1":
+  version "1.2.1"
+  resolved "https://codeload.github.com/plotly/robust-determinant/tar.gz/7cb499bb02411de80ae1a90e54893e46af82ca5e"
   dependencies:
     robust-compress "^1.0.0"
     robust-scale "^1.0.0"
@@ -18577,7 +18705,7 @@ robust-dot-product@^1.0.0:
     robust-sum "^1.0.0"
     two-product "^1.0.0"
 
-robust-in-sphere@^1.1.3:
+robust-in-sphere@1.2.1, robust-in-sphere@^1.1.3:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/robust-in-sphere/-/robust-in-sphere-1.2.1.tgz#ece3c2ae0fdf36b351680566adea7e93c6ba46da"
   integrity sha512-3zJdcMIOP1gdwux93MKTS0RiMYEGwQBoE5R1IW/9ZQmGeZzP7f7i4+xdcK8ujJvF/dEOS1WPuI9IB1WNFbj3Cg==
@@ -18587,14 +18715,13 @@ robust-in-sphere@^1.1.3:
     robust-sum "^1.0.0"
     two-product "^1.0.0"
 
-robust-linear-solve@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/robust-linear-solve/-/robust-linear-solve-1.0.0.tgz#0cd6ac5040691a6f2aa3cd6311d728905ca3a1f1"
-  integrity sha1-DNasUEBpGm8qo81jEdcokFyjofE=
+robust-linear-solve@^1.0.0, "robust-linear-solve@github:plotly/robust-linear-solve#v1.1.1":
+  version "1.1.1"
+  resolved "https://codeload.github.com/plotly/robust-linear-solve/tar.gz/90ad6de2ce011a1e0b53d9e9f6bf8d117053c492"
   dependencies:
     robust-determinant "^1.1.0"
 
-robust-orientation@^1.0.1, robust-orientation@^1.0.2, robust-orientation@^1.1.2, robust-orientation@^1.1.3:
+robust-orientation@1.2.1, robust-orientation@^1.0.1, robust-orientation@^1.0.2, robust-orientation@^1.1.2, robust-orientation@^1.1.3:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/robust-orientation/-/robust-orientation-1.2.1.tgz#f6c2b00a5df5f1cb9597be63a45190f273899361"
   integrity sha512-FuTptgKwY6iNuU15nrIJDLjXzCChWB+T4AvksRtwPS/WZ3HuP1CElCm1t+OBfgQKfWbtZIawip+61k7+buRKAg==
@@ -19189,15 +19316,12 @@ simplicial-complex-boundary@^1.0.0:
     boundary-cells "^2.0.0"
     reduce-simplicial-complex "^1.0.0"
 
-simplicial-complex-contour@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/simplicial-complex-contour/-/simplicial-complex-contour-1.0.2.tgz#890aacac284365340110545cf2629a26e04bf9d1"
-  integrity sha1-iQqsrChDZTQBEFRc8mKaJuBL+dE=
+simplicial-complex-contour@^1.0.2, "simplicial-complex-contour@github:plotly/simplicial-complex-contour#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/simplicial-complex-contour/tar.gz/3c09d0c163385b874fedc0a366b29b6e713bfd99"
   dependencies:
-    marching-simplex-table "^1.0.0"
     ndarray "^1.0.15"
     ndarray-sort "^1.0.0"
-    typedarray-pool "^1.1.0"
 
 simplicial-complex@^0.3.3:
   version "0.3.3"
@@ -19742,6 +19866,13 @@ stream-http@^2.7.2:
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
 
+stream-parser@~0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/stream-parser/-/stream-parser-0.3.1.tgz#1618548694420021a1182ff0af1911c129761773"
+  integrity sha1-FhhUhpRCACGhGC/wrxkRwSl2F3M=
+  dependencies:
+    debug "2"
+
 stream-shift@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.1.tgz#d7088281559ab2778424279b0877da3c392d5a3d"
@@ -20186,13 +20317,11 @@ supports-color@^8.1.1:
   dependencies:
     has-flag "^4.0.0"
 
-surface-nets@^1.0.0, surface-nets@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/surface-nets/-/surface-nets-1.0.2.tgz#e433c8cbba94a7274c6f4c99552b461bf1fc7a4b"
-  integrity sha1-5DPIy7qUpydMb0yZVStGG/H8eks=
+surface-nets@^1.0.0, surface-nets@^1.0.2, "surface-nets@github:plotly/surface-nets#v1.1.1":
+  version "1.1.1"
+  resolved "https://codeload.github.com/plotly/surface-nets/tar.gz/d80900ed4c39a1b07f9d8577180960945236d996"
   dependencies:
     ndarray-extract-contour "^1.0.0"
-    triangulate-hypercube "^1.0.0"
     zero-crossings "^1.0.0"
 
 svg-arc-to-cubic-bezier@^3.0.0:
@@ -21435,7 +21564,7 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vectorize-text@^3.2.1:
+vectorize-text@3.2.2, vectorize-text@^3.2.1:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/vectorize-text/-/vectorize-text-3.2.2.tgz#3e978889df4ae333975d38669529c942a63e1f65"
   integrity sha512-34NVOCpMMQVXujU4vb/c6u98h6djI0jGdtC202H4Huvzn48B6ARsR7cmGh1xsAc0pHNQiUKGK/aHF05VtGv+eA==
@@ -22321,12 +22450,9 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zero-crossings@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/zero-crossings/-/zero-crossings-1.0.1.tgz#c562bd3113643f3443a245d12406b88b69b9a9ff"
-  integrity sha1-xWK9MRNkPzRDokXRJAa4i2m5qf8=
-  dependencies:
-    cwise-compiler "^1.0.0"
+zero-crossings@^1.0.0, "zero-crossings@github:plotly/zero-crossings#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/plotly/zero-crossings/tar.gz/4746771f490344e21c84d1f631cb661d8c5ff508"
 
 zwitch@^1.0.0:
   version "1.0.5"
