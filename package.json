@@ -61,13 +61,13 @@
     "@eeacms/volto-n2k"
   ],
   "dependencies": {
-    "@eeacms/volto-bise": "github:eea/volto-bise#develop",
+    "@eeacms/volto-bise": "^1.1.0",
     "@eeacms/volto-datablocks": "2.0.13",
     "@eeacms/volto-eea-kitkat": "4.0.1",
-    "@eeacms/volto-n2k": "github:eea/volto-n2k#develop",
+    "@eeacms/volto-n2k": "^0.1.1",
     "@eeacms/volto-openlayers-map": "0.1.2",
     "@eeacms/volto-plotlycharts": "2.0.6",
-    "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#master",
+    "@eeacms/volto-slate-dataentity": "^1.0.2",
     "@eeacms/volto-tableau": "1.2.3",
     "@eeacms/volto-webmap": "0.1.1",
     "@plone/volto": "13.8.2",
