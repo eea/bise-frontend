@@ -16,9 +16,7 @@ RUN runDeps="openssl ca-certificates patch git" \
  && rm -rf /opt/frontend/src/addons/* \
  && npm install -g mrs-developer
 
-RUN npm install -g mrs-developer
 USER node
-
 ARG MAX_OLD_SPACE_SIZE=8192
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
