@@ -1024,7 +1024,7 @@
     core-js-pure "^3.16.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.0.0-rc.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -1321,16 +1321,17 @@
   dependencies:
     ol "6.6.x"
 
-"@eeacms/volto-plotlycharts@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-2.0.7.tgz#9ce2191da31d782e70859bba77c2d6712d858824"
-  integrity sha512-/Htwq3CFjxrUguW6nbRYN7TtpJD4a9vcWWRKMTDs45lmcsO7Y0tExnAdkCc0W5NXqecitDRmp6P0iunHpsu3GA==
+"@eeacms/volto-plotlycharts@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-2.0.8.tgz#a1d0fd556c01c6f778e30e1701005c3099e433ca"
+  integrity sha512-e9CUOe62KNk4XncrJzvIighZJRB9JneryxOFQovs9Ou+TUuZCgVnPu1mmcpANoHE6VV8+5VKIFBpBKwOO9dtrw==
   dependencies:
     "@eeacms/volto-datablocks" "^2.0.13"
     plotly.js "^2.5.1"
     react-chart-editor "^0.45.0"
     react-component-queries "2.3.0"
     react-inspector "^5.1.1"
+    react-json-editor-ajrm "2.5.13"
     react-plotly.js "^2.5.1"
     react-resize-detector "^6.7.6"
     react-sizeme "^3.0.2"
@@ -17173,6 +17174,13 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-json-editor-ajrm@2.5.13:
+  version "2.5.13"
+  resolved "https://registry.yarnpkg.com/react-json-editor-ajrm/-/react-json-editor-ajrm-2.5.13.tgz#d2496b6b0166ff9e6bb5dbb85ba3615d8f398151"
+  integrity sha512-uYRJFzY34w7coLxeWPFZGyQpWdBKK5e8R9jBZTJ5gAFp3WuGVG2DdGZ8oJKOVJy0hqkxS9DzJIzGmmxHHQ9afA==
+  dependencies:
+    "@babel/runtime" "^7.0.0-rc.0"
 
 react-lazy-load-image-component@1.5.1, react-lazy-load-image-component@^1.4.0, react-lazy-load-image-component@^1.5.1:
   version "1.5.1"
