@@ -1195,10 +1195,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-columns-block@4.4.5":
-  version "4.4.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.5.tgz#f32b3e8b8b76d765e2ccec2cac9d141d74e61870"
-  integrity sha512-62PBqpUiO2Wxvz8Q4xlcJRtbq2tfesCL2NLywvIDpStqa1Zau7Y6X1t+T6qimo12P6/yrne0hUbkLVwcsloFfw==
+"@eeacms/volto-columns-block@4.4.6":
+  version "4.4.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.6.tgz#6d6b6a722b274931873124b4c691a91907d6a037"
+  integrity sha512-q63y/C5CMjzWWQDvM4umYj0ClZm/S4UL6TtKPsRxeziv+sfsolNwPR61LbgVwxaclSjwX04LL8e6cD4n32o1Mw==
   dependencies:
     react-color "~2.18.1"
 
@@ -1226,10 +1226,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.2.tgz#59dc808f75dc24c0134bbdc90b0c59783f1b6339"
   integrity sha512-th4QKuoPyGPnwZbJMU97IsaEColqPju3RKZSTo3ssJgltSNWa7FVUiWN8aASRnHvVc/PloiEbn2sE9/nhGyxMA==
 
-"@eeacms/volto-eea-kitkat@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.0.2.tgz#247224760da416bfbbe1a561544ec631af66cac6"
-  integrity sha512-lU4iZnDq5AFd3WkNyMusC7QG4Qse77hcGXCC9PhYfJXeAwWDuswrgMJaS6ly1KZFS0CghUN9+K9ojgKv2Iv/FQ==
+"@eeacms/volto-eea-kitkat@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.0.tgz#273b74edc179a6a1005bcb8ed47d8b15ca2105a7"
+  integrity sha512-3wKeDPhAPrNMtbNgvPcBXotIp73jEq5tK3DeFUr8g49kJ4hVp/eCllWXvB7GoC9w0k2YyNhuqvEamOiX2Mqhmg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.6"
     "@eeacms/volto-banner" "1.0.0"
@@ -1237,7 +1237,7 @@
     "@eeacms/volto-block-image-cards" "0.1.4"
     "@eeacms/volto-block-style" "3.5.0"
     "@eeacms/volto-block-toc" "2.2.2"
-    "@eeacms/volto-columns-block" "4.4.5"
+    "@eeacms/volto-columns-block" "4.4.6"
     "@eeacms/volto-corsproxy" "2.1.2"
     "@eeacms/volto-depiction" "0.1.2"
     "@eeacms/volto-group-block" "4.3.1"
@@ -1256,7 +1256,7 @@
     "@eeacms/volto-widget-temporal-coverage" "4.0.0"
     "@eeacms/volto-widget-toggle" "2.2.3"
     "@eeacms/volto-widgets-view" "3.0.0"
-    volto-slate "4.0.3"
+    volto-slate "4.1.0"
 
 "@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
   version "2.0.4"
@@ -10601,6 +10601,11 @@ immer@^7.0.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.15.tgz#dc3bc6db87401659d2e737c67a21b227c484a4ad"
   integrity sha512-yM7jo9+hvYgvdCQdqvhCNRRio0SCXc8xDPzA25SvKWa7b1WVPjLwQs1VYU5JPXjcJPTqAa5NP5dqpORGYBQ2AA==
 
+immer@^9.0.6:
+  version "9.0.6"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.6.tgz#7a96bf2674d06c8143e327cbf73539388ddf1a73"
+  integrity sha512-G95ivKpy+EvVAnAab4fVa4YGYn24J1SpEktnJX7JJ45Bd7xqME/SCplFzYFmTbrkwZbQ4xJK1xMTUYBkN6pWsQ==
+
 immutability-helper@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/immutability-helper/-/immutability-helper-3.1.1.tgz#2b86b2286ed3b1241c9e23b7b21e0444f52f77b7"
@@ -19096,12 +19101,26 @@ slate-history@^0.62.0:
     immer "^7.0.0"
     is-plain-object "^3.0.0"
 
+slate-history@^0.66.0:
+  version "0.66.0"
+  resolved "https://registry.yarnpkg.com/slate-history/-/slate-history-0.66.0.tgz#ac63fddb903098ceb4c944433e3f75fe63acf940"
+  integrity sha512-6MWpxGQZiMvSINlCbMW43E2YBSVMCMCIwQfBzGssjWw4kb0qfvj0pIdblWNRQZD0hR6WHP+dHHgGSeVdMWzfng==
+  dependencies:
+    is-plain-object "^5.0.0"
+
 slate-hyperscript@^0.62.0:
   version "0.62.0"
   resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.62.0.tgz#ff6f86e94936fbf90f8ec07d2ae8fbcd7e45a927"
   integrity sha512-PbtxrrIr4qPvtPmKli4/FnvQFjf8zmnF0kyNeDQGHvUzpHnsoSYHM/i4POye3/qt5d8WGukiJBPL03QsIW+SIw==
   dependencies:
     is-plain-object "^3.0.0"
+
+slate-hyperscript@^0.66.0:
+  version "0.66.0"
+  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.66.0.tgz#87f0581de00f71ee61014e2afc825a2c11897e2f"
+  integrity sha512-uMBwuVBKl5jk0V37BMYhJdqO/R8mgoKvYGo1NmJbTxwf2capX4/4RgQtPPH20o09rbx8l9e554hLc8UiRPGg4w==
+  dependencies:
+    is-plain-object "^5.0.0"
 
 slate-react@^0.62.0:
   version "0.62.1"
@@ -19117,6 +19136,20 @@ slate-react@^0.62.0:
     scroll-into-view-if-needed "^2.2.20"
     tiny-invariant "1.0.6"
 
+slate-react@^0.66.4:
+  version "0.66.7"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.66.7.tgz#033823dac8612e040094e7b8d942de6639b2e7de"
+  integrity sha512-M0MGCnANdjRZCKGY9cvqHBR/WJ+/4SMIvBvEx4UJ5ycx9uNkDVPdpsyvwDKOpmsJuzZ1DH+34YrpxT7RnQyp1Q==
+  dependencies:
+    "@types/is-hotkey" "^0.1.1"
+    "@types/lodash" "^4.14.149"
+    direction "^1.0.3"
+    is-hotkey "^0.1.6"
+    is-plain-object "^5.0.0"
+    lodash "^4.17.4"
+    scroll-into-view-if-needed "^2.2.20"
+    tiny-invariant "1.0.6"
+
 slate@^0.62.0:
   version "0.62.1"
   resolved "https://registry.yarnpkg.com/slate/-/slate-0.62.1.tgz#d17b174e9967f920dda23f77982b30582d9c68a7"
@@ -19127,6 +19160,15 @@ slate@^0.62.0:
     immer "^7.0.0"
     is-plain-object "^3.0.0"
     lodash "^4.17.4"
+    tiny-warning "^1.0.3"
+
+slate@^0.66.5:
+  version "0.66.5"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.66.5.tgz#bdd93a4422891341dd18a31ff7810f5cae60e40a"
+  integrity sha512-bG03uEKIm/gS6jQarKSNbHn2anemOON2vnSI3VGRd7MJJU5Yiwmutze0yHNO9uZwDLTB+LeDQYZeGu1ACWT0VA==
+  dependencies:
+    immer "^9.0.6"
+    is-plain-object "^5.0.0"
     tiny-warning "^1.0.3"
 
 slice-ansi@0.0.4:
@@ -21273,10 +21315,10 @@ vm-browserify@^1.0.1:
     searchkit "^2.4.1-alpha.4"
     searchkit-express "^0.2.1"
 
-volto-slate@*, volto-slate@4.0.3, volto-slate@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.0.3.tgz#0edeccd1da03fbfd3540da49e73795ba2e42e644"
-  integrity sha512-z/CEvZ4Rn7s4TpdIXAiODlE17cSOmNASqO0fWcTWAdAg2B67ZHe5EAZgRmKUyZsSaaRU1ObLOD7oP44P+TiyJA==
+volto-slate@*, volto-slate@4.1.0, volto-slate@^4.0.3:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.1.0.tgz#4ed7b399b331955fb30a73a887b309bdc6efa8cc"
+  integrity sha512-bzzHO0DiHBNKgBNxWBnRp2/5QhPO7w3zSjxmzFAUMSecVSLhuzzXAbnUBNhDMWDKswFjRaTt9CLNfRPd+knixg==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
@@ -21285,10 +21327,10 @@ volto-slate@*, volto-slate@4.0.3, volto-slate@^4.0.3:
     jsdom "16.2.2"
     react-intersection-observer "^8.32.0"
     react-visibility-sensor "5.1.1"
-    slate "^0.62.0"
-    slate-history "^0.62.0"
-    slate-hyperscript "^0.62.0"
-    slate-react "^0.62.0"
+    slate "^0.66.5"
+    slate-history "^0.66.0"
+    slate-hyperscript "^0.66.0"
+    slate-react "^0.66.4"
     weak-key "^1.0.2"
 
 volto-slate@2.9.1:
