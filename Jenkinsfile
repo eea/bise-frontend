@@ -6,7 +6,7 @@ pipeline {
     NAMESPACE = "@eeacms"
     registry = "eeacms/bise-frontend"
     template = "templates/volto-bise"
-    RANCHER_STACKID = "1st1823"
+    // RANCHER_STACKID = "1st1823"
     RANCHER_ENVID = "1a333018"
     dockerImage = ''
     tagName = ''
@@ -163,6 +163,9 @@ pipeline {
     
     stage('Upgrade demo ( on tag )') {
       when {
+        not {
+          environment name: 'RANCHER_STACKID', value: ''
+        }
         buildingTag()
       }
       steps {
