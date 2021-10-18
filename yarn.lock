@@ -1226,10 +1226,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.2.tgz#59dc808f75dc24c0134bbdc90b0c59783f1b6339"
   integrity sha512-th4QKuoPyGPnwZbJMU97IsaEColqPju3RKZSTo3ssJgltSNWa7FVUiWN8aASRnHvVc/PloiEbn2sE9/nhGyxMA==
 
-"@eeacms/volto-eea-kitkat@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.0.tgz#273b74edc179a6a1005bcb8ed47d8b15ca2105a7"
-  integrity sha512-3wKeDPhAPrNMtbNgvPcBXotIp73jEq5tK3DeFUr8g49kJ4hVp/eCllWXvB7GoC9w0k2YyNhuqvEamOiX2Mqhmg==
+"@eeacms/volto-eea-kitkat@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.1.tgz#c1e4e8c97c8093ed1e6023b2791e8bbe86316c50"
+  integrity sha512-tTsDR256WHt847rSktg59ujeF/6x+1E4U39uBvOIlzwp2ffeWt1kp8qJI7ahJhpPykmY2gCfrxJ/ENSSEJ7H+Q==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.6"
     "@eeacms/volto-banner" "1.0.0"
@@ -1256,7 +1256,7 @@
     "@eeacms/volto-widget-temporal-coverage" "4.0.0"
     "@eeacms/volto-widget-toggle" "2.2.3"
     "@eeacms/volto-widgets-view" "3.0.0"
-    volto-slate "4.1.0"
+    volto-slate "4.2.1"
 
 "@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
   version "2.0.4"
@@ -21315,10 +21315,10 @@ vm-browserify@^1.0.1:
     searchkit "^2.4.1-alpha.4"
     searchkit-express "^0.2.1"
 
-volto-slate@*, volto-slate@4.1.0, volto-slate@^4.0.3:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.1.0.tgz#4ed7b399b331955fb30a73a887b309bdc6efa8cc"
-  integrity sha512-bzzHO0DiHBNKgBNxWBnRp2/5QhPO7w3zSjxmzFAUMSecVSLhuzzXAbnUBNhDMWDKswFjRaTt9CLNfRPd+knixg==
+volto-slate@*, volto-slate@4.2.1, volto-slate@^4.0.3:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.2.1.tgz#5c8a3b0701cce6ebeed7aae2e35f7b88cad26c3b"
+  integrity sha512-RPJhj0/SScLB6rI2d6bwxNXWpGHoG9sj5J9kjRMl3DmN2b+hM38mr9mQmbG5Dm53GVm3A6k/KRvqBkTHxtRS4A==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
@@ -21327,10 +21327,10 @@ volto-slate@*, volto-slate@4.1.0, volto-slate@^4.0.3:
     jsdom "16.2.2"
     react-intersection-observer "^8.32.0"
     react-visibility-sensor "5.1.1"
-    slate "^0.66.5"
-    slate-history "^0.66.0"
-    slate-hyperscript "^0.66.0"
-    slate-react "^0.66.4"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
     weak-key "^1.0.2"
 
 volto-slate@2.9.1:
