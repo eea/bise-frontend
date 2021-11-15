@@ -11,7 +11,7 @@ RUN runDeps="openssl ca-certificates patch git" \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* \
  && chown -R node /opt/frontend/ \
- && cp jsconfig.json.tpl jsconfig.json \
+ && cp jsconfig.json.prod jsconfig.json \
  && mkdir -p /opt/frontend/src/addons \
  && rm -rf /opt/frontend/src/addons/* \
  && npm install -g mrs-developer
