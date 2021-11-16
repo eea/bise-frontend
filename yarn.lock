@@ -1338,10 +1338,10 @@
   dependencies:
     ol "6.6.x"
 
-"@eeacms/volto-plotlycharts@2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-2.0.9.tgz#23c5d10bb9f1e4dde3b16b103946534a6efdf6aa"
-  integrity sha512-rt4SZKjrc2gYJsSGnuWo6kaINTXqZpWjdIBW94fvOxl1c/k9z7L90LKjz+iEEqkew1moxOSP461slA3iRfZ55w==
+"@eeacms/volto-plotlycharts@2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-2.0.10.tgz#2d77769db9857825ea1092280e2c93eb83a8c657"
+  integrity sha512-44wfoxMqni/Cahm0So98Jj8KxbU3esIBvo/i9A/9PQGY7qDzRrLmTyVXD2Ojv8tnm37FlLj7cgkw54LB8j/TIw==
   dependencies:
     "@eeacms/volto-datablocks" "^2.0.13"
     plotly.js "^2.5.1"
