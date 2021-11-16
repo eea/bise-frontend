@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Frontend server for BISE",
   "license": "MIT",
-  "version": "1.32.0",
+  "version": "1.33.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -23,6 +23,7 @@
     "cy:test:fixture:teardown": "node cypress/support/reset-fixture.js teardown",
     "cypress:run": "yarn ci:prepare; docker run --name cypress --rm -v $(./get_correct_pwd.sh):/e2e -w /e2e  -e NODE_ENV=development -e CYPRESS_API=plone -e CYPRESS_RETRIES=2 -e CI=yes -e CYPRESS_BASE_URL=http://$npm_package_custom_localIP:$npm_package_custom_webappport -e CYPRESS_BACKEND_HOST=$npm_package_custom_localIP -e CYPRESS_BACKEND_PORT=$npm_package_custom_ploneport -e CYPRESS_BACKEND_URL=http://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone --rm cypress/included:4.8.0",
     "cypress:run:local": "NODE_ENV=development CYPRESS_API=plone CYPRESS_RETRIES=2 cypress open",
+    "cypress:open": "./node_modules/cypress/bin/cypress open",
     "develop": "missdev --config=jsconfig.json --output=addons",
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
     "i18n": "NODE_ENV=production node src/i18n.js",
@@ -50,27 +51,27 @@
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-bise",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-tableau",
     "@eeacms/volto-webmap",
-    "volto-searchkit",
-    "@eeacms/volto-n2k"
+    "@eeacms/volto-bise",
+    "@eeacms/volto-n2k",
+    "volto-searchkit"
   ],
   "dependencies": {
-    "@eeacms/volto-bise": "^1.1.0",
-    "@eeacms/volto-datablocks": "2.0.13",
-    "@eeacms/volto-eea-kitkat": "4.0.1",
+    "@eeacms/volto-bise": "^1.1.2",
+    "@eeacms/volto-datablocks": "2.0.15",
+    "@eeacms/volto-eea-kitkat": "4.1.3",
     "@eeacms/volto-n2k": "^0.1.1",
-    "@eeacms/volto-openlayers-map": "0.1.2",
-    "@eeacms/volto-plotlycharts": "2.0.7",
+    "@eeacms/volto-openlayers-map": "0.1.3",
+    "@eeacms/volto-plotlycharts": "2.0.10",
     "@eeacms/volto-slate-dataentity": "^1.0.2",
-    "@eeacms/volto-tableau": "1.2.3",
+    "@eeacms/volto-tableau": "1.2.4",
     "@eeacms/volto-webmap": "0.1.1",
-    "@plone/volto": "13.8.2",
+    "@plone/volto": "13.15.0",
     "connected-react-router": "6.9.1",
     "volto-searchkit": "github:eea/volto-searchkit#master"
   },
@@ -84,6 +85,9 @@
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
+  },
+  "resolutions": {
+    "volto-slate": "4.2.1"
   },
   "jest": {
     "modulePathIgnorePatterns": [

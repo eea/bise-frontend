@@ -1,65 +1,11 @@
 {
     "compilerOptions": {
         "paths": {
-            "volto-searchkit": [
-                "addons/volto-searchkit/src"
-            ],
-            "volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "volto-bise": [
+            "@eeacms/volto-bise": [
                 "addons/volto-bise/src"
-            ],
-            "volto-slate": [
-                "addons/volto-slate/src"
-            ],
-            "@eeacms/volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "@eeacms/volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "@eeacms/volto-taxonomy": [
-                "addons/volto-taxonomy/src"
-            ],
-            "@eeacms/volto-webmap": [
-                "addons/volto-webmap/src"
-            ],
-            "@eeacms/volto-slate-dataentity": [
-                "addons/volto-slate-dataentity/src"
-            ],
-            "@eeacms/volto-block-image-cards": [
-                "addons/volto-block-image-cards/src"
-            ],
-            "@eeacms/volto-object-widget": [
-                "addons/volto-object-widget/src"
-            ],
-            "@eeacms/volto-openlayers-map": [
-                "addons/volto-openlayers-map/src"
-            ],
-            "@eeacms/volto-columns-block": [
-                "addons/volto-columns-block/src"
-            ],
-            "@eeacms/volto-resize-helper": [
-                "addons/volto-resize-helper/src"
-            ],
-            "@eeacms/volto-tabs-block": [
-                "addons/volto-tabs-block/src"
-            ],
-            "@eeacms/volto-tableau": [
-                "addons/volto-tableau/src"
-            ],
-            "@eeacms/volto-block-style": [
-                "addons/volto-block-style/src"
             ],
             "@eeacms/volto-n2k": [
                 "addons/volto-n2k/src"
-            ],
-            "@eeacms/volto-bise": [
-                "addons/volto-bise/src"
             ]
         },
         "baseUrl": "src"
