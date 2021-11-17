@@ -1235,10 +1235,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.2.tgz#59dc808f75dc24c0134bbdc90b0c59783f1b6339"
   integrity sha512-th4QKuoPyGPnwZbJMU97IsaEColqPju3RKZSTo3ssJgltSNWa7FVUiWN8aASRnHvVc/PloiEbn2sE9/nhGyxMA==
 
-"@eeacms/volto-eea-kitkat@4.1.3":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.3.tgz#e27e4debbc50dadd33cfd9733254ca936548385c"
-  integrity sha512-D6qc5Tld/GDokNgJ3Oj9uPFp8uUZGcTIbNgFwNwpQeBN8qs6c1d8/zeaErSrjzEsx6L27pZkDgHqnkbivWguOg==
+"@eeacms/volto-eea-kitkat@4.1.4":
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.4.tgz#5af78cae883d3e293a087e8209bd8c3d4bd4d82b"
+  integrity sha512-HQX81YK0fLoRQ3qg1hRFh8KMUYUwHnxxAs4DWD/0itcvI96MV/Urbnj7UrlRPKOuyAzNidjOl6BWGmQE3acDgQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-banner" "1.0.1"
@@ -1252,7 +1252,7 @@
     "@eeacms/volto-group-block" "4.3.1"
     "@eeacms/volto-listing-block" "0.1.2"
     "@eeacms/volto-matomo" "2.0.3"
-    "@eeacms/volto-metadata-block" "4.0.1"
+    "@eeacms/volto-metadata-block" "4.0.2"
     "@eeacms/volto-object-widget" "3.0.0"
     "@eeacms/volto-resize-helper" "0.2.5"
     "@eeacms/volto-sentry-rancher-config" "2.1.2"
@@ -1294,10 +1294,10 @@
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
-"@eeacms/volto-metadata-block@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-4.0.1.tgz#f8d7a6a0a5db7181c4ad9225db66272fb7eca1a1"
-  integrity sha512-w6HeUdign9We37UZPLkhCV0KJkh2c8b4PZYY/+eiprUJfCxw8OaZmMqOJMVWhLSdR7n1ePQ+wcnc+1qIVIOSwA==
+"@eeacms/volto-metadata-block@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-4.0.2.tgz#bf5aecee9bedfb5fba55bd4f37fe32688f164e4c"
+  integrity sha512-kWiZJmbWHMiysUwMLjNkrsMRG3pwyw451zbg8eX1WTP79729AC7nwJeYm9/Slf+ThML666KW6Pqk/aIwCDdXhQ==
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
