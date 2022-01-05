@@ -1236,10 +1236,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.1.0.tgz#8688f8963965286a1ab3e9d746a37469ac5c88ff"
-  integrity sha512-kXnvnTLI85HC3Rmo8mOOS2n+smt+hrNYeAYNa/6PBR0Cvb3NG/ZrmvGnHEPrPd1ARCr7iv8FT1gz66CZ97c/nQ==
+"@eeacms/volto-eea-kitkat@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.1.1.tgz#b5e400d3964a10fd79d1a6ab2ad5a40c975d162d"
+  integrity sha512-Fy+9VJ0sgWeYRPgXEahcKvNX5z+MSOikFAXxQci/FuI5R90gNhymGXPdv8gZAvubp7SN3TMo40p7b5L0DNN2kw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.12"
     "@eeacms/volto-banner" "1.0.4"
@@ -1266,7 +1266,7 @@
     "@eeacms/volto-widget-temporal-coverage" "4.0.4"
     "@eeacms/volto-widget-toggle" "2.2.6"
     "@eeacms/volto-widgets-view" "3.0.4"
-    volto-slate "5.3.2"
+    volto-slate "5.3.3"
 
 "@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
   version "2.0.9"
@@ -21306,10 +21306,10 @@ vm-browserify@^1.0.1:
     searchkit "^2.4.1-alpha.4"
     searchkit-express "^0.2.1"
 
-volto-slate@*, volto-slate@5.3.2, volto-slate@^2.5.0, volto-slate@^4.0.3:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.2.tgz#298057d7a274407c05200ef0337c39eb3ddd843a"
-  integrity sha512-OKCW1sGwTmU1JKtJw93YPvuumlmyzPrEHBeaNAYtuOorVVXinJEaDomQSpG1W5lsKjdasWE1ezyfrSBB8vE5KA==
+volto-slate@*, volto-slate@5.3.3, volto-slate@^2.5.0, volto-slate@^4.0.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.3.tgz#4af806ec9e84f141da3e38e9f98852679aed4fdd"
+  integrity sha512-D9HDlCJAt6FCAL1EQY9PdnLSp7aqdJqEoeI4Gl+omNvR+JtefkE6ilkFL6s+pITAyK3He5t704ujGgT7Wf8+HA==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
