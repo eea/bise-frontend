@@ -1216,13 +1216,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.5.tgz#e72c9277e3c950899f1abc07f48128fcca73c9c8"
   integrity sha512-2LqBkOBj2WhnihYc2brhBsMtSUnSHN8w6jupyNzmHdUjScrJWebkq35GxonnrBtWrpeWGVuQ4I3hIf4zwd8Mhw==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@2.0.20", "@eeacms/volto-datablocks@^2.0.13", "@eeacms/volto-datablocks@^2.0.2":
-  version "2.0.20"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-2.0.20.tgz#2a9be34ff22fdf921bb035a466b00b755a15c05a"
-  integrity sha512-KR2EJhV+PeHDGN7pqODlxRqtvGvVVecMjZKMdmAy4wmEzMSmFht5tsjpT/EdtOXoTk9EbcJmmGDFVmVbWUxUag==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@2.0.21", "@eeacms/volto-datablocks@^2.0.13", "@eeacms/volto-datablocks@^2.0.2":
+  version "2.0.21"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-2.0.21.tgz#a8bf66d4871da9fe913212293f58699881e32157"
+  integrity sha512-5lwsF/zdi1kEgyMVNGvFRJVaSfYXP6/UNmWmVfvfMXC5mKoDWcR9cccQUUuZE7wuq509CPZpAdgsJOYJ7uAjcQ==
   dependencies:
-    "@eeacms/volto-embed" "^2.0.4"
-    "@eeacms/volto-matomo" "^2.0.2"
+    "@eeacms/volto-embed" "*"
+    "@eeacms/volto-matomo" "*"
     d3 "7.1.1"
     humanize-plus "^1.8.2"
     performant-array-to-tree "^1.7.1"
@@ -1268,10 +1268,10 @@
     "@eeacms/volto-widgets-view" "3.0.4"
     volto-slate "5.3.3"
 
-"@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.9.tgz#b9dfb778f9b4f09b5fc812dd38cab4d177a6bdf2"
-  integrity sha512-rFBsFya7qIhtvh91YTLiGKW42RYSFAR/M3W1JLUWaFw9z6F/1bD5nHKNix3htX9oDz87l/tiaQ8bx7xNE7lRww==
+"@eeacms/volto-embed@*", "@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.11.tgz#b933a4519587d22c6560758f079619030b6a7dd7"
+  integrity sha512-FzggUwZOUZqQRUEUje5JFgWJl9+u98Rnk7e99mSHsjyth+4oDTC/k2QNQ1WB0f8Zouuk4Z682PKCH+7u5EZAxQ==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-datablocks" "*"
@@ -1288,7 +1288,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.1.5.tgz#9bcd4d07eb8d00b4423ab78a98283b87f9ccc6aa"
   integrity sha512-r51qkqCYTS4iOchjlH59gm69BPK/mNI9Vjv+ZtEvfb0+zowMgth7ARbnmcmLQ38nv6/+tAv62AVlGj95CTTlAg==
 
-"@eeacms/volto-matomo@2.0.7", "@eeacms/volto-matomo@^2.0.2":
+"@eeacms/volto-matomo@*", "@eeacms/volto-matomo@2.0.7", "@eeacms/volto-matomo@^2.0.2":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-2.0.7.tgz#80a8ffdffb9fbc279943d183554cbafbafe50a79"
   integrity sha512-gpjTHmw2sWQeBEnFYtqUfgQZ32X2vkLt72A9FmBZuOLMnw2MDGbGpnJIr1vzBqvaFZSxMb/sNXiL6rRmw3jOfw==
