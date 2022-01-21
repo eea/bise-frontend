@@ -1204,10 +1204,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-columns-block@4.4.13":
-  version "4.4.13"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.13.tgz#ead4e54ce52e7d07a34e655a00c4727367ada8f7"
-  integrity sha512-SQ3kLOEup58Lue1u4C+K9HknV5BiNFujer1wF/9rrs6db/DtomSaMkpgrgrDW7f+0N6XVZOGvMEhiopdmUb8xA==
+"@eeacms/volto-columns-block@4.4.14":
+  version "4.4.14"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.14.tgz#d7d67439775231e76b8154751fac704e5576bf10"
+  integrity sha512-U+lOieo+4IM+kF9xLC7FwQk15nH2hain/Eep/kOlIjncrW3MDse12GkMgqoeSZzJj/3oFG6iODGZJbWaCgQGkw==
   dependencies:
     react-color "~2.18.1"
 
@@ -1236,10 +1236,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.1.4":
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.1.4.tgz#72c8d1a27633df706bb51bc59761550df578c1ce"
-  integrity sha512-H5lDo3K26Gir52lV3Snxf4hYBPy/c2MJrdh84b0Q5zdh4hit0+1L3qgkxR6zygfHUw7e2u8UQtOrAiutE/sNBw==
+"@eeacms/volto-eea-kitkat@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.1.5.tgz#7ca59a0533b73dc05f4a37b21017bf632def7c9a"
+  integrity sha512-M1qKFlXZf5PQCw6uAEeYe4DZv3pYW8RZsyeHXnaD5nzCbYyDmNEE1gQc7TaPQHqFY7JAk41AlfWEF2UMtRFeRg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-banner" "1.0.4"
@@ -1247,7 +1247,7 @@
     "@eeacms/volto-block-image-cards" "0.1.11"
     "@eeacms/volto-block-style" "3.5.15"
     "@eeacms/volto-block-toc" "2.2.5"
-    "@eeacms/volto-columns-block" "4.4.13"
+    "@eeacms/volto-columns-block" "4.4.14"
     "@eeacms/volto-corsproxy" "2.1.5"
     "@eeacms/volto-depiction" "0.1.5"
     "@eeacms/volto-group-block" "4.3.5"
@@ -1260,10 +1260,10 @@
     "@eeacms/volto-slate-footnote" "4.0.4"
     "@eeacms/volto-slate-metadata-mentions" "4.0.2"
     "@eeacms/volto-slate-zotero" "4.0.4"
-    "@eeacms/volto-tabs-block" "1.2.11"
+    "@eeacms/volto-tabs-block" "1.2.12"
     "@eeacms/volto-taxonomy" "2.0.4"
     "@eeacms/volto-widget-geolocation" "4.0.3"
-    "@eeacms/volto-widget-temporal-coverage" "4.0.4"
+    "@eeacms/volto-widget-temporal-coverage" "4.0.5"
     "@eeacms/volto-widget-toggle" "2.2.6"
     "@eeacms/volto-widgets-view" "3.0.4"
     volto-slate "5.3.3"
@@ -1404,10 +1404,10 @@
     "@eeacms/volto-resize-helper" "^0.2.4"
     tableau-api-js "github:eea/tableau-api-js#1.1.1"
 
-"@eeacms/volto-tabs-block@1.2.11":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.11.tgz#6868dcd4b9b342a7104d9cdb550f29d8c9858939"
-  integrity sha512-RXurVy9ECjVsTkjwytJ4GH9hkFgadHOlO5BBNbh9WDnodtowX9HCaARTdQTf0vVQRjalMk4o6XKlRIwlPDim7w==
+"@eeacms/volto-tabs-block@1.2.12":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.12.tgz#394badcebc38a9fe283d025032602b1e1300552b"
+  integrity sha512-NNiTnkeQKjAhK5E8IkjzriMoDPNygiEm+OAleHsEr+s/0w4p0YNZygOT+iGsUFR1LkZLKPN7ajEweagoM+ug/Q==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-slick "^0.24.0"
@@ -1444,10 +1444,10 @@
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-temporal-coverage@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-4.0.4.tgz#5d75485f5bd3dd3963bc7e781fbc4305280caff1"
-  integrity sha512-oJ4vRzBHXXANkGX22yn2kf9JPQc/gRIzttngZvERIPIkmAYEXdgrxTzcV0P0oUSeE6vd9Yu5NFBaKmVi4A8/vA==
+"@eeacms/volto-widget-temporal-coverage@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-4.0.5.tgz#898d46ad47764c9dd9b5d8cb4bf95574b8f5170a"
+  integrity sha512-A3yEB9ggA38TLB4gqVytm7u14diiMPXspvhwSm74QsjO1PAiCKUrdPqhYDS1Q4CirV+J8TfFpU/iYaN4HZEpOg==
 
 "@eeacms/volto-widget-toggle@2.2.6":
   version "2.2.6"
