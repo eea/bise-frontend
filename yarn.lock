@@ -1216,7 +1216,23 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.5.tgz#e72c9277e3c950899f1abc07f48128fcca73c9c8"
   integrity sha512-2LqBkOBj2WhnihYc2brhBsMtSUnSHN8w6jupyNzmHdUjScrJWebkq35GxonnrBtWrpeWGVuQ4I3hIf4zwd8Mhw==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@2.0.21", "@eeacms/volto-datablocks@^2.0.13", "@eeacms/volto-datablocks@^2.0.2":
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.0.tgz#298e41d8d5266461907f50f118a45f7b219acb66"
+  integrity sha512-YNeX80yurik0iZpQo7HQ6RYmVQyweZe+XDJhn1/eY4e7SNnCEYV7cY+2uZgaSz7LY4RfRI4fQeuh3WV+7R6K3w==
+  dependencies:
+    "@eeacms/volto-embed" "*"
+    "@eeacms/volto-matomo" "*"
+    d3 "7.1.1"
+    humanize-plus "^1.8.2"
+    object-hash "2.2.0"
+    performant-array-to-tree "^1.7.1"
+    plotly.js "^2.5.1"
+    react-plotly.js "^2.5.1"
+    sanitize-html "^2.3.3"
+    slate "^0.62.0"
+
+"@eeacms/volto-datablocks@^2.0.13", "@eeacms/volto-datablocks@^2.0.2":
   version "2.0.21"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-2.0.21.tgz#a8bf66d4871da9fe913212293f58699881e32157"
   integrity sha512-5lwsF/zdi1kEgyMVNGvFRJVaSfYXP6/UNmWmVfvfMXC5mKoDWcR9cccQUUuZE7wuq509CPZpAdgsJOYJ7uAjcQ==
@@ -14339,6 +14355,11 @@ object-foreach@>=0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/object-foreach/-/object-foreach-0.1.2.tgz#d7421c5b40e3b6a3ef57ac624368d21d8f8d2dec"
   integrity sha1-10IcW0DjtqPvV6xiQ2jSHY+NLew=
+
+object-hash@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-2.2.0.tgz#5ad518581eefc443bd763472b8ff2e9c2c0d54a5"
+  integrity sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==
 
 object-inspect@^1.11.0, object-inspect@^1.9.0:
   version "1.11.0"
