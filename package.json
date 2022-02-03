@@ -63,7 +63,7 @@
   ],
   "dependencies": {
     "@eeacms/volto-bise": "^1.1.2",
-    "@eeacms/volto-datablocks": "3.0.0",
+    "@eeacms/volto-datablocks": "3.0.1",
     "@eeacms/volto-eea-kitkat": "5.1.6",
     "@eeacms/volto-n2k": "^0.1.1",
     "@eeacms/volto-openlayers-map": "0.1.3",
