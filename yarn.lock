@@ -1216,19 +1216,16 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.5.tgz#e72c9277e3c950899f1abc07f48128fcca73c9c8"
   integrity sha512-2LqBkOBj2WhnihYc2brhBsMtSUnSHN8w6jupyNzmHdUjScrJWebkq35GxonnrBtWrpeWGVuQ4I3hIf4zwd8Mhw==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.1.tgz#33ec7c68ff928b32ac65c9f155f3a01bb236b6f8"
-  integrity sha512-MhTcF+P9C9Phfx+bpqgaG+3T1bwN4YOcCTVr/j0RuAYElf1OkXpL4SzcZM3i172EoL0UjTYbZNw+4tekIyTc0g==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.2.tgz#4bd8ee488c0319af286974220e5432384cc63061"
+  integrity sha512-OAifWrZci8he0piuXu/OEqnlOFBFCX1sdXqfT3IJt0DGZ9OCP5jrQhbav8LyW/VcU6YZ0PulqZlqj2JAtWB43g==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-matomo" "*"
     d3 "7.1.1"
     humanize-plus "^1.8.2"
     object-hash "2.2.0"
-    performant-array-to-tree "^1.7.1"
-    plotly.js "^2.5.1"
-    react-plotly.js "^2.5.1"
     sanitize-html "^2.3.3"
     slate "^0.62.0"
 
