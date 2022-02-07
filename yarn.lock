@@ -171,7 +171,7 @@
     "@babel/template" "^7.16.7"
     "@babel/types" "^7.16.7"
 
-"@babel/helper-get-function-arity@^7.16.0", "@babel/helper-get-function-arity@^7.16.7":
+"@babel/helper-get-function-arity@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-get-function-arity/-/helper-get-function-arity-7.16.7.tgz#ea08ac753117a669f1508ba06ebcc49156387419"
   integrity sha512-flc+RLSOBXzNzVhcLu6ujeHUrD6tANAOU5ojrRx/as+tbzf8+stUCj7+IfRRoAbEZqj/ahXEMsjhOhgeZsrnTw==
@@ -244,7 +244,7 @@
     "@babel/traverse" "^7.16.0"
     "@babel/types" "^7.16.0"
 
-"@babel/helper-simple-access@^7.16.0", "@babel/helper-simple-access@^7.16.7":
+"@babel/helper-simple-access@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-simple-access/-/helper-simple-access-7.16.7.tgz#d656654b9ea08dbb9659b69d61063ccd343ff0f7"
   integrity sha512-ZIzHVyoeLMvXMN/vok/a4LWRy8G2v205mNP0XOuf9XRLyX5/u9CnVulUtDgUTama3lT+bf/UqucuZjqiGuTS1g==
@@ -294,7 +294,7 @@
     "@babel/traverse" "^7.16.3"
     "@babel/types" "^7.16.0"
 
-"@babel/highlight@^7.10.4", "@babel/highlight@^7.16.0", "@babel/highlight@^7.16.7", "@babel/highlight@^7.8.3":
+"@babel/highlight@^7.10.4", "@babel/highlight@^7.16.7", "@babel/highlight@^7.8.3":
   version "7.16.10"
   resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.16.10.tgz#744f2eb81579d6eea753c227b0f570ad785aba88"
   integrity sha512-5FnTQLSLswEj6IkgVw5KusNUUFY9ZGqe/TRFnP/BKYHYgfh7tc+C7mwiy95/yNP7Dh9x580Vv8r7u7ZfTBFxdw==
@@ -303,7 +303,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.11.1", "@babel/parser@^7.16.0", "@babel/parser@^7.16.3", "@babel/parser@^7.16.7", "@babel/parser@^7.17.0", "@babel/parser@^7.4.3", "@babel/parser@^7.7.0":
+"@babel/parser@^7.1.0", "@babel/parser@^7.11.1", "@babel/parser@^7.16.0", "@babel/parser@^7.16.7", "@babel/parser@^7.17.0", "@babel/parser@^7.4.3", "@babel/parser@^7.7.0":
   version "7.17.0"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.0.tgz#f0ac33eddbe214e4105363bb17c3341c5ffcc43c"
   integrity sha512-VKXSCQx5D8S04ej+Dqsr1CzYvvWgf20jIw2D+YhQCrIlr2UZGaDds23Y0xg75/skOxpLCRpUZvk/1EAVkGoDOw==
@@ -1392,14 +1392,14 @@
   dependencies:
     ol "6.6.x"
 
-"@eeacms/volto-plotlycharts@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.0.tgz#6e0b700ca4efac6f1b1e3d776736b64d9a23612f"
-  integrity sha512-fm/mGjbOvagzTd93AhYzkjRSbhtagVnWYaTqrbmDIii4qD297kRD+thiGK1Uuc70ReSczIhpxp6GimxlqEpdlg==
+"@eeacms/volto-plotlycharts@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.1.tgz#b7de244d8ca2d18943f27a8097e1ad3037a02ef3"
+  integrity sha512-d53UBMqvtBZuKRf7k/l8CtVd8KSmXL0+LCti8DzZSqkdKlWlDyMhK8miBTI3/IlWVuP+xZTfKmkuhjVnyDPAHg==
   dependencies:
     "@eeacms/volto-datablocks" "*"
     "@plone/scripts" "*"
-    plotly.js "^2.5.1"
+    plotly.js "^2.9.0"
     react-chart-editor "0.45.0"
     react-colorscales "0.7.3"
     react-inspector "5.1.1"
@@ -5554,7 +5554,7 @@ colormap@^2.3.1:
   dependencies:
     lerp "^1.0.3"
 
-colors@^1.1.2, colors@^1.4.0:
+colors@^1.1.2:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
@@ -15450,10 +15450,10 @@ plotly.js@1.58.x:
     webgl-context "^2.2.0"
     world-calendars "^1.0.3"
 
-plotly.js@^2.5.1:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/plotly.js/-/plotly.js-2.6.3.tgz#a86b797e4b1299d2c6935d29e562aa2b838d5ec9"
-  integrity sha512-MSdevryj5VvSZvr+slTnJcZgOmvMPZEUe8rFY+3ygxbVUFqmcOvT0TurUx4g07tfAVZ+UhXIaskHnAZNmUcNTg==
+plotly.js@^2.5.1, plotly.js@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/plotly.js/-/plotly.js-2.9.0.tgz#3ffa428c351c5665e9e0ad20234bebe23f5f7b08"
+  integrity sha512-A3kqjGq2PCeL/z19BNvg5YD712mWCMaRW2WbmYA+qpdbNPUjBNjMK/MWXDi7pV53CUM2ZKAqre4j6Uy7bIoAGA==
   dependencies:
     "@plotly/d3" "3.8.0"
     "@plotly/d3-sankey" "0.7.2"
@@ -15489,7 +15489,7 @@ plotly.js@^2.5.1:
     native-promise-only "^0.8.1"
     parse-svg-path "^0.1.2"
     polybooljs "^1.2.0"
-    probe-image-size "^7.2.1"
+    probe-image-size "^7.2.3"
     regl "^2.1.0"
     regl-error2d "^2.0.12"
     regl-line2d "^3.1.2"
@@ -16418,10 +16418,10 @@ private@^0.1.8:
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
 
-probe-image-size@^7.2.1:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.2.2.tgz#e5851b9be7864f21e3bac5e6e4fac9da9055b412"
-  integrity sha512-QUm+w1S9WTsT5GZB830u0BHExrUmF0J4fyRm5kbLUMEP3fl9UVYXc3xOBVqZNnH9tnvVEJO8vDk3PMtsLqjxug==
+probe-image-size@^7.2.1, probe-image-size@^7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.2.3.tgz#d49c64be540ec8edea538f6f585f65a9b3ab4309"
+  integrity sha512-HubhG4Rb2UH8YtV4ba0Vp5bQ7L78RTONYu/ujmCu5nBI8wGv24s4E9xSKBi0N1MowRpxk76pFCpJtW0KPzOK0w==
   dependencies:
     lodash.merge "^4.6.2"
     needle "^2.5.2"

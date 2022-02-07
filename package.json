@@ -67,7 +67,7 @@
     "@eeacms/volto-eea-kitkat": "5.1.6",
     "@eeacms/volto-n2k": "^0.1.1",
     "@eeacms/volto-openlayers-map": "0.1.3",
-    "@eeacms/volto-plotlycharts": "3.0.0",
+    "@eeacms/volto-plotlycharts": "3.0.1",
     "@eeacms/volto-slate-dataentity": "^1.0.2",
     "@eeacms/volto-tableau": "1.2.4",
     "@eeacms/volto-webmap": "0.1.1",
