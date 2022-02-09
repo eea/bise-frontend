@@ -171,7 +171,7 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 
 ### Deploy
 
-* Within `Rancher > Catalog > EEA` deploy [Volto - IMS](https://github.com/eea/eea.rancher.catalog/tree/master/templates/volto-ims)
+* Within `Rancher > Catalog > EEA` deploy [Volto - BISE](https://github.com/eea/eea.rancher.catalog/tree/master/templates/volto-bise)
 
 ### Upgrade
 
