@@ -1256,16 +1256,17 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.5.tgz#e72c9277e3c950899f1abc07f48128fcca73c9c8"
   integrity sha512-2LqBkOBj2WhnihYc2brhBsMtSUnSHN8w6jupyNzmHdUjScrJWebkq35GxonnrBtWrpeWGVuQ4I3hIf4zwd8Mhw==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.4.tgz#094d8b570ab2497f07841596e536730687d574fe"
-  integrity sha512-lN5oNMktK9yh4ftis+DUnUW2OM6XP9WwxOhDdnAKDa4NuwPSQ/+oxmgMZC4GRxgvZDSzMAGVnY5kE3doVRyW/w==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.5.tgz#3251bc3de8147b012d85905cd58adb2b53cb27fc"
+  integrity sha512-HynpTwKtut+xjIpKKFCnfZlJD+ln4QhBmpRTY3nBDI9oJ10FwE1sxvFYgu/Fp6DFbOElS0ahNLyxw9vTSUa7Gg==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-matomo" "*"
     d3 "7.1.1"
     humanize-plus "^1.8.2"
     object-hash "2.2.0"
+    react-countup "6.1.1"
     sanitize-html "^2.3.3"
     slate "^0.62.0"
 
@@ -5957,6 +5958,11 @@ country-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/country-regex/-/country-regex-1.1.0.tgz#51c333dcdf12927b7e5eeb9c10ac8112a6120896"
   integrity sha1-UcMz3N8Sknt+XuucEKyBEqYSCJY=
+
+countup.js@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/countup.js/-/countup.js-2.0.8.tgz#eca0c31c9db3f7769cba494d9315cd52dbaaf1b9"
+  integrity sha512-pW3xwwD+hB+xmtI16xFcuLS0D5hSQqPQWkZOdgpKQyzxCquDNo2VCFPkRw12vmvdpnicXVTcjmYiakG6biwINg==
 
 coveralls@3.0.2:
   version "3.0.2"
@@ -17130,6 +17136,13 @@ react-cookie@1.0.5:
     cookie "^0.3.1"
     is-node "^1.0.2"
     object-assign "^4.1.0"
+
+react-countup@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.1.1.tgz#2dd5a82dd1059afd4e269a33de5cd1fa5a7910d7"
+  integrity sha512-9mYlnk/yCFg3g2/65pCTex6mr9h0eYdDMIL4T5nfLj/RzoiqY03wlPxZglzbJ6OzXvU37OmYApwQ4WMZNFr8Aw==
+  dependencies:
+    countup.js "^2.0.8"
 
 react-dates@21.5.1:
   version "21.5.1"
