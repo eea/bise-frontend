@@ -1231,10 +1231,10 @@
     slick-carousel "^1.8.1"
     volto-slate "*"
 
-"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.16":
-  version "3.5.16"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.16.tgz#185bb84ffb65fc741fdaaf21134da0c2d7cf8cdc"
-  integrity sha512-BBChM/TJGqs/E2Qn6r/4/bsO5CZDsJsPrS8In/2Kkpgw5KBKSss7e0an64sa7ydxIdQ7oH5kx0Ta4LoyGmTsrA==
+"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.17":
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.17.tgz#4817d4d3d1dd3a6b7a7e37c2f12bd71a50a0161b"
+  integrity sha512-/HvuVU7r3fV5GurA5i18ZwjFnADoZg6tgL07ASTcXiFziyTCJ87zs+RJtsdB74ZMVQWx8k+80SRtolzFXNEwCw==
   dependencies:
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
@@ -1290,16 +1290,16 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.0.tgz#19554244d8767b4ac635dae6e2b3c66ecc98df96"
-  integrity sha512-uMR/dDhWL9O+2wOdu9df5MeXK+yQ9saZmsLA8Y6W6S1VIz19ADPVGzbQr26RDHDSIaBimHdVwld4KMCHARzc0w==
+"@eeacms/volto-eea-kitkat@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.1.tgz#3ae260a1496bfdb122c8b2cf50fca188690ba2bb"
+  integrity sha512-d0a56cbDAHZFYdeNqsBZbQe9rX2iJUFKSwIG45saFGtavsfsPslAF2TcIzJpAfOWdqP84oD/35HAOtydPrbV0g==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-banner" "2.0.0"
     "@eeacms/volto-block-divider" "2.1.6"
     "@eeacms/volto-block-image-cards" "0.1.11"
-    "@eeacms/volto-block-style" "3.5.16"
+    "@eeacms/volto-block-style" "3.5.17"
     "@eeacms/volto-block-toc" "2.2.5"
     "@eeacms/volto-columns-block" "4.4.14"
     "@eeacms/volto-corsproxy" "2.1.5"
