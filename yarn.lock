@@ -1290,10 +1290,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.2.tgz#2e00227c5b1adcfc49ce647f60291fcc51fe777b"
-  integrity sha512-itU0h2XO9Zz9IKRFHJXVwO8gEUEHwxzSqTB8KBtiX00tFGApz1HwK3Bkn+HLlciYuBRg1RjHfptktl3xgePB/g==
+"@eeacms/volto-eea-kitkat@5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.3.tgz#d617eafa49f0ae8569f46481bf12136b78d07e76"
+  integrity sha512-Ju3HosBKGuJKyGDadObOEzOLLePCA3I8ebLe/vrkHzH9dsOML1stP1nzwSJ2psi0SgbBlWowvCl3DlB17wBKiw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.14"
     "@eeacms/volto-banner" "2.0.0"
@@ -1307,7 +1307,7 @@
     "@eeacms/volto-group-block" "4.3.5"
     "@eeacms/volto-listing-block" "0.1.5"
     "@eeacms/volto-matomo" "2.0.7"
-    "@eeacms/volto-metadata-block" "4.0.6"
+    "@eeacms/volto-metadata-block" "4.0.7"
     "@eeacms/volto-object-widget" "3.0.3"
     "@eeacms/volto-resize-helper" "0.2.8"
     "@eeacms/volto-sentry-rancher-config" "2.1.5"
@@ -1349,10 +1349,10 @@
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
-"@eeacms/volto-metadata-block@4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-4.0.6.tgz#7f62e4848a08f8813111caafa4e9ed89ed96d82e"
-  integrity sha512-bgvwc2o85bzzdWfiCxVUk+V/1ecg3PhGP6GdAUvfxiTeYDf9rR3LThrObHQv9xtpscsX9WwdcJSK2l8FTGAd9A==
+"@eeacms/volto-metadata-block@4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-4.0.7.tgz#3e562be7ef4a04bd25da43ecf19bcb1ed1639686"
+  integrity sha512-3iRdE6r4MFyplXXWkZ9uvi5gl3y9N/pCY9me03Kxc2lli6LhbOLcWOEc6RfnprkAmltaECJWsOhuK791bxRk5g==
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
