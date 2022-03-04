@@ -1290,10 +1290,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.3.tgz#d617eafa49f0ae8569f46481bf12136b78d07e76"
-  integrity sha512-Ju3HosBKGuJKyGDadObOEzOLLePCA3I8ebLe/vrkHzH9dsOML1stP1nzwSJ2psi0SgbBlWowvCl3DlB17wBKiw==
+"@eeacms/volto-eea-kitkat@5.2.4":
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.4.tgz#aaf777864de17db6ee0f734397e0ac2d37a53d09"
+  integrity sha512-IzAbKXVOCLYCgm8Oqju80JdcobXNx7rmWoUDNhaH7o3cjClZuBcwIDCPVwDIuSLfD5iOoJU3GaTwjjaSoDfDWQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.14"
     "@eeacms/volto-banner" "2.0.0"
@@ -1305,7 +1305,7 @@
     "@eeacms/volto-corsproxy" "2.1.5"
     "@eeacms/volto-depiction" "0.1.5"
     "@eeacms/volto-group-block" "4.3.5"
-    "@eeacms/volto-listing-block" "0.1.5"
+    "@eeacms/volto-listing-block" "0.2.0"
     "@eeacms/volto-matomo" "2.0.7"
     "@eeacms/volto-metadata-block" "4.0.7"
     "@eeacms/volto-object-widget" "3.0.3"
@@ -1337,10 +1337,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.5.tgz#43e2413f9f03b9fa9c9541988ef4a351a410d338"
   integrity sha512-Takka/4kXVUCwpin7Gj8aNbWx1g7L35bTCM6AAUJIQYPgvNg2j04/S2jaZ+iWWOopasND5GaiBBQ4LqgF1U0zA==
 
-"@eeacms/volto-listing-block@0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.1.5.tgz#9bcd4d07eb8d00b4423ab78a98283b87f9ccc6aa"
-  integrity sha512-r51qkqCYTS4iOchjlH59gm69BPK/mNI9Vjv+ZtEvfb0+zowMgth7ARbnmcmLQ38nv6/+tAv62AVlGj95CTTlAg==
+"@eeacms/volto-listing-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.2.0.tgz#12403fc90db97cf9962604ef3a20133fa6cff6c3"
+  integrity sha512-qAm1AaWt/fZRk3yaM8xLJgp3nMgftczWPyAJWNpYcDIczoAAREY9f37xdPqnnrmOpLXTOPtGjSZ7lpm+bpPu9A==
 
 "@eeacms/volto-matomo@*", "@eeacms/volto-matomo@2.0.7":
   version "2.0.7"
