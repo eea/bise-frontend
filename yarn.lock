@@ -1393,10 +1393,10 @@
   dependencies:
     ol "6.6.x"
 
-"@eeacms/volto-plotlycharts@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.2.tgz#d8ef251905b6aeb9a874a1a9e5f811f6c4f0dd93"
-  integrity sha512-OwUOkOtD0HGgx19Y/TPqPfNilAMmtNOTMhn8aKyBtOJEd9apTjT2DfVemdf5kzqmiPht/Vltki4IDyDgOB8wjQ==
+"@eeacms/volto-plotlycharts@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.3.tgz#3f81fe443687be92c75fc615c5c162a19b889ac8"
+  integrity sha512-Fgiq9UQHOAh3f2TtvLXq3wc5jgXWgjwfZVaOtp65wr8jsBNHTLwKlx88XJ5B4Eyq7Q6ieLA12VGhRKYkdpdLLQ==
   dependencies:
     "@eeacms/volto-datablocks" "*"
     "@plone/scripts" "*"
@@ -21491,10 +21491,10 @@ vm-browserify@^1.0.1:
     searchkit "^2.4.1-alpha.4"
     searchkit-express "^0.2.1"
 
-volto-slate@*, volto-slate@5.3.4, volto-slate@^2.5.0, volto-slate@^4.0.3:
-  version "5.3.4"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.4.tgz#fd551e31f4d72e3e7ec4d4f8db127de9ad4ced0e"
-  integrity sha512-ec2u3ZAgX4cek6tEiY+drc/wFIJi5Z9Sz9Zee7/hagpyhexVqaYhOIpnCCf7KtimWKhuP0yq0C5NIABfeEdXAA==
+volto-slate@*, volto-slate@5.3.4, volto-slate@5.3.5, volto-slate@^2.5.0, volto-slate@^4.0.3:
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.5.tgz#ea61f8840ffb6da862a9dc80d582559eb4458dfb"
+  integrity sha512-L4I0j1hq83ZyJp1j8CsOngdvayD+UtjHmA/KzApuYL3T9LvwIrVB19c4tbmJuvEXgj0zrMRDx1SF3AejF10hNw==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
