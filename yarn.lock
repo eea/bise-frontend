@@ -1239,10 +1239,10 @@
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
 
-"@eeacms/volto-block-toc@2.2.5":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
-  integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
+"@eeacms/volto-block-toc@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.3.0.tgz#51ba525a4c5cf1ab94fc6db267482fd3467b244f"
+  integrity sha512-xczE/HagB1B+jwrCwI7oideRoPBKwTwXknx9wcEL++sCJLJFwI5pGh5jkCJyHhBbwY79HlucEk7WXc9SFJLdVg==
 
 "@eeacms/volto-columns-block@4.4.14":
   version "4.4.14"
@@ -1290,17 +1290,17 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.2.7":
-  version "5.2.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.7.tgz#4ba9ac4cc92fa3ed86d1494c4fbe25496a157c9c"
-  integrity sha512-pBUNIihhwAE+uUBJ19STlwMiUve4Ct+Pu1tc0w61+ESIr1fjr2OVSo9THsF7WXs8hCHEh3K2KHoA8u/QTF9gLw==
+"@eeacms/volto-eea-kitkat@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.8.tgz#e5156d5346e39b886cdb72a15a5a65caa449c0a1"
+  integrity sha512-2792Uw+UypOxX8xZZkC+JlWXsF4Zlc49s084oytj2PeacRPiNeXK5kkoUYIs/ZkDx+Gyo752GyvzO0wtQOysRg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.14"
     "@eeacms/volto-banner" "2.1.0"
     "@eeacms/volto-block-divider" "2.1.6"
     "@eeacms/volto-block-image-cards" "0.2.0"
     "@eeacms/volto-block-style" "3.5.18"
-    "@eeacms/volto-block-toc" "2.2.5"
+    "@eeacms/volto-block-toc" "2.3.0"
     "@eeacms/volto-columns-block" "4.4.14"
     "@eeacms/volto-corsproxy" "2.1.5"
     "@eeacms/volto-depiction" "0.1.5"
