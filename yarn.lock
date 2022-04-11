@@ -1256,12 +1256,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.5.tgz#e72c9277e3c950899f1abc07f48128fcca73c9c8"
   integrity sha512-2LqBkOBj2WhnihYc2brhBsMtSUnSHN8w6jupyNzmHdUjScrJWebkq35GxonnrBtWrpeWGVuQ4I3hIf4zwd8Mhw==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.9":
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.9.tgz#68790f45231fa34abf679e6e05969694a2c4a53b"
-  integrity sha512-3RMGkshOku/8B5AKx2EIZ2PjWdycgy/0hJ/gjHDRwiFJsysk1no3/uQPrK6/jHzYyg3nvBhi1hQh/PDhOZNfgQ==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.10":
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.10.tgz#52baab3f0a8e18500065b4f7c9419c678bb44730"
+  integrity sha512-E9qAf1Ght+/96mn0S5Ng+X606OtJGOOtx59YZws6/QaOciMh0mAvFN7U2bjha97Q6SVTZ+pTCu8KfyQ+fquOCQ==
   dependencies:
     "@eeacms/volto-embed" "*"
+    "@eeacms/volto-group-block" "*"
     "@eeacms/volto-matomo" "*"
     d3 "7.1.1"
     humanize-plus "^1.8.2"
@@ -1332,7 +1333,7 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-group-block@4.3.5":
+"@eeacms/volto-group-block@*", "@eeacms/volto-group-block@4.3.5":
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.5.tgz#43e2413f9f03b9fa9c9541988ef4a351a410d338"
   integrity sha512-Takka/4kXVUCwpin7Gj8aNbWx1g7L35bTCM6AAUJIQYPgvNg2j04/S2jaZ+iWWOopasND5GaiBBQ4LqgF1U0zA==
