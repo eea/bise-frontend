@@ -87,7 +87,7 @@
     "stylelint-prettier": "1.1.2"
   },
   "resolutions": {
-    "volto-slate": "5.4.1"
+    "volto-slate": "6.0.0"
   },
   "jest": {
     "modulePathIgnorePatterns": [
