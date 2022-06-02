@@ -1291,10 +1291,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.0.1.tgz#61d97f97e4b8e291c2d9a3b63088c91eb6f6cb19"
-  integrity sha512-ZUv8tSHFs39usa96UDEkk6lSkO2muJKIBmK/4IocCraEU8U5+XgZ2tKx4fODjcUE5snn59CkdcT6YGi5sk+k0Q==
+"@eeacms/volto-eea-kitkat@6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.0.2.tgz#b758bc6c0542fa6e0b6e978351d9b2d2260d8f28"
+  integrity sha512-lZSkYDr5bE4eyWetyAhCLmlGVd1rxhBcQDhc43g0M3aOz23tipS7AO3blkgFKe9EDLB6cHm8mCgkZ2Mzq1x7Yg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
@@ -1316,7 +1316,7 @@
     "@eeacms/volto-slate-metadata-mentions" "5.0.0"
     "@eeacms/volto-slate-zotero" "4.0.4"
     "@eeacms/volto-tabs-block" "1.3.1"
-    "@eeacms/volto-taxonomy" "2.0.4"
+    "@eeacms/volto-taxonomy" "2.0.5"
     "@eeacms/volto-widget-geolocation" "4.0.3"
     "@eeacms/volto-widget-temporal-coverage" "4.0.5"
     "@eeacms/volto-widget-toggle" "2.2.6"
@@ -1475,10 +1475,10 @@
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-taxonomy@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.4.tgz#0ee8a9a10c45ee055bc3025c681f9f217447e58e"
-  integrity sha512-gC4T7K+FpIGyRKKEmqhV498fcFgaFDgj4utxm4U5yaYtjw1YbXakKb8/qnWx5vpPnVZwyq7i7Cmckeu+owkR7g==
+"@eeacms/volto-taxonomy@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.5.tgz#d016ef17021418d50bc7848865174074b1a063ea"
+  integrity sha512-JfEpyRTHLyF8F2ZFD0BUH5wz/hE+wAWYKfalfXiO6WRV4kVrgEiuFSU5ive/i0i0wq1YdZGyaLpndmJJ7mmphg==
 
 "@eeacms/volto-webmap@0.1.1":
   version "0.1.1"
