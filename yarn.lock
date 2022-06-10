@@ -1231,10 +1231,10 @@
     slick-carousel "^1.8.1"
     volto-slate "*"
 
-"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.18":
-  version "3.5.18"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.18.tgz#c08508acd0dfae5a6ec9bff3a701b57400bcfe5d"
-  integrity sha512-c2qiltquVE/5smqs77UGsgXZcn0aACy2JiwEMEu8JI3t60KKsVB1p9cYaKqgtQuhd8nqe5G9p5n6+pRaadFDXw==
+"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.6.0.tgz#ecf28422984eca0396d00facffc6547281cac893"
+  integrity sha512-U7818/c9ptowA2IdY5EDtbCbj1wEKHawJuqH1LQqXGMVJZsSI4+cp8aVEhuvUF0T+iM+3Gh/w/xtJ2banM7NwA==
   dependencies:
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
@@ -1291,22 +1291,22 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.0.4.tgz#738c4e3dc33e67d7071fbab3a2adc49919b96395"
-  integrity sha512-D4j2GQfOMzJv4gWVwekvODutnYyPKGb2O/7fC7yJryh//zbewGePveXTWmBthSEPkwdhUMQDJ7XyfnrPtHZXUA==
+"@eeacms/volto-eea-kitkat@6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.0.tgz#cfa41526a0cb1d7f2b99189c0c69b80d422de99a"
+  integrity sha512-QFlhw/oieinS4hsrZI/s7c0k7tFZMbsnWUYu4VdHgukaZkAHmqjqNYDAtvevw3AP/POO/lcc0UEFibZK4YGDtQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
     "@eeacms/volto-block-divider" "3.0.0"
     "@eeacms/volto-block-image-cards" "0.6.0"
-    "@eeacms/volto-block-style" "3.5.18"
+    "@eeacms/volto-block-style" "3.6.0"
     "@eeacms/volto-block-toc" "3.0.0"
     "@eeacms/volto-columns-block" "4.5.0"
     "@eeacms/volto-corsproxy" "2.1.5"
     "@eeacms/volto-depiction" "0.1.5"
     "@eeacms/volto-group-block" "4.3.5"
-    "@eeacms/volto-listing-block" "0.3.2"
+    "@eeacms/volto-listing-block" "0.4.0"
     "@eeacms/volto-matomo" "2.0.8"
     "@eeacms/volto-metadata-block" "4.0.7"
     "@eeacms/volto-object-widget" "4.0.1"
@@ -1315,9 +1315,9 @@
     "@eeacms/volto-slate-footnote" "5.0.0"
     "@eeacms/volto-slate-metadata-mentions" "5.0.0"
     "@eeacms/volto-slate-zotero" "4.0.4"
-    "@eeacms/volto-tabs-block" "2.0.0"
+    "@eeacms/volto-tabs-block" "2.0.1"
     "@eeacms/volto-taxonomy" "2.0.5"
-    "@eeacms/volto-widget-geolocation" "4.0.3"
+    "@eeacms/volto-widget-geolocation" "4.0.4"
     "@eeacms/volto-widget-temporal-coverage" "4.0.5"
     "@eeacms/volto-widget-toggle" "2.2.6"
     "@eeacms/volto-widgets-view" "3.0.4"
@@ -1338,10 +1338,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.5.tgz#43e2413f9f03b9fa9c9541988ef4a351a410d338"
   integrity sha512-Takka/4kXVUCwpin7Gj8aNbWx1g7L35bTCM6AAUJIQYPgvNg2j04/S2jaZ+iWWOopasND5GaiBBQ4LqgF1U0zA==
 
-"@eeacms/volto-listing-block@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.3.2.tgz#115489e771ab7b80527cbfa5f63561cb502a5d50"
-  integrity sha512-oHa33q3g1MV9dW9Ve2M0USAFxed/Nu+Y5iFSP+UpM5+LlIxk9xN6PRVpBI8s4BD/BrHAXB1OOOPFotW8t4qwgg==
+"@eeacms/volto-listing-block@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.4.0.tgz#f5cc3ec17e43c427e22363fb2daf6796e4137b0a"
+  integrity sha512-21L1KXZE06okU6miz1XAW+u+xUMJown+a0p2hFjRf7ixvAXqSol24N13khXChfE8VoHn+nZSk8C+FXRmwp2sBQ==
+  dependencies:
+    react-slick "0.29.0"
+    slick-carousel "1.8.1"
 
 "@eeacms/volto-matomo@*", "@eeacms/volto-matomo@2.0.8":
   version "2.0.8"
@@ -1466,10 +1469,10 @@
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-tabs-block@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.0.tgz#d266812e3c84309d809ae8aa705fb6eb4d4df02f"
-  integrity sha512-PjZVfIRTUQvrGZ6c+kj1wslpdiQ63/fI/I0DwnJ1KC6gBCAMHvVNo7tbsrfu8VebqD/13X7Y3PP94V5BanUe7g==
+"@eeacms/volto-tabs-block@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.1.tgz#f292afd3ec04566e4899963e6dae9759429130eb"
+  integrity sha512-StrZJjyS/B5bhA87mci+cKkYNJzTvIb9AYacZZCuyneskwVFs8vQGniQx1/VxOBS55TC3T+3r8p67f1DY62c3w==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-responsive-tabs "4.4.3"
@@ -1490,10 +1493,10 @@
     "@eeacms/volto-embed" "^2.0.1"
     esri-loader "2.16.0"
 
-"@eeacms/volto-widget-geolocation@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.3.tgz#29bfd2346498628aca6e2f73d42d7214983aa667"
-  integrity sha512-zNkwjOsjfI7kP5iaIqb78BT/ud462yuARpHEqOnkAbYYBaJkzjAp/KW+8utpyslbnLemYEEuG5e5mRJrwxcoiQ==
+"@eeacms/volto-widget-geolocation@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.4.tgz#630158f2537a2ad1f80dfa527abc3297bcf30a56"
+  integrity sha512-0teHgOd5I5/9mqybGFLSGY4MWc0J0Tw+BcnGd0VHptrWQbdXsgUTnXNCBd6QdhnVU5/UfPt+feEdZ/QeYZ29nQ==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
@@ -17622,6 +17625,17 @@ react-simple-code-editor@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/react-simple-code-editor/-/react-simple-code-editor-0.7.1.tgz#9fce45d31ec4db3077a46d489d6e43a125a98726"
   integrity sha512-AgvT7j7UfFa7b/DRDvFad6Y9/bda8ogXKG2ozElCWbWWj3itu05LS7bmLu63ohjfJDTWbm9Kq0PwIdL7pw3mBg==
+
+react-slick@0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.29.0.tgz#0bed5ea42bf75a23d40c0259b828ed27627b51bb"
+  integrity sha512-TGdOKE+ZkJHHeC4aaoH85m8RnFyWqdqRfAGkhd6dirmATXMZWAxOpTLmw2Ll/jPTQ3eEG7ercFr/sbzdeYCJXA==
+  dependencies:
+    classnames "^2.2.5"
+    enquire.js "^2.1.6"
+    json2mq "^0.2.0"
+    lodash.debounce "^4.0.8"
+    resize-observer-polyfill "^1.5.0"
 
 react-slick@^0.24.0:
   version "0.24.0"
