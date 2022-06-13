@@ -1291,10 +1291,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.0.tgz#cfa41526a0cb1d7f2b99189c0c69b80d422de99a"
-  integrity sha512-QFlhw/oieinS4hsrZI/s7c0k7tFZMbsnWUYu4VdHgukaZkAHmqjqNYDAtvevw3AP/POO/lcc0UEFibZK4YGDtQ==
+"@eeacms/volto-eea-kitkat@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.1.tgz#7d6b94d79435722d498f3be86b03a8ff20ae9a92"
+  integrity sha512-GJF7Dm5tcw1fBgTiN+R/0P/cuVEEb5YbTcz5mO2ANnEQubNlOryfwGNVhxG9KGdz4loPYvrFiyd9oOeFVfmW6Q==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
@@ -1317,6 +1317,7 @@
     "@eeacms/volto-slate-zotero" "4.0.4"
     "@eeacms/volto-tabs-block" "2.0.1"
     "@eeacms/volto-taxonomy" "2.0.5"
+    "@eeacms/volto-widget-dataprovenance" "0.1.1"
     "@eeacms/volto-widget-geolocation" "4.0.4"
     "@eeacms/volto-widget-temporal-coverage" "4.0.5"
     "@eeacms/volto-widget-toggle" "2.2.6"
@@ -1492,6 +1493,13 @@
     "@eeacms/volto-corsproxy" "^2.1.2"
     "@eeacms/volto-embed" "^2.0.1"
     esri-loader "2.16.0"
+
+"@eeacms/volto-widget-dataprovenance@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.1.tgz#50c0f6bebca634b23165b1c54c0c0f6c69f4d24b"
+  integrity sha512-B0bostiTBaSEOUn9D3n1p2P5HnjVPypg2AVsweOndqyr+ldhE4+QPkFFdM93lEwKw9sggNGW9yvYrxBl/kSqyg==
+  dependencies:
+    "@plone/scripts" "*"
 
 "@eeacms/volto-widget-geolocation@4.0.4":
   version "4.0.4"
