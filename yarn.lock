@@ -1291,10 +1291,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.1.tgz#7d6b94d79435722d498f3be86b03a8ff20ae9a92"
-  integrity sha512-GJF7Dm5tcw1fBgTiN+R/0P/cuVEEb5YbTcz5mO2ANnEQubNlOryfwGNVhxG9KGdz4loPYvrFiyd9oOeFVfmW6Q==
+"@eeacms/volto-eea-kitkat@6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.2.tgz#7b6eebdf927ab5f97c8a719401f0e9ce237dac85"
+  integrity sha512-4JdulYU2kJPmekxpQpwUswmMsrxWGq9QwPDPuk2g9jKf230ZtJ3QR/HFpncrTaVmvbXNtQVIj/K5+5ROxzQ3jA==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
@@ -1315,7 +1315,7 @@
     "@eeacms/volto-slate-footnote" "5.0.0"
     "@eeacms/volto-slate-metadata-mentions" "5.0.0"
     "@eeacms/volto-slate-zotero" "4.0.4"
-    "@eeacms/volto-tabs-block" "2.0.1"
+    "@eeacms/volto-tabs-block" "2.0.2"
     "@eeacms/volto-taxonomy" "2.0.5"
     "@eeacms/volto-widget-dataprovenance" "0.1.1"
     "@eeacms/volto-widget-geolocation" "4.0.4"
@@ -1470,10 +1470,10 @@
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-tabs-block@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.1.tgz#f292afd3ec04566e4899963e6dae9759429130eb"
-  integrity sha512-StrZJjyS/B5bhA87mci+cKkYNJzTvIb9AYacZZCuyneskwVFs8vQGniQx1/VxOBS55TC3T+3r8p67f1DY62c3w==
+"@eeacms/volto-tabs-block@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.2.tgz#aab6f33e9b10b1084d99b1dc4607771f3eb04560"
+  integrity sha512-foQIl7H7NyRHPbTvuR8fTbETzIsvJvlVaJIOXffXA0DPhpTFOx/wg1Zt1f3CjBBXAAAwCtTqpIT9p2O5H9hirA==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-responsive-tabs "4.4.3"
