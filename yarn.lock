@@ -1291,10 +1291,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@6.1.2":
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.2.tgz#7b6eebdf927ab5f97c8a719401f0e9ce237dac85"
-  integrity sha512-4JdulYU2kJPmekxpQpwUswmMsrxWGq9QwPDPuk2g9jKf230ZtJ3QR/HFpncrTaVmvbXNtQVIj/K5+5ROxzQ3jA==
+"@eeacms/volto-eea-kitkat@6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.3.tgz#0a3177950992e7464823d1a3dcfe8cd6bdde5a1e"
+  integrity sha512-9D2tG2+z9PMVQ1xMYk/VNxfWR7IUimCZYcQVI/JC6RjvHNC43Is0VwobMXmxTjWs6C1PoNcYSCjVqZg7Uh3cZQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
@@ -1317,8 +1317,8 @@
     "@eeacms/volto-slate-zotero" "4.0.4"
     "@eeacms/volto-tabs-block" "2.0.2"
     "@eeacms/volto-taxonomy" "2.0.5"
-    "@eeacms/volto-widget-dataprovenance" "0.1.1"
-    "@eeacms/volto-widget-geolocation" "4.0.4"
+    "@eeacms/volto-widget-dataprovenance" "0.1.2"
+    "@eeacms/volto-widget-geolocation" "4.0.5"
     "@eeacms/volto-widget-temporal-coverage" "4.0.5"
     "@eeacms/volto-widget-toggle" "2.2.6"
     "@eeacms/volto-widgets-view" "3.0.4"
@@ -1494,17 +1494,17 @@
     "@eeacms/volto-embed" "^2.0.1"
     esri-loader "2.16.0"
 
-"@eeacms/volto-widget-dataprovenance@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.1.tgz#50c0f6bebca634b23165b1c54c0c0f6c69f4d24b"
-  integrity sha512-B0bostiTBaSEOUn9D3n1p2P5HnjVPypg2AVsweOndqyr+ldhE4+QPkFFdM93lEwKw9sggNGW9yvYrxBl/kSqyg==
+"@eeacms/volto-widget-dataprovenance@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.2.tgz#0230fc25db073cbbaf84ed5e7a0ce043f87b2f3e"
+  integrity sha512-SRYSkMRNFBy9B4T9FYnl6v4fqWcMkPL2PQYNPHklh9pCRKAmfInDulV/ogonOL+2ZwmZqA7saMJQES43MU9fOg==
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-widget-geolocation@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.4.tgz#630158f2537a2ad1f80dfa527abc3297bcf30a56"
-  integrity sha512-0teHgOd5I5/9mqybGFLSGY4MWc0J0Tw+BcnGd0VHptrWQbdXsgUTnXNCBd6QdhnVU5/UfPt+feEdZ/QeYZ29nQ==
+"@eeacms/volto-widget-geolocation@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.5.tgz#9e7a3b0da96a81419fdcc8986c6d571cdba74779"
+  integrity sha512-YayGksmhWwNKlH10EDcTQBcfbSLHvsIzzZ6VqFWwm9Ro8BCTi+223i6WP/UnAkbXMsGaTI7EsSMk8mQLLCU86g==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
