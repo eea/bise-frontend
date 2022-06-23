@@ -228,7 +228,7 @@
     "https": "https://github.com/eea/volto-bise.git",
     "package": "@eeacms/volto-bise",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-n2k": {
@@ -236,7 +236,7 @@
     "https": "https://github.com/eea/volto-n2k.git",
     "package": "@eeacms/volto-n2k",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-datablocks": {
@@ -244,7 +244,7 @@
     "https": "https://github.com/eea/volto-datablocks.git",
     "package": "@eeacms/volto-datablocks",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-plotlycharts": {
@@ -252,7 +252,7 @@
     "https": "https://github.com/eea/volto-plotlycharts.git",
     "package": "@eeacms/volto-plotlycharts",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-openlayers-map": {
