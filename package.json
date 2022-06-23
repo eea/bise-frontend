@@ -2,59 +2,49 @@
   "name": "bise-frontend",
   "description": "Frontend server for BISE",
   "license": "MIT",
-  "version": "1.33.0",
+  "version": "1.34.0",
+  "scripts": {
+    "start": "razzle start",
+    "postinstall": "yarn omelette && yarn patches",
+    "omelette": "if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi",
+    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
+    "build": "razzle build",
+    "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx}'",
+    "lint:fix": "./node_modules/eslint/bin/eslint.js --max-warnings=0 --fix 'src/**/*.{js,jsx}'",
+    "lint:ci": "./node_modules/eslint/bin/eslint.js --max-warnings=0 -f checkstyle 'src/**/*.{js,jsx}' > eslint.xml",
+    "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier:ci": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "stylelint": "stylelint 'theme/**/*.{css,less}' 'src/**/*.{css,less}'",
+    "stylelint:overrides": "stylelint 'theme/**/*.overrides' 'src/**/*.overrides'",
+    "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
+    "test": "razzle test --env=jest-environment-jsdom-sixteen --passWithNoTests",
+    "cypress:run": "NODE_ENV=test cypress run",
+    "cypress:open": "NODE_ENV=test cypress open",
+    "cypress:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn start",
+    "cypress:test-acceptance-server": "make test-acceptance-server",
+    "cy:test:fixture:setup": "node cypress/support/reset-fixture.js",
+    "cy:test:fixture:teardown": "node cypress/support/reset-fixture.js teardown",
+    "ci:start-backend": "make start-test-backend",
+    "ci:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn build && start-test start:prod http-get://localhost:3000 cypress:run",
+    "ci:cypress:run": "start-test ci:start-backend http-get://localhost:55001/plone ci:start-frontend",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
+    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https",
+    "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "private": true,
   "workspaces": [
     "src/addons/*"
   ],
-  "scripts": {
-    "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
-    "build": "razzle build",
-    "ci:cypress:end": "docker stop webapp plone",
-    "ci:cypress:mochawsome:merge": "mochawesome-merge  cypress/mochawesome/json/*.json -o cypress/report/mochawesome.json",
-    "ci:cypress:mochawsome:report": "marge --reportDir=cypress/report --charts=true --reportTitle=ITReport --reportPageTitle='Cypress Integration Tests' cypress/report/mochawesome.json",
-    "ci:cypress:run": "start-test ci:start-api-plone http-get://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone ci:start-tests",
-    "ci:prepare": "localIP=$(ip addr | grep -E '^ *inet ' | grep -vE 'inet (172|127)' | head -n 1 | awk '{print $2}' | cut -f1 -d'/'); sed -i \"s#\\\"localIP\\\":.*#\\\"localIP\\\": \\\"$localIP\\\"#\" package.json",
-    "ci:start-api-plone": "yarn ci:prepare; docker run --name plone --rm -p $npm_package_custom_ploneport:55001 -e ZSERVER_PORT=55001 -e ZSERVER_HOST=0.0.0.0 -e ADDONS='plone.app.robotframework plone.app.contenttypes plone.restapi kitconcept.volto' -e CONFIGURE_PACKAGES=plone.app.contenttypes,plone.restapi,kitconcept.volto,kitconcept.volto.cors -e APPLY_PROFILES=plone.app.contenttypes:plone-content,plone.restapi:default,kitconcept.volto:default-homepage  -e VERSIONS='plone.restapi=6.13.4' -e ZCML='kitconcept.volto.cors' -e CORS_ALLOW_ORIGIN=http://$npm_package_custom_localIP:$npm_package_custom_webappport -e SITE=plone -e PROFILES='plone.app.contenttypes:plone-content plone.restapi:default kitconcept.volto:default-homepage' -v $(./get_correct_pwd.sh)/start-robot-server.sh:/start-robot-server.sh plone /start-robot-server.sh",
-    "ci:start-frontend": "yarn ci:prepare; docker run --name webapp --rm -p $npm_package_custom_webappport:3000 -e RAZZLE_API_PATH=http://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone -e HOST=$npm_package_custom_localIP -e CI=yes -v $(./get_correct_pwd.sh):/$(pwd) -w /$(pwd) --rm node:12-slim /bin/sh -c 'yarn build && yarn start:prod'",
-    "ci:start-tests": "start-test ci:start-frontend http-get://$npm_package_custom_localIP:$npm_package_custom_webappport cypress:run",
-    "code-analysis:i18n": "yarn i18n && git diff -G'^[^\"POT]' --exit-code",
-    "cy:test:fixture:setup": "node cypress/support/reset-fixture.js",
-    "cy:test:fixture:teardown": "node cypress/support/reset-fixture.js teardown",
-    "cypress:run": "yarn ci:prepare; docker run --name cypress --rm -v $(./get_correct_pwd.sh):/e2e -w /e2e  -e NODE_ENV=development -e CYPRESS_API=plone -e CYPRESS_RETRIES=2 -e CI=yes -e CYPRESS_BASE_URL=http://$npm_package_custom_localIP:$npm_package_custom_webappport -e CYPRESS_BACKEND_HOST=$npm_package_custom_localIP -e CYPRESS_BACKEND_PORT=$npm_package_custom_ploneport -e CYPRESS_BACKEND_URL=http://$npm_package_custom_localIP:$npm_package_custom_ploneport/plone --rm cypress/included:4.8.0",
-    "cypress:run:local": "NODE_ENV=development CYPRESS_API=plone CYPRESS_RETRIES=2 cypress open",
-    "cypress:open": "./node_modules/cypress/bin/cypress open",
-    "develop": "missdev --config=jsconfig.json --output=addons",
-    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
-    "i18n": "NODE_ENV=production node src/i18n.js",
-    "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx}'",
-    "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx}'",
-    "omelette": "ln -sf node_modules/@plone/volto/ omelette",
-    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
-    "postinstall": "yarn omelette",
-    "preinstallxxx": "if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi",
-    "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
-    "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
-    "pretty": "yarn prettier:fix",
-    "serve": "http-server -p $PORT ./build",
-    "start": "razzle start",
-    "start:prod": "NODE_ENV=production node build/server.js",
-    "style": "yarn stylelint:fix",
-    "stylelint": "./node_modules/.bin/stylelint 'theme/**/*.{css,less}' 'src/**/*.{css,less}'",
-    "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
-    "stylelint:overrides": "./node_modules/.bin/stylelint --syntax less 'theme/**/*.overrides' 'src/**/*.overrides'",
-    "test": "razzle test --env=jsdom",
-    "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install",
-    "release": "release-it",
-    "release-major-beta": "release-it major --preRelease=beta",
-    "release-beta": "release-it --preRelease=beta"
-  },
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-datablocks",
-    "@eeacms/volto-openlayers-map",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-slate-dataentity",
+    "@eeacms/volto-openlayers-map",
     "@eeacms/volto-tableau",
     "@eeacms/volto-webmap",
     "@eeacms/volto-bise",
@@ -62,32 +52,33 @@
     "volto-searchkit"
   ],
   "dependencies": {
-    "@eeacms/volto-bise": "^1.1.2",
-    "@eeacms/volto-datablocks": "2.0.15",
-    "@eeacms/volto-eea-kitkat": "4.1.3",
-    "@eeacms/volto-n2k": "^0.1.1",
-    "@eeacms/volto-openlayers-map": "0.1.3",
-    "@eeacms/volto-plotlycharts": "2.0.10",
-    "@eeacms/volto-slate-dataentity": "^1.0.2",
+    "@eeacms/volto-datablocks": "3.0.12",
+    "@eeacms/volto-eea-kitkat": "6.1.4",
+    "@eeacms/volto-openlayers-map": "0.1.4",
+    "@eeacms/volto-plotlycharts": "3.0.5",
+    "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "1.2.4",
     "@eeacms/volto-webmap": "0.1.1",
-    "@plone/volto": "13.15.0",
-    "connected-react-router": "6.9.1",
+    "@eeacms/volto-bise": "1.1.4",
+    "@eeacms/volto-n2k": "0.1.3",
+    "@plone/volto": "15.12.1",
     "volto-searchkit": "github:eea/volto-searchkit#master"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.3.0",
+    "@storybook/addon-controls": "6.3.0",
+    "@storybook/addon-essentials": "^6.3.0",
+    "@storybook/addon-links": "^6.3.0",
+    "@storybook/react": "^6.3.0",
     "eslint-plugin-prettier": "3.1.3",
-    "mrs-developer": "^1.6.0",
+    "jest-junit": "8.0.0",
+    "mrs-developer": "*",
+    "postcss": "8.3.11",
     "prettier": "2.0.5",
-    "redux-devtools-extension": "2.13.9",
-    "release-it": "14.7.0",
-    "stylelint": "13.3.3",
+    "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
-  },
-  "resolutions": {
-    "volto-slate": "4.2.1"
   },
   "jest": {
     "modulePathIgnorePatterns": [
@@ -109,6 +100,7 @@
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
       "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
       "@package/(.*)$": "<rootDir>/src/$1",
+      "@root/(.*)$": "<rootDir>/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
     },
     "coverageThreshold": {
@@ -146,6 +138,20 @@
     "plugins": [
       "stylelint-prettier"
     ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.less"
+        ],
+        "customSyntax": "postcss-less"
+      },
+      {
+        "files": [
+          "**/*.overrides"
+        ],
+        "customSyntax": "postcss-less"
+      }
+    ],
     "rules": {
       "prettier/prettier": true,
       "rule-empty-line-before": [
@@ -170,6 +176,6 @@
     "not dead"
   ],
   "engines": {
-    "node": "^10 || ^12 || ^14"
+    "node": "^12 || ^14 || ^16"
   }
 }
