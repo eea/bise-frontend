@@ -1,6 +1,12 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
             "@eeacms/volto-bise": [
                 "addons/volto-bise/src"
             ],
