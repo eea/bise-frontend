@@ -40,6 +40,9 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
+#Locales
+locales/*.json
+
 # Optional npm cache directory
 .npm
 
