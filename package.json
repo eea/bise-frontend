@@ -1,8 +1,40 @@
 {
   "name": "bise-frontend",
-  "description": "Frontend server for BISE",
+  "description": "Website frontend for BISE",
   "license": "MIT",
   "version": "1.36.0",
+  "scripts": {
+    "start": "razzle start",
+    "postinstall": "yarn omelette && yarn patches",
+    "omelette": "if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi",
+    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
+    "build": "razzle build",
+    "lint": "./node_modules/eslint/bin/eslint.js 'src/**/*.{js,jsx}'",
+    "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx}'",
+    "lint:ci": "./node_modules/eslint/bin/eslint.js -f checkstyle 'src/**/*.{js,jsx}' > eslint.xml",
+    "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier:ci": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "stylelint": "stylelint 'theme/**/*.{css,less}' 'src/**/*.{css,less}'",
+    "stylelint:overrides": "stylelint 'theme/**/*.overrides' 'src/**/*.overrides'",
+    "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
+    "test": "razzle test --env=jest-environment-jsdom-sixteen --passWithNoTests",
+    "cypress:run": "NODE_ENV=test cypress run",
+    "cypress:open": "NODE_ENV=test cypress open",
+    "cypress:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn start",
+    "cypress:test-acceptance-server": "make test-acceptance-server",
+    "cy:test:fixture:setup": "node cypress/support/reset-fixture.js",
+    "cy:test:fixture:teardown": "node cypress/support/reset-fixture.js teardown",
+    "ci:start-backend": "make start-test-backend",
+    "ci:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn build && start-test start:prod http-get://localhost:3000 cypress:run",
+    "ci:cypress:run": "start-test ci:start-backend http-get://localhost:55001/plone ci:start-frontend",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
+    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https",
+    "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -16,42 +48,9 @@
     "@eeacms/volto-tableau",
     "@eeacms/volto-webmap",
     "@eeacms/volto-bise",
-    "@eeacms/volto-n2k"
+    "@eeacms/volto-n2k",
+    "volto-searchkit"
   ],
-  "dependencies": {
-    "@eeacms/volto-bise": "*",
-    "@eeacms/volto-datablocks": "*",
-    "@eeacms/volto-eea-kitkat": "*",
-    "@eeacms/volto-n2k": "*",
-    "@eeacms/volto-openlayers-map": "*",
-    "@eeacms/volto-plotlycharts": "*",
-    "@eeacms/volto-slate-dataentity": "*",
-    "@eeacms/volto-tableau": "*",
-    "@eeacms/volto-webmap": "*",
-    "@plone/volto": "15.12.1"
-  },
-  "devDependencies": {
-    "mrs-developer": "*"
-  },
-  "scripts": {
-    "start": "razzle start",
-    "postinstall": "yarn omelette && yarn patches",
-    "analyze": "BUNDLE_ANALYZE=true razzle build",
-    "omelette": "ln -sf node_modules/@plone/volto/ omelette",
-    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
-    "build": "razzle build",
-    "start:prod": "NODE_ENV=production node build/server.js",
-    "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
-    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=develop",
-    "develop": "missdev --config=jsconfig.json --output=develop",
-    "update": "./scripts/update.sh",
-    "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
-    "cypress:run": "./node_modules/cypress/bin/cypress run",
-    "cypress:open": "./node_modules/cypress/bin/cypress open",
-    "release": "release-it",
-    "release-major-beta": "release-it major --preRelease=beta",
-    "release-beta": "release-it --preRelease=beta"
-  },
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -70,6 +69,7 @@
     "moduleNameMapper": {
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
+      "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
       "@package/(.*)$": "<rootDir>/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
     },
@@ -108,6 +108,20 @@
     "plugins": [
       "stylelint-prettier"
     ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.less"
+        ],
+        "customSyntax": "postcss-less"
+      },
+      {
+        "files": [
+          "**/*.overrides"
+        ],
+        "customSyntax": "postcss-less"
+      }
+    ],
     "rules": {
       "prettier/prettier": true,
       "rule-empty-line-before": [
@@ -124,7 +138,43 @@
     },
     "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie 11",
+    "not dead"
+  ],
   "engines": {
     "node": "^12 || ^14 || ^16"
+  },
+  "dependencies": {
+    "@eeacms/volto-bise": "1.1.4",
+    "@eeacms/volto-datablocks": "3.0.12",
+    "@eeacms/volto-eea-kitkat": "6.2.0",
+    "@eeacms/volto-n2k": "0.1.3",
+    "@eeacms/volto-openlayers-map": "0.1.4",
+    "@eeacms/volto-plotlycharts": "3.0.5",
+    "@eeacms/volto-slate-dataentity": "1.0.5",
+    "@eeacms/volto-tableau": "1.2.4",
+    "@eeacms/volto-webmap": "0.1.1",
+    "@plone/volto": "15.12.1",
+    "volto-searchkit": "github:eea/volto-searchkit#master"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.3.0",
+    "@storybook/addon-controls": "6.3.0",
+    "@storybook/addon-essentials": "^6.3.0",
+    "@storybook/addon-links": "^6.3.0",
+    "@storybook/react": "^6.3.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "jest-junit": "8.0.0",
+    "mrs-developer": "*",
+    "postcss": "8.3.11",
+    "prettier": "2.0.5",
+    "stylelint": "14.0.1",
+    "stylelint-config-idiomatic-order": "8.1.0",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-prettier": "1.1.2"
   }
 }
