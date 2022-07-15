@@ -16,7 +16,7 @@ import config from '@plone/volto/registry';
  */
 const routes = [
   {
-    path: '/natura2000/sites/natura2000/:site_code',
+    path: '/natura2000/sites/natura2000/:site_code', // EE0010173
     realPathname: '/natura2000/sites/site',
     theme: 'natura2000',
     component: FakeLocation,
@@ -35,7 +35,7 @@ const routes = [
     ],
   },
   {
-    path: '/natura2000/sites/cdda/:site_code',
+    path: '/natura2000/sites/cdda/:site_code', // 11155
     realPathname: '/natura2000/sites/site_cdda',
     theme: 'natura2000',
     component: FakeLocation,
@@ -54,7 +54,7 @@ const routes = [
     ],
   },
   {
-    path: '/natura2000/habitats/h/:code_2000',
+    path: '/natura2000/habitats/h/:code_2000', // 8240
     realPathname: '/natura2000/habitats/habitat',
     theme: 'natura2000',
     component: FakeLocation,
@@ -73,7 +73,7 @@ const routes = [
     ],
   },
   {
-    path: '/natura2000/species/s/:id_eunis',
+    path: '/natura2000/species/s/:id_eunis', // 1435
     realPathname: '/natura2000/species/species',
     theme: 'natura2000',
     component: FakeLocation,

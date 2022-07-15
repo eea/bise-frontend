@@ -40,13 +40,14 @@
     "src/addons/*"
   ],
   "addons": [
-    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-embed",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-tableau",
     "@eeacms/volto-webmap",
+    "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-bise",
     "@eeacms/volto-n2k",
     "volto-searchkit"
@@ -148,14 +149,18 @@
   "engines": {
     "node": "^12 || ^14 || ^16"
   },
+  "resolutions": {
+    "@eeacms/volto-tabs-block": "1.2.12"
+  },
   "dependencies": {
+    "@eeacms/volto-embed": "4.0.2",
     "@eeacms/volto-bise": "1.1.5",
     "@eeacms/volto-datablocks": "3.0.14",
     "@eeacms/volto-eea-kitkat": "6.2.0",
     "@eeacms/volto-n2k": "0.1.4",
     "@eeacms/volto-openlayers-map": "0.1.4",
-    "@eeacms/volto-plotlycharts": "3.0.5",
     "@eeacms/volto-slate-dataentity": "1.0.6",
+    "@eeacms/volto-plotlycharts": "3.0.6",
     "@eeacms/volto-tableau": "1.2.4",
     "@eeacms/volto-webmap": "0.1.1",
     "@plone/volto": "15.12.1",
