@@ -223,6 +223,14 @@
     "develop": false,
     "path": "src"
   },
+  "volto-embed": {
+    "url": "git@github.com:eea/volto-embed.git",
+    "https": "https://github.com/eea/volto-embed.git",
+    "package": "@eeacms/volto-embed",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-bise": {
     "url": "git@github.com:eea/volto-bise.git",
     "https": "https://github.com/eea/volto-bise.git",
