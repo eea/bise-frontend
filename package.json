@@ -154,7 +154,7 @@
   },
   "dependencies": {
     "@eeacms/volto-bise": "1.1.6",
-    "@eeacms/volto-datablocks": "3.0.14",
+    "@eeacms/volto-datablocks": "3.0.15",
     "@eeacms/volto-eea-kitkat": "6.2.0",
     "@eeacms/volto-embed": "4.0.2",
     "@eeacms/volto-n2k": "0.1.4",
