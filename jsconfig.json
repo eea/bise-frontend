@@ -1,6 +1,28 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-embed": [
+                "addons/volto-embed/src"
+            ],
+            "@eeacms/volto-bise": [
+                "addons/volto-bise/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
+            "@eeacms/volto-block-style": [
+                "addons/volto-block-style/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }

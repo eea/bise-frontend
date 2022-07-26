@@ -163,7 +163,7 @@
     "@eeacms/volto-slate-dataentity": "1.0.6",
     "@eeacms/volto-tableau": "1.2.4",
     "@eeacms/volto-webmap": "0.1.1",
-    "@plone/volto": "15.12.1",
+    "@plone/volto": "16.0.0-alpha.14",
     "volto-searchkit": "github:eea/volto-searchkit#master"
   },
   "devDependencies": {
