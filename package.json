@@ -147,7 +147,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "^12 || ^14 || ^16"
+    "node": "^14 || ^16"
   },
   "resolutions": {
     "@eeacms/volto-tabs-block": "1.2.12"
