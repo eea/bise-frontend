@@ -2,15 +2,15 @@ pipeline {
   agent any
 
   environment {
-    GIT_NAME="bise-frontend"
-    NAMESPACE = "@eeacms"
-    registry = "eeacms/bise-frontend"
-    template = "templates/volto-bise"
-    // RANCHER_STACKID = "1st1823"
-    RANCHER_ENVID = "1a333018"
+    GIT_NAME= 'bise-frontend'
+    NAMESPACE = '@eeacms'
+    registry = 'eeacms/bise-frontend'
+    template = 'templates/volto-bise'
+    RANCHER_STACKID = ''
+    RANCHER_ENVID = ''
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = "biodiversity.europa.eu"    
+    SONARQUBE_TAG = 'biodiversity.europa.eu'
   }
 
 
