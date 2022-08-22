@@ -3,7 +3,6 @@ pipeline {
 
   environment {
     GIT_NAME= 'bise-frontend'
-    NAMESPACE = '@eeacms'
     registry = 'eeacms/bise-frontend'
     template = 'templates/volto-bise'
     RANCHER_STACKID = ''
