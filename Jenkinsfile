@@ -1,6 +1,4 @@
 pipeline {
-  agent any
-
   environment {
     GIT_NAME= 'bise-frontend'
     registry = 'eeacms/bise-frontend'
@@ -12,6 +10,7 @@ pipeline {
     SONARQUBE_TAG = 'biodiversity.europa.eu'
   }
 
+  agent any
 
   stages {
 
