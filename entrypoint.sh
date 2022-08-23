@@ -7,20 +7,20 @@ function apply_path {
     test -f $mainjs
 
     echo "Check that we have API_PATH and API vars"
-    test -n "$RAZZLE_API_PATH"
+    test -n "$API_PATH"
 
     echo "Changing built files inplace"
-    sed -i "s#VOLTO_API_PATH#${RAZZLE_API_PATH}#g" $mainjs
-    sed -i "s#VOLTO_API_PATH#${RAZZLE_API_PATH}#g" $bundlejs
-    sed -i "s#VOLTO_INTERNAL_API_PATH#${RAZZLE_INTERNAL_API_PATH}#g" $mainjs
-    sed -i "s#VOLTO_INTERNAL_API_PATH#${RAZZLE_INTERNAL_API_PATH}#g" $bundlejs
+    sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $mainjs
+    sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $bundlejs
+    sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $mainjs
+    sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $bundlejs
 
     echo "Zipping JS Files"
     gzip -fk $mainjs
 }
 
 # Should we monkey patch?
-test -n "$RAZZLE_API_PATH" && apply_path
+test -n "$API_PATH" && apply_path
 
 echo "Starting Volto"
 exec "$@"
