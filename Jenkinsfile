@@ -15,7 +15,7 @@ pipeline {
   stages {
 
    stage('Integration tests') {
-//      parallel {
+      parallel {
 //         stage('Cypress') {
 //           when {
 //             environment name: 'CHANGE_ID', value: ''           
