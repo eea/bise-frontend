@@ -1380,10 +1380,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.0.0.tgz#ed0e9ca2084b06582424e834c292799fa10455ad"
-  integrity sha512-LxVBY2Vc8DYWMAXBtMJ3rkTTuxuXCyPBU+BJwn9TAhZeTeRUzltoXnjIH/D+FlsBx35uIicUUOIqmbUUGH6SfQ==
+"@eeacms/volto-eea-kitkat@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.0.tgz#d2d8be9a968b6b67716ed895ff7d191116b26d61"
+  integrity sha512-T6O/MCDYnEwo+NyOhdhIn8CCOtyQC2KSFO5I4OepmSYLM8W79/l/O77eRdMeD4EoxmBPzt4I81IfNcqmcx05Eg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
