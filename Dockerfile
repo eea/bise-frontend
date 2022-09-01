@@ -28,5 +28,5 @@ USER root
 
 EXPOSE 3000 3001 4000 4001
 
-ENTRYPOINT ["/opt/frontend/entrypoint-prod.sh"]
+ENTRYPOINT ["/opt/frontend/entrypoint.sh"]
 CMD ["yarn", "start:prod"]
