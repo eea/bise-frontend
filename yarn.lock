@@ -1545,10 +1545,10 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-tableau@1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.2.4.tgz#cab66cd708aa6fc12c9d6285f4ec9c0a7dc42697"
-  integrity sha512-3euAW+NQQVhyWj+NQaGNxWcI6EXi9jDL2ur1m4GHN4lgmTfNrImjsrKixFypoCEm2Of3M9KUFiNayyw/y9DwAw==
+"@eeacms/volto-tableau@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.2.5.tgz#93c72f30706d796013e70515ee5797e5761aa876"
+  integrity sha512-REqFmSy2LJNzL7vyra2zlPLEKremP+hYVGmWSuxy336RfGTq43Qa72N80RINtkC6TsfrHr+fGJhWRjjwAPd+4g==
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
     tableau-api-js "github:eea/tableau-api-js#1.1.1"
