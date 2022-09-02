@@ -1460,10 +1460,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-0.1.9.tgz#e0a2e23f2cec826cfda88f0f7fbeb1664bdb3ab4"
-  integrity sha512-j3dkR21WJ0/enjdh07GdoK6mZVZ7wlxUVow/4eloWlRWNHHyqAGNB1DL/U3xGOZ6p2dXrwoXXCbFEVbIrh4ojw==
+"@eeacms/volto-n2k@0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-0.1.10.tgz#ca578a7bd53e9f113e4b2cb9a6488b4c80d3ed70"
+  integrity sha512-nZ3C/32R+K9cp+HGMhLIyVMTR3SgWHj8Yuaz82Hj0/79CcSPbugGcNWC6Gj3K4zWe3rRXCJgp0Fh5A7XUW4lEQ==
   dependencies:
     "@eeacms/volto-datablocks" "*"
     "@eeacms/volto-openlayers-map" "*"
@@ -1545,10 +1545,10 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-tableau@1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.2.4.tgz#cab66cd708aa6fc12c9d6285f4ec9c0a7dc42697"
-  integrity sha512-3euAW+NQQVhyWj+NQaGNxWcI6EXi9jDL2ur1m4GHN4lgmTfNrImjsrKixFypoCEm2Of3M9KUFiNayyw/y9DwAw==
+"@eeacms/volto-tableau@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.2.5.tgz#93c72f30706d796013e70515ee5797e5761aa876"
+  integrity sha512-REqFmSy2LJNzL7vyra2zlPLEKremP+hYVGmWSuxy336RfGTq43Qa72N80RINtkC6TsfrHr+fGJhWRjjwAPd+4g==
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
     tableau-api-js "github:eea/tableau-api-js#1.1.1"
