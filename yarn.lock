@@ -1380,10 +1380,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.1.tgz#0fff5107bb51163272dca79935369fecac4d062e"
-  integrity sha512-/5ix7qy08fMaTjzdHgqHVXYcS8viVhAVuwiBDo56UvA4dfa/cUm5dU9kiA4fX/h/GLk0GWDUz+z74rYxP2U3+g==
+"@eeacms/volto-eea-kitkat@7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.2.tgz#361cd1c6a2396e012df19a7ff08433e5e022b56c"
+  integrity sha512-Y9k7g7h4mYddKa9JCvOzAtNGLJ3eKmbohWrtZopl+D47pNQqArVehx9Uzapo7Ei8RiGIJWnvWvWZrcpnA0DkSw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
@@ -1406,7 +1406,7 @@
     "@eeacms/volto-slate-zotero" "4.0.5"
     "@eeacms/volto-tabs-block" "2.2.0"
     "@eeacms/volto-taxonomy" "2.0.6"
-    "@eeacms/volto-widget-dataprovenance" "0.1.4"
+    "@eeacms/volto-widget-dataprovenance" "0.1.5"
     "@eeacms/volto-widget-geolocation" "4.0.6"
     "@eeacms/volto-widget-temporal-coverage" "4.0.6"
     "@eeacms/volto-widget-toggle" "2.2.7"
@@ -1577,10 +1577,10 @@
     "@eeacms/volto-embed" "^2.0.1"
     esri-loader "2.16.0"
 
-"@eeacms/volto-widget-dataprovenance@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.4.tgz#e58354e2a82d47b793e841644db7e305832ae644"
-  integrity sha512-zr1H49FbdVA7njH1YHQtqIEm1GKyTwFGWO1MxFli7i3GVvvJROfmZvoCJx3MKiIz5Iy9Bz1caCFBgWvstgl+Zw==
+"@eeacms/volto-widget-dataprovenance@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.5.tgz#801c6c9f40e6f67a0ec35641f602f3961dc477c3"
+  integrity sha512-BPBTY2JMC8kvcvbiIyCduGvOXUlXDLxDIupCj0hpqJN0LSeLz8HiV5EUQQagCmt4CQK5kRlxPFePnfBljoxb6g==
   dependencies:
     "@plone/scripts" "*"
 
