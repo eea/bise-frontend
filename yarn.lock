@@ -1553,13 +1553,12 @@
     "@eeacms/volto-resize-helper" "^0.2.4"
     tableau-api-js "github:eea/tableau-api-js#1.1.1"
 
-"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.2.0.tgz#b5ac9fc636bd8696b3bb502315e7778884d267ab"
-  integrity sha512-JsdoyjTYYzSh2cAGLE86FJueS6vSA3huSuSyutSWn6/b4hG801blujisYXPOVOPdBSQFbzpXhARzNN+IR8ySjg==
+"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@1.2.12", "@eeacms/volto-tabs-block@2.2.0":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.12.tgz#394badcebc38a9fe283d025032602b1e1300552b"
+  integrity sha512-NNiTnkeQKjAhK5E8IkjzriMoDPNygiEm+OAleHsEr+s/0w4p0YNZygOT+iGsUFR1LkZLKPN7ajEweagoM+ug/Q==
   dependencies:
     "@eeacms/volto-block-style" "*"
-    react-responsive-tabs "4.4.3"
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
@@ -6486,7 +6485,7 @@ classnames@2.2.6:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
-classnames@2.x, classnames@^2.0.0, classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
+classnames@2.x, classnames@^2.0.0, classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -19156,25 +19155,6 @@ react-resize-detector@6.7.6:
     lodash.debounce "^4.0.8"
     lodash.throttle "^4.1.1"
     resize-observer-polyfill "^1.5.1"
-
-react-resize-detector@^6.7.5:
-  version "6.7.8"
-  resolved "https://registry.yarnpkg.com/react-resize-detector/-/react-resize-detector-6.7.8.tgz#318c85d1335e50f99d4fb8eb9ec34e066db597d0"
-  integrity sha512-0FaEcUBAbn+pq3PT5a9hHRebUfuS1SRLGLpIw8LydU7zX429I6XJgKerKAMPsJH0qWAl6o5bVKNqFJqr6tGPYw==
-  dependencies:
-    "@types/resize-observer-browser" "^0.1.6"
-    lodash "^4.17.21"
-    resize-observer-polyfill "^1.5.1"
-
-react-responsive-tabs@4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/react-responsive-tabs/-/react-responsive-tabs-4.4.3.tgz#471d847224a9579ee22b60a6556ace97281013e1"
-  integrity sha512-AicjCIuIlB0isTnIiFplRzk4UVEohGYZjdXkWUXrI70aqX6Iw4UZxvgUnuYeT4b2k/1YVBxgndSwxBBCgYGcmg==
-  dependencies:
-    classnames "^2.3.1"
-    lodash.throttle "^4.1.1"
-    prop-types "^15.7.2"
-    react-resize-detector "^6.7.5"
 
 react-router-config@5.1.1:
   version "5.1.1"
