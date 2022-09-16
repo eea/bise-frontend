@@ -1460,10 +1460,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-0.1.10.tgz#ca578a7bd53e9f113e4b2cb9a6488b4c80d3ed70"
-  integrity sha512-nZ3C/32R+K9cp+HGMhLIyVMTR3SgWHj8Yuaz82Hj0/79CcSPbugGcNWC6Gj3K4zWe3rRXCJgp0Fh5A7XUW4lEQ==
+"@eeacms/volto-n2k@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-0.1.11.tgz#0e1d7c54d7f2f66fce07850151f49e1b5891c248"
+  integrity sha512-exJUz2dAEwIxGwp9s47gQuCfxZKIEty1dYKG7CCvBJIun4lOop/qb0LAnpj9rufGvwZ0iH2jXpA75gCCrNnszw==
   dependencies:
     "@eeacms/volto-datablocks" "*"
     "@eeacms/volto-openlayers-map" "*"
