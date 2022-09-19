@@ -1380,10 +1380,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@7.1.4":
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.4.tgz#039c28039085431d163976cc0b32e462fb23ad8e"
-  integrity sha512-zLkdg/OC+SBTzbGmLMWfNXDMnJm1bzw7afid/Fbt7olfHsjujVgSHzQHDui0Yzh2h+xip/1kRyC+vXqdojDAyA==
+"@eeacms/volto-eea-kitkat@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.0.0.tgz#49d43b5c64a9f15ff05344554ee4aeeef17b6f2d"
+  integrity sha512-pHn5PwKUOpfNZ8YnUhvVRpd8pYMBQs49yqynH5gHoNingiz1xB64tNAPtIasBeVVxJtstnRh10i+zOb3VSIXYQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
@@ -1395,7 +1395,7 @@
     "@eeacms/volto-corsproxy" "2.1.6"
     "@eeacms/volto-depiction" "0.1.6"
     "@eeacms/volto-group-block" "4.3.8"
-    "@eeacms/volto-listing-block" "0.4.4"
+    "@eeacms/volto-listing-block" "0.5.0"
     "@eeacms/volto-matomo" "2.0.9"
     "@eeacms/volto-metadata-block" "4.0.8"
     "@eeacms/volto-object-widget" "4.0.2"
@@ -1438,13 +1438,15 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.8.tgz#d7d16fe17745cb08bf7f625c27d021e854281bb4"
   integrity sha512-aRvREccetNiqIeOLvYH0sUAoQgBeuS4J3K0pWQeEwGw2i1znvYMvgZaWVNcck84RiLsMOHVnuafSGYvzR4RkZA==
 
-"@eeacms/volto-listing-block@0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.4.4.tgz#583988ccfa9a218ee76bd800c4c669734e7902e7"
-  integrity sha512-jH4dInNPyz5jtvxSlZ/WCV4IpZcboI88iFvO+WNaQ8uPkzperkR/26xfMHRjhOH1dBRSmfKXuyWqv/LPmxPCLQ==
+"@eeacms/volto-listing-block@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.5.0.tgz#0acd1a2c51597e9683b4cc3091fab247482cd434"
+  integrity sha512-Xgg6veTp/J5ll0tuEfILVvTRkfuL8k71YWBnsRkO6llkLg9ILriYR2D4oYdDdO1pITx7W3FxK3oAlnrl9hqn2Q==
   dependencies:
+    react-resize-detector "7.1.2"
     react-slick "0.29.0"
     slick-carousel "1.8.1"
+    volto-slate "*"
 
 "@eeacms/volto-matomo@*", "@eeacms/volto-matomo@2.0.9":
   version "2.0.9"
@@ -19155,6 +19157,13 @@ react-resize-detector@6.7.6:
     lodash.debounce "^4.0.8"
     lodash.throttle "^4.1.1"
     resize-observer-polyfill "^1.5.1"
+
+react-resize-detector@7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/react-resize-detector/-/react-resize-detector-7.1.2.tgz#8ef975dd8c3d56f9a5160ac382ef7136dcd2d86c"
+  integrity sha512-zXnPJ2m8+6oq9Nn8zsep/orts9vQv3elrpA+R8XTcW7DVVUJ9vwDwMXaBtykAYjMnkCIaOoK9vObyR7ZgFNlOw==
+  dependencies:
+    lodash "^4.17.21"
 
 react-router-config@5.1.1:
   version "5.1.1"
