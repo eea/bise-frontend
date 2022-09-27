@@ -1287,10 +1287,10 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/volto-accordion-block@3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
-  integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
+"@eeacms/volto-accordion-block@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-4.0.0.tgz#3bb6d390972db0d525f09afc72e66015b2c8fe72"
+  integrity sha512-K85MH+iERFuLiktJ5oMYjIkZGn5Qsq7XOdJTn4rsd+dbYd0it/PmtlR5NVU/kck26+bh2+CB+TE/Jz+fadWe3g==
 
 "@eeacms/volto-banner@2.2.1":
   version "2.2.1"
@@ -1333,10 +1333,10 @@
     slick-carousel "^1.8.1"
     volto-slate "*"
 
-"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.7.0.tgz#4f8e94565eb4af909116b30d132cf75d63f385a2"
-  integrity sha512-XiLny/xuqaWVJIK7YyzOBJEKkuzcck5bxNP2uCzLhnrk+0bOxatD6odm7WQQO4kRv7qjzk6sDpLxYsdIHrNxTQ==
+"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.7.2":
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.7.2.tgz#56d0c0fc40fbd2cbfde19e9eaad27f1e91dc2391"
+  integrity sha512-X4idepbyak6h3lsH0a7ozRynECPm97GqyNv3JN8Q4oiSeNz3Tl1bWKXndd1YHuwYDTgTGoQgd07iOrO84hCiuw==
   dependencies:
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
@@ -1380,22 +1380,22 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.1.0.tgz#32e20c59aca1d67523ac4d8d0fd346b2176aef51"
-  integrity sha512-zsM8mkwaMKb+Oq4zsGQfJ2yJCXln2Kw5Oi/00maue7k8bTOy3hI6MRFIqcySWkZL4i3SAi6yHc80qQe17a/oqA==
+"@eeacms/volto-eea-kitkat@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.2.0.tgz#43ed9c987b0047bba4c6a28c38987eec1ed767af"
+  integrity sha512-fZIAL0a/qeb+dC2o6LSoIDvgs0/+sCrncjs1SA5yvUvaaZEf21zeX6N8abjt9wdVLJT+u4I05gnk0NhBbWLVAA==
   dependencies:
-    "@eeacms/volto-accordion-block" "3.5.0"
+    "@eeacms/volto-accordion-block" "4.0.0"
     "@eeacms/volto-banner" "2.2.1"
     "@eeacms/volto-block-divider" "3.0.2"
     "@eeacms/volto-block-image-cards" "0.6.5"
-    "@eeacms/volto-block-style" "3.7.0"
+    "@eeacms/volto-block-style" "3.7.2"
     "@eeacms/volto-block-toc" "3.0.1"
     "@eeacms/volto-columns-block" "4.5.3"
     "@eeacms/volto-corsproxy" "2.1.6"
     "@eeacms/volto-depiction" "0.1.6"
     "@eeacms/volto-group-block" "4.3.8"
-    "@eeacms/volto-listing-block" "0.5.0"
+    "@eeacms/volto-listing-block" "0.6.5"
     "@eeacms/volto-matomo" "2.0.9"
     "@eeacms/volto-metadata-block" "4.0.8"
     "@eeacms/volto-object-widget" "4.0.2"
@@ -1438,10 +1438,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.8.tgz#d7d16fe17745cb08bf7f625c27d021e854281bb4"
   integrity sha512-aRvREccetNiqIeOLvYH0sUAoQgBeuS4J3K0pWQeEwGw2i1znvYMvgZaWVNcck84RiLsMOHVnuafSGYvzR4RkZA==
 
-"@eeacms/volto-listing-block@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.5.0.tgz#0acd1a2c51597e9683b4cc3091fab247482cd434"
-  integrity sha512-Xgg6veTp/J5ll0tuEfILVvTRkfuL8k71YWBnsRkO6llkLg9ILriYR2D4oYdDdO1pITx7W3FxK3oAlnrl9hqn2Q==
+"@eeacms/volto-listing-block@0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.6.5.tgz#c5c024a03709613d5a5847987f30b254de2fa68c"
+  integrity sha512-E+B9b3sS8zg/rINJEYrRKkDbbeylCTMKvbVZYpSTnjSsah4SS3+q12fWLZFPILAmxJE5X30WyhGiFIzTOHeCvg==
   dependencies:
     react-resize-detector "7.1.2"
     react-slick "0.29.0"
