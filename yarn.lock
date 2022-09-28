@@ -1547,13 +1547,12 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-tableau@1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.2.5.tgz#93c72f30706d796013e70515ee5797e5761aa876"
-  integrity sha512-REqFmSy2LJNzL7vyra2zlPLEKremP+hYVGmWSuxy336RfGTq43Qa72N80RINtkC6TsfrHr+fGJhWRjjwAPd+4g==
+"@eeacms/volto-tableau@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.3.0.tgz#19e1ed0e3143bc83ffb3bf4299508f08f575b937"
+  integrity sha512-rVvyrJlN5Mdhf99/AyZdTXXgxY0x8Hjch4xsMKE/4wT3SLauuL25eNotSUmY5Wl8glYyTfGv7JW/Y752K+fGgA==
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
-    tableau-api-js "github:eea/tableau-api-js#1.1.1"
 
 "@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@1.2.12", "@eeacms/volto-tabs-block@2.2.0":
   version "1.2.12"
@@ -22145,10 +22144,6 @@ table@^6.7.2:
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
-
-"tableau-api-js@github:eea/tableau-api-js#1.1.1":
-  version "1.1.1"
-  resolved "https://codeload.github.com/eea/tableau-api-js/tar.gz/59773ffe8bee1fdfe285c590fb38eda757b6c3fa"
 
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
