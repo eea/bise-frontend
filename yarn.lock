@@ -1380,10 +1380,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@8.2.1":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.2.1.tgz#102ea929f041b3b8c82da5bd44c8d3f58c63d087"
-  integrity sha512-DSV51YpbspQamhfEKJw6r5afqR+uWjdZFDqHu5Y8vWmX7HhHwauFqnqYYR4Jl96iy1NPa2oJj3SjcxSabSgdYw==
+"@eeacms/volto-eea-kitkat@8.2.2":
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.2.2.tgz#8c6804992e3639046d25ef282993be87f93850ca"
+  integrity sha512-5I920rv2o1/tSr+TcbNjecqC+kTfN8HWz68kq3mwv7IO18pfXULKoA5tRW0FP7hKp6ifDOESPNCai70ZfhkQWQ==
   dependencies:
     "@eeacms/volto-accordion-block" "4.0.0"
     "@eeacms/volto-banner" "2.2.1"
@@ -1395,7 +1395,7 @@
     "@eeacms/volto-corsproxy" "2.1.6"
     "@eeacms/volto-depiction" "0.1.6"
     "@eeacms/volto-group-block" "4.3.8"
-    "@eeacms/volto-listing-block" "0.6.6"
+    "@eeacms/volto-listing-block" "0.6.7"
     "@eeacms/volto-matomo" "2.0.9"
     "@eeacms/volto-metadata-block" "4.0.8"
     "@eeacms/volto-object-widget" "4.0.2"
@@ -1438,10 +1438,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.8.tgz#d7d16fe17745cb08bf7f625c27d021e854281bb4"
   integrity sha512-aRvREccetNiqIeOLvYH0sUAoQgBeuS4J3K0pWQeEwGw2i1znvYMvgZaWVNcck84RiLsMOHVnuafSGYvzR4RkZA==
 
-"@eeacms/volto-listing-block@0.6.6":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.6.6.tgz#6e2d7f17e8bf54beee4e41895ba430df88142751"
-  integrity sha512-7FLiJ9OwIkNUCdfVaY6jFptnuv0T3qt99xkmWyMHZ4323A0GlhjVr4XaxKYPqzEZwCZ1fzCsJuYyMU8+9oh34A==
+"@eeacms/volto-listing-block@0.6.7":
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.6.7.tgz#6e5a06e16fb37433dcb17f0e042fae5f96ede39f"
+  integrity sha512-CUzLbFFI7hVS9Wm1Qd+op+ytE2cNLywXpLQw+S8OcyxJZQCW9Jw1wAgfsAEGHUmQsLLTKxmPZo90kARwBNCJgg==
   dependencies:
     react-resize-detector "7.1.2"
     react-slick "0.29.0"
