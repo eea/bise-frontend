@@ -1287,10 +1287,10 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/volto-accordion-block@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-4.0.0.tgz#3bb6d390972db0d525f09afc72e66015b2c8fe72"
-  integrity sha512-K85MH+iERFuLiktJ5oMYjIkZGn5Qsq7XOdJTn4rsd+dbYd0it/PmtlR5NVU/kck26+bh2+CB+TE/Jz+fadWe3g==
+"@eeacms/volto-accordion-block@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-4.1.0.tgz#a1cb9cdb14fe83bd124ccc79e3b4440f17d1eb63"
+  integrity sha512-h4oo58orH/uw5tjEwNVYk88+kYGrl1LL4Jc4Uzo6Cmj05P8qgNX3P2IV8uVAg1Z6BmIwIcDSfXErYy95I515Dg==
 
 "@eeacms/volto-banner@2.2.1":
   version "2.2.1"
@@ -1380,12 +1380,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@8.2.2":
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.2.2.tgz#8c6804992e3639046d25ef282993be87f93850ca"
-  integrity sha512-5I920rv2o1/tSr+TcbNjecqC+kTfN8HWz68kq3mwv7IO18pfXULKoA5tRW0FP7hKp6ifDOESPNCai70ZfhkQWQ==
+"@eeacms/volto-eea-kitkat@8.2.3":
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.2.3.tgz#0d029341fff260e9e06f5c3f8233fa9cada9b3fa"
+  integrity sha512-ViHz+3FRmrtufUuXvSLz076yTHfb/87y6sFRV2+PQGeeV+rUKGUD29kI9+waxvMK0bgZqgoVI82ljqFZrUa/gA==
   dependencies:
-    "@eeacms/volto-accordion-block" "4.0.0"
+    "@eeacms/volto-accordion-block" "4.1.0"
     "@eeacms/volto-banner" "2.2.1"
     "@eeacms/volto-block-divider" "3.0.2"
     "@eeacms/volto-block-image-cards" "0.6.5"
