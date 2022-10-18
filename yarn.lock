@@ -1297,14 +1297,15 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-2.2.1.tgz#559d31aba65b0cc87d693f5a7c0e8370f68754a1"
   integrity sha512-oFCombGDx9XwuqRqxGGTdF3w8QPXvUzpa9MBqaGeg7GCxuT8GFuLFMXI3Jq4Y5Q06Pr6LTNqF/+V2Yz5rKhICw==
 
-"@eeacms/volto-bise@1.1.9":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-bise/-/volto-bise-1.1.9.tgz#259315521f970fd6f8e24922d151a6bf46025b1a"
-  integrity sha512-vAhJnlh0/sw1+FZ8R/aLUHBpXLzt2kEl4ZOjE6pXyRdyr+PWV3mFJJ0OrGkXmadLHJGEnyAUFkYNEQgwEy7PmQ==
+"@eeacms/volto-bise@1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-bise/-/volto-bise-1.1.10.tgz#e7c7b307ffda9594163fe4c38f55a80deeaa5f28"
+  integrity sha512-kyUztTa8wojzKAeyOOCH22LNff3/jItCD5QQf+8kiWuj/jnnINK9a0d6TRg9ChHrKVwSkflrL2CmuQofn1qwOQ==
   dependencies:
     "@eeacms/volto-corsproxy" "^*"
     "@eeacms/volto-datablocks" "*"
     "@eeacms/volto-embed" "*"
+    "@eeacms/volto-n2k" "*"
     esri-loader "^3.3.0"
     plotly.js "^2.5.1"
     react-color "^2.19.3"
@@ -1462,7 +1463,7 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@0.1.13":
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@0.1.13":
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-0.1.13.tgz#8c7db850b7e763ab0b902d701abba6ba9750e7dd"
   integrity sha512-nCQu51mYVGE1DHmd1SfACZlB954OEX2FIJ6ZsWBCEiCHevoHhr2GxTzcnomibDeEj2uuWDXoFu/R/n7ezvAhcg==
