@@ -1414,10 +1414,10 @@
     "@eeacms/volto-widgets-view" "3.0.5"
     volto-slate "6.4.0"
 
-"@eeacms/volto-embed@*", "@eeacms/volto-embed@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-4.0.3.tgz#2a9904f31e2856e10a1976b3729e73ac7d8f4afb"
-  integrity sha512-pM7/snVobUP4C4vZ7G73oVE43bILOv96FkvJxyGOhqxs0QLw19dyStZjtFAe/885T4qRmpNsX5y1zMavJf061Q==
+"@eeacms/volto-embed@*", "@eeacms/volto-embed@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-4.0.4.tgz#10de852f884cff3ce91bffbbb16a5b88a6c52992"
+  integrity sha512-kQWJmkg4eUdwezWEPck9kQW7s+EiArI5f1rsKZqnA2Zg8tojC57kSzKIJGIKl3WkNvmjtQ7u1yVQB8ATE4sd2A==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-datablocks" "*"
