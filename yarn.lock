@@ -1359,10 +1359,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.18":
-  version "3.0.18"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.18.tgz#c323518b33996237d27cef053f7fd19021a09e46"
-  integrity sha512-AyjiQxv2c/FdKh0yrwuzJ/l83nYuUDOh6oqz4pZWn+nFUC0qPM5bqSINQa5ajCBNnZw/gXDZ4GqMUByuEQ5MNg==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.19":
+  version "3.0.19"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.19.tgz#d986ccf3082694a7988796e900c00fb278741ee5"
+  integrity sha512-tFEtk65nv53PsgpElRUXMj9RCfuxENpjUf1VUozEaIbdBaW1BRjMQ57VQWqJobYv84gbZwLpWuHYrGzleEYRmg==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
