@@ -1413,15 +1413,14 @@
     "@eeacms/volto-widgets-view" "3.0.5"
     volto-slate "6.4.0"
 
-"@eeacms/volto-embed@*", "@eeacms/volto-embed@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-4.0.4.tgz#10de852f884cff3ce91bffbbb16a5b88a6c52992"
-  integrity sha512-kQWJmkg4eUdwezWEPck9kQW7s+EiArI5f1rsKZqnA2Zg8tojC57kSzKIJGIKl3WkNvmjtQ7u1yVQB8ATE4sd2A==
+"@eeacms/volto-embed@*", "@eeacms/volto-embed@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-5.0.0.tgz#9a0d6089d81c37048d3b79f3b3d1c50aaec4675e"
+  integrity sha512-yFOrx2UGQkTvbaV6mw9GH1POJ3SMGyRi/bG7WjSJOCCcDxCKquN5/WTsQWZPNcDtBMB0c+nxVdiBeNPwoxxrIg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-datablocks" "*"
     react-visibility-sensor "5.1.1"
-    volto-slate "*"
 
 "@eeacms/volto-embed@^2.0.1":
   version "2.0.11"
@@ -1555,10 +1554,10 @@
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
 
-"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@2.2.0", "@eeacms/volto-tabs-block@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.2.1.tgz#f75874a1fa464c4d96d78a766a02d9cb20343b54"
-  integrity sha512-AB0O4UBtcvHT8lZ1syB8yKVR9Glg6UZJn8LHxs6HqpT5O0uMLYPHvmjQlkMC6pmE5AvfseKzkWqbWT64G3sWRA==
+"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@2.2.0", "@eeacms/volto-tabs-block@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-3.0.0.tgz#069883dcede7cada38d6e9af1888e524230719c1"
+  integrity sha512-y6qtrfD0bT08o0Sr0UeBOPBQrxS36OKWch9g3FTWEEIHE2KZDNZG+OX+iGBVe504h79sRsLcfYKvtnHAbKtZGA==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-responsive-tabs "4.4.3"
