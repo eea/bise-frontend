@@ -1516,13 +1516,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.6.tgz#1b924382914df02752d3fbe874ef2d5d637b4421"
   integrity sha512-xEPxx+0Keb/in5x25jDdpHUMU4Lcm5sEMEJv7sIfgQ1ZXP8QlzsXMDJthSdJ7nsyf/pt3ZvHfIq6GuS5Rc7GmQ==
 
-"@eeacms/volto-slate-dataentity@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-dataentity/-/volto-slate-dataentity-1.0.6.tgz#fe4efb80bc2c69159892fc99bee476f4d062adff"
-  integrity sha512-cBABMJ5XQQNkyj/3yQRjsQIfM/4i6vbEyNuYNNELgleBHUmxyxw94XjcCtPxCu39vpJhNTKqNYM3/9S3bCgoBA==
+"@eeacms/volto-slate-dataentity@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-dataentity/-/volto-slate-dataentity-2.0.0.tgz#b178c8c9c994de42c280be1f39d5774b952dd07a"
+  integrity sha512-KD+xnWdGJ900T/PAO/ZG8ffjeX0zab0eG7K0XrhH3S84qyaeg9ua/IkLqPRVPXvE+TDBtNUsOtFdwihxqS0dKw==
   dependencies:
     "@eeacms/volto-datablocks" "*"
-    volto-slate "*"
 
 "@eeacms/volto-slate-footnote@*", "@eeacms/volto-slate-footnote@5.0.1":
   version "5.0.1"
