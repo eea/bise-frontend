@@ -8,6 +8,3 @@
  *   Footer,
  * };
  */
-import { StickyContext, StickyProvider } from './manage/Sticky';
-
-export { StickyContext, StickyProvider };
