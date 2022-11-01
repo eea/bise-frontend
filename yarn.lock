@@ -1256,23 +1256,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-3.0.0.tgz#65b22458ead140e282f93115c17dbee863d4b9bd"
   integrity sha512-VRhVjgHYAWWv2I8w/JYdpuk8bX0rmXxxGNjSmj4wEWQr3uctULL7GuwpBCHZxiAWXz/fhA+AZLPkEL+rKi2GNA==
 
-"@eeacms/volto-bise@1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-bise/-/volto-bise-1.1.11.tgz#e8599d5467a562dd9dcfadf1f70489ed6c2faf93"
-  integrity sha512-4u+Bp4SasRPAX/viiY3krOsNywq8WyBWEqmzcuuXpuXNQPPcgyKl0jTrf61R1RdV6FmdT3Vyy0meLYPPVTnR8A==
-  dependencies:
-    "@eeacms/volto-corsproxy" "^*"
-    "@eeacms/volto-datablocks" "*"
-    "@eeacms/volto-embed" "*"
-    "@eeacms/volto-n2k" "*"
-    esri-loader "^3.3.0"
-    plotly.js "^2.5.1"
-    react-color "^2.19.3"
-    react-lazy-load-image-component "^1.5.1"
-    react-plotly.js "^2.5.1"
-    searchkit "^2.4.4"
-    volto-slate "*"
-
 "@eeacms/volto-bise@github:eea/volto-bise#develop":
   version "2.0.0"
   resolved "https://codeload.github.com/eea/volto-bise/tar.gz/5cc3b5592834b98de27acb1a13e9195738c4ed83"
