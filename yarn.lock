@@ -1273,6 +1273,23 @@
     searchkit "^2.4.4"
     volto-slate "*"
 
+"@eeacms/volto-bise@github:eea/volto-bise#develop":
+  version "2.0.0"
+  resolved "https://codeload.github.com/eea/volto-bise/tar.gz/5cc3b5592834b98de27acb1a13e9195738c4ed83"
+  dependencies:
+    "@eeacms/volto-corsproxy" "^*"
+    "@eeacms/volto-datablocks" "*"
+    "@eeacms/volto-embed" "*"
+    "@eeacms/volto-n2k" "*"
+    "@sentry/browser" "7.17.3"
+    esri-loader "^3.3.0"
+    plotly.js "^2.5.1"
+    react-color "^2.19.3"
+    react-lazy-load-image-component "^1.5.1"
+    react-plotly.js "^2.5.1"
+    searchkit "^2.4.4"
+    volto-slate "*"
+
 "@eeacms/volto-block-divider@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-4.0.0.tgz#5a19d27147ee55b547c42e3db2a81a7b44e0d388"
@@ -1359,24 +1376,6 @@
   integrity sha512-mAq6N0NexG3gaOqhopF0peMos8ODI13OIJgnfM77NVT2p3+BR7pM+N7Z1TYZAOXtR2OJy0gWvgHQ39CoYRdHqA==
   dependencies:
     "@eeacms/volto-widgets-view" "*"
-
-"@eeacms/volto-n2k@0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-0.1.15.tgz#184ab7daff86f442486b7254e8a50b000710887d"
-  integrity sha512-alCXQDip/qd/W5DssrI5ft4jDDn7bdKPQ2fexNzhZYJWcjtOdpx8Wc/hNS+mCTooDW/HNYCa7qN6YCy2z/7Xyw==
-  dependencies:
-    "@eeacms/volto-datablocks" "*"
-    "@eeacms/volto-openlayers-map" "*"
-    "@eeacms/volto-resize-helper" "*"
-    "@eeacms/volto-tabs-block" "*"
-    d3 "^7.6.1"
-    d3-shape "^3.1.0"
-    react-lazy-load-image-component "1.5.1"
-    react-stickynode "^4.0.0"
-    react-use-localstorage "^3.5.3"
-    resize-observer-polyfill "1.5.1"
-    slick-carousel "1.8.1"
-    volto-slate "*"
 
 "@eeacms/volto-object-widget@*", "@eeacms/volto-object-widget@5.0.0":
   version "5.0.0"
