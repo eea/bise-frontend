@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "1.46.0",
+  "version": "1.47.0",
   "scripts": {
     "start": "razzle start",
     "preinstall": "if [ -f $(pwd)/mrs.developer.json ]; then if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi; fi",
