@@ -166,7 +166,7 @@
     "@eeacms/volto-plotlycharts": "4.0.0",
     "@eeacms/volto-slate-dataentity": "2.0.0",
     "@eeacms/volto-tableau": "2.0.0",
-    "@eeacms/volto-webmap": "0.1.1",
+    "@eeacms/volto-webmap": "0.2.0",
     "@plone/volto": "16.0.0-alpha.45"
   },
   "devDependencies": {

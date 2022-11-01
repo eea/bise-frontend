@@ -1432,15 +1432,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-3.0.0.tgz#ca014fb36d090b9c34b3e952d27dd7378ccabc52"
   integrity sha512-zMCce56EFjGLvuWwhQQrkeUXH2yoUnuD7TYa+QtmVs9FjJvvSUVa8Z4tE80SDM7GddvZXOz2ugqn9vS/9nJEgQ==
 
-"@eeacms/volto-webmap@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-webmap/-/volto-webmap-0.1.1.tgz#ed94c713deda9a30dc4c71cfe85fadc663d58819"
-  integrity sha512-0ioyFh6xRVFeVZOFwv7Lf9/hL0vGcyPtbHuetD5WsdcB06BWPRjClj8OEl3oVfVobVPm25JHWzkKepGCKSXg3A==
-  dependencies:
-    "@eeacms/volto-corsproxy" "^2.1.2"
-    "@eeacms/volto-embed" "^2.0.1"
-    esri-loader "2.16.0"
-
 "@eeacms/volto-widget-dataprovenance@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.2.0.tgz#f6ee69273da62b430255c9cb80dd746eabb6def2"
