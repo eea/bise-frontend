@@ -1417,13 +1417,6 @@
   dependencies:
     "@eeacms/volto-slate-footnote" "*"
 
-"@eeacms/volto-tableau@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.3.0.tgz#19e1ed0e3143bc83ffb3bf4299508f08f575b937"
-  integrity sha512-rVvyrJlN5Mdhf99/AyZdTXXgxY0x8Hjch4xsMKE/4wT3SLauuL25eNotSUmY5Wl8glYyTfGv7JW/Y752K+fGgA==
-  dependencies:
-    "@eeacms/volto-resize-helper" "^0.2.4"
-
 "@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-3.0.0.tgz#069883dcede7cada38d6e9af1888e524230719c1"
