@@ -1256,23 +1256,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-3.0.0.tgz#65b22458ead140e282f93115c17dbee863d4b9bd"
   integrity sha512-VRhVjgHYAWWv2I8w/JYdpuk8bX0rmXxxGNjSmj4wEWQr3uctULL7GuwpBCHZxiAWXz/fhA+AZLPkEL+rKi2GNA==
 
-"@eeacms/volto-bise@github:eea/volto-bise#develop":
-  version "2.0.0"
-  resolved "https://codeload.github.com/eea/volto-bise/tar.gz/5cc3b5592834b98de27acb1a13e9195738c4ed83"
-  dependencies:
-    "@eeacms/volto-corsproxy" "^*"
-    "@eeacms/volto-datablocks" "*"
-    "@eeacms/volto-embed" "*"
-    "@eeacms/volto-n2k" "*"
-    "@sentry/browser" "7.17.3"
-    esri-loader "^3.3.0"
-    plotly.js "^2.5.1"
-    react-color "^2.19.3"
-    react-lazy-load-image-component "^1.5.1"
-    react-plotly.js "^2.5.1"
-    searchkit "^2.4.4"
-    volto-slate "*"
-
 "@eeacms/volto-block-divider@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-4.0.0.tgz#5a19d27147ee55b547c42e3db2a81a7b44e0d388"
