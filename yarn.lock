@@ -1256,6 +1256,23 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-3.0.0.tgz#65b22458ead140e282f93115c17dbee863d4b9bd"
   integrity sha512-VRhVjgHYAWWv2I8w/JYdpuk8bX0rmXxxGNjSmj4wEWQr3uctULL7GuwpBCHZxiAWXz/fhA+AZLPkEL+rKi2GNA==
 
+"@eeacms/volto-bise@github:eea/volto-bise#develop":
+  version "2.0.1"
+  resolved "https://codeload.github.com/eea/volto-bise/tar.gz/91388c5dd1ea46eb8aa642fbc5f1eefc34300b3e"
+  dependencies:
+    "@eeacms/volto-corsproxy" "^*"
+    "@eeacms/volto-datablocks" "*"
+    "@eeacms/volto-embed" "*"
+    "@eeacms/volto-n2k" "*"
+    "@sentry/browser" "7.17.3"
+    esri-loader "^3.3.0"
+    plotly.js "^2.5.1"
+    react-color "^2.19.3"
+    react-lazy-load-image-component "^1.5.1"
+    react-plotly.js "^2.5.1"
+    searchkit "^2.4.4"
+    volto-slate "*"
+
 "@eeacms/volto-block-divider@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-4.0.0.tgz#5a19d27147ee55b547c42e3db2a81a7b44e0d388"
@@ -1342,6 +1359,25 @@
   integrity sha512-mAq6N0NexG3gaOqhopF0peMos8ODI13OIJgnfM77NVT2p3+BR7pM+N7Z1TYZAOXtR2OJy0gWvgHQ39CoYRdHqA==
   dependencies:
     "@eeacms/volto-widgets-view" "*"
+
+"@eeacms/volto-n2k@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.0.tgz#db5005519d63c8633b3a8288cdd44df1ea39e2ff"
+  integrity sha512-ByjpT8kRqpDlIFzaFsAyJ28npi0Q4Pf1W4ss31lqmlWdMsx4EYOSQAIq+vNjvpg4J/16owC6q2roq0k8ME+v9Q==
+  dependencies:
+    "@eeacms/volto-bise" "github:eea/volto-bise#develop"
+    "@eeacms/volto-datablocks" "*"
+    "@eeacms/volto-openlayers-map" "*"
+    "@eeacms/volto-resize-helper" "*"
+    "@eeacms/volto-tabs-block" "*"
+    d3 "^7.6.1"
+    d3-shape "^3.1.0"
+    react-lazy-load-image-component "1.5.1"
+    react-stickynode "^4.0.0"
+    react-use-localstorage "^3.5.3"
+    resize-observer-polyfill "1.5.1"
+    slick-carousel "1.8.1"
+    volto-slate "*"
 
 "@eeacms/volto-object-widget@*", "@eeacms/volto-object-widget@5.0.0":
   version "5.0.0"
