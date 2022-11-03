@@ -1348,6 +1348,28 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-5.0.0.tgz#78d1b8f5985389fceff1504d773210b6e49d6f71"
   integrity sha512-s8y+IddpS2t/gxKe1FeM/38eb2dKn3KH70zJ3b9IdCiP0f1WvlAHZNbW1yosVf03bCxxrqTfwqPH5XDN2U/cUA==
 
+"@eeacms/volto-openlayers-map@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.2.0.tgz#28cbf5882c8ac9355ccbc5c7db981158af39419f"
+  integrity sha512-VvXlKARBnMm0BaTRozYLJrlR817zJB16U6z8fhoVPJ/JcmcDpfSbo2+9Stz2IMreFJh34OhAKydqazEuEEzvlw==
+  dependencies:
+    ol "6.6.x"
+
+"@eeacms/volto-plotlycharts@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-4.0.0.tgz#70ba2c40090e83ce08f9a0f67ee07448d32eab4b"
+  integrity sha512-fQo8afPL5+F5XRgib+sVblhpkFH8DkuQPQc+ZYgvtHHrc+UgLXueUEFpWb7pc3A9Nmx4F/dzgFdCPsEtZJkJhQ==
+  dependencies:
+    "@eeacms/volto-datablocks" "*"
+    "@eeacms/volto-matomo" "*"
+    "@plone/scripts" "*"
+    plotly.js "^2.9.0"
+    react-chart-editor "0.45.0"
+    react-colorscales "0.7.3"
+    react-inspector "5.1.1"
+    react-json-editor-ajrm "2.5.13"
+    react-plotly.js "2.5.1"
+
 "@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-1.0.0.tgz#bb18e7a862dbed0ef2b6ad15c221b7d86f59bfa0"
@@ -1382,10 +1404,10 @@
   dependencies:
     "@eeacms/volto-slate-footnote" "*"
 
-"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-3.0.0.tgz#069883dcede7cada38d6e9af1888e524230719c1"
-  integrity sha512-y6qtrfD0bT08o0Sr0UeBOPBQrxS36OKWch9g3FTWEEIHE2KZDNZG+OX+iGBVe504h79sRsLcfYKvtnHAbKtZGA==
+"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@2.2.0", "@eeacms/volto-tabs-block@3.0.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.2.0.tgz#b5ac9fc636bd8696b3bb502315e7778884d267ab"
+  integrity sha512-JsdoyjTYYzSh2cAGLE86FJueS6vSA3huSuSyutSWn6/b4hG801blujisYXPOVOPdBSQFbzpXhARzNN+IR8ySjg==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-responsive-tabs "4.4.3"
@@ -18779,6 +18801,11 @@ slick-carousel@1.8.1, slick-carousel@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/slick-carousel/-/slick-carousel-1.8.1.tgz#a4bfb29014887bb66ce528b90bd0cda262cc8f8d"
   integrity sha512-XB9Ftrf2EEKfzoQXt3Nitrt/IPbT+f1fgqBdoxO3W/+JYvtEOW6EgxnWfr9GH6nmULv7Y2tPmEX3koxThVmebA==
+
+smoothscroll-polyfill@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
+  integrity sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
