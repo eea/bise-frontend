@@ -118,7 +118,7 @@ class View extends Component {
   };
 
   componentDidMount() {
-    if (flattenToAppURL(this.props.content['@id']) !== this.props.pathname) {
+    if (flattenToAppURL(this.props.content?.['@id']) !== this.props.pathname) {
       this.props.listActions(getBaseUrl(this.props.pathname));
       this.props.getContent(
         getBaseUrl(this.props.pathname),
