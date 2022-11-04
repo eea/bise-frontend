@@ -1393,10 +1393,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.1.tgz#3e8a8ce331b8fc5ced2a6b3a1e15dd80c304c16e"
-  integrity sha512-KoFcWYf+DcfQu3M37rRFCra3229xBTauQaWet0UDsTSTchMFDRILr2STx7G3BlbMkrf7gVEg9nMEkFqG0E/ZSg==
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.2.tgz#013f8a64590059b343cd3e3157fbd55f1bfae1a6"
+  integrity sha512-zpH/2G06yhAuoXjMLmIb1JUv53gsLxncyXzSmW5Zoaclf67Cw0C64ceI/G0+tWJOxfqsyHnMf67PDr9RbdhfsQ==
   dependencies:
     "@eeacms/volto-bise" "*"
     "@eeacms/volto-datablocks" "*"
@@ -1410,7 +1410,6 @@
     react-use-localstorage "^3.5.3"
     resize-observer-polyfill "1.5.1"
     slick-carousel "1.8.1"
-    volto-slate "*"
 
 "@eeacms/volto-object-widget@*", "@eeacms/volto-object-widget@5.0.0":
   version "5.0.0"
