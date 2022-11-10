@@ -1393,10 +1393,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.2.tgz#013f8a64590059b343cd3e3157fbd55f1bfae1a6"
-  integrity sha512-zpH/2G06yhAuoXjMLmIb1JUv53gsLxncyXzSmW5Zoaclf67Cw0C64ceI/G0+tWJOxfqsyHnMf67PDr9RbdhfsQ==
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.3.tgz#54c1cc0fcbea015d929d2141efd3976b955eab1d"
+  integrity sha512-vqtkVIb3xTimHknLjqiItxZAAEy5Tu/dfmsWiM6Fqu7fMtkQuBbU9wHn/tkDz9ltuWRsIYf9FktpFShkhWE9Hg==
   dependencies:
     "@eeacms/volto-bise" "*"
     "@eeacms/volto-datablocks" "*"
@@ -1486,13 +1486,12 @@
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
 
-"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@2.2.0", "@eeacms/volto-tabs-block@3.0.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.2.0.tgz#b5ac9fc636bd8696b3bb502315e7778884d267ab"
-  integrity sha512-JsdoyjTYYzSh2cAGLE86FJueS6vSA3huSuSyutSWn6/b4hG801blujisYXPOVOPdBSQFbzpXhARzNN+IR8ySjg==
+"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@1.2.12", "@eeacms/volto-tabs-block@2.2.0", "@eeacms/volto-tabs-block@3.0.0":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.12.tgz#394badcebc38a9fe283d025032602b1e1300552b"
+  integrity sha512-NNiTnkeQKjAhK5E8IkjzriMoDPNygiEm+OAleHsEr+s/0w4p0YNZygOT+iGsUFR1LkZLKPN7ajEweagoM+ug/Q==
   dependencies:
     "@eeacms/volto-block-style" "*"
-    react-responsive-tabs "4.4.3"
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
