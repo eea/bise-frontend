@@ -1333,10 +1333,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-1.0.1.tgz#4ae89166e424e2bc1299cbe617e132644401d801"
   integrity sha512-ZfopN9sA3rT4WONZgZWyGCTVzviuBewbabTrgE6MfJME1e3mAll452aEub26Y6ccdUp40hKe4sV1+ZTTUAsiAg==
 
-"@eeacms/volto-eea-kitkat@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.0.0.tgz#629b1396bda0bd90a52acb9267986c4f25b34c5d"
-  integrity sha512-b1MRFTSKuuAiOzQ4hSOoDYPAqyf6mM01qC+eC3Xwc+U76nxto7N8aXMjcFdGbQwxK6Cp+7d5o2jMBXJlWiVKbA==
+"@eeacms/volto-eea-kitkat@10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.1.0.tgz#705d0d53bcc7ab321c2139efcb159405bf876b80"
+  integrity sha512-4bTTFKg7tRjiY0KTULFkMtW/g6+itvS1uOc9o5JgoBb0t0emDK0fMJyqxldRSm3jVuSmjJnOoK/8tPvcS2diIA==
   dependencies:
     "@eeacms/volto-accordion-block" "6.0.0"
     "@eeacms/volto-banner" "3.0.1"
@@ -1350,7 +1350,7 @@
     "@eeacms/volto-description-block" "1.0.1"
     "@eeacms/volto-group-block" "5.0.1"
     "@eeacms/volto-hero-block" "2.0.0"
-    "@eeacms/volto-listing-block" "1.0.1"
+    "@eeacms/volto-listing-block" "2.1.0"
     "@eeacms/volto-matomo" "3.0.1"
     "@eeacms/volto-metadata-block" "5.0.1"
     "@eeacms/volto-object-widget" "5.0.1"
@@ -1405,10 +1405,10 @@
   dependencies:
     "@eeacms/volto-object-widget" "*"
 
-"@eeacms/volto-listing-block@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-1.0.1.tgz#4eed54b3f2926bec00c22e4ff20641610aebe80f"
-  integrity sha512-VmriVzIPBPz9Nm2ExI2/jsxfP8xhok8LxKlmyLxYbVRJJzTsxoiu+JEB8jaSUMusO/UpcRWnoGgEipWQ0EvULg==
+"@eeacms/volto-listing-block@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-2.1.0.tgz#68aef3f9515efcf809fce6b24e37569420f74361"
+  integrity sha512-PLUoy7ipZ2uBjo0tI1jc9g7hw47MRvX2KRG6zGNxgr4JM2Drk8TY+0W50G3v0LJahsZE4eyMQ1Lqx1hG10KYGA==
   dependencies:
     react-resize-detector "7.1.2"
     react-slick "0.29.0"
