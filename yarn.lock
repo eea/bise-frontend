@@ -1333,10 +1333,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-1.0.1.tgz#4ae89166e424e2bc1299cbe617e132644401d801"
   integrity sha512-ZfopN9sA3rT4WONZgZWyGCTVzviuBewbabTrgE6MfJME1e3mAll452aEub26Y6ccdUp40hKe4sV1+ZTTUAsiAg==
 
-"@eeacms/volto-eea-kitkat@10.1.0":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.1.0.tgz#705d0d53bcc7ab321c2139efcb159405bf876b80"
-  integrity sha512-4bTTFKg7tRjiY0KTULFkMtW/g6+itvS1uOc9o5JgoBb0t0emDK0fMJyqxldRSm3jVuSmjJnOoK/8tPvcS2diIA==
+"@eeacms/volto-eea-kitkat@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.1.1.tgz#e5d2e141b1e54d3b8b97dafb0c9bb2127070ef06"
+  integrity sha512-KKo10paH8GGtqWJq8p32QX7cIFm+FJn/8vVKkAA/NLpzLUEDV5L0R9aG6Ohduh3Fusr23EmZ5r3WZfJvB3vZNA==
   dependencies:
     "@eeacms/volto-accordion-block" "6.0.0"
     "@eeacms/volto-banner" "3.0.1"
@@ -1372,7 +1372,7 @@
     "@eeacms/volto-widget-toggle" "3.0.1"
     "@eeacms/volto-widgets-view" "4.0.1"
     "@kitconcept/volto-blocks-grid" "5.1.1"
-    "@plone-collective/volto-sentry" "0.2.0"
+    "@plone-collective/volto-sentry" "0.3.0"
 
 "@eeacms/volto-embed@*", "@eeacms/volto-embed@5.0.0":
   version "5.0.0"
@@ -2310,10 +2310,10 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@plone-collective/volto-sentry@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@plone-collective/volto-sentry/-/volto-sentry-0.2.0.tgz#de57f1fc9d8fb68252ca3860ec343b5837a4446d"
-  integrity sha512-87R2eKNJmP6QKskIIWv/ji9irFbUy0nvZCr0bndbdZpZV7g/vpjWlIXgNPmK0/0KMuKT8BR3x2UGDfq7xLHlBQ==
+"@plone-collective/volto-sentry@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@plone-collective/volto-sentry/-/volto-sentry-0.3.0.tgz#b5a8a9d2e1d7d7f8d9541c5fcce6b624e11a2f7e"
+  integrity sha512-9lkL1DOxKdZAnL8rHvx4WJpw52CNF8zYOaB6I4PY+FoUIBeiCatnEVfY6oeFdt+qUA23qrerBLaOuuR6grtdbw==
   dependencies:
     "@sentry/browser" "7.15.0"
     "@sentry/integrations" "7.15.0"
