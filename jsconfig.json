@@ -1,20 +1,11 @@
 {
     "compilerOptions": {
         "paths": {
-            "@eeacms/volto-bise-theme": [
-                "addons/volto-bise-theme/src"
-            ],
-            "@eeacms/volto-spotlight": [
-                "addons/volto-spotlight/src"
-            ],
-            "@eeacms/volto-hero-block": [
-                "addons/volto-hero-block/src"
+            "@eeacms/volto-bise-policy": [
+                "addons/volto-bise-policy/src"
             ],
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
-            ],
-            "@eeacms/volto-bise-policy": [
-                "addons/volto-bise-policy/src"
             ]
         },
         "baseUrl": "src"

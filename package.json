@@ -38,6 +38,7 @@
     "src/addons/*"
   ],
   "addons": [
+    "@plone-collective/volto-sentry",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-tableau",
@@ -47,9 +48,6 @@
     "@eeacms/volto-spotlight",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-workflow-progress",
-    "@eeacms/volto-searchlib",
-    "@eeacms/volto-globalsearch",
-    "@eeacms/volto-datahub",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-bise-policy",
@@ -156,27 +154,27 @@
     "node": "^14 || ^16"
   },
   "resolutions": {
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.3",
     "@eeacms/volto-listing-block": "2.0.1",
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.3"
+    "@plone-collective/volto-sentry": "0.2.1"
   },
   "dependencies": {
     "@eeacms/volto-bise-policy": "1.0.0",
     "@eeacms/volto-block-toc": "3.0.3",
     "@eeacms/volto-datablocks": "4.0.0",
-    "@eeacms/volto-datahub": "1.0.2",
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.3",
-    "@eeacms/volto-eea-kitkat": "10.0.0",
+    "@eeacms/volto-eea-kitkat": "10.1.0",
     "@eeacms/volto-eea-website-theme": "1.2.0",
-    "@eeacms/volto-globalsearch": "1.0.1",
     "@eeacms/volto-listing-block": "2.0.1",
     "@eeacms/volto-openlayers-map": "0.2.1",
     "@eeacms/volto-plotlycharts": "5.0.1",
-    "@eeacms/volto-searchlib": "0.4.2",
     "@eeacms/volto-slate-dataentity": "2.0.0",
+    "@eeacms/volto-spotlight": "1.0.0",
     "@eeacms/volto-tableau": "2.0.0",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
-    "@plone/volto": "16.0.0-rc.2",
+    "@plone-collective/volto-sentry": "0.2.1",
+    "@plone/volto": "16.0.0",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
@@ -197,5 +195,5 @@
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.2.3"
 }

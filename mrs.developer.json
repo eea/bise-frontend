@@ -52,7 +52,7 @@
     "https": "https://github.com/eea/volto-spotlight.git",
     "package": "@eeacms/volto-spotlight",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-quote-block": {
@@ -108,7 +108,7 @@
     "https": "https://github.com/eea/volto-hero-block.git",
     "package": "@eeacms/volto-hero-block",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-block-style": {
@@ -195,7 +195,7 @@
     "url": "git@github.com:collective/volto-sentry.git",
     "https": "https://github.com/collective/volto-sentry.git",
     "package": "@plone-collective/volto-sentry",
-    "branch": "develop",
+    "branch": "main",
     "develop": false,
     "path": "src"
   }
