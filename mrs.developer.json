@@ -52,7 +52,7 @@
     "https": "https://github.com/eea/volto-spotlight.git",
     "package": "@eeacms/volto-spotlight",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-quote-block": {
@@ -164,7 +164,7 @@
     "https": "https://github.com/eea/volto-eea-design-system.git",
     "package": "@eeacms/volto-eea-design-system",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-eea-website-theme": {
@@ -172,7 +172,7 @@
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-bise-policy": {
@@ -183,20 +183,20 @@
     "develop": true,
     "path": "src"
   },
+  "volto-n2k": {
+    "url": "git@github.com:eea/volto-n2k.git",
+    "https": "https://github.com/eea/volto-n2k.git",
+    "package": "@eeacms/volto-n2k",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-columns-block": {
     "url": "git@github.com:eea/volto-columns-block.git",
     "https": "https://github.com/eea/volto-columns-block.git",
     "package": "@eeacms/volto-columns-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
-  },
-  "volto-sentry": {
-    "url": "git@github.com:collective/volto-sentry.git",
-    "https": "https://github.com/collective/volto-sentry.git",
-    "package": "@plone-collective/volto-sentry",
-    "branch": "main",
-    "develop": false,
     "path": "src"
   }
 }
