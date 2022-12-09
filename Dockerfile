@@ -1,5 +1,5 @@
 # Based on https://github.com/plone/volto/blob/master/entrypoint.sh
-FROM node:14-stretch-slim
+FROM node:node:16-slim
 
 COPY . /opt/frontend/
 WORKDIR /opt/frontend/
