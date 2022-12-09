@@ -1,22 +1,6 @@
 {
     "compilerOptions": {
-        "paths": {
-            "@eeacms/volto-bise-policy": [
-                "addons/volto-bise-policy/src"
-            ],
-            "@eeacms/volto-columns-block": [
-                "addons/volto-columns-block/src"
-            ],
-            "@eeacms/volto-eea-design-system": [
-                "addons/volto-eea-design-system/src"
-            ],
-            "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
-            ],
-            "@eeacms/volto-spotlight": [
-                "addons/volto-spotlight/src"
-            ]
-        },
+        "paths": {},
         "baseUrl": "src"
     }
 }

@@ -51,6 +51,7 @@
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-bise-policy",
     "@eeacms/volto-n2k",
+    "@eeacms/volto-pdf-block",
     "volto-subsites"
   ],
   "jest": {
@@ -167,6 +168,7 @@
     "@eeacms/volto-listing-block": "2.2.0",
     "@eeacms/volto-n2k": "eea/volto-n2k#eea-design",
     "@eeacms/volto-openlayers-map": "0.2.1",
+    "@eeacms/volto-pdf-block": "1.0.10",
     "@eeacms/volto-plotlycharts": "5.0.5",
     "@eeacms/volto-slate-dataentity": "2.0.0",
     "@eeacms/volto-spotlight": "1.0.0",
