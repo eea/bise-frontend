@@ -1307,10 +1307,26 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@4.0.1":
+"@eeacms/volto-datablocks@*":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-4.0.1.tgz#763c5c3816667e422a3bc5c15b0f0051d159a090"
   integrity sha512-7JRoVjnIeX5BC3pZSamVyicLeSiuVWQUapIeWxuJBtZLyWw53jdYFIT8bfO21pytxF18xxWSlGjcH4sId3YL4A==
+  dependencies:
+    "@eeacms/volto-embed" "*"
+    "@eeacms/volto-group-block" "*"
+    "@eeacms/volto-matomo" "*"
+    d3 "7.1.1"
+    date-fns "2.28.0"
+    humanize-plus "^1.8.2"
+    object-hash "2.2.0"
+    react-countup "6.1.1"
+    react-visibility-sensor "5.1.1"
+    sanitize-html "^2.3.3"
+
+"@eeacms/volto-datablocks@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-4.0.0.tgz#02428ae2f1586259eafe32aebe5ddfe10a26eba6"
+  integrity sha512-x4UZJljhugUhJMX05hxf4/hu2q5ck2K+4ChYvrPqmx8bAB9ah2HeITiWHWchBSd8zWhUu/skcwzi5Xu5ZnfUIA==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
@@ -1418,10 +1434,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.4.tgz#d9a0987ae09fa66a0e78cad49d6df87b7425f03d"
-  integrity sha512-+wGJzvmrxkr9BPFXsDzHE/Y412deNBjakIXOoVVApzMV51kpKquk3JbuawrTKd7XB5sEniWHyXy2N19XqNVuSw==
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.5.tgz#8e4a31aea0d2ea876242d8728207d37581396c34"
+  integrity sha512-kRSTorUfEl7UkQiEYksL1ijADylcHL07M63EPOkF5/O9sp0MWy0xCWyCE5F6vbRt2o0/gX2GIDs34RLz0tvt/Q==
   dependencies:
     "@eeacms/volto-bise" "*"
     "@eeacms/volto-datablocks" "*"
@@ -1453,10 +1469,10 @@
   dependencies:
     ol "6.6.x"
 
-"@eeacms/volto-plotlycharts@5.0.7":
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-5.0.7.tgz#c86379a3af2422559e9cf7bfc0523d5898a7e00f"
-  integrity sha512-Cjyg1rxWhVEpNsHcF0+cOTL70CinlqyWZMTvoNdNr6x07hPvM6NB5vuzpYN0I9TnEr3+eraq2S7z/3253fBCTQ==
+"@eeacms/volto-plotlycharts@5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-5.0.8.tgz#b6fd5beba02abc96a2a1ef7f423b584d416be72e"
+  integrity sha512-QkHzu/j84wyJZ+3bdFQ8bcOGPWNvlJIl4Zca4S7/YW/7tgfy9VmecPRCKD8am95E1SrVGXpjjKNdTTKdJPGorw==
   dependencies:
     "@eeacms/volto-block-style" "4.1.0"
     "@eeacms/volto-datablocks" "*"
@@ -1527,13 +1543,12 @@
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
 
-"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@3.0.0", "@eeacms/volto-tabs-block@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-3.0.1.tgz#f992027f8bafd34c7590c11bb2233f910cbf8eda"
-  integrity sha512-sg6pTweL8FORL72/qZx/OPz3oSpldPWZmhVyzGT2pCcXy1g4LdkOeWizFRT0nxXpjHle7bgUNdgPKxokHQ7YXA==
+"@eeacms/volto-tabs-block@*", "@eeacms/volto-tabs-block@1.2.12", "@eeacms/volto-tabs-block@3.0.0":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.12.tgz#394badcebc38a9fe283d025032602b1e1300552b"
+  integrity sha512-NNiTnkeQKjAhK5E8IkjzriMoDPNygiEm+OAleHsEr+s/0w4p0YNZygOT+iGsUFR1LkZLKPN7ajEweagoM+ug/Q==
   dependencies:
     "@eeacms/volto-block-style" "*"
-    react-responsive-tabs "4.4.3"
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
@@ -5943,7 +5958,7 @@ classnames@2.2.6:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
-classnames@2.x, classnames@^2.0.0, classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
+classnames@2.x, classnames@^2.0.0, classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5, classnames@^2.2.6:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
   integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
@@ -16857,25 +16872,6 @@ react-resize-detector@7.1.2:
   integrity sha512-zXnPJ2m8+6oq9Nn8zsep/orts9vQv3elrpA+R8XTcW7DVVUJ9vwDwMXaBtykAYjMnkCIaOoK9vObyR7ZgFNlOw==
   dependencies:
     lodash "^4.17.21"
-
-react-resize-detector@^6.7.5:
-  version "6.7.8"
-  resolved "https://registry.yarnpkg.com/react-resize-detector/-/react-resize-detector-6.7.8.tgz#318c85d1335e50f99d4fb8eb9ec34e066db597d0"
-  integrity sha512-0FaEcUBAbn+pq3PT5a9hHRebUfuS1SRLGLpIw8LydU7zX429I6XJgKerKAMPsJH0qWAl6o5bVKNqFJqr6tGPYw==
-  dependencies:
-    "@types/resize-observer-browser" "^0.1.6"
-    lodash "^4.17.21"
-    resize-observer-polyfill "^1.5.1"
-
-react-responsive-tabs@4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/react-responsive-tabs/-/react-responsive-tabs-4.4.3.tgz#471d847224a9579ee22b60a6556ace97281013e1"
-  integrity sha512-AicjCIuIlB0isTnIiFplRzk4UVEohGYZjdXkWUXrI70aqX6Iw4UZxvgUnuYeT4b2k/1YVBxgndSwxBBCgYGcmg==
-  dependencies:
-    classnames "^2.3.1"
-    lodash.throttle "^4.1.1"
-    prop-types "^15.7.2"
-    react-resize-detector "^6.7.5"
 
 react-router-config@5.1.1:
   version "5.1.1"
