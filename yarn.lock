@@ -1263,9 +1263,9 @@
     slick-carousel "^1.8.1"
 
 "@eeacms/volto-block-style@*":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-4.1.1.tgz#f7400e4bc36bd8654362e5d4c8341b1cec1b6fb0"
-  integrity sha512-XBrIPZrTsStt+d96JNdXk01H2ZLAkXuI/uJ0G2Yc5NLod39JR0m+ePKuEwpIzSNFfZk+xWRI3npvUfzb7Nyjtg==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-4.1.2.tgz#29c0e234f41bc201de0d318fb87cdccb8488f04e"
+  integrity sha512-xB7f1bNa7/aDXJCDEslC/ugep74oTb2G+B3ehc7E9Y93kh7AtCeyM7mL+o7cZTU4mCO+opJjunXMiKAOrnOjgw==
   dependencies:
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
@@ -1434,10 +1434,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.5.tgz#8e4a31aea0d2ea876242d8728207d37581396c34"
-  integrity sha512-kRSTorUfEl7UkQiEYksL1ijADylcHL07M63EPOkF5/O9sp0MWy0xCWyCE5F6vbRt2o0/gX2GIDs34RLz0tvt/Q==
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.6.tgz#b042d4b3dd8b7c6605b06cc21babc6fdfffb5be7"
+  integrity sha512-ZbBWJ74BBUwZk4j3MttKn/u1GeMcf9BG87adoeVaatMV+7RlCLOVjHmcA1OnlKG+IVfBIg8gi/bLN9wZ9SR8zQ==
   dependencies:
     "@eeacms/volto-bise" "*"
     "@eeacms/volto-datablocks" "*"
