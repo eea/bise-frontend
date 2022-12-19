@@ -1307,10 +1307,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datablocks@*":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-4.0.1.tgz#763c5c3816667e422a3bc5c15b0f0051d159a090"
-  integrity sha512-7JRoVjnIeX5BC3pZSamVyicLeSiuVWQUapIeWxuJBtZLyWw53jdYFIT8bfO21pytxF18xxWSlGjcH4sId3YL4A==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-4.0.2.tgz#e5087ee4e0cf351cee42f88788a924fd537e0826"
+  integrity sha512-8+znZPTBXBmM1+vzgf2Yh0OiieloGzltdiFn+DLlX1MYoB7HIttc9FM+pJzAJgbV11UWMXXOgJTlJW6PXBtHcg==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
@@ -1321,23 +1321,7 @@
     object-hash "2.2.0"
     react-countup "6.1.1"
     react-visibility-sensor "5.1.1"
-    sanitize-html "^2.3.3"
-
-"@eeacms/volto-datablocks@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-4.0.0.tgz#02428ae2f1586259eafe32aebe5ddfe10a26eba6"
-  integrity sha512-x4UZJljhugUhJMX05hxf4/hu2q5ck2K+4ChYvrPqmx8bAB9ah2HeITiWHWchBSd8zWhUu/skcwzi5Xu5ZnfUIA==
-  dependencies:
-    "@eeacms/volto-embed" "*"
-    "@eeacms/volto-group-block" "*"
-    "@eeacms/volto-matomo" "*"
-    d3 "7.1.1"
-    date-fns "2.28.0"
-    humanize-plus "^1.8.2"
-    object-hash "2.2.0"
-    react-countup "6.1.1"
-    react-visibility-sensor "5.1.1"
-    sanitize-html "^2.3.3"
+    sanitize-html "2.7.3"
 
 "@eeacms/volto-depiction@1.0.0":
   version "1.0.0"
@@ -18023,7 +18007,7 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sanitize-html@^2.3.3:
+sanitize-html@2.7.3:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-2.7.3.tgz#166c868444ee4f9fd7352ac8c63fa86c343fc2bd"
   integrity sha512-jMaHG29ak4miiJ8wgqA1849iInqORgNv7SLfSw9LtfOhEUQ1C0YHKH73R+hgyufBW9ZFeJrb057k9hjlfBCVlw==
