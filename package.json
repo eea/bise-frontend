@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "1.55.0",
+  "version": "1.56.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -163,7 +163,7 @@
     "@eeacms/volto-datablocks": "4.0.2",
     "@eeacms/volto-eea-kitkat": "9.0.0",
     "@eeacms/volto-embed": "5.0.0",
-    "@eeacms/volto-n2k": "1.0.7",
+    "@eeacms/volto-n2k": "1.0.8",
     "@eeacms/volto-openlayers-map": "0.2.1",
     "@eeacms/volto-plotlycharts": "5.0.8",
     "@eeacms/volto-slate-dataentity": "2.0.0",
