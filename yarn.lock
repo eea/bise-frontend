@@ -1333,10 +1333,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-1.0.1.tgz#4ae89166e424e2bc1299cbe617e132644401d801"
   integrity sha512-ZfopN9sA3rT4WONZgZWyGCTVzviuBewbabTrgE6MfJME1e3mAll452aEub26Y6ccdUp40hKe4sV1+ZTTUAsiAg==
 
-"@eeacms/volto-eea-kitkat@10.4.0":
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.4.0.tgz#cdf3fee24415c54e791be9ce52f0e81f04777766"
-  integrity sha512-g3MKRa43X7fTD1SnLBb4UMD6GTN55R14SpwCdAyrDTc2CBH6EI+dvpzf+kUaB6PTXx37K21xag+mSoYDWwF4gA==
+"@eeacms/volto-eea-kitkat@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.5.0.tgz#adce57447276e5330c49d52ff4bdc1822c5d9853"
+  integrity sha512-kgZPTfFbWypvZXLS+L0Mv+bCH03WoUnMHkaLrxVBlCoxDcOZlw+bnHeBx4KHubyOewgAXNKe8Uy9hnM+Z1eb/g==
   dependencies:
     "@eeacms/volto-accordion-block" "6.0.0"
     "@eeacms/volto-banner" "3.0.1"
@@ -1360,7 +1360,7 @@
     "@eeacms/volto-slate-footnote" "6.0.2"
     "@eeacms/volto-slate-label" "0.4.4"
     "@eeacms/volto-slate-metadata-mentions" "6.0.1"
-    "@eeacms/volto-slate-zotero" "5.0.2"
+    "@eeacms/volto-slate-zotero" "5.1.0"
     "@eeacms/volto-statistic-block" "1.0.1"
     "@eeacms/volto-tabs-block" "3.0.1"
     "@eeacms/volto-tags-block" "1.0.2"
@@ -1520,10 +1520,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-slate-zotero@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-5.0.2.tgz#b2cef9859fa3f461f1d266511f22c74e2894e5f2"
-  integrity sha512-bkWPNW/39hHPU18xjG+NdxMDY1JuZ17uMuMRZH0I6efDGxlalzSfGcs9YRzXBufagst0uOM8wfONz4MMeDrhYg==
+"@eeacms/volto-slate-zotero@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-5.1.0.tgz#1916b81f29341dbcd60af70aa72728a85270e867"
+  integrity sha512-RHSoa3yNhwqdct4acv2+651f/lhvjh/56W6t0dIJLFcaR5GB+B1nh1ydWAp7Zjek7T1uA2AtBshIPG7Q4y2OpA==
   dependencies:
     "@eeacms/volto-slate-footnote" "*"
 
