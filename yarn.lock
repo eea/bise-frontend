@@ -1374,7 +1374,16 @@
     "@kitconcept/volto-blocks-grid" "5.1.1"
     "@plone-collective/volto-sentry" "0.3.0"
 
-"@eeacms/volto-embed@*", "@eeacms/volto-embed@5.0.0":
+"@eeacms/volto-embed@*", "@eeacms/volto-embed@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-5.0.1.tgz#89fe790d540863beacde5a543fbe78d14c1a60e3"
+  integrity sha512-cgHlojp8m5Vm/5rHqQR0lgdLoX3nM2nHiId6nuTRL1YodT/9hIRPjeDHoYM2+MZudPKQY2L+uvhzwHEZM4ENRg==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+    "@eeacms/volto-datablocks" "*"
+    react-visibility-sensor "5.1.1"
+
+"@eeacms/volto-embed@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-5.0.0.tgz#9a0d6089d81c37048d3b79f3b3d1c50aaec4675e"
   integrity sha512-yFOrx2UGQkTvbaV6mw9GH1POJ3SMGyRi/bG7WjSJOCCcDxCKquN5/WTsQWZPNcDtBMB0c+nxVdiBeNPwoxxrIg==
