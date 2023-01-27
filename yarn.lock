@@ -1250,10 +1250,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-image-cards@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-1.0.1.tgz#012dca45d4a32ee277de86c30a4bde05441d30be"
-  integrity sha512-qR82HRPY+RQLT3FrJcE0aw1OM92fygfXdXpqDlw8dlgx08EgRB8HUeIXaw+Ff2WqSshqf7jJr1I3A3GZsIw1PQ==
+"@eeacms/volto-block-image-cards@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-1.0.2.tgz#4e18d473e938907b0bbd69ce9099918f11de8588"
+  integrity sha512-bchEmm+GKd1KtvuicHCu+MMBm60uYB10rJk9+KCbTOoBptkpqEFOBM4qIPbxlpRP+731ZDW/IGqTIEMAZLG/FA==
   dependencies:
     "@eeacms/volto-block-style" "*"
     "@eeacms/volto-object-widget" "*"
@@ -1285,10 +1285,10 @@
   dependencies:
     smoothscroll-polyfill "^0.4.4"
 
-"@eeacms/volto-call-to-action-block@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-3.0.0.tgz#0723187cee00ae03aac8da57eb92a513832ca564"
-  integrity sha512-7JrmowlbXueb+xGaD/9sGTEVk3hAvdXVOARIYjo/V7+L21LbV+sepnumXfbrpXCCwXJK3EDqk/mPnX/dFnei+g==
+"@eeacms/volto-call-to-action-block@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-3.0.1.tgz#03e985bd0cbce75ae094ce99afb4f5dfb3c9df72"
+  integrity sha512-CM3ygiKipwS4ViB5PJqgzY8Tf4mabt4cl6PSRgCpARSynWTC/ZeavXWwolx7yd2e20e0f1HFumMx2Ft9bvefrQ==
 
 "@eeacms/volto-columns-block@5.2.0":
   version "5.2.0"
@@ -1333,23 +1333,23 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-1.0.1.tgz#4ae89166e424e2bc1299cbe617e132644401d801"
   integrity sha512-ZfopN9sA3rT4WONZgZWyGCTVzviuBewbabTrgE6MfJME1e3mAll452aEub26Y6ccdUp40hKe4sV1+ZTTUAsiAg==
 
-"@eeacms/volto-eea-kitkat@10.6.0":
-  version "10.6.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.6.0.tgz#5905b01e889965b3dd387404af5d78b9c7a64450"
-  integrity sha512-rvGYVWTE97YZSBqpDBsJ0oiGuNutaelFyqtLjBxuHcxE5DheFnjYzAyQBI8Yf96VqJRfWMlqXI1KS1wNCKRT2Q==
+"@eeacms/volto-eea-kitkat@10.6.1":
+  version "10.6.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.6.1.tgz#5a4198d3a1d63cc8be6753838a40de36a4f6fcd3"
+  integrity sha512-fC1W8PMXFwoIQgzDdiFvlpD57mrSb918co2UR5UXrshBqFrM/krM6TfJKyfe8F2k35+xdxGPz6tR8h6SHYqsEQ==
   dependencies:
     "@eeacms/volto-accordion-block" "6.0.0"
     "@eeacms/volto-banner" "3.0.1"
     "@eeacms/volto-block-divider" "5.0.0"
-    "@eeacms/volto-block-image-cards" "1.0.1"
+    "@eeacms/volto-block-image-cards" "1.0.2"
     "@eeacms/volto-block-style" "4.1.2"
-    "@eeacms/volto-call-to-action-block" "3.0.0"
+    "@eeacms/volto-call-to-action-block" "3.0.1"
     "@eeacms/volto-columns-block" "5.2.0"
     "@eeacms/volto-corsproxy" "3.0.1"
     "@eeacms/volto-depiction" "1.0.1"
     "@eeacms/volto-description-block" "1.0.1"
     "@eeacms/volto-group-block" "5.0.1"
-    "@eeacms/volto-hero-block" "3.0.0"
+    "@eeacms/volto-hero-block" "3.0.1"
     "@eeacms/volto-listing-block" "2.5.0"
     "@eeacms/volto-matomo" "3.0.1"
     "@eeacms/volto-metadata-block" "5.0.1"
@@ -1407,10 +1407,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-5.0.1.tgz#eaf6b3dd187daa803a44b5e2e136b4b38c42e450"
   integrity sha512-mBoa7fZowCMs4dCuWlRH01UEIXx82aD5atifmE24jO9vPyEIlfwXVp39p+yz9wK42CdDkACE9xzWc3aAvVCJ1g==
 
-"@eeacms/volto-hero-block@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-3.0.0.tgz#6aa940bd26aef68c8c0dca46dfcdb263456b6d05"
-  integrity sha512-iSxcq0oKEj7DynK3mL+KQRV2+2ZURZHg6f+TEy5qkxyA6CXiTgVoHIPRSvcbLDPLu0LmGvMi1BxmoY1wXXVv0Q==
+"@eeacms/volto-hero-block@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-3.0.1.tgz#ddc0280a0a0818899cd8ba5495672c97fa9b5c53"
+  integrity sha512-JjOaMu26b34DzKHSC5D0Oa3oyd61ScfJ6QJyvB+M95Gi4WwR+JqbEtr0XrYeg63vYO3lhLyg/9DoCS7YoR6LLQ==
   dependencies:
     "@eeacms/volto-object-widget" "*"
 
