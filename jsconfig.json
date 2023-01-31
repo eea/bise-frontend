@@ -1,6 +1,13 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-bise": [
+                "addons/volto-bise/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }
