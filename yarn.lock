@@ -1427,10 +1427,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.9.tgz#7ed2e8aef08288d0818d79c4ee868185235f980c"
-  integrity sha512-Op3fVTvjdyIx6tgpL4Z/FcVbxb4v+9o/4fGNIpkZWEU7Ief4wKKBDE1Lu0IynlUDhlOVu4hD1kiSubL35rOwtw==
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.10.tgz#4078f756ac217c3e398ac35805f7600737e03e40"
+  integrity sha512-klyoJoco3BUHbBE0udDon6itZQuM6Kc7+apFyPoETnTCLqBSIahLZ3DwcI15TB87r0q7ipgQ+Iahm2JuO8z3Zg==
   dependencies:
     "@eeacms/volto-bise" "*"
     "@eeacms/volto-datablocks" "*"
