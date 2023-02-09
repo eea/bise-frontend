@@ -32,5 +32,9 @@ export default function applyConfig(config) {
     ],
   };
 
+  config.blocks.blocksConfig.video.restricted = false;
+  config.blocks.blocksConfig.maps.restricted = false;
+  config.blocks.blocksConfig.html.restricted = false;
+
   return config;
 }
