@@ -27,8 +27,8 @@ export default function applyConfig(config) {
       // '/natura2000/species/s/:id_eunis',
       '/natura2000/sites/site',
       // '/natura2000/sites/site_cdda',
-      // '/natura2000/habitats/habitat',
-      // '/natura2000/species/species',
+      '/natura2000/habitats/habitat',
+      '/natura2000/species/species',
     ],
   };
 
