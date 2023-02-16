@@ -1226,10 +1226,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-3.0.0.tgz#65b22458ead140e282f93115c17dbee863d4b9bd"
   integrity sha512-VRhVjgHYAWWv2I8w/JYdpuk8bX0rmXxxGNjSmj4wEWQr3uctULL7GuwpBCHZxiAWXz/fhA+AZLPkEL+rKi2GNA==
 
-"@eeacms/volto-bise@*", "@eeacms/volto-bise@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-bise/-/volto-bise-2.0.6.tgz#ce715d921b38b69dce8ae461f57ae110bde2afb9"
-  integrity sha512-CGpENchw1UmDNkH0y6hlVYSNagB3ieWVLKO/0PCbpaxtfaKgFoZfuwXDI/ZidpVvFWwlkk4PbnCC/VfUuViZaw==
+"@eeacms/volto-bise@*", "@eeacms/volto-bise@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-bise/-/volto-bise-2.0.7.tgz#1375cee740ea7ec65b53ba58649c6d9b38a32be4"
+  integrity sha512-91cdHGshSTNmyN3yM58tCMKCjmuH3MWdafaLD74VR9i6Oyc3MUPzU38x+/x1WhBWLJnNn/yUEn4LmlJJUq4Qog==
   dependencies:
     "@eeacms/volto-corsproxy" "^*"
     "@eeacms/volto-datablocks" "*"
