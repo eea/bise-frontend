@@ -148,7 +148,7 @@
     "https": "https://github.com/eea/volto-listing-block.git",
     "package": "@eeacms/volto-listing-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-metadata-block": {
