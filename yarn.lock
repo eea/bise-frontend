@@ -1493,28 +1493,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-n2k@*":
+"@eeacms/volto-n2k@*", "@eeacms/volto-n2k@1.0.16":
   version "1.0.16"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.16.tgz#c0447e200360ee1d51002ac9ff4af6711959fe23"
   integrity sha512-ZPNosyuGmGPMOqpr2IgDSmntPPfaGJAEdW1faXPKr0naKC8RpjwyZrYYlNQTUfspiFCuHhWPdUPb2IbAWfLAWA==
-  dependencies:
-    "@eeacms/volto-bise" "*"
-    "@eeacms/volto-datablocks" "*"
-    "@eeacms/volto-openlayers-map" "*"
-    "@eeacms/volto-resize-helper" "*"
-    "@eeacms/volto-tabs-block" "*"
-    d3 "^7.6.1"
-    d3-shape "^3.1.0"
-    react-lazy-load-image-component "1.5.1"
-    react-stickynode "^4.0.0"
-    react-use-localstorage "^3.5.3"
-    resize-observer-polyfill "1.5.1"
-    slick-carousel "1.8.1"
-
-"@eeacms/volto-n2k@1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-n2k/-/volto-n2k-1.0.15.tgz#90e76cb69adbce8c1e5cc9857cbb6a8608322e6e"
-  integrity sha512-W9Wov6WvEhCk5mpxt05QnVTVI14TADsFWhdMe6BCue33u/+gRJjs6JgqnsqIgkHeJFFmk2o6cKtcAmK+H+fTzg==
   dependencies:
     "@eeacms/volto-bise" "*"
     "@eeacms/volto-datablocks" "*"
