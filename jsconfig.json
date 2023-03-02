@@ -1,14 +1,26 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-listing-block": [
+                "addons/volto-listing-block/src"
+            ],
             "@eeacms/volto-bise": [
                 "addons/volto-bise/src"
             ],
             "@eeacms/volto-n2k": [
                 "addons/volto-n2k/src"
             ],
-            "@eeacms/volto-listing-block": [
-                "addons/volto-listing-block/src"
+            "@eeacms/volto-webmap": [
+                "addons/volto-webmap/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-block-style": [
+                "addons/volto-block-style/src"
             ]
         },
         "baseUrl": "src"

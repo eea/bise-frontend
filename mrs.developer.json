@@ -212,7 +212,7 @@
     "https": "https://github.com/eea/volto-block-style.git",
     "package": "@eeacms/volto-block-style",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-eea-kitkat": {
@@ -252,7 +252,7 @@
     "https": "https://github.com/eea/volto-datablocks.git",
     "package": "@eeacms/volto-datablocks",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-plotlycharts": {
@@ -276,7 +276,7 @@
     "https": "https://github.com/eea/volto-slate-dataentity.git",
     "package": "@eeacms/volto-slate-dataentity",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-tableau": {
@@ -292,7 +292,7 @@
     "https": "https://github.com/eea/volto-webmap.git",
     "package": "@eeacms/volto-webmap",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   }
 }
