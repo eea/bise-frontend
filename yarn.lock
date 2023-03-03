@@ -2187,12 +2187,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:*, @eeacms/volto-openlayers-map@npm:0.2.1":
+"@eeacms/volto-openlayers-map@npm:*":
   version: 0.2.1
   resolution: "@eeacms/volto-openlayers-map@npm:0.2.1"
   dependencies:
     ol: 6.6.x
   checksum: c09839544a7b7da1948b8af5a34e024b6e06b195261075ef9e94d86aba6a2a33d9505f99cef6cdae0c1d96eb436b1ce764404a93541f86ec0c22624f2528ac5e
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-openlayers-map@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@eeacms/volto-openlayers-map@npm:0.2.2"
+  dependencies:
+    ol: 6.6.x
+  checksum: a6db83ae91b5f8e452a954e9d088fb906a24c97dad4101910c76f35457d0c0dff160eb8705e9b3ae4c50549ca085249b679e98006e222481e973e5dc23fd4369
   languageName: node
   linkType: hard
 
@@ -8059,7 +8068,7 @@ __metadata:
     "@eeacms/volto-eea-map": 0.1.32
     "@eeacms/volto-embed": 5.0.1
     "@eeacms/volto-n2k": 1.0.18
-    "@eeacms/volto-openlayers-map": 0.2.1
+    "@eeacms/volto-openlayers-map": 0.2.2
     "@eeacms/volto-plotlycharts": 5.0.8
     "@eeacms/volto-slate-dataentity": 2.0.1
     "@eeacms/volto-tableau": 2.0.0
