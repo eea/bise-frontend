@@ -8056,9 +8056,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bise-frontend-2@workspace:.":
+"bise-frontend@workspace:.":
   version: 0.0.0-use.local
-  resolution: "bise-frontend-2@workspace:."
+  resolution: "bise-frontend@workspace:."
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator": 7.18.6
     "@eeacms/volto-bise": 2.0.9
