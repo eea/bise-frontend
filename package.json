@@ -1,8 +1,8 @@
 {
-  "name": "bise-frontend-2",
-  "description": "A Volto-powered Plone frontend",
+  "name": "bise-frontend",
+  "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "1.65.0",
+  "version": "1.64.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
