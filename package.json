@@ -2,7 +2,7 @@
   "name": "bise-frontend-2",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "1.66.0",
+  "version": "1.64.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
