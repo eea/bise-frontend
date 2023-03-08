@@ -148,7 +148,7 @@
     "https": "https://github.com/eea/volto-listing-block.git",
     "package": "@eeacms/volto-listing-block",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-metadata-block": {
@@ -236,7 +236,7 @@
     "https": "https://github.com/eea/volto-bise.git",
     "package": "@eeacms/volto-bise",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-n2k": {
@@ -244,7 +244,7 @@
     "https": "https://github.com/eea/volto-n2k.git",
     "package": "@eeacms/volto-n2k",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-datablocks": {
