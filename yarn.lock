@@ -1974,13 +1974,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-corsproxy@npm:^2.1.2":
-  version: 2.1.6
-  resolution: "@eeacms/volto-corsproxy@npm:2.1.6"
-  checksum: 5d050117694b226ad8822a5ca3d0b5a7f4984c0f10ecd2c1bab21b42486f8a7e8f4805e6cf043345a7b007a1621bb93ffe29ddf8c2d2d5b2ddf3977261c7ca7f
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-datablocks@npm:*, @eeacms/volto-datablocks@npm:4.0.4":
   version: 4.0.4
   resolution: "@eeacms/volto-datablocks@npm:4.0.4"
@@ -2089,18 +2082,6 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     react-visibility-sensor: 5.1.1
   checksum: aa0c9b44944662fe76273c516cf1a51a61b6ab02b5f0b49c9c08ccb6d8a8812ccfddec53bc587ce06df0331594e4ca8d64afeef2d4dd708cd4a1607b7ca7bed1
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-embed@npm:^2.0.1":
-  version: 2.0.11
-  resolution: "@eeacms/volto-embed@npm:2.0.11"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@eeacms/volto-datablocks": "*"
-    react-visibility-sensor: 5.1.1
-    volto-slate: "*"
-  checksum: 2c10fb4178f9d0f90215b71add8dd138dc630c7dc2edbad886bfb2ca3a5447a625f4088af5206fd29320f0483ed94e6ca8b00a707c36295d75f07a785a258c5f
   languageName: node
   linkType: hard
 
@@ -2345,14 +2326,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-webmap@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@eeacms/volto-webmap@npm:0.2.0"
+"@eeacms/volto-webmap@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@eeacms/volto-webmap@npm:0.2.1"
   dependencies:
-    "@eeacms/volto-corsproxy": ^2.1.2
-    "@eeacms/volto-embed": ^2.0.1
+    "@eeacms/volto-corsproxy": "*"
+    "@eeacms/volto-embed": "*"
     esri-loader: 2.16.0
-  checksum: 64bc6d134d5340953441379b93a0ba4a58c66ac03517f9e1a8d8392ebcc4a381d9f5dbd973322044585763eb57e0b3e6981e71ddb5914a4224e519d94d43e58b
+  checksum: ed22993883e73e1c864422e88fe4f225ac468458b7c902f2104a107eb05e684799cc6980d2df0d6d477a79c3050a4dd78f716ec3f6d4bffd98bec0f6a85d0df1
   languageName: node
   linkType: hard
 
@@ -8073,7 +8054,7 @@ __metadata:
     "@eeacms/volto-slate-dataentity": 2.0.1
     "@eeacms/volto-tableau": 2.0.0
     "@eeacms/volto-tabs-block": 1.2.12
-    "@eeacms/volto-webmap": 0.2.0
+    "@eeacms/volto-webmap": 0.2.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.12.0
     "@storybook/addon-actions": ^6.3.0
@@ -18345,7 +18326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:^16.4.0, jsdom@npm:^16.6.0":
+"jsdom@npm:^16.4.0":
   version: 16.7.0
   resolution: "jsdom@npm:16.7.0"
   dependencies:
@@ -24047,15 +24028,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-intersection-observer@npm:^8.32.0":
-  version: 8.34.0
-  resolution: "react-intersection-observer@npm:8.34.0"
-  peerDependencies:
-    react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
-  checksum: 7713fecfd1512c7f5a60f9f0bf15403b8f8bbd4110bcafaeaea6de36a0e0eb60368c3638f99e9c97b75ad8fc787ea48c241dcb5c694f821d7f2976f709082cc5
-  languageName: node
-  linkType: hard
-
 "react-intl-redux@npm:2.2.0":
   version: 2.2.0
   resolution: "react-intl-redux@npm:2.2.0"
@@ -26761,17 +26733,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-history@npm:^0.66.0":
-  version: 0.66.0
-  resolution: "slate-history@npm:0.66.0"
-  dependencies:
-    is-plain-object: ^5.0.0
-  peerDependencies:
-    slate: ">=0.65.3"
-  checksum: e83d4fbf5d4097a5b434df4846420e593598a9a3f90d3e0638f16915b1014bc8a7dc5cd87e3bc0a31a8ad5eae582a18f96bdc04f4b0b0a5a82cf05bd0377601e
-  languageName: node
-  linkType: hard
-
 "slate-hyperscript@npm:0.81.3":
   version: 0.81.3
   resolution: "slate-hyperscript@npm:0.81.3"
@@ -26780,17 +26741,6 @@ __metadata:
   peerDependencies:
     slate: ">=0.65.3"
   checksum: cc3ba04d14e20c66eee5e5b0ca2d60fe92c0d38caf9b412153453d42f32d90bce61d57e3a00b2a4c30a7b15408bf8b14132871fd3c00f75de6ca4b49387637fe
-  languageName: node
-  linkType: hard
-
-"slate-hyperscript@npm:^0.67.0":
-  version: 0.67.0
-  resolution: "slate-hyperscript@npm:0.67.0"
-  dependencies:
-    is-plain-object: ^5.0.0
-  peerDependencies:
-    slate: ">=0.65.3"
-  checksum: 17ca7a30be4fd025ec46d960fade60743f68f11c6c4e7865b1b45972eaf7b26e1949d8246f4768de83a5a577ab119f1af3eac8db168eef98589cb09ef7148d90
   languageName: node
   linkType: hard
 
@@ -26814,26 +26764,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-react@npm:^0.71.0":
-  version: 0.71.0
-  resolution: "slate-react@npm:0.71.0"
-  dependencies:
-    "@types/is-hotkey": ^0.1.1
-    "@types/lodash": ^4.14.149
-    direction: ^1.0.3
-    is-hotkey: ^0.1.6
-    is-plain-object: ^5.0.0
-    lodash: ^4.17.4
-    scroll-into-view-if-needed: ^2.2.20
-    tiny-invariant: 1.0.6
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-    slate: ">=0.65.3"
-  checksum: 5b256f3ebc3d2da40015744e4eab9a1016e0fa785c922a90ca34338b60838b1cf1a367797ce5234a78f1212c6e3a9ef6d2f8d952a0dd26d928b4e16c96ce07f3
-  languageName: node
-  linkType: hard
-
 "slate@npm:0.84.0":
   version: 0.84.0
   resolution: "slate@npm:0.84.0"
@@ -26842,17 +26772,6 @@ __metadata:
     is-plain-object: ^5.0.0
     tiny-warning: ^1.0.3
   checksum: d74de16a40571b2513dbd96efee8fe891909357a7011131f8fae738a0eace5b3c7c2da1c0ebfb1ffe66c8c933507ca618772fb607fbc9e44aa5158d3d874c5a2
-  languageName: node
-  linkType: hard
-
-"slate@npm:^0.71.0":
-  version: 0.71.0
-  resolution: "slate@npm:0.71.0"
-  dependencies:
-    immer: ^9.0.6
-    is-plain-object: ^5.0.0
-    tiny-warning: ^1.0.3
-  checksum: 9c3d3b8464acf8e67eb49c8242aa6435f7e7f4fca36ba794c671a9979b9180635cc392caf569404a5fb269f8ec3797a3cf8e32d9d1f150198c170cbf9fa2ac1d
   languageName: node
   linkType: hard
 
@@ -29974,28 +29893,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"volto-slate@npm:*":
-  version: 6.4.0
-  resolution: "volto-slate@npm:6.4.0"
-  dependencies:
-    "@eeacms/volto-object-widget": "*"
-    classnames: 2.2.6
-    image-extensions: 1.1.0
-    is-url: 1.2.4
-    jsdom: ^16.6.0
-    react-intersection-observer: ^8.32.0
-    react-visibility-sensor: 5.1.1
-    slate: ^0.71.0
-    slate-history: ^0.66.0
-    slate-hyperscript: ^0.67.0
-    slate-react: ^0.71.0
-    weak-key: ^1.0.2
-  peerDependencies:
-    "@plone/volto": ">=12.1.2"
-  checksum: 1f7785a088da215cadad6c90cb09ae336894d2ee09dfc71f288ed0e6e7c5f69cb5e63c7db991b4acdeef49e292f1e12817a6b1a46f106db6e927afd06e783b1d
-  languageName: node
-  linkType: hard
-
 "vt-pbf@npm:^3.1.1":
   version: 3.1.3
   resolution: "vt-pbf@npm:3.1.3"
@@ -30118,13 +30015,6 @@ __metadata:
   dependencies:
     defaults: ^1.0.3
   checksum: 814e9d1ddcc9798f7377ffa448a5a3892232b9275ebb30a41b529607691c0491de47cba426e917a4d08ded3ee7e9ba2f3fe32e62ee3cd9c7d3bafb7754bd553c
-  languageName: node
-  linkType: hard
-
-"weak-key@npm:^1.0.2":
-  version: 1.0.3
-  resolution: "weak-key@npm:1.0.3"
-  checksum: 2c3268e593f374a4604a8afa2473f0de818cd8e63a50a569355b2e2ff85296761b95380f7f858af8c779cad7be49e9c0ba99e6dd21cc674007d8603f225f6d3c
   languageName: node
   linkType: hard
 
