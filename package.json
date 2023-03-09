@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "1.65.0",
+  "version": "1.66.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -169,7 +169,7 @@
     "@eeacms/volto-slate-dataentity": "2.0.1",
     "@eeacms/volto-tableau": "2.0.0",
     "@eeacms/volto-tabs-block": "1.2.12",
-    "@eeacms/volto-webmap": "0.2.0",
+    "@eeacms/volto-webmap": "0.2.1",
     "@plone/volto": "16.12.0"
   },
   "devDependencies": {
