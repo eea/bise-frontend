@@ -2143,7 +2143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:*, @eeacms/volto-n2k@npm:1.0.19":
+"@eeacms/volto-n2k@npm:*":
   version: 1.0.19
   resolution: "@eeacms/volto-n2k@npm:1.0.19"
   dependencies:
@@ -2160,6 +2160,26 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
   checksum: a2b928b56f8ff3673d1b62cb5a97eaf9db607166ec8de6b09f2b811e10f0c81580c55b0f246a01d4a5864d962a59459d5af2a531706910e6a2478639bf4c9028
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-n2k@npm:1.0.20":
+  version: 1.0.20
+  resolution: "@eeacms/volto-n2k@npm:1.0.20"
+  dependencies:
+    "@eeacms/volto-bise": "*"
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-openlayers-map": "*"
+    "@eeacms/volto-resize-helper": "*"
+    "@eeacms/volto-tabs-block": "*"
+    d3: ^7.6.1
+    d3-shape: ^3.1.0
+    react-lazy-load-image-component: 1.5.1
+    react-stickynode: ^4.0.0
+    react-use-localstorage: ^3.5.3
+    resize-observer-polyfill: 1.5.1
+    slick-carousel: 1.8.1
+  checksum: fe1aeef81d67ed0e839e8f132735c42fbd56a7d5b9227aa67f6081968da2788d7fe6b193fee79f46f44f731d572a61b94c13d9111bf57eb635e6d03a6897e86c
   languageName: node
   linkType: hard
 
@@ -8051,7 +8071,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 13.0.0
     "@eeacms/volto-eea-map": 0.1.32
     "@eeacms/volto-embed": 5.0.2
-    "@eeacms/volto-n2k": 1.0.19
+    "@eeacms/volto-n2k": 1.0.20
     "@eeacms/volto-openlayers-map": 0.2.2
     "@eeacms/volto-plotlycharts": 5.0.8
     "@eeacms/volto-slate-dataentity": 2.0.1
