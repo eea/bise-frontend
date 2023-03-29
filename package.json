@@ -158,13 +158,14 @@
     "@eeacms/volto-listing-block": "2.0.1"
   },
   "dependencies": {
-    "@eeacms/volto-bise-policy": "1.0.0",
+    "@eeacms/volto-bise-policy": "1.0.2",
     "@eeacms/volto-block-toc": "3.0.3",
     "@eeacms/volto-datablocks": "4.0.4",
+    "@eeacms/volto-eea-design-system": "1.0.5",
     "@eeacms/volto-eea-kitkat": "15.0.0",
     "@eeacms/volto-eea-website-theme": "1.13.0",
-    "@eeacms/volto-eea-design-system": "1.0.5",
     "@eeacms/volto-listing-block": "4.0.0",
+    "@eeacms/volto-n2k": "1.0.22",
     "@eeacms/volto-openlayers-map": "0.2.2",
     "@eeacms/volto-pdf-block": "1.0.11",
     "@eeacms/volto-plotlycharts": "5.0.8",
