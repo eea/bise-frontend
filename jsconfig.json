@@ -1,6 +1,58 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-block-toc": [
+                "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-call-to-action-block": [
+                "addons/volto-call-to-action-block/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
+            ],
+            "@eeacms/volto-eea-website-theme": [
+                "addons/volto-eea-website-theme/src"
+            ],
+            "@eeacms/volto-bise-policy": [
+                "addons/volto-bise-policy/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
+            ],
+            "@eeacms/volto-pdf-block": [
+                "addons/volto-pdf-block/src"
+            ],
+            "@eeacms/volto-file-viewer": [
+                "addons/volto-file-viewer/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
+            ],
+            "@eeacms/volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "@eeacms/volto-spotlight": [
+                "addons/volto-spotlight/src"
+            ],
+            "@eeacms/volto-listing-block": [
+                "addons/volto-listing-block/src"
+            ],
+            "@eeacms/volto-resize-helper": [
+                "addons/volto-resize-helper/src"
+            ],
+            "@eeacms/volto-block-style": [
+                "addons/volto-block-style/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
+            "@eeacms/volto-columns-block": [
+                "addons/volto-columns-block/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }
