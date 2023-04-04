@@ -2378,14 +2378,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:1.2.12":
-  version: 1.2.12
-  resolution: "@eeacms/volto-tabs-block@npm:1.2.12"
+"@eeacms/volto-tabs-block@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@eeacms/volto-tabs-block@npm:4.0.1"
   dependencies:
     "@eeacms/volto-block-style": "*"
+    react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 12141765310bae9125b6bffdadd6f8167a90751eb6ea2db883928e964b007c4b94f02e8d2506e66616bc6bf81f51c8b99f57ef6f6729b7fc8db5404d54689ddb
+  checksum: f58defb71f6bc312f22522b119d7868100d171d856b2f64db1f018e6228cf3c6a8a3f283f8d4ac5bb08a42ba524172027bf8a8de2aad846c9e4314c5cbbabb8a
   languageName: node
   linkType: hard
 
@@ -8151,7 +8152,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 5.0.8
     "@eeacms/volto-slate-dataentity": 2.0.1
     "@eeacms/volto-tableau": 2.0.0
-    "@eeacms/volto-tabs-block": 1.2.12
+    "@eeacms/volto-tabs-block": 4.0.1
     "@eeacms/volto-webmap": 0.2.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.12.0
@@ -9204,7 +9205,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:2.x, classnames@npm:^2.0.0, classnames@npm:^2.2.3, classnames@npm:^2.2.4, classnames@npm:^2.2.5, classnames@npm:^2.2.6":
+"classnames@npm:2.x, classnames@npm:^2.0.0, classnames@npm:^2.2.3, classnames@npm:^2.2.4, classnames@npm:^2.2.5, classnames@npm:^2.2.6, classnames@npm:^2.3.1":
   version: 2.3.2
   resolution: "classnames@npm:2.3.2"
   checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
@@ -24475,6 +24476,35 @@ __metadata:
     react: ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
   checksum: 55f4abad7f7523d16b081b5ab20f75c539a54a08253ce7e9df473d48386f42ceca6c31584ba9fa26e3528b498ef6685ec77fb9a22cffc97df05fb326d0bf1b26
+  languageName: node
+  linkType: hard
+
+"react-resize-detector@npm:^6.7.5":
+  version: 6.7.8
+  resolution: "react-resize-detector@npm:6.7.8"
+  dependencies:
+    "@types/resize-observer-browser": ^0.1.6
+    lodash: ^4.17.21
+    resize-observer-polyfill: ^1.5.1
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0
+    react-dom: ^16.0.0 || ^17.0.0
+  checksum: dc8acbe216f70a60466d55d4f47c1468fecf074544a1e07234461b36eefed2b222f6e550c91e7ae02983e2842308d2a48ba8383029efb5d27ac749c48e3a09ae
+  languageName: node
+  linkType: hard
+
+"react-responsive-tabs@npm:4.4.3":
+  version: 4.4.3
+  resolution: "react-responsive-tabs@npm:4.4.3"
+  dependencies:
+    classnames: ^2.3.1
+    lodash.throttle: ^4.1.1
+    prop-types: ^15.7.2
+    react-resize-detector: ^6.7.5
+  peerDependencies:
+    react: ^15.1.0 || ^16.0.0 || ^17.0.0
+    react-dom: ^15.1.0 || ^16.0.0 || ^17.0.0
+  checksum: 142aa74a3655c4c83dc2c93a18913988f913ad029cb2851199ad2f108d50046af0d2b38758addba3477592a227da5d2efde8a4f26a664b9a57a0c5db07265d2c
   languageName: node
   linkType: hard
 
