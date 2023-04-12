@@ -2198,9 +2198,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.0.22":
-  version: 1.0.22
-  resolution: "@eeacms/volto-n2k@npm:1.0.22"
+"@eeacms/volto-n2k@npm:1.0.23":
+  version: 1.0.23
+  resolution: "@eeacms/volto-n2k@npm:1.0.23"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2213,7 +2213,8 @@ __metadata:
     react-use-localstorage: ^3.5.3
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
-  checksum: 89d10dde480b27d13417619130d583c8951bad9e36af0d5babc10b67d7836b4943de617070b5d99d4db01404f6f221ebd55653a49ecfca721b8369a1665e3d4d
+    swiper: 9.1.1
+  checksum: 362cf131e2ba8925faf3bc679352afeb3877c8025586c8965d052431af9b1b33268853d63b5671cbed3395e80176a055b83ae3ed9938a9f9dc9fba7cb74cc168
   languageName: node
   linkType: hard
 
@@ -8147,7 +8148,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 15.2.1
     "@eeacms/volto-eea-map": 0.1.32
     "@eeacms/volto-embed": 5.0.2
-    "@eeacms/volto-n2k": 1.0.22
+    "@eeacms/volto-n2k": 1.0.23
     "@eeacms/volto-openlayers-map": 0.2.2
     "@eeacms/volto-plotlycharts": 5.1.0
     "@eeacms/volto-slate-dataentity": 2.0.1
@@ -27310,6 +27311,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ssr-window@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "ssr-window@npm:4.0.2"
+  checksum: df182600927f4f3225224cf8c02338ea637c9750519505bbfb9a9236741a2a7ec088386fb948bca7b447b8303d9109e7dc7672e3de041c79ac2a0e03665af7d2
+  languageName: node
+  linkType: hard
+
 "ssri@npm:^6.0.1":
   version: 6.0.2
   resolution: "ssri@npm:6.0.2"
@@ -28212,6 +28220,15 @@ __metadata:
   bin:
     svgo: ./bin/svgo
   checksum: 28a5680a61245eb4a1603bc03459095bb01ad5ebd23e95882d886c3c81752313c0a9a9fe48dd0bcbb9a27c52e11c603640df952971573b2b550d9e15a9ee6116
+  languageName: node
+  linkType: hard
+
+"swiper@npm:9.1.1":
+  version: 9.1.1
+  resolution: "swiper@npm:9.1.1"
+  dependencies:
+    ssr-window: ^4.0.2
+  checksum: 053d606f03eb4f59be95dd3a6129b6fde559b5c1f042ab0c1240df12e0cbac32e2ab81a7334ca9781309bf34edd18ebe308d31b1064fdfba98120f0b20e48b93
   languageName: node
   linkType: hard
 
