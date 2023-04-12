@@ -10,6 +10,7 @@ const FakeLocation = (props) => {
     <>
       <RenderComponent
         {...props}
+        pathname={pathname}
         location={{
           ...props.location,
           pathname,

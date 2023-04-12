@@ -1,6 +1,40 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-bise-policy": [
+                "addons/volto-bise-policy/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
+            ],
+            "@eeacms/volto-columns-block": [
+                "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-spotlight": [
+                "addons/volto-spotlight/src"
+            ],
+            "@eeacms/volto-resize-helper": [
+                "addons/volto-resize-helper/src"
+            ],
+            "@eeacms/volto-block-style": [
+                "addons/volto-block-style/src"
+            ],
+            "@eeacms/volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "@eeacms/volto-eea-kitkat": [
+                "addons/volto-eea-kitkat/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-eea-website-theme": [
+                "addons/volto-eea-website-theme/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }

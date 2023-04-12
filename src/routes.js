@@ -14,6 +14,7 @@ import { Sitemap } from '@eeacms/volto-n2k/components';
  * @array
  * @returns {array} Routes.
  */
+
 const routes = [
   {
     path: '/sites/natura2000/:site_code', // EE0010173
