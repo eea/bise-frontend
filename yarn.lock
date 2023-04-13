@@ -2246,12 +2246,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-spotlight@npm:2.0.1"
+"@eeacms/volto-spotlight@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@eeacms/volto-spotlight@npm:2.0.2"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 079c17a8a5393569698051d72a877ef345140768603b6dea66e2f1f2e940f1c4d8e85970d0e0cd83c9d43690b4f9027b080afcdf363fe2e7af8d3f0ce25b6e72
+  checksum: 34036f3fc98fee895945118b9e3ce5b936d073ead685ed6b32002cbc68c9ed96a9ac776988c6180bbdef9377c241420b8e5b49892a90e1a7e694ae76b0b88d4b
   languageName: node
   linkType: hard
 
@@ -7981,7 +7981,7 @@ __metadata:
     "@eeacms/volto-pdf-block": 1.0.11
     "@eeacms/volto-plotlycharts": 5.1.0
     "@eeacms/volto-slate-dataentity": 2.0.1
-    "@eeacms/volto-spotlight": 2.0.1
+    "@eeacms/volto-spotlight": 2.0.2
     "@eeacms/volto-tableau": 3.0.7
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
