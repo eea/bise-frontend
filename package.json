@@ -172,7 +172,7 @@
     "@eeacms/volto-pdf-block": "1.0.11",
     "@eeacms/volto-plotlycharts": "5.1.0",
     "@eeacms/volto-slate-dataentity": "2.0.1",
-    "@eeacms/volto-spotlight": "2.0.1",
+    "@eeacms/volto-spotlight": "2.0.2",
     "@eeacms/volto-tableau": "3.0.7",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
