@@ -1,6 +1,43 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-spotlight": [
+                "addons/volto-spotlight/src"
+            ],
+            "@eeacms/volto-bise-policy": [
+                "addons/volto-bise-policy/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
+            ],
+            "@eeacms/volto-eea-map": [
+                "addons/volto-eea-map/src"
+            ],
+            "@eeacms/volto-object-widget": [
+                "addons/volto-object-widget/src"
+            ],
+            "@eeacms/volto-webmap": [
+                "addons/volto-webmap/src"
+            ],
+            "@eeacms/volto-widgets-view": [
+                "addons/volto-widgets-view/src"
+            ],
+            "@eeacms/volto-group-block": [
+                "addons/volto-group-block/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }
