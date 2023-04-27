@@ -2390,20 +2390,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-webmap@workspace:src/addons/volto-webmap":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-webmap@workspace:src/addons/volto-webmap"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-corsproxy": "*"
-    "@eeacms/volto-embed": "*"
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    esri-loader: 2.16.0
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
-
 "@eeacms/volto-widget-dataprovenance@npm:0.3.0":
   version: 0.3.0
   resolution: "@eeacms/volto-widget-dataprovenance@npm:0.3.0"
@@ -13294,13 +13280,6 @@ __metadata:
   dependencies:
     estraverse: ^5.2.0
   checksum: ebc17b1a33c51cef46fdc28b958994b1dc43cd2e86237515cbc3b4e5d2be6a811b2315d0a1a4d9d340b6d2308b15322f5c8291059521cc5f4802f65e7ec32837
-  languageName: node
-  linkType: hard
-
-"esri-loader@npm:2.16.0":
-  version: 2.16.0
-  resolution: "esri-loader@npm:2.16.0"
-  checksum: 06c21026e74ac807c4e4852e26361a04c59cd41969de460627ebcbc5b239aa0ccdd6f3aa30e33b413105fd93b0ae1795fa76eeadbf03c5e2b303e75e90d0e270
   languageName: node
   linkType: hard
 

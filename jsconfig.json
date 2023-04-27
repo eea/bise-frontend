@@ -25,9 +25,6 @@
             "@eeacms/volto-object-widget": [
                 "addons/volto-object-widget/src"
             ],
-            "@eeacms/volto-webmap": [
-                "addons/volto-webmap/src"
-            ],
             "@eeacms/volto-widgets-view": [
                 "addons/volto-widgets-view/src"
             ],

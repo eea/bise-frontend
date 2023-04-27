@@ -40,7 +40,6 @@
   "addons": [
     "@eeacms/volto-block-toc",
     "@eeacms/volto-openlayers-map",
-    "@eeacms/volto-webmap",
     "@eeacms/volto-tableau",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
