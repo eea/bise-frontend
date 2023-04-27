@@ -22,9 +22,6 @@
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
-            "@eeacms/volto-eea-map": [
-                "addons/volto-eea-map/src"
-            ],
             "@eeacms/volto-object-widget": [
                 "addons/volto-object-widget/src"
             ],
