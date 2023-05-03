@@ -1854,6 +1854,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-anchors@npm:*":
+  version: 0.2.1
+  resolution: "@eeacms/volto-anchors@npm:0.2.1"
+  dependencies:
+    github-slugger: 1.4.0
+  checksum: fba53f32c785ff8305e7f072f42fc68f8c80855f953718bc9b9b53a77e498e7228e00c44af40921276d40be786052f991ca20a5b7099ae737e1e2bb9ae327642
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-anchors@npm:0.2.0":
   version: 0.2.0
   resolution: "@eeacms/volto-anchors@npm:0.2.0"
@@ -2378,15 +2387,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@eeacms/volto-tabs-block@npm:4.0.1"
+"@eeacms/volto-tabs-block@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@eeacms/volto-tabs-block@npm:5.0.0"
   dependencies:
+    "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: f58defb71f6bc312f22522b119d7868100d171d856b2f64db1f018e6228cf3c6a8a3f283f8d4ac5bb08a42ba524172027bf8a8de2aad846c9e4314c5cbbabb8a
+  checksum: 4946f3bf1cb7105a38a0a156230c0d876041f2ab74e0d92426358aee3feee8e535e9900848035367fe9c5f3169cb1b55b4f9fe94c69a3eff4e0ccfc0d84b7564
   languageName: node
   linkType: hard
 
@@ -8152,7 +8162,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 5.1.1
     "@eeacms/volto-slate-dataentity": 2.0.1
     "@eeacms/volto-tableau": 3.0.7
-    "@eeacms/volto-tabs-block": 4.0.1
+    "@eeacms/volto-tabs-block": 5.0.0
     "@eeacms/volto-webmap": 0.2.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.12.0
