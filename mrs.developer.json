@@ -136,7 +136,7 @@
     "path": "src"
   },
   "volto-searchlib": {
-    "develop": false,
+    "develop": true,
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
@@ -144,7 +144,7 @@
     "path": "src"
   },
   "volto-globalsearch": {
-    "develop": false,
+    "develop": true,
     "url": "git@github.com:eea/volto-globalsearch.git",
     "https": "https://github.com/eea/volto-globalsearch.git",
     "package": "@eeacms/volto-globalsearch",
@@ -164,7 +164,7 @@
     "https": "https://github.com/eea/volto-eea-design-system.git",
     "package": "@eeacms/volto-eea-design-system",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-eea-website-theme": {
@@ -172,7 +172,7 @@
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-bise-policy": {
