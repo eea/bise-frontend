@@ -1,64 +1,6 @@
 {
     "compilerOptions": {
-        "paths": {
-            "@eeacms/volto-spotlight": [
-                "addons/volto-spotlight/src"
-            ],
-            "@eeacms/volto-bise-policy": [
-                "addons/volto-bise-policy/src"
-            ],
-            "@eeacms/volto-n2k": [
-                "addons/volto-n2k/src"
-            ],
-            "@eeacms/volto-tabs-block": [
-                "addons/volto-tabs-block/src"
-            ],
-            "@eeacms/volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "@eeacms/volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "@eeacms/volto-tableau": [
-                "addons/volto-tableau/src"
-            ],
-            "@eeacms/volto-object-widget": [
-                "addons/volto-object-widget/src"
-            ],
-            "@eeacms/volto-widgets-view": [
-                "addons/volto-widgets-view/src"
-            ],
-            "@eeacms/volto-group-block": [
-                "addons/volto-group-block/src"
-            ],
-            "@eeacms/volto-eea-design-system": [
-                "addons/volto-eea-design-system/src"
-            ],
-            "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
-            ],
-            "@eeacms/volto-searchlib": [
-                "addons/volto-searchlib/src"
-            ],
-            "@eeacms/volto-globalsearch": [
-                "addons/volto-globalsearch/src"
-            ],
-            "@eeacms/volto-hero-block": [
-                "addons/volto-hero-block/src"
-            ],
-            "@eeacms/volto-description-block": [
-                "addons/volto-description-block/src"
-            ],
-            "@eeacms/volto-statistic-block": [
-                "addons/volto-statistic-block/src"
-            ],
-            "@eeacms/volto-slate-dataentity": [
-                "addons/volto-slate-dataentity/src"
-            ],
-            "@eeacms/volto-block-toc": [
-                "addons/volto-block-toc/src"
-            ]
-        },
+        "paths": {},
         "baseUrl": "src"
     }
 }
