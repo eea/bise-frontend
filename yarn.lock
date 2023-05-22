@@ -2039,9 +2039,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:15.5.0":
-  version: 15.5.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:15.5.0"
+"@eeacms/volto-eea-kitkat@npm:15.5.1":
+  version: 15.5.1
+  resolution: "@eeacms/volto-eea-kitkat@npm:15.5.1"
   dependencies:
     "@eeacms/volto-accordion-block": 8.0.0
     "@eeacms/volto-anchors": 0.2.1
@@ -2068,7 +2068,7 @@ __metadata:
     "@eeacms/volto-slate-label": 0.5.0
     "@eeacms/volto-slate-metadata-mentions": 6.1.0
     "@eeacms/volto-slate-zotero": 5.2.0
-    "@eeacms/volto-statistic-block": 1.2.0
+    "@eeacms/volto-statistic-block": 1.2.1
     "@eeacms/volto-tabs-block": 5.0.2
     "@eeacms/volto-tags-block": 1.1.0
     "@eeacms/volto-taxonomy": 3.1.0
@@ -2081,7 +2081,7 @@ __metadata:
     "@eeacms/volto-widgets-view": 4.2.0
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: e4c065122be73251ef1111ef42a074cd2c78699fe8f80e7268a5db1ff7f9be19177197e3e9b315ac66e3627ad8d6b176f65f32068f69dfb280d526a3dbeefeb6
+  checksum: efde8acbcda0483c9f28a52010743697483c6e5924cf17cc196dc7fcad1f760586d7012f968e4b6e8d51678f7fae6439c9a0aed60d3841851ebcba41fe921b2d
   languageName: node
   linkType: hard
 
@@ -2371,13 +2371,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-statistic-block@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@eeacms/volto-statistic-block@npm:1.2.0"
+"@eeacms/volto-statistic-block@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@eeacms/volto-statistic-block@npm:1.2.1"
   dependencies:
     react-countup: 6.3.1
     react-visibility-sensor: 5.1.1
-  checksum: 163b708ded013e543af9b6fdc1545afcb82231f156b3144f1693af72f167e75355072575605707f6f9df81d9d51c2b9031031fe63ac4c16cf42196a390c4a2fd
+  checksum: 45a04bf38eba30ff51c3c8b812281793776b143a7d38cc4efee003e76d2acaba0748d387cb183101510a1f5d1ebe4f056b21b645d9aaafc5212d43021ff6101e
   languageName: node
   linkType: hard
 
@@ -8159,7 +8159,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": 5.0.0
-    "@eeacms/volto-eea-kitkat": 15.5.0
+    "@eeacms/volto-eea-kitkat": 15.5.1
     "@eeacms/volto-eea-map": 0.1.32
     "@eeacms/volto-embed": 5.0.2
     "@eeacms/volto-n2k": 1.0.25
