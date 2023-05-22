@@ -42,6 +42,21 @@
             ],
             "@eeacms/volto-globalsearch": [
                 "addons/volto-globalsearch/src"
+            ],
+            "@eeacms/volto-hero-block": [
+                "addons/volto-hero-block/src"
+            ],
+            "@eeacms/volto-description-block": [
+                "addons/volto-description-block/src"
+            ],
+            "@eeacms/volto-statistic-block": [
+                "addons/volto-statistic-block/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
+            "@eeacms/volto-block-toc": [
+                "addons/volto-block-toc/src"
             ]
         },
         "baseUrl": "src"

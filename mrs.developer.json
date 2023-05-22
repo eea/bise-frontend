@@ -4,7 +4,7 @@
     "https": "https://github.com/eea/volto-block-toc.git",
     "package": "@eeacms/volto-block-toc",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-openlayers-map": {
@@ -44,7 +44,7 @@
     "https": "https://github.com/eea/volto-slate-dataentity.git",
     "package": "@eeacms/volto-slate-dataentity",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-spotlight": {
@@ -68,7 +68,7 @@
     "https": "https://github.com/eea/volto-statistic-block.git",
     "package": "@eeacms/volto-statistic-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-tags-block": {
@@ -92,7 +92,7 @@
     "https": "https://github.com/eea/volto-description-block.git",
     "package": "@eeacms/volto-description-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-call-to-action-block": {
@@ -108,7 +108,7 @@
     "https": "https://github.com/eea/volto-hero-block.git",
     "package": "@eeacms/volto-hero-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-block-style": {
