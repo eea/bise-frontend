@@ -180,7 +180,7 @@
     "https": "https://github.com/eea/volto-bise-policy.git",
     "package": "@eeacms/volto-bise-policy",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-n2k": {
@@ -188,7 +188,7 @@
     "https": "https://github.com/eea/volto-n2k.git",
     "package": "@eeacms/volto-n2k",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-columns-block": {

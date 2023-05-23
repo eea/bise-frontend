@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-bise-policy": [
+                "addons/volto-bise-policy/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }
