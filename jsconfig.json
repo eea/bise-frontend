@@ -3,6 +3,15 @@
         "paths": {
             "@eeacms/volto-bise-policy": [
                 "addons/volto-bise-policy/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
+            ],
+            "@eeacms/volto-eea-website-theme": [
+                "addons/volto-eea-website-theme/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
             ]
         },
         "baseUrl": "src"

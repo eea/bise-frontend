@@ -1825,7 +1825,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@1.0.6, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
+"@eeacms/volto-bise-policy@1.0.7, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy"
   dependencies:
@@ -1972,20 +1972,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:*, @eeacms/volto-eea-design-system@npm:1.12.0":
-  version: 1.12.0
-  resolution: "@eeacms/volto-eea-design-system@npm:1.12.0"
+"@eeacms/volto-eea-design-system@*, @eeacms/volto-eea-design-system@1.12.1, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system"
   dependencies:
+    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-corsproxy": "*"
     "@fontsource/roboto": 4.5.8
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
     react-countup: ^6.3.0
     react-lazy-load-image-component: 1.5.6
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: 8041c1343e7f914d602dbd97af01c48bca9bb2d9aeb12003cd7679ac4f7c07cec7d5047bc7170a744b23c307882e23c7ffa7ec637ce87e640083f1a0186088f9
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-eea-kitkat@npm:15.5.1":
   version: 15.5.1
@@ -2033,7 +2036,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:*, @eeacms/volto-eea-website-theme@npm:1.14.1":
+"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
+  dependencies:
+    "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-eea-design-system": "*"
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+    postcss-less: 6.0.0
+    volto-subsites: "*"
+  languageName: unknown
+  linkType: soft
+
+"@eeacms/volto-eea-website-theme@npm:1.14.1":
   version: 1.14.1
   resolution: "@eeacms/volto-eea-website-theme@npm:1.14.1"
   dependencies:
@@ -2131,25 +2148,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.0.25":
-  version: 1.0.25
-  resolution: "@eeacms/volto-n2k@npm:1.0.25"
+"@eeacms/volto-n2k@1.0.25, @eeacms/volto-n2k@workspace:src/addons/volto-n2k":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-n2k@workspace:src/addons/volto-n2k"
   dependencies:
+    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
     "@eeacms/volto-resize-helper": "*"
     "@eeacms/volto-tabs-block": "*"
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
     d3: ^7.6.1
     d3-shape: ^3.1.0
+    md5: ^2.3.0
     react-lazy-load-image-component: 1.5.1
     react-stickynode: ^4.0.0
     react-use-localstorage: ^3.5.3
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: da69e740ceb8bbbbc530cde58b47b229a54aad2f70c72c1462a0b3c3b15e69b7917201e0174ac4a670da4deade9ce4d53d40d98b458f4d32abb67f7167199847
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-nextcloud-video-block@npm:0.3.1":
   version: 0.3.1
@@ -8535,10 +8555,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.0.6
+    "@eeacms/volto-bise-policy": 1.0.7
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": 4.0.5
-    "@eeacms/volto-eea-design-system": 1.12.0
+    "@eeacms/volto-eea-design-system": 1.12.1
     "@eeacms/volto-eea-kitkat": 15.5.1
     "@eeacms/volto-eea-website-theme": 1.14.1
     "@eeacms/volto-globalsearch": 1.0.15
