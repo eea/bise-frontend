@@ -1825,7 +1825,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@1.0.7, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
+"@eeacms/volto-bise-policy@1.0.8, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy"
   dependencies:
@@ -1922,6 +1922,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-datablocks@github:eea/volto-datablocks#4.0.6":
+  version: 4.0.6
+  resolution: "@eeacms/volto-datablocks@https://github.com/eea/volto-datablocks.git#commit=84c26f594e0c95c611b1e7198a4eb71970784ef0"
+  dependencies:
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-group-block": "*"
+    "@eeacms/volto-matomo": "*"
+    d3: 7.1.1
+    date-fns: 2.28.0
+    humanize-plus: ^1.8.2
+    object-hash: 2.2.0
+    react-countup: 6.1.1
+    react-visibility-sensor: 5.1.1
+    sanitize-html: 2.7.3
+  checksum: 70181db747c8c1b99379e170d6faee9d422fb946128af73d97954c3067650d34fc9e5b0e6f06531fb343b89de0f0a9c8814e87f0af41f43ce8b32111360d249c
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-datablocks@npm:*":
   version: 5.0.0
   resolution: "@eeacms/volto-datablocks@npm:5.0.0"
@@ -1937,24 +1955,6 @@ __metadata:
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
   checksum: 2f191e00286ca8e65b4de99e78a2a6000d23c251498e9cbf04956d261792dc11102fe62bd21975affc1ad3ab35d370ba56a136935a1f097f99889d2cffbbb38b
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-datablocks@npm:4.0.5":
-  version: 4.0.5
-  resolution: "@eeacms/volto-datablocks@npm:4.0.5"
-  dependencies:
-    "@eeacms/volto-embed": "*"
-    "@eeacms/volto-group-block": "*"
-    "@eeacms/volto-matomo": "*"
-    d3: 7.1.1
-    date-fns: 2.28.0
-    humanize-plus: ^1.8.2
-    object-hash: 2.2.0
-    react-countup: 6.1.1
-    react-visibility-sensor: 5.1.1
-    sanitize-html: 2.7.3
-  checksum: 2c7a6d23c7aefca0cf244fc5318983e427921b17c8ad635c32ca2a79bc3c934b2b0e0bfaa08994d25487bb3e9591daf839f86d302b19cd70a675bb3951d0ac4c
   languageName: node
   linkType: hard
 
@@ -2148,7 +2148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@1.0.25, @eeacms/volto-n2k@workspace:src/addons/volto-n2k":
+"@eeacms/volto-n2k@1.0.26, @eeacms/volto-n2k@workspace:src/addons/volto-n2k":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-n2k@workspace:src/addons/volto-n2k"
   dependencies:
@@ -2205,20 +2205,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@eeacms/volto-plotlycharts@npm:6.0.4"
+"@eeacms/volto-plotlycharts@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@eeacms/volto-plotlycharts@npm:6.1.0"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     plotly.js: ^2.9.0
     react-chart-editor: 0.45.0
-    react-colorscales: 0.7.3
+    react-colorscales: "github:eea/react-colorscales#1.0.0"
     react-inspector: 5.1.1
     react-json-editor-ajrm: 2.5.13
     react-plotly.js: 2.5.1
-  checksum: 05642c6ada846d6dca7adeb4b9460b7116ba86cad3cd845eb0b761c441018a59d14a6a850c008ee249d76f289d5bd9adc4a72fbbbbed1f58a9fc5071b2b6660c
+  checksum: ef4d5c0a43a32d48b3d3a522f00d614021596d725fe556703c17f3175d8452dd96cb5d3487b840e4ab6738a15286cf36fa612d5aaad042fd37106e5256b1c867
   languageName: node
   linkType: hard
 
@@ -2296,12 +2296,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-dataentity@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-slate-dataentity@npm:2.0.1"
+"@eeacms/volto-slate-dataentity@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@eeacms/volto-slate-dataentity@npm:2.1.0"
   dependencies:
     "@eeacms/volto-datablocks": "*"
-  checksum: b83aed1c20a60771b4c9db62d055267662ab3acaf0d4b4b64e0695321731780ffb5fce001387817e52775d2616bb68b708f37c98e7bc1d704f783543f638ac7f
+  checksum: 9f137778feb712807d4c18307990e5cb6e848fbfa9fe88b1644ddba8c6394891dd7ed4a8aa345b929e6693166bd37c92ea228d8e1209d28d3d0e1c0138e47075
   languageName: node
   linkType: hard
 
@@ -2344,12 +2344,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@npm:2.0.5":
-  version: 2.0.5
-  resolution: "@eeacms/volto-spotlight@npm:2.0.5"
+"@eeacms/volto-spotlight@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@eeacms/volto-spotlight@npm:2.0.6"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 6484d9397672b9882a00721978c00b8f6ccf3a228999e74876f8cd437fbc9d50837667f505fa707af03fe3be961af8a806b44e8ced5171e4c244208ee18b13f3
+  checksum: 1d84871f2dec7db4d5eee028ea7aea738cb2b6067a4706ec0f7ba90aa0fa75259e029957baa18801b7eae6ff62c0c6c5f08a163c94866f41c20993b51c13a9c4
   languageName: node
   linkType: hard
 
@@ -8555,19 +8555,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.0.7
+    "@eeacms/volto-bise-policy": 1.0.8
     "@eeacms/volto-block-toc": 3.0.5
-    "@eeacms/volto-datablocks": 4.0.5
+    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.6"
     "@eeacms/volto-eea-design-system": 1.12.1
     "@eeacms/volto-eea-kitkat": 15.5.1
     "@eeacms/volto-eea-website-theme": 1.14.1
     "@eeacms/volto-globalsearch": 1.0.15
-    "@eeacms/volto-n2k": 1.0.25
+    "@eeacms/volto-n2k": 1.0.26
     "@eeacms/volto-openlayers-map": 0.2.2
-    "@eeacms/volto-plotlycharts": 6.0.4
+    "@eeacms/volto-plotlycharts": 6.1.0
     "@eeacms/volto-searchlib": 0.5.3
-    "@eeacms/volto-slate-dataentity": 2.0.1
-    "@eeacms/volto-spotlight": 2.0.5
+    "@eeacms/volto-slate-dataentity": 2.1.0
+    "@eeacms/volto-spotlight": 2.0.6
     "@eeacms/volto-tableau": 3.0.7
     "@eeacms/volto-workflow-progress": 3.0.1
     "@plone/scripts": ^2.1.2
@@ -24532,6 +24532,20 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: e432b7cb0df57e8f0bcdc3b012d2e93fcbcb6092c9e0f85654788d5ebfc4442536d8cc35b2418061ba3c4afb8b7788cc101c606d86a1732407921de7a9244c8d
+  languageName: node
+  linkType: hard
+
+"react-colorscales@github:eea/react-colorscales#1.0.0":
+  version: 0.7.3
+  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=bc0ec14f30161d705a72779085e63c47738ab845"
+  dependencies:
+    chroma-js: ^1.3.4
+    rc-slider: ^8.4.0
+    react-select: ^1.2.1
+  peerDependencies:
+    react: ">=0.14"
+    react-dom: ">=0.14"
+  checksum: 905a82683ed29d8964febf9634e1c18c992b33a41729ef87b5512020caf7fa821e57c5101c74e7fec18dbb6ba8879207de6f716a5c88a3962a8fda43ab855f5d
   languageName: node
   linkType: hard
 
