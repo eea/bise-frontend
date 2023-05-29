@@ -2323,12 +2323,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-dataentity@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-slate-dataentity@npm:2.0.1"
+"@eeacms/volto-slate-dataentity@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@eeacms/volto-slate-dataentity@npm:2.1.0"
   dependencies:
     "@eeacms/volto-datablocks": "*"
-  checksum: b83aed1c20a60771b4c9db62d055267662ab3acaf0d4b4b64e0695321731780ffb5fce001387817e52775d2616bb68b708f37c98e7bc1d704f783543f638ac7f
+  checksum: 9f137778feb712807d4c18307990e5cb6e848fbfa9fe88b1644ddba8c6394891dd7ed4a8aa345b929e6693166bd37c92ea228d8e1209d28d3d0e1c0138e47075
   languageName: node
   linkType: hard
 
@@ -8165,7 +8165,7 @@ __metadata:
     "@eeacms/volto-n2k": 1.0.26
     "@eeacms/volto-openlayers-map": 0.2.2
     "@eeacms/volto-plotlycharts": 6.1.0
-    "@eeacms/volto-slate-dataentity": 2.0.1
+    "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-tableau": 3.0.8
     "@eeacms/volto-tabs-block": 5.0.2
     "@eeacms/volto-webmap": 0.2.1
