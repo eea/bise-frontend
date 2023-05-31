@@ -12,6 +12,9 @@
             ],
             "@eeacms/volto-eea-design-system": [
                 "addons/volto-eea-design-system/src"
+            ],
+            "@eeacms/volto-spotlight": [
+                "addons/volto-spotlight/src"
             ]
         },
         "baseUrl": "src"
