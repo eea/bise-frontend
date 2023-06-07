@@ -27,8 +27,8 @@
     "url": "git@github.com:eea/volto-datablocks.git",
     "https": "https://github.com/eea/volto-datablocks.git",
     "package": "@eeacms/volto-datablocks",
-    "branch": "develop",
-    "develop": false,
+    "branch": "4.x.x",
+    "develop": true,
     "path": "src"
   },
   "volto-plotlycharts": {

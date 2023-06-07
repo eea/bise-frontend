@@ -15,6 +15,9 @@
             ],
             "@eeacms/volto-spotlight": [
                 "addons/volto-spotlight/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
             ]
         },
         "baseUrl": "src"
