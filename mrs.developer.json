@@ -294,5 +294,13 @@
     "branch": "develop",
     "develop": false,
     "path": "src"
+  },
+  "volto-metadata-block": {
+    "url": "git@github.com:eea/volto-metadata-block.git",
+    "https": "https://github.com/eea/volto-metadata-block.git",
+    "package": "@eeacms/volto-metadata-block",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
