@@ -2276,20 +2276,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:6.1.1":
-  version: 6.1.1
-  resolution: "@eeacms/volto-plotlycharts@npm:6.1.1"
+"@eeacms/volto-plotlycharts@npm:6.2.0":
+  version: 6.2.0
+  resolution: "@eeacms/volto-plotlycharts@npm:6.2.0"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     plotly.js: ^2.9.0
     react-chart-editor: 0.45.0
-    react-colorscales: "github:eea/react-colorscales#1.0.1"
+    react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-inspector: 5.1.1
     react-json-editor-ajrm: 2.5.13
     react-plotly.js: 2.5.1
-  checksum: 12792328ad7d93547106c2c3239a45a898e81225fea91490e884610feabc5f7d37e8c872a6d09b6b114ffdfca132f4a11705de1fc078faae249aae4baf60417c
+  checksum: 0f08e6826b8e27fa65dd0f8ea2ee05957597e7ca52619c136d3f1b0bc2f4a50892f803eb252f48d43584d80f54f1a9a6c9e145981ea2957942f5d3a910f0e580
   languageName: node
   linkType: hard
 
@@ -8164,7 +8164,7 @@ __metadata:
     "@eeacms/volto-embed": 5.0.3
     "@eeacms/volto-n2k": 1.0.28
     "@eeacms/volto-openlayers-map": 0.2.2
-    "@eeacms/volto-plotlycharts": 6.1.1
+    "@eeacms/volto-plotlycharts": 6.2.0
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-tableau": 3.0.8
     "@eeacms/volto-tabs-block": 5.0.2
@@ -23789,9 +23789,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-colorscales@github:eea/react-colorscales#1.0.1":
-  version: 0.7.3
-  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=c9e32bfee905ea57a7319f5257a48d86a26652a1"
+"react-colorscales@github:eea/react-colorscales#1.0.2":
+  version: 1.0.2
+  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=4da806e9a53be8c9567c913853f70aab561c90ea"
   dependencies:
     chroma-js: ^1.3.4
     rc-slider: ^8.4.0
@@ -23799,7 +23799,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: aca31a9dcfdce68b14796498f2eb633ec494402ac302c59def7b78c57b5f0acda81878ca01094ea0badd59382da7b336b5017e88fe3a97877f603bebd34f2a10
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
