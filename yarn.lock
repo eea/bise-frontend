@@ -1832,7 +1832,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@1.0.11, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
+"@eeacms/volto-bise-policy@npm:1.0.12":
+  version: 1.0.12
+  resolution: "@eeacms/volto-bise-policy@npm:1.0.12"
+  dependencies:
+    "@eeacms/volto-block-toc": "*"
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-eea-website-theme": "*"
+    esri-loader: 3.7.0
+  checksum: 77aae1dc5b62b9cb6f752b555c323405792c7ea6a0f92936548aefaf8ea17cb1299d8a4f31110639569b545079b2805224ee2c984bc6e9ce89bb8beea312442e
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy"
   dependencies:
@@ -2071,7 +2084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@1.15.0, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
@@ -2084,6 +2097,16 @@ __metadata:
     volto-subsites: "*"
   languageName: unknown
   linkType: soft
+
+"@eeacms/volto-eea-website-theme@npm:1.15.0":
+  version: 1.15.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.15.0"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+    volto-subsites: "*"
+  checksum: 45cceb59d745c1afa5bb308995cdf8b015b518170821fa9ca24f0a9069a481fe3110e3f142591dfe27b0d35ee1b054573ce2dad20db73a010fbbeb95f8afee17
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-embed@npm:*":
   version: 5.0.2
@@ -2167,27 +2190,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-n2k@npm:1.0.28":
-  version: 1.0.28
-  resolution: "@eeacms/volto-n2k@npm:1.0.28"
-  dependencies:
-    "@eeacms/volto-datablocks": "*"
-    "@eeacms/volto-openlayers-map": "*"
-    "@eeacms/volto-resize-helper": "*"
-    "@eeacms/volto-tabs-block": "*"
-    d3: ^7.6.1
-    d3-shape: ^3.1.0
-    react-lazy-load-image-component: 1.5.1
-    react-stickynode: ^4.0.0
-    react-use-localstorage: ^3.5.3
-    resize-observer-polyfill: 1.5.1
-    slick-carousel: 1.8.1
-    swiper: 9.1.1
-  checksum: fcc7d836d4bdd9e86319a421a4d75aeaa8fd97b3694511b69ab77ecbffcb63b24f5a3829f098f87ea1f3423d10d95245419ded55c8a8a6285fff1273bda5d42f
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-n2k@workspace:src/addons/volto-n2k":
+"@eeacms/volto-n2k@1.0.29, @eeacms/volto-n2k@workspace:src/addons/volto-n2k":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-n2k@workspace:src/addons/volto-n2k"
   dependencies:
@@ -2244,7 +2247,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@6.1.0, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
+"@eeacms/volto-plotlycharts@npm:6.2.1":
+  version: 6.2.1
+  resolution: "@eeacms/volto-plotlycharts@npm:6.2.1"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-matomo": "*"
+    "@plone/scripts": "*"
+    plotly.js: ^2.9.0
+    react-chart-editor: 0.45.0
+    react-colorscales: "github:eea/react-colorscales#1.0.2"
+    react-inspector: 5.1.1
+    react-json-editor-ajrm: 2.5.13
+    react-plotly.js: 2.5.1
+  checksum: 12e7581985d94bba53271ddae460d474899cad63b62ed2cb62309d36604ca331d79367e8c13c1f9d17123cc5fbeee097de9b43828dd001915a8a9fe6694191dd
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts"
   dependencies:
@@ -2256,7 +2276,7 @@ __metadata:
     md5: ^2.3.0
     plotly.js: ^2.9.0
     react-chart-editor: 0.45.0
-    react-colorscales: "github:eea/react-colorscales#1.0.1"
+    react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-inspector: 5.1.1
     react-json-editor-ajrm: 2.5.13
     react-plotly.js: 2.5.1
@@ -2451,6 +2471,19 @@ __metadata:
   checksum: 45a04bf38eba30ff51c3c8b812281793776b143a7d38cc4efee003e76d2acaba0748d387cb183101510a1f5d1ebe4f056b21b645d9aaafc5212d43021ff6101e
   languageName: node
   linkType: hard
+
+"@eeacms/volto-statistic-block@workspace:src/addons/volto-statistic-block":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-statistic-block@workspace:src/addons/volto-statistic-block"
+  dependencies:
+    "@cypress/code-coverage": ^3.10.0
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+    react-countup: 6.3.1
+    react-visibility-sensor: 5.1.1
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-tableau@npm:3.0.7":
   version: 3.0.7
@@ -8672,7 +8705,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.0.11
+    "@eeacms/volto-bise-policy": 1.0.12
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8"
     "@eeacms/volto-eea-design-system": 1.12.1
@@ -8680,9 +8713,9 @@ __metadata:
     "@eeacms/volto-eea-map": 0.1.32
     "@eeacms/volto-eea-website-theme": 1.15.0
     "@eeacms/volto-globalsearch": 1.0.15
-    "@eeacms/volto-n2k": 1.0.28
+    "@eeacms/volto-n2k": 1.0.29
     "@eeacms/volto-openlayers-map": 0.2.2
-    "@eeacms/volto-plotlycharts": 6.1.0
+    "@eeacms/volto-plotlycharts": 6.2.1
     "@eeacms/volto-searchlib": 0.5.3
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-spotlight": 2.0.8
@@ -24705,9 +24738,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-colorscales@github:eea/react-colorscales#1.0.1":
-  version: 0.7.3
-  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=c9e32bfee905ea57a7319f5257a48d86a26652a1"
+"react-colorscales@github:eea/react-colorscales#1.0.2":
+  version: 1.0.2
+  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=4da806e9a53be8c9567c913853f70aab561c90ea"
   dependencies:
     chroma-js: ^1.3.4
     rc-slider: ^8.4.0
@@ -24715,7 +24748,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 1a19681f6809a4bf26ef88c1efea614c4c902beba4a5681ea3f3e7829b5f17fc75776ed6c51bf3be3b663eb5f6ffaf0d98a13da41a6866886c1a78395ab68dc6
+  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
   languageName: node
   linkType: hard
 

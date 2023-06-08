@@ -21,6 +21,12 @@
             ],
             "@eeacms/volto-metadata-block": [
                 "addons/volto-metadata-block/src"
+            ],
+            "@eeacms/volto-statistic-block": [
+                "addons/volto-statistic-block/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
             ]
         },
         "baseUrl": "src"

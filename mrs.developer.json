@@ -36,7 +36,7 @@
     "https": "https://github.com/eea/volto-plotlycharts.git",
     "package": "@eeacms/volto-plotlycharts",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-slate-dataentity": {
@@ -68,7 +68,7 @@
     "https": "https://github.com/eea/volto-statistic-block.git",
     "package": "@eeacms/volto-statistic-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-tags-block": {
