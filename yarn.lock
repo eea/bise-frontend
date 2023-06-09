@@ -1832,20 +1832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.0.12":
-  version: 1.0.12
-  resolution: "@eeacms/volto-bise-policy@npm:1.0.12"
-  dependencies:
-    "@eeacms/volto-block-toc": "*"
-    "@eeacms/volto-datablocks": "*"
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": "*"
-    esri-loader: 3.7.0
-  checksum: 77aae1dc5b62b9cb6f752b555c323405792c7ea6a0f92936548aefaf8ea17cb1299d8a4f31110639569b545079b2805224ee2c984bc6e9ce89bb8beea312442e
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
+"@eeacms/volto-bise-policy@1.1.0, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy"
   dependencies:
@@ -2006,7 +1993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@*, @eeacms/volto-eea-design-system@1.12.1, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
+"@eeacms/volto-eea-design-system@*, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system"
   dependencies:
@@ -2023,6 +2010,21 @@ __metadata:
     slick-carousel: ^1.8.1
   languageName: unknown
   linkType: soft
+
+"@eeacms/volto-eea-design-system@npm:1.13.0":
+  version: 1.13.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.13.0"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
+    react-countup: ^6.3.0
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.28.1
+    remixicon: 2.5.0
+    slick-carousel: ^1.8.1
+  checksum: 6289c90a9974242809d9a2983b21dabf576ce7b6cdafd46010187c00058438bcb734daae2387bb7500c4ed32d07a6fea4809a9ddd5d9afd27be21c7bf1240b88
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-eea-kitkat@npm:15.5.1":
   version: 15.5.1
@@ -2084,7 +2086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@1.16.0, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
@@ -2097,6 +2099,16 @@ __metadata:
     volto-subsites: "*"
   languageName: unknown
   linkType: soft
+
+"@eeacms/volto-eea-website-theme@npm:1.17.0":
+  version: 1.17.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.17.0"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+    volto-subsites: "*"
+  checksum: bcfa27409b3ea06b867aa5caaad153c19b1e16de398e73ed27cf62b3b528184f4bc313c97686603a1083f35f5c3a9aca1f30b144c0ffcae9255590d0631430f5
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-embed@npm:*":
   version: 5.0.2
@@ -8695,13 +8707,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.0.12
+    "@eeacms/volto-bise-policy": 1.1.0
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8"
-    "@eeacms/volto-eea-design-system": 1.12.1
+    "@eeacms/volto-eea-design-system": 1.13.0
     "@eeacms/volto-eea-kitkat": 15.5.1
     "@eeacms/volto-eea-map": 0.1.32
-    "@eeacms/volto-eea-website-theme": 1.16.0
+    "@eeacms/volto-eea-website-theme": 1.17.0
     "@eeacms/volto-globalsearch": 1.0.15
     "@eeacms/volto-n2k": 1.0.29
     "@eeacms/volto-openlayers-map": 0.2.2
