@@ -27,6 +27,9 @@
             ],
             "@eeacms/volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-openlayers-map": [
+                "addons/volto-openlayers-map/src"
             ]
         },
         "baseUrl": "src"

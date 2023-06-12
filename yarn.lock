@@ -1993,7 +1993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@*, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
+"@eeacms/volto-eea-design-system@*, @eeacms/volto-eea-design-system@1.13.0, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system"
   dependencies:
@@ -2010,21 +2010,6 @@ __metadata:
     slick-carousel: ^1.8.1
   languageName: unknown
   linkType: soft
-
-"@eeacms/volto-eea-design-system@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@eeacms/volto-eea-design-system@npm:1.13.0"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@fontsource/roboto": 4.5.8
-    react-countup: ^6.3.0
-    react-lazy-load-image-component: 1.5.6
-    react-slick: ^0.28.1
-    remixicon: 2.5.0
-    slick-carousel: ^1.8.1
-  checksum: 6289c90a9974242809d9a2983b21dabf576ce7b6cdafd46010187c00058438bcb734daae2387bb7500c4ed32d07a6fea4809a9ddd5d9afd27be21c7bf1240b88
-  languageName: node
-  linkType: hard
 
 "@eeacms/volto-eea-kitkat@npm:15.5.1":
   version: 15.5.1
@@ -2086,7 +2071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+"@eeacms/volto-eea-website-theme@*, @eeacms/volto-eea-website-theme@1.17.0, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
@@ -2099,16 +2084,6 @@ __metadata:
     volto-subsites: "*"
   languageName: unknown
   linkType: soft
-
-"@eeacms/volto-eea-website-theme@npm:1.17.0":
-  version: 1.17.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.17.0"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    volto-subsites: "*"
-  checksum: bcfa27409b3ea06b867aa5caaad153c19b1e16de398e73ed27cf62b3b528184f4bc313c97686603a1083f35f5c3a9aca1f30b144c0ffcae9255590d0631430f5
-  languageName: node
-  linkType: hard
 
 "@eeacms/volto-embed@npm:*":
   version: 5.0.2
@@ -2231,14 +2206,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:*":
-  version: 0.2.1
-  resolution: "@eeacms/volto-openlayers-map@npm:0.2.1"
+"@eeacms/volto-openlayers-map@*, @eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map"
   dependencies:
+    "@cypress/code-coverage": ^3.10.0
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    cypress-fail-fast: ^5.0.1
+    md5: ^2.3.0
     ol: 6.6.x
-  checksum: c09839544a7b7da1948b8af5a34e024b6e06b195261075ef9e94d86aba6a2a33d9505f99cef6cdae0c1d96eb436b1ce764404a93541f86ec0c22624f2528ac5e
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-openlayers-map@npm:0.2.2":
   version: 0.2.2
@@ -2249,24 +2228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:6.2.1":
-  version: 6.2.1
-  resolution: "@eeacms/volto-plotlycharts@npm:6.2.1"
-  dependencies:
-    "@eeacms/volto-datablocks": "*"
-    "@eeacms/volto-matomo": "*"
-    "@plone/scripts": "*"
-    plotly.js: ^2.9.0
-    react-chart-editor: 0.45.0
-    react-colorscales: "github:eea/react-colorscales#1.0.2"
-    react-inspector: 5.1.1
-    react-json-editor-ajrm: 2.5.13
-    react-plotly.js: 2.5.1
-  checksum: 12e7581985d94bba53271ddae460d474899cad63b62ed2cb62309d36604ca331d79367e8c13c1f9d17123cc5fbeee097de9b43828dd001915a8a9fe6694191dd
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
+"@eeacms/volto-plotlycharts@6.2.1, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts"
   dependencies:

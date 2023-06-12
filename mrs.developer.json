@@ -12,7 +12,7 @@
     "https": "https://github.com/eea/volto-openlayers-map.git",
     "package": "@eeacms/volto-openlayers-map",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-tableau": {
