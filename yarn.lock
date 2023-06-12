@@ -1927,16 +1927,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@eeacms/volto-block-style@npm:4.1.0"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-    react-color: ~2.18.1
-  checksum: f73a61347faf4807f81ec0c9d282f63db3a292a837dbe392ba096be2fa111b8d0d207dc966759cbb49b8bc3e2de63beab553a855645bd1fdbfc5d894ff565ce4
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-block-style@npm:5.2.0":
   version: 5.2.0
   resolution: "@eeacms/volto-block-style@npm:5.2.0"
@@ -2085,17 +2075,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:0.1.32":
-  version: 0.1.32
-  resolution: "@eeacms/volto-eea-map@npm:0.1.32"
+"@eeacms/volto-eea-map@npm:0.1.33":
+  version: 0.1.33
+  resolution: "@eeacms/volto-eea-map@npm:0.1.33"
   dependencies:
-    "@eeacms/volto-block-style": 4.1.0
-    "@eeacms/volto-embed": 5.0.0
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-object-widget": "*"
     "@plone/scripts": "*"
     esri-loader: 3.6.0
     lodash: 4.17.21
+    razzle-plugin-scss: 4.2.18
+    react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: 578352e7fc95b73ebc4b19670e0e80d2b32c489dc1010e462d82e0f949d6fcf42ef8823a6623bc159e393504dd1fe4edc24b903fa64fd78d3cd00259af3f0afa
+  checksum: 6e935bcf16d78ea4e232f424523c542d26dd3264035004be8049c1f8c18a2f2282080e4960689666f1d4bda991c68f824d9a9f7504bc7495306c98612936a7b5
   languageName: node
   linkType: hard
 
@@ -2107,17 +2099,6 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     react-visibility-sensor: 5.1.1
   checksum: e7d12d5e641ef81d33e74ee69a92b16a5bad828867b51b74833123f9585e38d71c3499006f231532ea1ec530d3b3b3c8ddcee96ad23fbe7ee430047a519eaca7
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-embed@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-embed@npm:5.0.0"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@eeacms/volto-datablocks": "*"
-    react-visibility-sensor: 5.1.1
-  checksum: aa0c9b44944662fe76273c516cf1a51a61b6ab02b5f0b49c9c08ccb6d8a8812ccfddec53bc587ce06df0331594e4ca8d64afeef2d4dd708cd4a1607b7ca7bed1
   languageName: node
   linkType: hard
 
@@ -8160,7 +8141,7 @@ __metadata:
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": 5.0.0
     "@eeacms/volto-eea-kitkat": 15.5.1
-    "@eeacms/volto-eea-map": 0.1.32
+    "@eeacms/volto-eea-map": 0.1.33
     "@eeacms/volto-embed": 5.0.3
     "@eeacms/volto-n2k": 1.0.29
     "@eeacms/volto-openlayers-map": 0.2.2
