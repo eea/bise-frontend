@@ -2260,9 +2260,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:6.2.2":
-  version: 6.2.2
-  resolution: "@eeacms/volto-plotlycharts@npm:6.2.2"
+"@eeacms/volto-plotlycharts@npm:6.3.0":
+  version: 6.3.0
+  resolution: "@eeacms/volto-plotlycharts@npm:6.3.0"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-matomo": "*"
@@ -2273,7 +2273,7 @@ __metadata:
     react-inspector: 5.1.1
     react-json-editor-ajrm: 2.5.13
     react-plotly.js: 2.5.1
-  checksum: 0519864ea0ec93df1f8a50ed333902cbeba7cf02f0f42760c38524ca50ea2b051cef24b8cf94aeeaa90b3601d4d05d50327a57c713bc9e44b0fb2dc16c88832a
+  checksum: a85b4c1425a0306f3e556f4c6785403a1dc6c73c4c7e910a6472050383b4cecfa5e9862b82fe1f971e289eb6c86651456638562e5cc69b2c65fb3bbe8c9ace2e
   languageName: node
   linkType: hard
 
@@ -8150,7 +8150,7 @@ __metadata:
     "@eeacms/volto-embed": 5.0.4
     "@eeacms/volto-n2k": 1.0.30
     "@eeacms/volto-openlayers-map": 0.3.0
-    "@eeacms/volto-plotlycharts": 6.2.2
+    "@eeacms/volto-plotlycharts": 6.3.0
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-tableau": 4.1.0
     "@eeacms/volto-tabs-block": 5.0.4
