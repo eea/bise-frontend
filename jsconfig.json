@@ -30,6 +30,9 @@
             ],
             "@eeacms/volto-openlayers-map": [
                 "addons/volto-openlayers-map/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
             ]
         },
         "baseUrl": "src"

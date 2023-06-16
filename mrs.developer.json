@@ -20,7 +20,7 @@
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-datablocks": {

@@ -1730,6 +1730,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cypress/code-coverage@npm:^3.9.5":
+  version: 3.10.7
+  resolution: "@cypress/code-coverage@npm:3.10.7"
+  dependencies:
+    "@cypress/webpack-preprocessor": ^5.11.0
+    chalk: 4.1.2
+    dayjs: 1.10.7
+    debug: 4.3.4
+    execa: 4.1.0
+    globby: 11.0.4
+    istanbul-lib-coverage: 3.0.0
+    js-yaml: 4.1.0
+    nyc: 15.1.0
+  peerDependencies:
+    cypress: "*"
+  checksum: a40bcbccdb9c89fd86ef5361c454d2c1545a39128b640d6df8f65a44dade20d83bf22506bf12579fef2a28496916f1be16f979564223a08f894f0e364f0b4c08
+  languageName: node
+  linkType: hard
+
 "@cypress/request@npm:^2.88.10":
   version: 2.88.10
   resolution: "@cypress/request@npm:2.88.10"
@@ -1832,7 +1851,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@1.1.0, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
+"@eeacms/volto-bise-policy@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.1"
+  dependencies:
+    "@eeacms/volto-block-toc": "*"
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-eea-website-theme": "*"
+    esri-loader: 3.7.0
+  checksum: e88a2039ab447545b6fda265e36c461212aa0bccc30e21582570b4649c476c1fbf0c0634af5df9cf391cade8bfeb767612787ea1c5613f4ccf4b51a9f610df69
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy"
   dependencies:
@@ -1885,16 +1917,6 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
   checksum: 0071148d44166367afae90057d7b37e1aad11e5ce3e432b2270c42f183d51d8cb6a5e50a7ee61ad15317a0eb9b36329bab7e49a8cf490c4429263d1aa8ccab16
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-style@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@eeacms/volto-block-style@npm:4.1.0"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-    react-color: ~2.18.1
-  checksum: f73a61347faf4807f81ec0c9d282f63db3a292a837dbe392ba096be2fa111b8d0d207dc966759cbb49b8bc3e2de63beab553a855645bd1fdbfc5d894ff565ce4
   languageName: node
   linkType: hard
 
@@ -2057,17 +2079,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:0.1.32":
-  version: 0.1.32
-  resolution: "@eeacms/volto-eea-map@npm:0.1.32"
+"@eeacms/volto-eea-map@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-eea-map@npm:1.0.0"
   dependencies:
-    "@eeacms/volto-block-style": 4.1.0
-    "@eeacms/volto-embed": 5.0.0
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-object-widget": "*"
     "@plone/scripts": "*"
     esri-loader: 3.6.0
     lodash: 4.17.21
+    razzle-plugin-scss: 4.2.18
+    react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: 578352e7fc95b73ebc4b19670e0e80d2b32c489dc1010e462d82e0f949d6fcf42ef8823a6623bc159e393504dd1fe4edc24b903fa64fd78d3cd00259af3f0afa
+  checksum: 18c6aaad46dbe74163eef8a01b1373c361cff738546d013da5d7d0e72c3c9e6ea6418817b7fb24751a440cb4069a2bee189881e7f9fda39bcdc71c23f3740917
   languageName: node
   linkType: hard
 
@@ -2093,17 +2117,6 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     react-visibility-sensor: 5.1.1
   checksum: 78ff6ac01c69843806f0854e352ccf724f4548027d4c29f98da9d87fcb8df33195df2cc2d4aee69576285461b3938a30fbfe3628442bc4a7dba8841d44ed4272
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-embed@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-embed@npm:5.0.0"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@eeacms/volto-datablocks": "*"
-    react-visibility-sensor: 5.1.1
-  checksum: aa0c9b44944662fe76273c516cf1a51a61b6ab02b5f0b49c9c08ccb6d8a8812ccfddec53bc587ce06df0331594e4ca8d64afeef2d4dd708cd4a1607b7ca7bed1
   languageName: node
   linkType: hard
 
@@ -2167,7 +2180,27 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-n2k@1.0.29, @eeacms/volto-n2k@workspace:src/addons/volto-n2k":
+"@eeacms/volto-n2k@npm:1.0.31":
+  version: 1.0.31
+  resolution: "@eeacms/volto-n2k@npm:1.0.31"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-openlayers-map": "*"
+    "@eeacms/volto-resize-helper": "*"
+    "@eeacms/volto-tabs-block": "*"
+    d3: ^7.6.1
+    d3-shape: ^3.1.0
+    react-lazy-load-image-component: 1.5.1
+    react-stickynode: ^4.0.0
+    react-use-localstorage: ^3.5.3
+    resize-observer-polyfill: 1.5.1
+    slick-carousel: 1.8.1
+    swiper: 9.1.1
+  checksum: c161b200bce46652a70610d9725be941d23ecde111799a77b75535096f15ad1f4f02aabd9f4fafa50af0680dd99f4c2153e9fcc59f495a955f983b46384a2250
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-n2k@workspace:src/addons/volto-n2k":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-n2k@workspace:src/addons/volto-n2k"
   dependencies:
@@ -2206,7 +2239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@*, @eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map":
+"@eeacms/volto-openlayers-map@*, @eeacms/volto-openlayers-map@0.3.0, @eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map"
   dependencies:
@@ -2219,16 +2252,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-openlayers-map@npm:0.2.2":
-  version: 0.2.2
-  resolution: "@eeacms/volto-openlayers-map@npm:0.2.2"
-  dependencies:
-    ol: 6.6.x
-  checksum: a6db83ae91b5f8e452a954e9d088fb906a24c97dad4101910c76f35457d0c0dff160eb8705e9b3ae4c50549ca085249b679e98006e222481e973e5dc23fd4369
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-plotlycharts@6.2.1, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
+"@eeacms/volto-plotlycharts@6.3.0, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts"
   dependencies:
@@ -2260,13 +2284,6 @@ __metadata:
   version: 1.3.1
   resolution: "@eeacms/volto-resize-helper@npm:1.3.1"
   checksum: f73e951a4eea277b8713b8ec8c984ebe6717aa101bca2258b40723c277a346d41d7132bbd9dc66a0e8d8929bc042735af6e126cce8104c51e68451c2a86aca14
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-resize-helper@npm:^0.2.4":
-  version: 0.2.10
-  resolution: "@eeacms/volto-resize-helper@npm:0.2.10"
-  checksum: 8dd8c5dfb1628bd680dfb25ba1a567553f0a755801267d3f7c51e03c25980a7fa74610365f63228e9115ef28ee02e0a3e9155b853a34540fced746f830529475
   languageName: node
   linkType: hard
 
@@ -2413,7 +2430,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@2.0.8, @eeacms/volto-spotlight@workspace:src/addons/volto-spotlight":
+"@eeacms/volto-spotlight@npm:2.0.9":
+  version: 2.0.9
+  resolution: "@eeacms/volto-spotlight@npm:2.0.9"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+  checksum: 75485f73c64feae56462abcd6154e2a2b3a51a8885cedf46c9f7e1f0ca5b5d8879f5bc886e90ba4218fcbb9d202192c3ad0c43c9b2753728f998b1e98d1a7578
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-spotlight@workspace:src/addons/volto-spotlight":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-spotlight@workspace:src/addons/volto-spotlight"
   dependencies:
@@ -2449,15 +2475,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-tableau@npm:3.0.7":
-  version: 3.0.7
-  resolution: "@eeacms/volto-tableau@npm:3.0.7"
+"@eeacms/volto-tableau@4.1.0, @eeacms/volto-tableau@workspace:src/addons/volto-tableau":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-tableau@workspace:src/addons/volto-tableau"
   dependencies:
-    "@eeacms/volto-embed": 5.0.0
-    "@eeacms/volto-resize-helper": ^0.2.4
-  checksum: 49200e89c118dbe63c209053ae2c79859840407416e172293d428fc6cb56e3178fb325981ca63136185242b39e89b4e9eb0fdd9486d68194eff0f6f355d09d3f
-  languageName: node
-  linkType: hard
+    "@cypress/code-coverage": ^3.9.5
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-object-widget": "*"
+    "@eeacms/volto-resize-helper": "*"
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-tabs-block@npm:*, @eeacms/volto-tabs-block@npm:5.0.2":
   version: 5.0.2
@@ -8669,21 +8699,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.1.0
+    "@eeacms/volto-bise-policy": 1.2.1
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8"
     "@eeacms/volto-eea-design-system": 1.13.0
     "@eeacms/volto-eea-kitkat": 15.5.1
-    "@eeacms/volto-eea-map": 0.1.32
+    "@eeacms/volto-eea-map": 1.0.0
     "@eeacms/volto-eea-website-theme": 1.17.0
     "@eeacms/volto-globalsearch": 1.0.15
-    "@eeacms/volto-n2k": 1.0.29
-    "@eeacms/volto-openlayers-map": 0.2.2
-    "@eeacms/volto-plotlycharts": 6.2.1
+    "@eeacms/volto-n2k": 1.0.31
+    "@eeacms/volto-openlayers-map": 0.3.0
+    "@eeacms/volto-plotlycharts": 6.3.0
     "@eeacms/volto-searchlib": 0.5.3
     "@eeacms/volto-slate-dataentity": 2.1.0
-    "@eeacms/volto-spotlight": 2.0.8
-    "@eeacms/volto-tableau": 3.0.7
+    "@eeacms/volto-spotlight": 2.0.9
+    "@eeacms/volto-tableau": 4.1.0
     "@eeacms/volto-workflow-progress": 3.0.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.20.6
