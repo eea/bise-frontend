@@ -2076,9 +2076,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-eea-map@npm:1.0.0"
+"@eeacms/volto-eea-map@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eeacms/volto-eea-map@npm:1.0.1"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
@@ -2088,7 +2088,7 @@ __metadata:
     razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: 18c6aaad46dbe74163eef8a01b1373c361cff738546d013da5d7d0e72c3c9e6ea6418817b7fb24751a440cb4069a2bee189881e7f9fda39bcdc71c23f3740917
+  checksum: 75dc7786afcb154cfbe4e291b3ec7160ada5ed0b432a3aa60cee52b7d272dbf83958600e8dd53db2dcb761122eaf1adbf761d815142c6749b2e8e0af4220cb9e
   languageName: node
   linkType: hard
 
@@ -8146,7 +8146,7 @@ __metadata:
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": 5.0.2
     "@eeacms/volto-eea-kitkat": 16.0.1
-    "@eeacms/volto-eea-map": 1.0.0
+    "@eeacms/volto-eea-map": 1.0.1
     "@eeacms/volto-embed": 5.0.4
     "@eeacms/volto-n2k": 1.0.31
     "@eeacms/volto-openlayers-map": 0.3.0
