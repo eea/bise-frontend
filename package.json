@@ -162,7 +162,7 @@
     "d3": "6.7.0"
   },
   "dependencies": {
-    "@eeacms/volto-bise-policy": "1.2.1",
+    "@eeacms/volto-bise-policy": "1.2.2",
     "@eeacms/volto-block-toc": "3.0.5",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8",
     "@eeacms/volto-eea-design-system": "1.13.0",
