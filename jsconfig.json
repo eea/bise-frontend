@@ -33,6 +33,9 @@
             ],
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
+            ],
+            "@eeacms/volto-taxonomy": [
+                "addons/volto-taxonomy/src"
             ]
         },
         "baseUrl": "src"
