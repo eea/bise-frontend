@@ -2434,7 +2434,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@2.0.9, @eeacms/volto-spotlight@workspace:src/addons/volto-spotlight":
+"@eeacms/volto-spotlight@2.0.10, @eeacms/volto-spotlight@workspace:src/addons/volto-spotlight":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-spotlight@workspace:src/addons/volto-spotlight"
   dependencies:
@@ -8712,7 +8712,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 6.3.0
     "@eeacms/volto-searchlib": 0.5.3
     "@eeacms/volto-slate-dataentity": 2.1.0
-    "@eeacms/volto-spotlight": 2.0.9
+    "@eeacms/volto-spotlight": 2.0.10
     "@eeacms/volto-tableau": 4.1.0
     "@eeacms/volto-workflow-progress": 3.0.1
     "@plone/scripts": ^2.1.2
