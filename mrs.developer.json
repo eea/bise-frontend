@@ -220,7 +220,7 @@
     "https": "https://github.com/eea/volto-tabs-block.git",
     "package": "@eeacms/volto-tabs-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-block-image-cards": {

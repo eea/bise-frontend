@@ -36,6 +36,9 @@
             ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
             ]
         },
         "baseUrl": "src"
