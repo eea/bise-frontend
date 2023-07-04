@@ -2031,9 +2031,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:16.0.2":
-  version: 16.0.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:16.0.2"
+"@eeacms/volto-eea-kitkat@npm:16.0.3":
+  version: 16.0.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:16.0.3"
   dependencies:
     "@eeacms/volto-accordion-block": 9.0.0
     "@eeacms/volto-anchors": 0.3.2
@@ -2060,7 +2060,7 @@ __metadata:
     "@eeacms/volto-slate-metadata-mentions": 6.1.1
     "@eeacms/volto-slate-zotero": 5.2.1
     "@eeacms/volto-statistic-block": 1.3.0
-    "@eeacms/volto-tabs-block": 5.0.4
+    "@eeacms/volto-tabs-block": 5.0.5
     "@eeacms/volto-tags-block": 1.2.0
     "@eeacms/volto-taxonomy": 4.0.1
     "@eeacms/volto-timeline-block": 1.1.1
@@ -2072,7 +2072,7 @@ __metadata:
     "@eeacms/volto-widgets-view": 4.2.1
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: 0967f8eed661e32408f1fe396cdbdb8c361048d4ace5cc2c64cda41f4b90da854ff232a7d3a26e8d36292aea47f09ee1c31383779118355681e291a7c7f00b6f
+  checksum: ab365330c4dfea968953c61dfad8f3e306a7a479d7e5892c56a72472f9c7cb08bbcf27fce3f869fea41944cea4636cb487bbf762c9f0ae8118dcc75254a734da
   languageName: node
   linkType: hard
 
@@ -8145,7 +8145,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": 5.0.2
-    "@eeacms/volto-eea-kitkat": 16.0.2
+    "@eeacms/volto-eea-kitkat": 16.0.3
     "@eeacms/volto-eea-map": 1.0.1
     "@eeacms/volto-embed": 5.0.4
     "@eeacms/volto-n2k": 1.0.33
