@@ -1860,16 +1860,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.4"
+"@eeacms/volto-bise-policy@npm:1.2.5":
+  version: 1.2.5
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.5"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     esri-loader: 3.7.0
-  checksum: 501c878152ce615eeb8934d109fdc7a61fc5df41ef69e6ee5e69775198459feb60c11697632f87658a87419dcc778e59b94cb22272440f7bf5bc3948159df186
+  checksum: 649597fb177f6bd59e53af27a661e9e1f97e6dcd813ecc634dea49300238ec1511fc7604a8f314d3375454da034671900cd58a826c200fdce442d613742b8e96
   languageName: node
   linkType: hard
 
@@ -2061,9 +2061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:16.0.3":
-  version: 16.0.3
-  resolution: "@eeacms/volto-eea-kitkat@npm:16.0.3"
+"@eeacms/volto-eea-kitkat@npm:16.0.4":
+  version: 16.0.4
+  resolution: "@eeacms/volto-eea-kitkat@npm:16.0.4"
   dependencies:
     "@eeacms/volto-accordion-block": 9.0.0
     "@eeacms/volto-anchors": 0.3.2
@@ -2090,7 +2090,7 @@ __metadata:
     "@eeacms/volto-slate-metadata-mentions": 6.1.1
     "@eeacms/volto-slate-zotero": 5.2.1
     "@eeacms/volto-statistic-block": 1.3.0
-    "@eeacms/volto-tabs-block": 5.0.5
+    "@eeacms/volto-tabs-block": 5.0.6
     "@eeacms/volto-tags-block": 1.2.0
     "@eeacms/volto-taxonomy": 4.0.1
     "@eeacms/volto-timeline-block": 1.1.1
@@ -2102,7 +2102,7 @@ __metadata:
     "@eeacms/volto-widgets-view": 4.2.1
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: ab365330c4dfea968953c61dfad8f3e306a7a479d7e5892c56a72472f9c7cb08bbcf27fce3f869fea41944cea4636cb487bbf762c9f0ae8118dcc75254a734da
+  checksum: bf879e525e432b8f29f78e79a26252f5ca75d9d97762749bc0fa00090de2acd9274fc58c611c1005055191bae7b934a203de40feb7fd69a1dffb87edd1c14991
   languageName: node
   linkType: hard
 
@@ -2582,16 +2582,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-tabs-block@npm:5.0.5":
-  version: 5.0.5
-  resolution: "@eeacms/volto-tabs-block@npm:5.0.5"
+"@eeacms/volto-tabs-block@npm:5.0.6":
+  version: 5.0.6
+  resolution: "@eeacms/volto-tabs-block@npm:5.0.6"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: add36b66123c423fea51866200638b38e299834079a750dc7ca691d572a34b2320b171186abb00dddefb6b89394d1eb4ff7502f90fe6eaf1edabe227bccb58cd
+  checksum: ab4b0bf24ac40ec9e8bdfa4bbcdd4786d3fe8082d8672351448f95554277f99eaf9ea1a35211356c4307e3cb2a014e3e292d8960bfc14e9c84c70be617fe1e1c
   languageName: node
   linkType: hard
 
@@ -8824,11 +8824,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.4
+    "@eeacms/volto-bise-policy": 1.2.5
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8"
     "@eeacms/volto-eea-design-system": 1.13.2
-    "@eeacms/volto-eea-kitkat": 16.0.3
+    "@eeacms/volto-eea-kitkat": 16.0.4
     "@eeacms/volto-eea-map": 1.0.1
     "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-globalsearch": 1.0.15
