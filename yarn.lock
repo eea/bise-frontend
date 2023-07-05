@@ -2283,7 +2283,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-plotlycharts@6.4.0, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
+"@eeacms/volto-plotlycharts@npm:6.4.1":
+  version: 6.4.1
+  resolution: "@eeacms/volto-plotlycharts@npm:6.4.1"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-matomo": "*"
+    "@plone/scripts": "*"
+    plotly.js: ^2.24.2
+    react-chart-editor: latest
+    react-colorscales: "github:eea/react-colorscales#1.0.2"
+    react-inspector: 6.0.2
+    react-json-editor-ajrm: 2.5.14
+    react-plotly.js: 2.6.0
+  checksum: ffe2708d6315c7b8686eb0e30f3d073d368dc008102978ea663158bc47acceb004d78ab00916ffd8d7b5cf9816b00087ae2ec683767f35a35a9ddb91c220e889
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts"
   dependencies:
@@ -8765,7 +8782,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 1.0.15
     "@eeacms/volto-n2k": 1.0.33
     "@eeacms/volto-openlayers-map": 0.3.0
-    "@eeacms/volto-plotlycharts": 6.4.0
+    "@eeacms/volto-plotlycharts": 6.4.1
     "@eeacms/volto-searchlib": 0.5.3
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-spotlight": 2.0.10
