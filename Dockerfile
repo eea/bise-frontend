@@ -19,7 +19,7 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
 
 USER node
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
-ARG MAX_OLD_SPACE_SIZE=8192
+ARG MAX_OLD_SPACE_SIZE=1536
 RUN yarn \
   && yarn build \
   && rm -rf /home/node/.cache \
@@ -28,7 +28,7 @@ RUN yarn \
   && rm -rf /app/.yarn/cache
 USER root
 
-EXPOSE 3000 3001 4000 4001
+EXPOSE 3000 3001
 
 ENTRYPOINT ["/app/entrypoint.sh"]
 CMD ["yarn", "start:prod"]
