@@ -1,44 +1,41 @@
 {
     "compilerOptions": {
         "paths": {
-            "@eeacms/volto-bise-policy": [
-                "addons/volto-bise-policy/src"
-            ],
-            "@eeacms/volto-n2k": [
-                "addons/volto-n2k/src"
-            ],
-            "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
-            ],
-            "@eeacms/volto-eea-design-system": [
-                "addons/volto-eea-design-system/src"
-            ],
-            "@eeacms/volto-spotlight": [
-                "addons/volto-spotlight/src"
-            ],
-            "@eeacms/volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "@eeacms/volto-metadata-block": [
-                "addons/volto-metadata-block/src"
-            ],
-            "@eeacms/volto-statistic-block": [
-                "addons/volto-statistic-block/src"
-            ],
-            "@eeacms/volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
             "@eeacms/volto-openlayers-map": [
                 "addons/volto-openlayers-map/src"
             ],
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
-            "@eeacms/volto-taxonomy": [
-                "addons/volto-taxonomy/src"
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-spotlight": [
+                "addons/volto-spotlight/src"
+            ],
+            "@eeacms/volto-statistic-block": [
+                "addons/volto-statistic-block/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
+            ],
+            "@eeacms/volto-eea-website-theme": [
+                "addons/volto-eea-website-theme/src"
+            ],
+            "@eeacms/volto-bise-policy": [
+                "addons/volto-bise-policy/src"
+            ],
+            "@eeacms/volto-n2k": [
+                "addons/volto-n2k/src"
             ],
             "@eeacms/volto-tabs-block": [
                 "addons/volto-tabs-block/src"
+            ],
+            "@eeacms/volto-metadata-block": [
+                "addons/volto-metadata-block/src"
             ]
         },
         "baseUrl": "src"
