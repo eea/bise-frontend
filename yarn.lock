@@ -1841,7 +1841,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@1.2.5, @eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
+"@eeacms/volto-bise-policy@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.6"
+  dependencies:
+    "@eeacms/volto-block-toc": "*"
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-eea-website-theme": "*"
+    esri-loader: 3.7.0
+  checksum: e80e9a4dd23591049d7714b5343f9e517f1235701a90b752bc0aec6a4268b1cacdf207a18bd40b23bde0c10a4a54039098f1ca90b14f0d725ab956f37f0ef886
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-bise-policy@workspace:src/addons/volto-bise-policy"
   dependencies:
@@ -8631,7 +8644,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.5
+    "@eeacms/volto-bise-policy": 1.2.6
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8"
     "@eeacms/volto-eea-design-system": 1.13.2
