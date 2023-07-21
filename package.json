@@ -161,7 +161,7 @@
     "@eeacms/volto-block-toc": "3.0.5",
     "@eeacms/volto-datablocks": "5.0.2",
     "@eeacms/volto-eea-kitkat": "16.0.4",
-    "@eeacms/volto-eea-map": "1.0.1",
+    "@eeacms/volto-eea-map": "1.0.2",
     "@eeacms/volto-embed": "5.0.4",
     "@eeacms/volto-n2k": "1.0.33",
     "@eeacms/volto-openlayers-map": "0.3.0",
