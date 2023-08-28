@@ -2382,16 +2382,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:5.0.8":
-  version: 5.0.8
-  resolution: "@eeacms/volto-tabs-block@npm:5.0.8"
+"@eeacms/volto-tabs-block@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@eeacms/volto-tabs-block@npm:5.1.0"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 1b690804aae37fcd0bbeba3b18f855dfbbbde1817a59b1af44e618b8a388bb16f6e9b93f3d7eb5a8b6f7c2ff19da54a0fc270236f80ecfe2c8a4b605224b1a2b
+  checksum: 439d73e76e6f956cf1ecdedf44d77fc028bda7e97c1ace06d49cf78e1e582c4109327f9c93635e67a0ea2a501ef13c072b0f9a6d83e5775b35d0e1abc62510f6
   languageName: node
   linkType: hard
 
@@ -8145,7 +8145,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 7.0.1
     "@eeacms/volto-slate-dataentity": 3.0.0
     "@eeacms/volto-tableau": 5.0.0
-    "@eeacms/volto-tabs-block": 5.0.8
+    "@eeacms/volto-tabs-block": 5.1.0
     "@eeacms/volto-webmap": 0.2.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.12.0
