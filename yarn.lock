@@ -1856,12 +1856,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:10.1.1":
-  version: 10.1.1
-  resolution: "@eeacms/volto-accordion-block@npm:10.1.1"
+"@eeacms/volto-accordion-block@npm:10.3.0":
+  version: 10.3.0
+  resolution: "@eeacms/volto-accordion-block@npm:10.3.0"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: 91dce97feebe014e6fac360195dbb196b1d9ccc5d2abd2aa0a328a6a4fdb9082c2bf36c1736b717e68c31694ca6802e6920b708041fb677fc238c943a5ddcfef
+  checksum: 2e6706faa6ace1dcd2eafaa7bd9d6a6fba870c7d774abad1f68f7b25aa5e021cfd4dc8b820b2037ecaee4f1c2b1ca50030432b5681da13c5a8c2288fbc9cbdbc
   languageName: node
   linkType: hard
 
@@ -1874,12 +1874,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-anchors@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@eeacms/volto-anchors@npm:0.4.0"
+"@eeacms/volto-anchors@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@eeacms/volto-anchors@npm:0.4.1"
   dependencies:
     github-slugger: 1.4.0
-  checksum: cec5f1d8bf320fe12ac0aa036c4d726137f5495f5e3099ca46eb9f412a65880464491cc81564ccb180c49c1f0d7da72ab360b4c32fafa836268300c1ad495cb4
+  checksum: 8180c850b43702e120731c3ce3f13f93bb1e2fb5d47a408db79b0f2c7b786a78adbd995420dd7ed103d53048a072941a0caa226382a7ddc992db358ba10b65fc
   languageName: node
   linkType: hard
 
@@ -1976,12 +1976,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:6.3.2":
-  version: 6.3.2
-  resolution: "@eeacms/volto-columns-block@npm:6.3.2"
+"@eeacms/volto-columns-block@npm:6.3.3":
+  version: 6.3.3
+  resolution: "@eeacms/volto-columns-block@npm:6.3.3"
   dependencies:
     react-color: ~2.19.3
-  checksum: 7c2d5a9aa6502eade25ef24e8fdc0a4d896ddf2de8fedc33cf8c86fad5fb038fffa77f719e23b71adc97996eaa6d7ccbed0bcd28908cb53b7b1e386cac101c42
+  checksum: 74df28b823de17bea26d45f8b21324ee5721f92df840b251fb2caa84f066d0ee8b3eb6cde78654e3f589388b1cd6bc78a0d6a13d3daa7384848fba24b79f9fe8
   languageName: node
   linkType: hard
 
@@ -2042,19 +2042,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:18.0.3":
-  version: 18.0.3
-  resolution: "@eeacms/volto-eea-kitkat@npm:18.0.3"
+"@eeacms/volto-eea-kitkat@npm:18.1.0":
+  version: 18.1.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:18.1.0"
   dependencies:
     "@eeacms/countup": 2.0.4
-    "@eeacms/volto-accordion-block": 10.1.1
-    "@eeacms/volto-anchors": 0.4.0
+    "@eeacms/volto-accordion-block": 10.3.0
+    "@eeacms/volto-anchors": 0.4.1
     "@eeacms/volto-banner": 3.1.3
     "@eeacms/volto-block-divider": 6.1.2
     "@eeacms/volto-block-image-cards": 1.3.3
     "@eeacms/volto-block-style": 5.2.2
     "@eeacms/volto-call-to-action-block": 4.1.4
-    "@eeacms/volto-columns-block": 6.3.2
+    "@eeacms/volto-columns-block": 6.3.3
     "@eeacms/volto-corsproxy": 3.1.3
     "@eeacms/volto-description-block": 1.1.3
     "@eeacms/volto-group-block": 6.2.1
@@ -2064,26 +2064,26 @@ __metadata:
     "@eeacms/volto-metadata-block": 6.0.0
     "@eeacms/volto-nextcloud-video-block": 0.4.4
     "@eeacms/volto-object-widget": 5.1.3
-    "@eeacms/volto-quote-block": 1.2.1
+    "@eeacms/volto-quote-block": 1.2.2
     "@eeacms/volto-resize-helper": 1.3.3
     "@eeacms/volto-sentry-rancher-config": 3.1.1
-    "@eeacms/volto-slate-footnote": 6.1.2
+    "@eeacms/volto-slate-footnote": 6.1.4
     "@eeacms/volto-slate-label": 0.5.2
     "@eeacms/volto-slate-metadata-mentions": 7.0.0
-    "@eeacms/volto-slate-zotero": 5.2.2
-    "@eeacms/volto-statistic-block": 3.0.0
-    "@eeacms/volto-tabs-block": 5.0.8
+    "@eeacms/volto-slate-zotero": 5.2.3
+    "@eeacms/volto-statistic-block": 3.0.1
+    "@eeacms/volto-tabs-block": 5.1.0
     "@eeacms/volto-tags-block": 1.2.1
     "@eeacms/volto-taxonomy": 4.1.0
     "@eeacms/volto-timeline-block": 1.1.2
     "@eeacms/volto-widget-dataprovenance": 0.4.0
     "@eeacms/volto-widget-geolocation": 5.1.3
-    "@eeacms/volto-widget-temporal-coverage": 5.1.2
-    "@eeacms/volto-widget-theme-picker": 1.1.2
+    "@eeacms/volto-widget-temporal-coverage": 5.1.3
+    "@eeacms/volto-widget-theme-picker": 1.1.3
     "@eeacms/volto-widget-toggle": 3.1.2
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: c8095f6d73e98aa319adcf23455814b563bd87d3e35d713d85a9fa0fe4ef5e77c60713ee530f19e7fe09819b35d80e9ab6b95875e6bc0cb3028932b6160f1337
+  checksum: 50501ac3b959be81b8b160d8646982b3f20d15402f84f2268135f392a4db5acd7d42031c745a946cdfb5b90f16dafb640ed8ccd8ece0d43565cca52a0107fe7f
   languageName: node
   linkType: hard
 
@@ -2286,12 +2286,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-quote-block@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@eeacms/volto-quote-block@npm:1.2.1"
+"@eeacms/volto-quote-block@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@eeacms/volto-quote-block@npm:1.2.2"
   dependencies:
     "@eeacms/volto-object-widget": "*"
-  checksum: c9b029e58d48cb48e605e2ca411a8b62212437248f46ad229ea3e256262da787903dadb215ef2fa6d9dd4fbebc0fa3a926133c30036087416b3fbc9f0b877e32
+  checksum: 0eefa04c2be018bcb3a38a2ce500f48f40baf046f0f125af66fcd9d083aaa3c7357a335caa94f6d562944c315a4e949ca44389a9f6ee9066558da9867ea29421
   languageName: node
   linkType: hard
 
@@ -2332,10 +2332,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:6.1.2":
-  version: 6.1.2
-  resolution: "@eeacms/volto-slate-footnote@npm:6.1.2"
-  checksum: d5879f73f0c6d34a5dfd8a84c442fe805c8c442d45cf827020d3cb65631f72587e4c06cecf90e276f1a3639513ba4f5b198e75417c5bdfb7df33cc3d67089930
+"@eeacms/volto-slate-footnote@npm:6.1.4":
+  version: 6.1.4
+  resolution: "@eeacms/volto-slate-footnote@npm:6.1.4"
+  checksum: 17adc14a1c58721b04ea0fb236b44c255ca7dd805b7379c41216ab59e890bcedfa817c19755e81873ab6e1fb61408ecbfb1ef582abc39cf893fb12d3fa1ab81f
   languageName: node
   linkType: hard
 
@@ -2353,21 +2353,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-zotero@npm:5.2.2":
-  version: 5.2.2
-  resolution: "@eeacms/volto-slate-zotero@npm:5.2.2"
+"@eeacms/volto-slate-zotero@npm:5.2.3":
+  version: 5.2.3
+  resolution: "@eeacms/volto-slate-zotero@npm:5.2.3"
   dependencies:
     "@eeacms/volto-slate-footnote": "*"
-  checksum: b548dffa758027db4a83a85764df57c9d4126ceb340a9113415a49454675628612dd999d298001815d0c29154eb2f4a90f4f2821f25d334ccf54ffdaba2a0f79
+  checksum: 34c09b9c2d6f51249fe4b7a4ca3269ce5a6c859e966b3fef1e52443ab9292b6220f6951dc6c37996d7f1493cfe4c9010214139e410806232ef2f68a13a9aa8b5
   languageName: node
   linkType: hard
 
-"@eeacms/volto-statistic-block@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-statistic-block@npm:3.0.0"
+"@eeacms/volto-statistic-block@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-statistic-block@npm:3.0.1"
   dependencies:
     "@eeacms/countup": "*"
-  checksum: f336334051178b5ec0f22c1eb50fb11a6dee801daacf67eef2bba1ecf98baee00006bcb120e4abe2ee4c712b996e84f5ed73287f5d9b88205cdd8bf7cbfa709a
+  checksum: aaa0c4f2d2c4c7208bedccd3a4f14aa8e0ca3746419cb154daadfffe3ee075dde2b48ed590b873af2295ab9e036d23f2c5edfe3a2f18750b1141d20f73f7f948
   languageName: node
   linkType: hard
 
@@ -2446,10 +2446,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-temporal-coverage@npm:5.1.2":
-  version: 5.1.2
-  resolution: "@eeacms/volto-widget-temporal-coverage@npm:5.1.2"
-  checksum: 5244a6d26a04f12a58c47e874e6767f2b6da2b8e4268df0db299d7c2085837310b46ec3c9c30283b1e0ae505937b41587731be4f09fa2c98c1ed36aa294f26ce
+"@eeacms/volto-widget-temporal-coverage@npm:5.1.3":
+  version: 5.1.3
+  resolution: "@eeacms/volto-widget-temporal-coverage@npm:5.1.3"
+  checksum: c88c722f22a6e12eeceff91db2f2d254374bd4b65f2ae4d645cd53979bf7c7f041bebb876b342974deac6b9bb72451dbdcf74bf5ef51cfdb2f4a784c81f67162
   languageName: node
   linkType: hard
 
@@ -2460,10 +2460,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-theme-picker@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@eeacms/volto-widget-theme-picker@npm:1.1.2"
-  checksum: f00d145c8de6aa2ab013e243d358616487ca3c2a3136bd2f494fc0095b920d934de189b1d624161fdc5adf8fb44eb687531a44adb93c8fa62cb814d701463ce8
+"@eeacms/volto-widget-theme-picker@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@eeacms/volto-widget-theme-picker@npm:1.1.3"
+  checksum: 1b50ff2a059959b6dfb47bed2e38658a1303c5ee29e683d295a3a64f9f65368ebf159f47bc4cf752ee405b011f53921cc1891e048791dabb7ae3e73e538425ba
   languageName: node
   linkType: hard
 
@@ -8137,7 +8137,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.1.0
-    "@eeacms/volto-eea-kitkat": 18.0.3
+    "@eeacms/volto-eea-kitkat": 18.1.0
     "@eeacms/volto-eea-map": 2.0.5
     "@eeacms/volto-embed": 6.0.0
     "@eeacms/volto-n2k": 1.0.33
