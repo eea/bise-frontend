@@ -1958,12 +1958,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:3.0.6":
-  version: 3.0.6
-  resolution: "@eeacms/volto-block-toc@npm:3.0.6"
+"@eeacms/volto-block-toc@npm:3.0.7":
+  version: 3.0.7
+  resolution: "@eeacms/volto-block-toc@npm:3.0.7"
   dependencies:
     smoothscroll-polyfill: ^0.4.4
-  checksum: 483ce4da3aa4ba528dbcd890adda3b9c81ce6a1da52c8417a768a462347cd1b3ae9b0da81a4746ad2827c08df32125d607bb623fa4bbb7ef05eeed09a8bd141b
+  checksum: cbf485c9f35c3bd4c70a448abc362d8b73ca05c349065874762c070ada3069ba8d42007ff363ed3317c099c678d47a2a05fc21cf35287c3a998723ed60eea3db
   languageName: node
   linkType: hard
 
@@ -8135,7 +8135,7 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator": 7.18.6
     "@eeacms/volto-bise": 2.0.9
-    "@eeacms/volto-block-toc": 3.0.6
+    "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.1.0
     "@eeacms/volto-eea-kitkat": 18.0.3
     "@eeacms/volto-eea-map": 2.0.5
