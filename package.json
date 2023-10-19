@@ -159,7 +159,7 @@
     "@babel/plugin-proposal-nullish-coalescing-operator": "7.18.6",
     "@eeacms/volto-bise": "2.0.9",
     "@eeacms/volto-block-toc": "3.0.7",
-    "@eeacms/volto-datablocks": "6.1.2",
+    "@eeacms/volto-datablocks": "6.1.3",
     "@eeacms/volto-eea-kitkat": "19.1.0",
     "@eeacms/volto-eea-map": "2.0.6",
     "@eeacms/volto-embed": "6.0.1",
