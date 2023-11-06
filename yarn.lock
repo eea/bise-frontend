@@ -2125,14 +2125,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@eeacms/volto-embed@npm:6.0.1"
+"@eeacms/volto-embed@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@eeacms/volto-embed@npm:7.0.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
     react-visibility-sensor: 5.1.1
-  checksum: 07516dc049372a7c97f0e877e1e76f2fbf40afb1767ef0693562d222664ad67e8c17a70decbb5759d30636753f299b6ebfdca6d9b2d2462e30fba7ae0f52c882
+  checksum: 190f3a4c496bd63f1ed36dd560f0301bc4af41dd46de7eacf20602f9ee8bfdde309eb4cd541280323decc3721aae5488d47d7f2c859290d7d743701048035e6a
   languageName: node
   linkType: hard
 
@@ -8152,7 +8152,7 @@ __metadata:
     "@eeacms/volto-datablocks": 6.1.4
     "@eeacms/volto-eea-kitkat": 20.0.0
     "@eeacms/volto-eea-map": 2.0.6
-    "@eeacms/volto-embed": 6.0.1
+    "@eeacms/volto-embed": 7.0.0
     "@eeacms/volto-n2k": 1.0.33
     "@eeacms/volto-openlayers-map": 0.3.0
     "@eeacms/volto-plotlycharts": 7.1.0
