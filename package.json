@@ -167,7 +167,7 @@
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "7.1.1",
     "@eeacms/volto-slate-dataentity": "3.0.0",
-    "@eeacms/volto-tableau": "6.0.2",
+    "@eeacms/volto-tableau": "6.0.3",
     "@eeacms/volto-tabs-block": "7.0.1",
     "@eeacms/volto-webmap": "0.2.1",
     "@plone/volto": "16.12.0"
