@@ -2028,9 +2028,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:6.1.5":
-  version: 6.1.5
-  resolution: "@eeacms/volto-datablocks@npm:6.1.5"
+"@eeacms/volto-datablocks@npm:6.1.6":
+  version: 6.1.6
+  resolution: "@eeacms/volto-datablocks@npm:6.1.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2042,7 +2042,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
-  checksum: c59f504b0a97e44a8e8faaff6ee02740d967cfcd32d65a446522cb473dc4dcef450dae7c1e8125c66d1b57f0d750c210b3231ef8851ce4ce2779452188b8dd5e
+  checksum: 7f43f183ecd84ad3b3a87389758e43c4539db266d286e73b9f51d9d4ddb6f67da0875a152d298b7ad55fb955f5f85162e30983bc17ac0d0296738f1844a18aed
   languageName: node
   linkType: hard
 
@@ -8149,7 +8149,7 @@ __metadata:
     "@babel/plugin-proposal-nullish-coalescing-operator": 7.18.6
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 3.0.7
-    "@eeacms/volto-datablocks": 6.1.5
+    "@eeacms/volto-datablocks": 6.1.6
     "@eeacms/volto-eea-kitkat": 20.0.2
     "@eeacms/volto-eea-map": 2.0.7
     "@eeacms/volto-embed": 8.0.0
