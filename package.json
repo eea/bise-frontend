@@ -162,7 +162,7 @@
     "@eeacms/volto-datablocks": "6.1.6",
     "@eeacms/volto-eea-kitkat": "20.1.0",
     "@eeacms/volto-eea-map": "3.0.3",
-    "@eeacms/volto-embed": "9.0.1",
+    "@eeacms/volto-embed": "9.0.2",
     "@eeacms/volto-n2k": "1.0.33",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "8.1.3",
