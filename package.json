@@ -156,7 +156,7 @@
     "node": "^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-block-image-cards": "github:eea/volto-block-image-cards#develop",
+    "@eeacms/volto-block-image-cards": "1.3.6",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8",
     "react-countup/countup.js": "2.5.0",
     "d3": "6.7.0"
@@ -176,7 +176,7 @@
     "@eeacms/volto-searchlib": "0.5.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-spotlight": "2.0.10",
-    "@eeacms/volto-tableau": "4.1.0",
+    "@eeacms/volto-tableau": "5.0.2",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@plone/volto": "16.20.6",
     "swiper": "9.1.1"

@@ -19,7 +19,7 @@
     "url": "git@github.com:eea/volto-tableau.git",
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
-    "branch": "develop",
+    "tag": "5.0.2",
     "develop": false,
     "path": "src"
   },
