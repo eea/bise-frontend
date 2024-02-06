@@ -2116,13 +2116,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:9.1.0":
-  version: 9.1.0
-  resolution: "@eeacms/volto-embed@npm:9.1.0"
+"@eeacms/volto-embed@npm:9.1.1":
+  version: 9.1.1
+  resolution: "@eeacms/volto-embed@npm:9.1.1"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: 00f5e5a645b5532252af325760ffab5c24f492204dfe3a0787d5d3995ee695c5106698c14890fa59d131c2dc6efb368451a01b3937caf8f088a5bdc601316fb6
+  checksum: ce8503ee7873fd20c5b40b7ed66c00c5cdd561dc4ea49839a8c780a1fb22b736dc081204f44105c3e6a896c04d6286c8ca08e7012f5555b2ba89ff11aec898d2
   languageName: node
   linkType: hard
 
@@ -8194,7 +8194,7 @@ __metadata:
     "@eeacms/volto-datablocks": 6.3.2
     "@eeacms/volto-eea-kitkat": 21.2.3
     "@eeacms/volto-eea-map": 3.3.1
-    "@eeacms/volto-embed": 9.1.0
+    "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-n2k": 1.0.33
     "@eeacms/volto-openlayers-map": 0.3.0
     "@eeacms/volto-plotlycharts": 9.0.2
