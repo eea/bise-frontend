@@ -164,7 +164,7 @@
     "@eeacms/volto-eea-map": "3.3.1",
     "@eeacms/volto-embed": "9.1.1",
     "@eeacms/volto-n2k": "1.0.33",
-    "@eeacms/volto-openlayers-map": "0.3.1",
+    "@eeacms/volto-openlayers-map": "0.3.2",
     "@eeacms/volto-plotlycharts": "9.0.2",
     "@eeacms/volto-slate-dataentity": "3.0.1",
     "@eeacms/volto-tableau": "7.2.1",
