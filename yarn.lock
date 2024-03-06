@@ -2044,9 +2044,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:22.0.0":
-  version: 22.0.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:22.0.0"
+"@eeacms/volto-eea-kitkat@npm:22.0.1":
+  version: 22.0.1
+  resolution: "@eeacms/volto-eea-kitkat@npm:22.0.1"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 10.4.6
@@ -2069,7 +2069,7 @@ __metadata:
     "@eeacms/volto-quote-block": 1.2.3
     "@eeacms/volto-resize-helper": 1.3.4
     "@eeacms/volto-sentry-rancher-config": 4.0.0
-    "@eeacms/volto-slate-footnote": 6.2.2
+    "@eeacms/volto-slate-footnote": 6.2.3
     "@eeacms/volto-slate-label": 0.6.0
     "@eeacms/volto-slate-metadata-mentions": 7.0.3
     "@eeacms/volto-slate-zotero": 5.2.7
@@ -2085,7 +2085,7 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.1.4
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: d6af28c0439a317210bf86790143202ce0d09e9ad181f2c58970d77c9b3a8fb1a7b3176807fb77b2fbe9b8ff6f61b297ec2f3394302faa6f3bd5d5a9523e6cce
+  checksum: 67897f6439eab30361fde54e0286e5305928d0201680b17703aad5819368ef64c27fb88a1bfe575e7227ea86f84946833bfca947034920b032e3e6574096db47
   languageName: node
   linkType: hard
 
@@ -2334,10 +2334,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:6.2.2":
-  version: 6.2.2
-  resolution: "@eeacms/volto-slate-footnote@npm:6.2.2"
-  checksum: dbae690b841f309c7d87ab2a01ae8bf46fa09ebfdf8e015058b9b3acc793c5b3508c9241888e271591c3fd16833cc512d229ed5b81f10c8a318ac79b6d772042
+"@eeacms/volto-slate-footnote@npm:6.2.3":
+  version: 6.2.3
+  resolution: "@eeacms/volto-slate-footnote@npm:6.2.3"
+  checksum: 222e8119d8475812a6131ed7c70f9cd5ec013dc7fca0eaf48322e37e0f420cf00fe31e1583523b369ef7de9a0fa966a1f8096dd7dce9e60136c0a2bc613c23fe
   languageName: node
   linkType: hard
 
@@ -8192,7 +8192,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 3.0.8
     "@eeacms/volto-datablocks": 6.3.4
-    "@eeacms/volto-eea-kitkat": 22.0.0
+    "@eeacms/volto-eea-kitkat": 22.0.1
     "@eeacms/volto-eea-map": 3.3.1
     "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-n2k": 1.0.33
