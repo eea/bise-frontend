@@ -158,7 +158,7 @@
   "dependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "7.18.6",
     "@eeacms/volto-bise": "2.0.9",
-    "@eeacms/volto-block-toc": "3.0.8",
+    "@eeacms/volto-block-toc": "4.0.0",
     "@eeacms/volto-datablocks": "6.4.1",
     "@eeacms/volto-eea-kitkat": "23.2.0",
     "@eeacms/volto-eea-map": "3.3.1",
