@@ -1961,6 +1961,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-data-table@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@eeacms/volto-block-data-table@npm:0.1.2"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+  checksum: 656146a892febeeed39c8e38587e3716731485ab303ad2e89ee3743ef2cb85c676e2863c6a3bdccae862fdf6c1e22f7895f8dcdb7750724c880d4c196b68ff09
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-block-divider@npm:6.2.0":
   version: 6.2.0
   resolution: "@eeacms/volto-block-divider@npm:6.2.0"
@@ -2102,14 +2111,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:23.2.0":
-  version: 23.2.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:23.2.0"
+"@eeacms/volto-eea-kitkat@npm:24.0.0":
+  version: 24.0.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:24.0.0"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 10.4.6
     "@eeacms/volto-anchors": 0.7.0
     "@eeacms/volto-banner": 3.1.5
+    "@eeacms/volto-block-data-table": 0.1.2
     "@eeacms/volto-block-divider": 6.2.0
     "@eeacms/volto-block-image-cards": 1.3.8
     "@eeacms/volto-block-style": 6.1.0
@@ -2119,7 +2129,7 @@ __metadata:
     "@eeacms/volto-corsproxy": 3.1.5
     "@eeacms/volto-description-block": 1.2.4
     "@eeacms/volto-group-block": 6.4.0
-    "@eeacms/volto-hero-block": 5.5.0
+    "@eeacms/volto-hero-block": 6.0.1
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-matomo": 4.2.1
     "@eeacms/volto-metadata-block": 6.0.6
@@ -2145,7 +2155,7 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.1.4
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: ac6ac149798606d8f31bd47084dd49e75f55dbebca1c0ae3ba9881b5e6295cea453802c76222d429b1d07662d7a507a2538099a76990d8f360c826d9492ab894
+  checksum: 159b1712c6e605f314cbd5604f3f7c82faa02770340501d018986976dd923eb8ebd4828d5985b38a982dfab4e09cd4a3036b92e4540aaeae52df6b57b333bed2
   languageName: node
   linkType: hard
 
@@ -2200,13 +2210,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-hero-block@npm:5.5.0":
-  version: 5.5.0
-  resolution: "@eeacms/volto-hero-block@npm:5.5.0"
+"@eeacms/volto-hero-block@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@eeacms/volto-hero-block@npm:6.0.1"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": ^1.0.1
-  checksum: acfd68a37e08e541a41ebc6ba4af8a10876a91e4020d4a1435b9da2224772b8823a0aeded6a2240f58eabd345c907eab93fc2802854b85722991d8ab6ccf1425
+  checksum: 01dc1469cec0f04d85a20245e7b92c4259df865460cb4344b3da771274d645190aeb25eea2c1d9145c62625f56520b734438c6ce3f3bed94a35939855ee9b3bc
   languageName: node
   linkType: hard
 
@@ -8263,7 +8273,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 4.0.0
     "@eeacms/volto-datablocks": 6.4.1
-    "@eeacms/volto-eea-kitkat": 23.2.0
+    "@eeacms/volto-eea-kitkat": 24.0.0
     "@eeacms/volto-eea-map": 3.3.1
     "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-n2k": 1.0.33
