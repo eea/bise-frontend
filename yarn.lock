@@ -2111,9 +2111,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:24.0.0":
-  version: 24.0.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:24.0.0"
+"@eeacms/volto-eea-kitkat@npm:24.0.1":
+  version: 24.0.1
+  resolution: "@eeacms/volto-eea-kitkat@npm:24.0.1"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 10.4.6
@@ -2149,13 +2149,13 @@ __metadata:
     "@eeacms/volto-timeline-block": 1.1.5
     "@eeacms/volto-toolbar-actions": 1.0.3
     "@eeacms/volto-widget-dataprovenance": 0.4.3
-    "@eeacms/volto-widget-geolocation": 5.3.0
+    "@eeacms/volto-widget-geolocation": 5.3.1
     "@eeacms/volto-widget-temporal-coverage": 5.2.0
     "@eeacms/volto-widget-theme-picker": 1.1.5
     "@eeacms/volto-widget-toggle": 3.1.4
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 159b1712c6e605f314cbd5604f3f7c82faa02770340501d018986976dd923eb8ebd4828d5985b38a982dfab4e09cd4a3036b92e4540aaeae52df6b57b333bed2
+  checksum: 0ecee27338cad8a8340ee8872e40feee6131c14ac1f1731812503c6216d66850c121eb7216facbb70aa7e2c3efb4092c3e1fcc9843b0aa6449ccd03b9407c18b
   languageName: node
   linkType: hard
 
@@ -2515,13 +2515,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:5.3.0":
-  version: 5.3.0
-  resolution: "@eeacms/volto-widget-geolocation@npm:5.3.0"
+"@eeacms/volto-widget-geolocation@npm:5.3.1":
+  version: 5.3.1
+  resolution: "@eeacms/volto-widget-geolocation@npm:5.3.1"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     i18n-iso-countries: 6.2.1
-  checksum: db170f20981051c68706a9b2f60c7942cd6ee16d4e0e82ac7c730968d7d004df8ffae6997b3e71514a7c3206c5438ae15bd0dc1322b9a062a6df35569d4d6c5d
+  checksum: 91a63a9faa29097b1bb4298dc8abf6a429a80b20300fee848f94f9020b361493f67d74a57d829857b306bf01df00e9a307189bba276af496856b461d6404265a
   languageName: node
   linkType: hard
 
@@ -8273,7 +8273,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 4.0.0
     "@eeacms/volto-datablocks": 6.4.1
-    "@eeacms/volto-eea-kitkat": 24.0.0
+    "@eeacms/volto-eea-kitkat": 24.0.1
     "@eeacms/volto-eea-map": 3.3.1
     "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-n2k": 1.0.33
