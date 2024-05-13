@@ -2111,6 +2111,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-eea-design-system@npm:*":
+  version: 1.23.8
+  resolution: "@eeacms/volto-eea-design-system@npm:1.23.8"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.30.1
+    remixicon: 3.6.0
+    slick-carousel: ^1.8.1
+  checksum: f4e5cd15123dc8bcb7fa1e1757ed0ccf6d1c7df680aeaa4192318cc36837d36e147bdab1ad69573e7757f8482584d97b2d66ca4955459ff3f766a75fd93b8ad0
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-kitkat@npm:24.0.1":
   version: 24.0.1
   resolution: "@eeacms/volto-eea-kitkat@npm:24.0.1"
@@ -2279,13 +2294,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.0.33":
-  version: 1.0.33
-  resolution: "@eeacms/volto-n2k@npm:1.0.33"
+"@eeacms/volto-n2k@npm:1.0.34":
+  version: 1.0.34
+  resolution: "@eeacms/volto-n2k@npm:1.0.34"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
     "@eeacms/volto-resize-helper": "*"
+    "@eeacms/volto-spotlight": "*"
     "@eeacms/volto-tabs-block": "*"
     d3: ^7.6.1
     d3-shape: ^3.1.0
@@ -2295,7 +2311,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: 505e1f57493169ad08c1ba38372789130b8dffb3ce36c92f1d2d850094f2c073615ef88f8a5178d1b528c26281d133e5751b8cf37fe9ae6d8bffe7fda0334bda
+  checksum: d4202659452e9fdec0642fc0e9da5bd514d9b5e3128670990e3b8ec1e7b70e8f0f58727fb2fb105ffb9c50022dfd76dfa6d216584d23c6399cdf3e97e127b72a
   languageName: node
   linkType: hard
 
@@ -2431,6 +2447,15 @@ __metadata:
   dependencies:
     "@eeacms/volto-slate-footnote": "*"
   checksum: b897302cf68bd26ec7e3f1dbf6d07d90972cf1553aacece530c3d2c800ce5bb427f6cd6d4bd88f262dd335b212145f47b98a8fc49c8ff722254c0019693b5f69
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-spotlight@npm:*":
+  version: 2.1.0
+  resolution: "@eeacms/volto-spotlight@npm:2.1.0"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+  checksum: 88138efc801c17556500a50246d8b9363eda5ac9368652b09e3de74455fd149ea1cfaa3fdb9a921f98737bafcee59a29c3a8ea638a0bf9864ce096146eb336fe
   languageName: node
   linkType: hard
 
@@ -2990,6 +3015,13 @@ __metadata:
     react: ^16.8.0 || ^17
     react-dom: ^16.8.0 || ^17
   checksum: 030380d5ea00234e5aa7e014d4e1d268a3dee2d59a2564e4d6a4083cab9ece84f3f3643a8474b53a18a855a0894e91d33d0e0d756008046d59e750603b5b1557
+  languageName: node
+  linkType: hard
+
+"@fontsource/roboto@npm:4.5.8":
+  version: 4.5.8
+  resolution: "@fontsource/roboto@npm:4.5.8"
+  checksum: 460b6de2c9f7a172192c3f5bdd3aa11f78f0b6660dca9dc2b9d8207272b50c55b5a8f2da68e11e7fbaf44c7d3cf4191030eecce9def79fab75d4cc1de39754e2
   languageName: node
   linkType: hard
 
@@ -8276,7 +8308,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 24.0.1
     "@eeacms/volto-eea-map": 4.0.0
     "@eeacms/volto-embed": 10.0.0
-    "@eeacms/volto-n2k": 1.0.33
+    "@eeacms/volto-n2k": 1.0.34
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 10.0.1
     "@eeacms/volto-slate-dataentity": 3.0.1
@@ -23508,7 +23540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-lazy-load-image-component@npm:^1.4.0, react-lazy-load-image-component@npm:^1.5.1":
+"react-lazy-load-image-component@npm:1.5.6, react-lazy-load-image-component@npm:^1.4.0, react-lazy-load-image-component@npm:^1.5.1":
   version: 1.5.6
   resolution: "react-lazy-load-image-component@npm:1.5.6"
   dependencies:
@@ -24873,6 +24905,13 @@ __metadata:
   dependencies:
     mdast-squeeze-paragraphs: ^4.0.0
   checksum: 2071eb74d0ecfefb152c4932690a9fd950c3f9f798a676f1378a16db051da68fb20bf288688cc153ba5019dded35408ff45a31dfe9686eaa7a9f1df9edbb6c81
+  languageName: node
+  linkType: hard
+
+"remixicon@npm:3.6.0":
+  version: 3.6.0
+  resolution: "remixicon@npm:3.6.0"
+  checksum: 602815dd4af6f087fe661f2591dad76476aa132e9cf062195130d33b289e2426319efd20c622b167429c1de88b3c08e062194f079df2773698dd239b62248aec
   languageName: node
   linkType: hard
 
