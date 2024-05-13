@@ -2478,14 +2478,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@eeacms/volto-tableau@npm:8.0.1"
+"@eeacms/volto-tableau@npm:8.0.2":
+  version: 8.0.2
+  resolution: "@eeacms/volto-tableau@npm:8.0.2"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: 5235f53fe2eb3ae7fed19f4e454561ba1f45d0276205ae8b58a72dd798cb197f99efe55d16cd9bb83539ae05f2a8aabbde6fdad2863ae55f3e745212f39e5049
+  checksum: bb84571c3cff4e5539c455127be96d10144f166a378b5747351aa7f1f4d3a90e55363a24af8b4213b914f6f5bcfb784ea0ca748d04c191a3f6e380e9909289e0
   languageName: node
   linkType: hard
 
@@ -8313,7 +8313,7 @@ __metadata:
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 10.0.2
     "@eeacms/volto-slate-dataentity": 3.0.1
-    "@eeacms/volto-tableau": 8.0.1
+    "@eeacms/volto-tableau": 8.0.2
     "@eeacms/volto-tabs-block": 8.0.0
     "@eeacms/volto-webmap": 0.2.1
     "@plone/scripts": ^2.1.2
