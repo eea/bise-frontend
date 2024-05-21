@@ -217,7 +217,7 @@
     "@eeacms/volto-spotlight": "2.0.10",
     "@eeacms/volto-tableau": "5.0.2",
     "@eeacms/volto-workflow-progress": "3.0.1",
-    "@plone/volto": "16.20.6",
+    "@plone/volto": "16.31.7",
     "swiper": "9.1.1"
   },
   "devDependencies": {
