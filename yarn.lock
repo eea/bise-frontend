@@ -1858,9 +1858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.10":
-  version: 1.2.10
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.10"
+"@eeacms/volto-bise-policy@npm:1.2.11":
+  version: 1.2.11
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.11"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -1870,7 +1870,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: d6c8412789eb656fd098fcaf60bdcb09e34e21d839262d651f36f3eb0065970fb705d5556bb4e4b88395ba8bf71f166813db67a0636b2923ea7dd4f78cfba3af
+  checksum: 8050ee617561205732b8b202bbcda3ed6eecb4aba034975333fd3dd852e8a4d17134086af8274ca71ed4bd4ccb550ad01e1b9ea3e9e33e8efb7ed64d7cf70992
   languageName: node
   linkType: hard
 
@@ -1946,10 +1946,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@github:eea/volto-datablocks#4.0.8":
-  version: 4.0.7
-  resolution: "@eeacms/volto-datablocks@https://github.com/eea/volto-datablocks.git#commit=6f188e1e4385dd52dc56bb10111f85faa171294f"
+"@eeacms/volto-datablocks@npm:6.4.1":
+  version: 6.4.1
+  resolution: "@eeacms/volto-datablocks@npm:6.4.1"
   dependencies:
+    "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-group-block": "*"
     "@eeacms/volto-matomo": "*"
@@ -1957,10 +1958,9 @@ __metadata:
     date-fns: 2.28.0
     humanize-plus: ^1.8.2
     object-hash: 2.2.0
-    react-countup: 6.1.1
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
-  checksum: 00833ebcb495e59360c901999d014eda8228a93bc1126a53aea15be3ae7548f9caca0c4163a44380b6d41261b08e36f8ba67036637dd442da4dfa71db3cc5097
+  checksum: ce95a02b7b317daa20650549e0288bacdab025f7b1e34cfe710dfe55a6b537b2e3afefed7a23e4c832b3da49d716f11b8c899fd52df8a4774d9fb60b76ff2c7d
   languageName: node
   linkType: hard
 
@@ -8318,9 +8318,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.10
+    "@eeacms/volto-bise-policy": 1.2.11
     "@eeacms/volto-block-toc": 3.0.5
-    "@eeacms/volto-datablocks": 4.0.8
+    "@eeacms/volto-datablocks": 6.4.1
     "@eeacms/volto-eea-design-system": 1.23.0
     "@eeacms/volto-eea-kitkat": 16.0.4
     "@eeacms/volto-eea-map": 4.0.0
@@ -23195,17 +23195,6 @@ __metadata:
   peerDependencies:
     react: ">= 16.3.0"
   checksum: b734dcad35d790ced8c8fc3b19e3eb1f546e0923c637bad888c7c0096dbe2c996668416a49b48827ec7ad2d81522f1b57567694c791e1a5fb89ca41b39158a74
-  languageName: node
-  linkType: hard
-
-"react-countup@npm:6.1.1":
-  version: 6.1.1
-  resolution: "react-countup@npm:6.1.1"
-  dependencies:
-    countup.js: ^2.0.8
-  peerDependencies:
-    react: ">= 16.3.0"
-  checksum: 5c48c30d51ff03a5c31afe67fa4db4c240910608b78b3929ffe342e6ea09163283cc0eea5a4fd1699f10fcb76de858cc562121d27ff12033a59ef0bbe3a2445f
   languageName: node
   linkType: hard
 

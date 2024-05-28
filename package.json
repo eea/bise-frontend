@@ -159,7 +159,7 @@
   "resolutions": {
     "@eeacms/volto-eea-design-system": "1.23.0",
     "@eeacms/volto-eea-website-theme": "1.18.1",
-    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#4.0.8",
+    "@eeacms/volto-datablocks": "6.4.1",
     "react-countup/countup.js": "2.5.0",
     "d3": "6.7.0",
     "@eeacms/volto-accordion-block": "9.0.0",
@@ -202,9 +202,9 @@
     "@eeacms/countup": "^2.0.6"
   },
   "dependencies": {
-    "@eeacms/volto-bise-policy": "1.2.10",
+    "@eeacms/volto-bise-policy": "1.2.11",
     "@eeacms/volto-block-toc": "3.0.5",
-    "@eeacms/volto-datablocks": "4.0.8",
+    "@eeacms/volto-datablocks": "6.4.1",
     "@eeacms/volto-eea-design-system": "1.23.0",
     "@eeacms/volto-eea-kitkat": "16.0.4",
     "@eeacms/volto-eea-map": "4.0.0",
