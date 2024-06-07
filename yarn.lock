@@ -1980,20 +1980,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-image-cards@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-block-image-cards@npm:2.0.0"
+"@eeacms/volto-block-image-cards@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-block-image-cards@npm:2.0.1"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     react-lazy-load-image-component: ^1.4.0
-    react-resize-detector: 6.7.6
+    react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: ^1.8.1
   peerDependencies:
     classnames: 2.2.6
     react-loadable: 5.5.0
     uuid: 8.3.1
-  checksum: f3d1bf789379a847fe18c91e321eb7f32d137e866ac02e6c7a0746b1923f848761d61b5cbd99adf2ae37c77751a73dd11a6d6d22b2db5e084b23d4d454c82374
+  checksum: 56534b7d1b6b9d367be529d3638dd0534885134d0de97c384f25f6856b6037822965f4785b77cfc6d970ff60e08fa1e232acd05af3554c6ccedaca396472ca10
   languageName: node
   linkType: hard
 
@@ -2008,14 +2008,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@eeacms/volto-block-style@npm:7.0.0"
+"@eeacms/volto-block-style@npm:7.1.0":
+  version: 7.1.0
+  resolution: "@eeacms/volto-block-style@npm:7.1.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
-  checksum: 0115cc35452554d00abe653669935c568bf4d55bf70aed7b9d6bd1a78cae8ee1130af9f56e8ee39b215cea4405e15fd4f2a6a0384275020e38122f13bba19997
+  checksum: 64e9283275656f98db41d6cbfb6eb65c8bb34f88b2f6ee2cb3150dcd75b24b6f376010407a800d109f2130abe598032fed8da0af55e64bab08c2ade20d7523c1
   languageName: node
   linkType: hard
 
@@ -2105,10 +2105,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-description-block@npm:2.0.0"
-  checksum: f24f8d094ca32325119f3bbd2da33488bc1d1dc9ebc80cefb9c7224ea8ae30860a3b55894011effe892dcb15f551dd9dcf423c5501aa83860bfd12373b667e0b
+"@eeacms/volto-description-block@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-description-block@npm:2.0.1"
+  checksum: 4d80c24d63562bf86ba06f773f76cb4d03c12bb98552a0cfc974cbd845cc9000e12f65379aca28003fee2618eb7dc931963301fefbf550fad23da714f56f173f
   languageName: node
   linkType: hard
 
@@ -2127,9 +2127,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:25.0.3":
-  version: 25.0.3
-  resolution: "@eeacms/volto-eea-kitkat@npm:25.0.3"
+"@eeacms/volto-eea-kitkat@npm:25.1.0":
+  version: 25.1.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:25.1.0"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 11.0.0
@@ -2137,14 +2137,14 @@ __metadata:
     "@eeacms/volto-banner": 4.0.0
     "@eeacms/volto-block-data-table": 1.1.0
     "@eeacms/volto-block-divider": 7.0.1
-    "@eeacms/volto-block-image-cards": 2.0.0
-    "@eeacms/volto-block-style": 7.0.0
+    "@eeacms/volto-block-image-cards": 2.0.1
+    "@eeacms/volto-block-style": 7.1.0
     "@eeacms/volto-block-toc": 5.0.2
     "@eeacms/volto-call-to-action-block": 5.0.0
     "@eeacms/volto-columns-block": 8.0.0
     "@eeacms/volto-controlpanel": 1.0.0
     "@eeacms/volto-corsproxy": 4.0.0
-    "@eeacms/volto-description-block": 2.0.0
+    "@eeacms/volto-description-block": 2.0.1
     "@eeacms/volto-group-block": 7.0.0
     "@eeacms/volto-hero-block": 7.0.1
     "@eeacms/volto-listing-block": 8.0.3
@@ -2162,7 +2162,7 @@ __metadata:
     "@eeacms/volto-statistic-block": 5.0.0
     "@eeacms/volto-tabs-block": 8.0.0
     "@eeacms/volto-tags-block": 3.0.0
-    "@eeacms/volto-taxonomy": 5.0.0
+    "@eeacms/volto-taxonomy": 5.1.0
     "@eeacms/volto-timeline-block": 2.0.0
     "@eeacms/volto-toolbar-actions": 2.0.0
     "@eeacms/volto-widget-dataprovenance": 1.0.0
@@ -2171,7 +2171,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 85bd135d187d33b9fbc1a68423ef5828b8676a71a35974073c1595c95eb153be1469202f9c8574707704d58707b1adda9b0ae2d9fc82afb86195ce628802e891
+  checksum: 0863e93618cbf59be4bb9f47129f3e353ad857cf7a94eb571bb296bdca88ce4ad868e8b3b620e11b2a9b37b1bda1504544e79a7e94d7412a8314f63814963ae6
   languageName: node
   linkType: hard
 
@@ -2512,12 +2512,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-taxonomy@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-taxonomy@npm:5.0.0"
+"@eeacms/volto-taxonomy@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@eeacms/volto-taxonomy@npm:5.1.0"
   dependencies:
     react-sortable-tree: 2.8.0
-  checksum: ad3c1e0c2d6a7e8a8fa7ea0cf4daed6d2c7d419cb45fba1239cd9fef96d10eb6ce3a5e9762f4699eefeaaa64b20a98e7a6cc9f14e4abd21e9c579c90541054e1
+  checksum: 226b8b7b536cf2c155c141ee68a92d5c01ce78f8da3129a3558fb768787a5370d020678f1f9d7821989acf55cb677659aaf290313d5f744c82633f65c4fc7a10
   languageName: node
   linkType: hard
 
@@ -8309,7 +8309,7 @@ __metadata:
     "@eeacms/volto-bise": 2.0.9
     "@eeacms/volto-block-toc": 5.0.2
     "@eeacms/volto-datablocks": 7.1.0
-    "@eeacms/volto-eea-kitkat": 25.0.3
+    "@eeacms/volto-eea-kitkat": 25.1.0
     "@eeacms/volto-eea-map": 4.1.0
     "@eeacms/volto-embed": 10.0.2
     "@eeacms/volto-n2k": 1.0.35
@@ -23756,21 +23756,6 @@ __metadata:
     react: ^16
     styled-components: ^4
   checksum: 96e14c479c9bd13595b09307bddb427b1148bbe18b2e1a2c9270fa3de4cdb7ca2a77a3a4521f748dafedb123ed4b2233aec69292cd9560c0e81f7c41e4ea3f6a
-  languageName: node
-  linkType: hard
-
-"react-resize-detector@npm:6.7.6":
-  version: 6.7.6
-  resolution: "react-resize-detector@npm:6.7.6"
-  dependencies:
-    "@types/resize-observer-browser": ^0.1.6
-    lodash.debounce: ^4.0.8
-    lodash.throttle: ^4.1.1
-    resize-observer-polyfill: ^1.5.1
-  peerDependencies:
-    react: ^16.0.0 || ^17.0.0
-    react-dom: ^16.0.0 || ^17.0.0
-  checksum: f2a7b0fbd43fb872f9f283fa9a5ea796c33daeb254ea368a46082a44c0c51e2492e8e67e88df9ca098072e541dc2d1ff5653edc26ed95d7a2da138cd8975a6a1
   languageName: node
   linkType: hard
 
