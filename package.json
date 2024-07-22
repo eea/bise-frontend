@@ -217,7 +217,7 @@
     "@eeacms/volto-searchlib": "0.5.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-spotlight": "2.0.10",
-    "@eeacms/volto-tableau": "8.0.2",
+    "@eeacms/volto-tableau": "8.0.4",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@plone/volto": "16.20.6",
     "swiper": "9.1.1"

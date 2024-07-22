@@ -2126,12 +2126,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-metadata-block@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@eeacms/volto-metadata-block@npm:5.1.1"
+"@eeacms/volto-metadata-block@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@eeacms/volto-metadata-block@npm:7.0.1"
   dependencies:
-    "@eeacms/volto-widgets-view": "*"
-  checksum: ecfce3580d93190402c0e8476622c0aba16ee689cafca889e6099603d6cf03b32c2db61007d7522ba57f7cf36ae932bcc57180b9663644a5e64229e7fe63aacc
+    razzle-plugin-scss: 4.2.18
+  checksum: 4aae223f63ee255b073d8b26817a40baf79088fb19152ae1ec78c0da6f3d938a99192f1cfb899d33ed2e2501e5bb3e9703f19d6ffe09814752d20f5b9212dfd4
   languageName: node
   linkType: hard
 
@@ -2335,14 +2335,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:8.0.2":
-  version: 8.0.2
-  resolution: "@eeacms/volto-tableau@npm:8.0.2"
+"@eeacms/volto-tableau@npm:8.0.4":
+  version: 8.0.4
+  resolution: "@eeacms/volto-tableau@npm:8.0.4"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: bb84571c3cff4e5539c455127be96d10144f166a378b5747351aa7f1f4d3a90e55363a24af8b4213b914f6f5bcfb784ea0ca748d04c191a3f6e380e9909289e0
+  checksum: 63a009c55d8d3fb59da7c8fa31b55e55b88c0e203075c5e5ce1f32bfb4f31c94de303da585c7f54773e5febffd830d81bfcb70367620f27f328fa87cad7e884a
   languageName: node
   linkType: hard
 
@@ -8333,7 +8333,7 @@ __metadata:
     "@eeacms/volto-searchlib": 0.5.7
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-spotlight": 2.0.10
-    "@eeacms/volto-tableau": 8.0.2
+    "@eeacms/volto-tableau": 8.0.4
     "@eeacms/volto-workflow-progress": 3.0.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.20.6
