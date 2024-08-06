@@ -162,7 +162,7 @@
     "@eeacms/volto-datablocks": "6.4.1",
     "react-countup/countup.js": "2.5.0",
     "d3": "6.7.0",
-    "@eeacms/volto-accordion-block": "9.0.0",
+    "@eeacms/volto-accordion-block": "11.0.1",
     "@eeacms/volto-anchors": "0.3.2",
     "@eeacms/volto-banner": "3.1.2",
     "@eeacms/volto-block-divider": "6.1.2",
