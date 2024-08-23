@@ -188,7 +188,7 @@
     "@eeacms/volto-slate-zotero": "5.2.1",
     "@eeacms/volto-statistic-block": "1.3.0",
     "@eeacms/volto-tabs-block": "8.0.1",
-    "@eeacms/volto-tags-block": "1.2.0",
+    "@eeacms/volto-tags-block": "3.0.0",
     "@eeacms/volto-taxonomy": "5.1.1",
     "@eeacms/volto-timeline-block": "1.1.1",
     "@eeacms/volto-widget-dataprovenance": "0.3.3",
