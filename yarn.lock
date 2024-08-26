@@ -1930,7 +1930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:3.0.5":
+"@eeacms/volto-block-toc@npm:*":
   version: 3.0.5
   resolution: "@eeacms/volto-block-toc@npm:3.0.5"
   dependencies:
@@ -1946,6 +1946,16 @@ __metadata:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
   checksum: 29b2eb53cdb138cd7e11aa49d3ce5f535e5b59d458f1ae89335c6c3632981aec993df1c6551452ecd0b87f0c66e495d384ef1503615fed3c6da010da210696bd
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-block-toc@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@eeacms/volto-block-toc@npm:6.0.0"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 3045e1bea6830fe7a06d044ecada06b3da36d2afe3597b6e2bbd7f4b7beb23f181afe1a1db97c4b692fca5245b03fd320ccb828846458da481a6d46f94a6a811
   languageName: node
   linkType: hard
 
@@ -8704,7 +8714,7 @@ __metadata:
   resolution: "bise-frontend@workspace:."
   dependencies:
     "@eeacms/volto-bise-policy": 1.2.11
-    "@eeacms/volto-block-toc": 3.0.5
+    "@eeacms/volto-block-toc": 6.0.0
     "@eeacms/volto-datablocks": 7.2.1
     "@eeacms/volto-eea-design-system": 1.32.0
     "@eeacms/volto-eea-kitkat": 25.2.0
