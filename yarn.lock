@@ -1902,31 +1902,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-image-cards@npm:1.3.6":
-  version: 1.3.6
-  resolution: "@eeacms/volto-block-image-cards@npm:1.3.6"
+"@eeacms/volto-block-image-cards@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-block-image-cards@npm:2.0.1"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     react-lazy-load-image-component: ^1.4.0
-    react-resize-detector: 6.7.6
-    react-slick: ^0.24.0
+    react-resize-detector: 7.1.2
+    react-slick: ^0.30.1
     slick-carousel: ^1.8.1
   peerDependencies:
     classnames: 2.2.6
     react-loadable: 5.5.0
     uuid: 8.3.1
-  checksum: 132a5012defb6be8f3dd95ab00edee0b1388ea1c74d2dc544fc984f965ff4f724d7e7b30e61d7154274b927eefc5832c3b40f5d12788096c13aba077c34e67ed
+  checksum: 56534b7d1b6b9d367be529d3638dd0534885134d0de97c384f25f6856b6037822965f4785b77cfc6d970ff60e08fa1e232acd05af3554c6ccedaca396472ca10
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:5.2.1":
-  version: 5.2.1
-  resolution: "@eeacms/volto-block-style@npm:5.2.1"
+"@eeacms/volto-block-style@npm:7.1.0":
+  version: 7.1.0
+  resolution: "@eeacms/volto-block-style@npm:7.1.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
-  checksum: 0e77259e8ad54627edaab20e5dcd33f9373b47337d75aa092acb9b6be141f2bdfaf884ed015b224202bb242ec19eacbf660d007600cfd17a07d04b9545efd98b
+  checksum: 64e9283275656f98db41d6cbfb6eb65c8bb34f88b2f6ee2cb3150dcd75b24b6f376010407a800d109f2130abe598032fed8da0af55e64bab08c2ade20d7523c1
   languageName: node
   linkType: hard
 
@@ -1949,12 +1949,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-call-to-action-block@npm:4.1.4":
-  version: 4.1.4
-  resolution: "@eeacms/volto-call-to-action-block@npm:4.1.4"
+"@eeacms/volto-call-to-action-block@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@eeacms/volto-call-to-action-block@npm:5.1.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: b527f21090be1ea73ab8224005cb95751aaa0262040c668abf445ec6e28d1c8b2983c4f2207a021ad1c6201282de74098ede0f4b490f6aa01303927cd2436c03
+  checksum: 623159f62703752b3aaa1473c92a7dbf8ebef25b68f4ad44a2b6e11cafb5466efd8e036c9e1ad85f4469d031d4d2f91b425d157270ff35b5865871f03655f1c7
   languageName: node
   linkType: hard
 
@@ -2000,16 +2000,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@eeacms/volto-description-block@npm:1.1.2"
-  checksum: d3071942913b3f107fbe73bbf7459cfe943aab23612b1e3ff800770a61559427792f6d156830104cdbbf74c9747888cd7d54719a060f71a92380035f4e6819e7
+"@eeacms/volto-description-block@npm:2.2.1":
+  version: 2.2.1
+  resolution: "@eeacms/volto-description-block@npm:2.2.1"
+  checksum: 626958b2c274f33817ddd78fefaa476c46101ab96282e362d803ffef32c0b207346a6bb4dd7c3ba4a37f1c0668f5c0619d4ff5f8d6f22958007c1928223b6499
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.31.2":
-  version: 1.31.2
-  resolution: "@eeacms/volto-eea-design-system@npm:1.31.2"
+"@eeacms/volto-eea-design-system@npm:1.32.0":
+  version: 1.32.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.32.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2018,7 +2018,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 3.6.0
     slick-carousel: ^1.8.1
-  checksum: 5acb3c758ace4628bc8ed1972cca6c607dd0fd765ebbde3797401fc4fd6ff812cdfa83a5733e73229f6ce12669a1dbc67cedbb1198c704e58e3edb905aef9aef
+  checksum: 1f6973100443480cf46ed1785237f9fdd682ab92d2b20fd60771b3323905011e8fb980782542ad83e345b59c762742c12f36f4b4bfd1b484477f843a165eb280
   languageName: node
   linkType: hard
 
@@ -2422,16 +2422,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@eeacms/volto-tabs-block@npm:8.0.1"
+"@eeacms/volto-tabs-block@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@eeacms/volto-tabs-block@npm:8.1.0"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.30.1
     slick-carousel: ^1.8.1
-  checksum: 21867f4c40ec5e9135023e9189d7a4adf504f0a6448ada2590f081b26a3ec495c7179705d214e801a175f015233716c3b9de37e1ef3cf6f17d7b0aa23d1c8f2c
+  checksum: b1c00fab4b747299b6d6bcdd5b3af31da367000a86129791f2f6c30e29a30eb803b49782d010d081b3f0d0d9eca6b91d831d1a2450d986a2e0742e2ff6a53f90
   languageName: node
   linkType: hard
 
@@ -8706,7 +8706,7 @@ __metadata:
     "@eeacms/volto-bise-policy": 1.2.11
     "@eeacms/volto-block-toc": 3.0.5
     "@eeacms/volto-datablocks": 7.2.1
-    "@eeacms/volto-eea-design-system": 1.31.2
+    "@eeacms/volto-eea-design-system": 1.32.0
     "@eeacms/volto-eea-kitkat": 25.2.0
     "@eeacms/volto-eea-map": 5.0.3
     "@eeacms/volto-eea-website-theme": 2.1.6
@@ -24345,21 +24345,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-resize-detector@npm:6.7.6":
-  version: 6.7.6
-  resolution: "react-resize-detector@npm:6.7.6"
-  dependencies:
-    "@types/resize-observer-browser": ^0.1.6
-    lodash.debounce: ^4.0.8
-    lodash.throttle: ^4.1.1
-    resize-observer-polyfill: ^1.5.1
-  peerDependencies:
-    react: ^16.0.0 || ^17.0.0
-    react-dom: ^16.0.0 || ^17.0.0
-  checksum: f2a7b0fbd43fb872f9f283fa9a5ea796c33daeb254ea368a46082a44c0c51e2492e8e67e88df9ca098072e541dc2d1ff5653edc26ed95d7a2da138cd8975a6a1
-  languageName: node
-  linkType: hard
-
 "react-resize-detector@npm:7.1.2":
   version: 7.1.2
   resolution: "react-resize-detector@npm:7.1.2"
@@ -24591,22 +24576,6 @@ __metadata:
     react: ^16.0.0
     react-dom: ^16.0.0
   checksum: 1f8670b4a0d5bd676101a3fabd4fd4e02b4b6009191adc39261095c1255744b8062bf15c7f8a622a29a2f18ec80eac9d70d20906a5546ba621d387d726f62cab
-  languageName: node
-  linkType: hard
-
-"react-slick@npm:^0.24.0":
-  version: 0.24.0
-  resolution: "react-slick@npm:0.24.0"
-  dependencies:
-    classnames: ^2.2.5
-    enquire.js: ^2.1.6
-    json2mq: ^0.2.0
-    lodash.debounce: ^4.0.8
-    resize-observer-polyfill: ^1.5.0
-  peerDependencies:
-    react: ^0.14.0 || ^15.0.1 || ^16.0.0
-    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0
-  checksum: af03d42cc940795d417b00a4eccb11709c1120f2702121d41cab0bf956ccfde7711aa9361e791ea3bc744662c4d911077c59ab114358ff57f27a9c4625308142
   languageName: node
   linkType: hard
 
