@@ -1842,12 +1842,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:11.0.1":
-  version: 11.0.1
-  resolution: "@eeacms/volto-accordion-block@npm:11.0.1"
+"@eeacms/volto-accordion-block@npm:11.0.2":
+  version: 11.0.2
+  resolution: "@eeacms/volto-accordion-block@npm:11.0.2"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: f8cce7c9ceab9003dc9790206b9bf3023c7ff7995a7b680b8d7e720c82a24439fcc11d97fc9b2231bc8d767cae269f680b6ec76701b5fd57704f9f8f0c0860cc
+  checksum: a16f26b215bd603461ef303658dc239451bb5d7f8a6a6130e0896e59a0aa45ad1ea9af09a75926234e3e08bb49def7ca14d8a299527a577bc270e46cf0b84f38
   languageName: node
   linkType: hard
 
@@ -2007,9 +2007,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.32.4":
-  version: 1.32.4
-  resolution: "@eeacms/volto-eea-design-system@npm:1.32.4"
+"@eeacms/volto-eea-design-system@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.33.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2018,7 +2018,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 3.6.0
     slick-carousel: ^1.8.1
-  checksum: 877bfc0da646bb32ffff50255cc251e2af1bfe00f8ba5ff5b24fbb12bd75ad5794a322e6d9e4eca135dd58375d828f739b4fadd4ae73485c226985434aa50dc1
+  checksum: 26802e8bae2a296fa9654da8886e6d2396a6f3f2990a4cc480f3418ac5ce3f64c35658ae3e4842f18c723a90637cd00afa8de346bffa4cd65ff83a396ae91105
   languageName: node
   linkType: hard
 
@@ -2362,10 +2362,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:7.0.1":
-  version: 7.0.1
-  resolution: "@eeacms/volto-slate-footnote@npm:7.0.1"
-  checksum: 1c05a3b046bc73f9864276f1cb87eda6fec71d06e1fd59656ac2efe477490c62b2386917872aa11dce2212e5cd6d3e50ad46dd1aacc27832b4028a9acba55252
+"@eeacms/volto-slate-footnote@npm:7.1.0":
+  version: 7.1.0
+  resolution: "@eeacms/volto-slate-footnote@npm:7.1.0"
+  checksum: 61322accde7e391f983a01bb06b462887d93ace2491cab9f73447c9dc8ba90ae684dba85502c339641f524b750a58a077a80ce7aad629926072f8287033af90b
   languageName: node
   linkType: hard
 
@@ -8706,7 +8706,7 @@ __metadata:
     "@eeacms/volto-bise-policy": 1.2.11
     "@eeacms/volto-block-toc": 6.0.0
     "@eeacms/volto-datablocks": 7.2.2
-    "@eeacms/volto-eea-design-system": 1.32.4
+    "@eeacms/volto-eea-design-system": 1.33.0
     "@eeacms/volto-eea-kitkat": 25.3.0
     "@eeacms/volto-eea-map": 5.0.4
     "@eeacms/volto-eea-website-theme": 2.3.0
