@@ -1949,6 +1949,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-toc@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@eeacms/volto-block-toc@npm:6.0.1"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 64ddb4feaba901b1068ef22d7f1f80774aedbf36346111a91b466f14c8ee0dbc745f89b430c510db64f17527083e6e583c0d707e460b96036c9334efc520fa64
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-call-to-action-block@npm:5.1.1":
   version: 5.1.1
   resolution: "@eeacms/volto-call-to-action-block@npm:5.1.1"
@@ -2362,10 +2372,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@eeacms/volto-slate-footnote@npm:7.1.0"
-  checksum: 61322accde7e391f983a01bb06b462887d93ace2491cab9f73447c9dc8ba90ae684dba85502c339641f524b750a58a077a80ce7aad629926072f8287033af90b
+"@eeacms/volto-slate-footnote@npm:7.1.1":
+  version: 7.1.1
+  resolution: "@eeacms/volto-slate-footnote@npm:7.1.1"
+  checksum: 1e3f4cf08444bb8245cb55f4508188a8b72b7647e030606d4270206a7d41db22311a4a810ffb4cc85e9f6bef78ae47cd7f7e3aaebfcb4744346ed49a2d8e1a13
   languageName: node
   linkType: hard
 
@@ -8704,7 +8714,7 @@ __metadata:
   resolution: "bise-frontend@workspace:."
   dependencies:
     "@eeacms/volto-bise-policy": 1.2.11
-    "@eeacms/volto-block-toc": 6.0.0
+    "@eeacms/volto-block-toc": 6.0.1
     "@eeacms/volto-datablocks": 7.2.2
     "@eeacms/volto-eea-design-system": 1.33.0
     "@eeacms/volto-eea-kitkat": 25.4.0

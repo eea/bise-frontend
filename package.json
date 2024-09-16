@@ -203,7 +203,7 @@
   },
   "dependencies": {
     "@eeacms/volto-bise-policy": "1.2.11",
-    "@eeacms/volto-block-toc": "6.0.0",
+    "@eeacms/volto-block-toc": "6.0.1",
     "@eeacms/volto-datablocks": "7.2.2",
     "@eeacms/volto-eea-design-system": "1.33.0",
     "@eeacms/volto-eea-kitkat": "25.4.0",
