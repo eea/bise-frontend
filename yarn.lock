@@ -2070,9 +2070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:5.0.4":
-  version: 5.0.4
-  resolution: "@eeacms/volto-eea-map@npm:5.0.4"
+"@eeacms/volto-eea-map@npm:5.0.5":
+  version: 5.0.5
+  resolution: "@eeacms/volto-eea-map@npm:5.0.5"
   dependencies:
     "@arcgis/core": 4.29.10
     "@eeacms/volto-embed": "*"
@@ -2084,7 +2084,7 @@ __metadata:
     razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 6.5.5
-  checksum: adae6c230da4c676acb2356438a770c011eab4dd2082008d740cb2fa3f98cf91bbc289ce1423f92ab49c48ff429e38ce05dc083bb5a7007bbb7785957db0eafc
+  checksum: eee5d589a93f4d64e539812fe658fa592d3a7f383e0d450b859e4408ad54da4ff55b546368e66ff9dbc5d3320abf5cc07bf3a9778d0f3a0f8cbb2392dec5439d
   languageName: node
   linkType: hard
 
@@ -8708,7 +8708,7 @@ __metadata:
     "@eeacms/volto-datablocks": 7.2.2
     "@eeacms/volto-eea-design-system": 1.33.0
     "@eeacms/volto-eea-kitkat": 25.4.1
-    "@eeacms/volto-eea-map": 5.0.4
+    "@eeacms/volto-eea-map": 5.0.5
     "@eeacms/volto-eea-website-theme": 2.3.0
     "@eeacms/volto-embed": 10.1.0
     "@eeacms/volto-globalsearch": 1.0.15
