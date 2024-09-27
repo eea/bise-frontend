@@ -2226,9 +2226,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:10.0.8":
-  version: 10.0.8
-  resolution: "@eeacms/volto-plotlycharts@npm:10.0.8"
+"@eeacms/volto-plotlycharts@npm:10.0.9":
+  version: 10.0.9
+  resolution: "@eeacms/volto-plotlycharts@npm:10.0.9"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2238,7 +2238,7 @@ __metadata:
     react-chart-editor: 0.46.1
     react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-plotly.js: 2.6.0
-  checksum: edacf8603b74d0db895dd3cc434950dd05781ecb38b7029fec71f5ea10b7f6e5078367a00aaec719442a923bb93ab49ac94817ed11a2cd8efd782b742ea6cb00
+  checksum: d7195ad66afccf633f9cef42ed7e97dd0b6b1638e40ab08bf60d5beb5119253bcdc402ca673a7de98d06508ffb485143f46d7f478319f26ef3a2c1d30404f34d
   languageName: node
   linkType: hard
 
@@ -8861,7 +8861,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 1.0.15
     "@eeacms/volto-n2k": 1.0.35
     "@eeacms/volto-openlayers-map": 0.3.0
-    "@eeacms/volto-plotlycharts": 10.0.8
+    "@eeacms/volto-plotlycharts": 10.0.9
     "@eeacms/volto-searchlib": 2.0.3
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-spotlight": 2.1.0
