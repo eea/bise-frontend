@@ -215,7 +215,7 @@
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "10.0.9",
     "@eeacms/volto-searchlib": "2.0.3",
-    "@eeacms/volto-slate-dataentity": "2.1.0",
+    "@eeacms/volto-slate-dataentity": "4.0.0",
     "@eeacms/volto-spotlight": "2.1.0",
     "@eeacms/volto-tableau": "8.1.0",
     "@eeacms/volto-workflow-progress": "3.0.1",
