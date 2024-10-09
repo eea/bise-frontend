@@ -2009,9 +2009,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.2.4":
-  version: 7.2.4
-  resolution: "@eeacms/volto-datablocks@npm:7.2.4"
+"@eeacms/volto-datablocks@npm:7.2.5":
+  version: 7.2.5
+  resolution: "@eeacms/volto-datablocks@npm:7.2.5"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2024,7 +2024,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: 20d91859e1108faf68dfadeab6efc5e716c0f3c3443433209e95840f2630314c7b84898e3f496b60835313d2646510608346ba9d22b1a556d26d5541864690b2
+  checksum: e4b583274ea467f0072a92b4ea2337259f61190bf45a99b6c1b0d690e75de54fc6b5ae4917b94891920a5c5f9c3f8778be966be2fc14fe9b3eb4f0764e2efcd0
   languageName: node
   linkType: hard
 
@@ -8918,7 +8918,7 @@ __metadata:
   dependencies:
     "@eeacms/volto-bise-policy": 1.2.11
     "@eeacms/volto-block-toc": 6.0.1
-    "@eeacms/volto-datablocks": 7.2.4
+    "@eeacms/volto-datablocks": 7.2.5
     "@eeacms/volto-eea-design-system": 1.33.1
     "@eeacms/volto-eea-kitkat": 25.4.4
     "@eeacms/volto-eea-map": 5.0.5
