@@ -1967,9 +1967,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@eeacms/volto-chatbot@npm:0.1.4"
+"@eeacms/volto-chatbot@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@eeacms/volto-chatbot@npm:0.1.6"
   dependencies:
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
@@ -1982,7 +1982,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 4c8d60ac48a130e4b642858a7d62ff5a2a7c657c962043b14108aedc7c1b24bc4f8348f43a9b4c5174b3fd1fc037cdbeacd0e3fdf07bd01fe7c64e8f6f138ede
+  checksum: 09d973ea0b85131acaf9fd5a89da918dec097559f937e55b88393a623ca3cb25f43d62d16ee6ddc2c0e289890de44f884c0fe527c4e4dcee8d408580d047df0d
   languageName: node
   linkType: hard
 
@@ -2050,9 +2050,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:25.4.4":
-  version: 25.4.4
-  resolution: "@eeacms/volto-eea-kitkat@npm:25.4.4"
+"@eeacms/volto-eea-kitkat@npm:26.0.0":
+  version: 26.0.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:26.0.0"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 11.0.2
@@ -2064,7 +2064,7 @@ __metadata:
     "@eeacms/volto-block-style": 7.1.0
     "@eeacms/volto-block-toc": 6.0.1
     "@eeacms/volto-call-to-action-block": 5.1.1
-    "@eeacms/volto-chatbot": 0.1.4
+    "@eeacms/volto-chatbot": 0.1.6
     "@eeacms/volto-columns-block": 8.0.1
     "@eeacms/volto-controlpanel": 1.0.1
     "@eeacms/volto-corsproxy": 4.0.0
@@ -2095,7 +2095,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: a8e86633eea06b5148a80bc1d9e98cbc0e70f713c3cc8c7533e1ff56803fae0c736ce2611df6ccee0347bee82e6716ee4c81962f7561997caaa135248093be38
+  checksum: d9b8753d506ec47231b31b817ccfd31cde1a745588d7b5b623c25278fd2f67df9dd885300e6d85da408b6564da16f2b22840ed22633863dbbb4c89481d098061
   languageName: node
   linkType: hard
 
@@ -8920,7 +8920,7 @@ __metadata:
     "@eeacms/volto-block-toc": 6.0.1
     "@eeacms/volto-datablocks": 7.2.5
     "@eeacms/volto-eea-design-system": 1.33.1
-    "@eeacms/volto-eea-kitkat": 25.4.4
+    "@eeacms/volto-eea-kitkat": 26.0.0
     "@eeacms/volto-eea-map": 5.0.5
     "@eeacms/volto-eea-website-theme": 2.3.0
     "@eeacms/volto-embed": 10.1.0
