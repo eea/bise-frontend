@@ -2440,14 +2440,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:8.1.0":
-  version: 8.1.0
-  resolution: "@eeacms/volto-tableau@npm:8.1.0"
+"@eeacms/volto-tableau@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-tableau@npm:8.1.1"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: 4495cba1f64a9d06d2530105afb534aaed79fb51d39c12840219c0681d3ea30295124e13ffb00e06324afc6cd6df8ff3c5d51e9dd9b8e3efc2d52aac9f2b9620
+  checksum: 8896ffeec34e912922eba9c75d6368361c53885c0a7aa19f8d6e7af97c30f7e7723ff496cffeb7930fbf0ae2a38c0eff8a6aef0129b80dbaa3be506bd06e10d3
   languageName: node
   linkType: hard
 
@@ -8931,7 +8931,7 @@ __metadata:
     "@eeacms/volto-searchlib": 2.0.3
     "@eeacms/volto-slate-dataentity": 4.0.0
     "@eeacms/volto-spotlight": 2.1.0
-    "@eeacms/volto-tableau": 8.1.0
+    "@eeacms/volto-tableau": 8.1.1
     "@eeacms/volto-workflow-progress": 3.0.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.20.6
