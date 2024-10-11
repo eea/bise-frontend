@@ -1851,12 +1851,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:11.0.2":
-  version: 11.0.2
-  resolution: "@eeacms/volto-accordion-block@npm:11.0.2"
+"@eeacms/volto-accordion-block@npm:11.0.3":
+  version: 11.0.3
+  resolution: "@eeacms/volto-accordion-block@npm:11.0.3"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: a16f26b215bd603461ef303658dc239451bb5d7f8a6a6130e0896e59a0aa45ad1ea9af09a75926234e3e08bb49def7ca14d8a299527a577bc270e46cf0b84f38
+  checksum: 939a427384ab20f9394c244ee296e5754046786cb53e871d17949caff4e709da5b2e01b85df5524866edeca8e612f5ddaf88c0a2e4e9535e02799d7254021f7d
   languageName: node
   linkType: hard
 
@@ -1955,6 +1955,16 @@ __metadata:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
   checksum: 64ddb4feaba901b1068ef22d7f1f80774aedbf36346111a91b466f14c8ee0dbc745f89b430c510db64f17527083e6e583c0d707e460b96036c9334efc520fa64
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-block-toc@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@eeacms/volto-block-toc@npm:6.1.0"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 88cf38cc09655b87910a2490ec820759e9e79bc9311e6abcae14753838c9e79e704b3b34d6cb81956387176144901a5abd2463f118458efbbe44052d1327aae3
   languageName: node
   linkType: hard
 
@@ -8918,7 +8928,7 @@ __metadata:
   resolution: "bise-frontend@workspace:."
   dependencies:
     "@eeacms/volto-bise-policy": 1.2.11
-    "@eeacms/volto-block-toc": 6.0.1
+    "@eeacms/volto-block-toc": 6.1.0
     "@eeacms/volto-datablocks": 7.2.5
     "@eeacms/volto-eea-design-system": 1.34.0
     "@eeacms/volto-eea-kitkat": 26.0.0
