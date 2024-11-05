@@ -1,3 +1,5 @@
 src/addons/**/node_modules
 src/addons/**/cypress
 src/addons/**/build
+
+!src/addons/volto-bise-frontend-2

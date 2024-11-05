@@ -84,7 +84,7 @@ public/critical.css
 src/addons/*
 /cache
 
-# yarn
+# yarn 3
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -92,3 +92,5 @@ src/addons/*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+!src/addons/volto-bise-frontend-2

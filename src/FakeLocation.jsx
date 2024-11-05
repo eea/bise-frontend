@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FakeLocation = (props) => {
   const RenderComponent = props.route.renderComponent;
   const pathname = props.location.pathname.includes(props.route.realPathname)

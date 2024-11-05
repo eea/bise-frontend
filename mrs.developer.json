@@ -4,7 +4,7 @@
     "https": "https://github.com/eea/volto-block-toc.git",
     "package": "@eeacms/volto-block-toc",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-openlayers-map": {
@@ -19,7 +19,7 @@
     "url": "git@github.com:eea/volto-tableau.git",
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
-    "tag": "5.0.2",
+    "branch": "develop",
     "develop": false,
     "path": "src"
   },
@@ -27,8 +27,8 @@
     "url": "git@github.com:eea/volto-datablocks.git",
     "https": "https://github.com/eea/volto-datablocks.git",
     "package": "@eeacms/volto-datablocks",
-    "branch": "4.x.x",
-    "develop": false,
+    "branch": "develop",
+    "develop": true,
     "path": "src"
   },
   "volto-plotlycharts": {
@@ -36,7 +36,7 @@
     "https": "https://github.com/eea/volto-plotlycharts.git",
     "package": "@eeacms/volto-plotlycharts",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-slate-dataentity": {
@@ -52,7 +52,7 @@
     "https": "https://github.com/eea/volto-spotlight.git",
     "package": "@eeacms/volto-spotlight",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-quote-block": {
@@ -112,12 +112,12 @@
     "path": "src"
   },
   "volto-block-style": {
-    "develop": false,
     "url": "git@github.com:eea/volto-block-style.git",
     "https": "https://github.com/eea/volto-block-style.git",
     "package": "@eeacms/volto-block-style",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   },
   "volto-slate-label": {
     "url": "git@github.com:eea/volto-slate-label.git",
@@ -136,28 +136,28 @@
     "path": "src"
   },
   "volto-searchlib": {
-    "develop": false,
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
     "branch": "develop",
+    "develop": false,
     "path": "src"
   },
   "volto-globalsearch": {
-    "develop": false,
     "url": "git@github.com:eea/volto-globalsearch.git",
     "https": "https://github.com/eea/volto-globalsearch.git",
     "package": "@eeacms/volto-globalsearch",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   },
   "volto-datahub": {
-    "develop": false,
     "url": "git@github.com:eea/volto-datahub.git",
     "https": "https://github.com/eea/volto-datahub.git",
     "package": "@eeacms/volto-datahub",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   },
   "volto-eea-design-system": {
     "url": "git@github.com:eea/volto-eea-design-system.git",
@@ -172,7 +172,7 @@
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-bise-policy": {
@@ -180,7 +180,7 @@
     "https": "https://github.com/eea/volto-bise-policy.git",
     "package": "@eeacms/volto-bise-policy",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-n2k": {
@@ -188,7 +188,7 @@
     "https": "https://github.com/eea/volto-n2k.git",
     "package": "@eeacms/volto-n2k",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-columns-block": {
@@ -220,7 +220,7 @@
     "https": "https://github.com/eea/volto-tabs-block.git",
     "package": "@eeacms/volto-tabs-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-block-image-cards": {
@@ -260,7 +260,7 @@
     "https": "https://github.com/eea/volto-eea-map.git",
     "package": "@eeacms/volto-eea-map",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-object-widget": {
@@ -292,7 +292,15 @@
     "https": "https://github.com/eea/volto-group-block.git",
     "package": "@eeacms/volto-group-block",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
+    "path": "src"
+  },
+  "volto-embed": {
+    "url": "git@github.com:eea/volto-embed.git",
+    "https": "https://github.com/eea/volto-embed.git",
+    "package": "@eeacms/volto-embed",
+    "branch": "develop",
+    "develop": true,
     "path": "src"
   },
   "volto-metadata-block": {
