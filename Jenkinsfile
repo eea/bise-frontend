@@ -65,7 +65,7 @@ pipeline {
               IMAGE_NAME = BUILD_TAG.toLowerCase()
              }
              steps {
-               node(label: 'docker-host') {
+               node(label: 'docker-big-jobs') {
                  script {
                    checkout scm
                    try {
