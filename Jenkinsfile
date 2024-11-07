@@ -130,7 +130,7 @@ pipeline {
         }
       }
       steps{
-        node(label: 'docker-host') {
+        node(label: 'docker-big-jobs') {
           script {
             checkout scm
             if (env.BRANCH_NAME == 'master') {
