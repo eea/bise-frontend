@@ -25,39 +25,6 @@
             ],
             "@root/*": [
                 "."
-            ],
-            "@eeacms/volto-n2k": [
-                "addons/volto-n2k/src"
-            ],
-            "@eeacms/volto-bise-policy": [
-                "addons/volto-bise-policy/src"
-            ],
-            "@eeacms/volto-spotlight": [
-                "addons/volto-spotlight/src"
-            ],
-            "@eeacms/volto-tabs-block": [
-                "addons/volto-tabs-block/src"
-            ],
-            "@eeacms/volto-block-style": [
-                "addons/volto-block-style/src"
-            ],
-            "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
-            ],
-            "@eeacms/volto-group-block": [
-                "addons/volto-group-block/src"
-            ],
-            "@eeacms/volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "@eeacms/volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "@eeacms/volto-eea-map": [
-                "addons/volto-eea-map/src"
-            ],
-            "@eeacms/volto-embed": [
-                "addons/volto-embed/src"
             ]
         },
         "baseUrl": "src"
