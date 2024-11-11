@@ -19,7 +19,7 @@
     "url": "git@github.com:eea/volto-tableau.git",
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
-    "tag": "5.0.2",
+    "branch": "develop",
     "develop": false,
     "path": "src"
   },
@@ -27,7 +27,7 @@
     "url": "git@github.com:eea/volto-datablocks.git",
     "https": "https://github.com/eea/volto-datablocks.git",
     "package": "@eeacms/volto-datablocks",
-    "branch": "4.x.x",
+    "branch": "develop",
     "develop": false,
     "path": "src"
   },
@@ -112,12 +112,12 @@
     "path": "src"
   },
   "volto-block-style": {
-    "develop": false,
     "url": "git@github.com:eea/volto-block-style.git",
     "https": "https://github.com/eea/volto-block-style.git",
     "package": "@eeacms/volto-block-style",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   },
   "volto-slate-label": {
     "url": "git@github.com:eea/volto-slate-label.git",
@@ -136,28 +136,28 @@
     "path": "src"
   },
   "volto-searchlib": {
-    "develop": false,
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
     "branch": "develop",
+    "develop": false,
     "path": "src"
   },
   "volto-globalsearch": {
-    "develop": false,
     "url": "git@github.com:eea/volto-globalsearch.git",
     "https": "https://github.com/eea/volto-globalsearch.git",
     "package": "@eeacms/volto-globalsearch",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   },
   "volto-datahub": {
-    "develop": false,
     "url": "git@github.com:eea/volto-datahub.git",
     "https": "https://github.com/eea/volto-datahub.git",
     "package": "@eeacms/volto-datahub",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   },
   "volto-eea-design-system": {
     "url": "git@github.com:eea/volto-eea-design-system.git",
@@ -291,6 +291,14 @@
     "url": "git@github.com:eea/volto-group-block.git",
     "https": "https://github.com/eea/volto-group-block.git",
     "package": "@eeacms/volto-group-block",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-embed": {
+    "url": "git@github.com:eea/volto-embed.git",
+    "https": "https://github.com/eea/volto-embed.git",
+    "package": "@eeacms/volto-embed",
     "branch": "develop",
     "develop": false,
     "path": "src"

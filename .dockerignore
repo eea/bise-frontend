@@ -1,0 +1,25 @@
+# Folders
+.git
+.yarn/cache
+.storybook
+build
+cache
+locales/*.json
+node_modules
+omelette
+
+# Files
+.env
+*.log
+.dockerignore
+.editorconfig
+.eslintignore
+.eslintrc.js
+.gitignore
+.gitmodules
+.prettierignore
+bootstrap
+cypress*.json
+docker-compose.yml
+Dockerfile
+Jenkinsfile

@@ -1,5 +1,4 @@
-# Based on https://github.com/plone/volto/blob/master/entrypoint.sh
-FROM node:16-slim
+FROM node:18-bullseye-slim
 
 COPY . /app/
 WORKDIR /app/
@@ -18,7 +17,9 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
   && corepack enable
 
 USER node
-ENV NODE_OPTIONS=--max_old_space_size=4096
+
+ARG MAX_OLD_SPACE_SIZE=16384
+ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN yarn \
   && yarn build \

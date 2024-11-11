@@ -1,10 +1,10 @@
 pipeline {
   environment {
+    RANCHER_STACKID = ""
+    RANCHER_ENVID = ""
     GIT_NAME= 'bise-frontend'
     registry = 'eeacms/bise-frontend'
     template = 'templates/volto-bise'
-    RANCHER_STACKID = ''
-    RANCHER_ENVID = ''
     dockerImage = ''
     tagName = ''
     SONARQUBE_TAG = 'biodiversity.europa.eu'
@@ -14,18 +14,23 @@ pipeline {
 
   stages {
 
-   stage('Integration tests') {
+  	stage('Integration tests') {
       parallel {
 //         stage('Cypress') {
-//           when {
-//             environment name: 'CHANGE_ID', value: ''           
-//           }
+//				   allOf {
+//           	when {
+//             	environment name: 'CHANGE_ID', value: ''      
+//       			 	not { branch 'master' }
+//             	not { changelog '.*^Automated release [0-9\\.]+$' }
+//             	not { buildingTag() }     
+//           	}
+//					}
 //           steps {
 //             node(label: 'docker') {
 //               script {
 //                 try {
 //                   sh '''docker pull plone; docker run -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="profile-plone.restapi:blocks" plone fg'''
-//                   sh '''docker pull eeacms/volto-project-ci:12; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci:12 cypress'''
+//                   sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
 //                 } finally {
 //                   try {
 //                     sh '''rm -rf cypress-reports cypress-results'''
@@ -50,19 +55,17 @@ pipeline {
         
         stage("Docker test build") {
              when {
-               not {
-                environment name: 'CHANGE_ID', value: ''
-               }
-               not {
-                 buildingTag()
-               }
-               environment name: 'CHANGE_TARGET', value: 'master'
+               allOf {
+                not { changelog '.*^Automated release [0-9\\.]+$' }
+                not { environment name: 'CHANGE_ID', value: '' }
+                environment name: 'CHANGE_TARGET', value: 'master'
+              }
              }
              environment {
               IMAGE_NAME = BUILD_TAG.toLowerCase()
              }
              steps {
-               node(label: 'docker-host') {
+               node(label: 'docker-big-jobs') {
                  script {
                    checkout scm
                    try {
@@ -78,14 +81,14 @@ pipeline {
         
       }
     }
-
     
     stage('Pull Request') {
       when {
-        not {
-          environment name: 'CHANGE_ID', value: ''
+        allOf {
+            not { environment name: 'CHANGE_ID', value: '' }
+            environment name: 'CHANGE_TARGET', value: 'master'
+            not { changelog '.*^Automated release [0-9\\.]+$' }
         }
-        environment name: 'CHANGE_TARGET', value: 'master'
       }
       steps {
         node(label: 'docker') {
@@ -122,10 +125,12 @@ pipeline {
 
     stage('Build & Push ( on tag )') {
       when {
-        buildingTag()
+        anyOf {
+          buildingTag()
+        }
       }
       steps{
-        node(label: 'docker-host') {
+        node(label: 'docker-big-jobs') {
           script {
             checkout scm
             if (env.BRANCH_NAME == 'master') {
@@ -139,14 +144,14 @@ pipeline {
                 dockerImage.push()
               }
             } finally {
-              sh "docker rmi $registry:$tagName"
+            	sh script: "docker rmi $registry:$tagName", returnStatus: true
             }
           }
         }
       }
     }
     
-    stage('Release catalog ( on tag )') {
+     stage('Release catalog ( on tag )') {
       when {
         buildingTag()
       }
