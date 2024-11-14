@@ -3291,12 +3291,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-call-to-action-block@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@eeacms/volto-call-to-action-block@npm:5.1.1"
+"@eeacms/volto-call-to-action-block@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@eeacms/volto-call-to-action-block@npm:5.1.2"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: 623159f62703752b3aaa1473c92a7dbf8ebef25b68f4ad44a2b6e11cafb5466efd8e036c9e1ad85f4469d031d4d2f91b425d157270ff35b5865871f03655f1c7
+  checksum: 26858ae19e88cca45b0e2b6f3079cf430f2f84ab0654b1dd796f1c747ed42ddebcd9b2635daacfd295c0606f2ccbdf2be374e736e8cf5b980acf1858e7b680e5
   languageName: node
   linkType: hard
 
@@ -3383,9 +3383,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:26.2.0":
-  version: 26.2.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:26.2.0"
+"@eeacms/volto-eea-kitkat@npm:26.3.0":
+  version: 26.3.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:26.3.0"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 11.0.3
@@ -3395,8 +3395,8 @@ __metadata:
     "@eeacms/volto-block-divider": 7.0.1
     "@eeacms/volto-block-image-cards": 2.0.1
     "@eeacms/volto-block-style": 7.2.0
-    "@eeacms/volto-block-toc": 6.1.0
-    "@eeacms/volto-call-to-action-block": 5.1.1
+    "@eeacms/volto-block-toc": 6.2.0
+    "@eeacms/volto-call-to-action-block": 5.1.2
     "@eeacms/volto-chatbot": 0.1.7
     "@eeacms/volto-columns-block": 8.0.1
     "@eeacms/volto-controlpanel": 1.0.1
@@ -3428,7 +3428,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: bd75f7e4263494c5f51232ce656eb25cead2f77765ae350c91c36b8ad2a7e8fc2c3be98437b3c0998d9b675d40ecdd2326f674579f11feb1272ab24ca154c838
+  checksum: d8da708174cce53e107b1ed1896bdb9936142a49d75512c36a3d7ee86d2485cd8fb96a13894b8d05553e04cedff42f8aaf28e16f496450c20b6f0b5be5694cbd
   languageName: node
   linkType: hard
 
@@ -11719,7 +11719,7 @@ __metadata:
     "@eeacms/volto-block-toc": 6.2.0
     "@eeacms/volto-datablocks": 7.2.5
     "@eeacms/volto-eea-design-system": 1.35.0
-    "@eeacms/volto-eea-kitkat": 26.2.0
+    "@eeacms/volto-eea-kitkat": 26.3.0
     "@eeacms/volto-eea-map": 5.0.6
     "@eeacms/volto-eea-website-theme": 3.2.0
     "@eeacms/volto-embed": 10.1.1
