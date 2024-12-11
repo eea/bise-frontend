@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "scripts": {
     "start": "DANSWER_URL=https://gptlab.devel4cph.eea.europa.eu DANSWER_USERNAME=www-eea-europa-eu-gpt@eea.europa.eu DANSWER_PASSWORD=hwWPW%P77B#RZn5% razzle start",
     "postinstall": "make omelette && make patches",
