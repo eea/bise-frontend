@@ -19,10 +19,10 @@ import './commands';
 // require('./commands')
 
 //Generate code-coverage
-import '@cypress/code-coverage/support';
+// import '@cypress/code-coverage/support';
 
-// Fail Fast
-import 'cypress-fail-fast';
+// // Fail Fast
+// import 'cypress-fail-fast';
 
 export const slateBeforeEach = (contentType = 'Document') => {
   cy.intercept('GET', `/**/*?expand*`).as('content');
