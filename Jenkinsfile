@@ -18,13 +18,14 @@ pipeline {
       parallel {
         stage('Cypress') {
           when {
-				    allOf {
-            	environment name: 'CHANGE_ID', value: ''      
-      			 	not { branch 'master' }
-            	not { changelog '.*^Automated release [0-9\\.]+$' }
-            	not { buildingTag() }     
-          	}
-					}
+            allOf {
+              environment name: 'CHANGE_ID', value: ''
+              anyOf {
+              not { changelog '.*^Automated release [0-9\\.]+$' }
+              branch 'master'
+              }
+            }
+          }
           steps {
             node(label: 'docker') {
               script {
