@@ -17,8 +17,8 @@ pipeline {
   	stage('Integration tests') {
       parallel {
         stage('Cypress') {
-				   allOf {
-          	when {
+          when {
+				    allOf {
             	environment name: 'CHANGE_ID', value: ''      
       			 	not { branch 'master' }
             	not { changelog '.*^Automated release [0-9\\.]+$' }
