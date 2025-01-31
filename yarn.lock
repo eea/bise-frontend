@@ -3686,12 +3686,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-dataentity@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-slate-dataentity@npm:4.0.0"
+"@eeacms/volto-slate-dataentity@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@eeacms/volto-slate-dataentity@npm:4.0.1"
   dependencies:
     "@eeacms/volto-datablocks": "*"
-  checksum: bf2563883a4892609d70e3b8ce01cdcb210068b86f389ffb333019fa056cdfe8ad348d23b8bbc495a766019f97dd617881bfffa1943a9e018e3f181a7c1d5e5a
+  checksum: e0561e59a80349844d9d57846ee7a87503bcfbdfe5822a0dc17bd5992073368b93952660ce56ccc0737e409654ff318762c8e1b97583df82d960a8aee1a4d5b6
   languageName: node
   linkType: hard
 
@@ -11752,7 +11752,7 @@ __metadata:
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 10.0.15
     "@eeacms/volto-searchlib": 2.0.6
-    "@eeacms/volto-slate-dataentity": 4.0.0
+    "@eeacms/volto-slate-dataentity": 4.0.1
     "@eeacms/volto-tableau": 8.1.3
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone/scripts": ^3.3.2
