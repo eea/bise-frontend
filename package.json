@@ -175,7 +175,7 @@
   "resolutions": {
     "@eeacms/volto-bise-policy": "1.2.14",
     "@eeacms/volto-block-toc": "6.2.0",
-    "@eeacms/volto-datablocks": "7.2.7",
+    "@eeacms/volto-datablocks": "7.2.8",
     "@eeacms/volto-eea-design-system": "1.36.2",
     "@eeacms/volto-eea-kitkat": "26.4.4",
     "@eeacms/volto-eea-map": "5.0.8",
@@ -203,7 +203,7 @@
   "dependencies": {
     "@eeacms/volto-bise-policy": "1.2.14",
     "@eeacms/volto-block-toc": "6.2.0",
-    "@eeacms/volto-datablocks": "7.2.7",
+    "@eeacms/volto-datablocks": "7.2.8",
     "@eeacms/volto-eea-design-system": "1.36.2",
     "@eeacms/volto-eea-kitkat": "26.4.4",
     "@eeacms/volto-eea-map": "5.0.8",
