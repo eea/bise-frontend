@@ -3309,9 +3309,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.1.11":
-  version: 0.1.11
-  resolution: "@eeacms/volto-chatbot@npm:0.1.11"
+"@eeacms/volto-chatbot@npm:0.1.12":
+  version: 0.1.12
+  resolution: "@eeacms/volto-chatbot@npm:0.1.12"
   dependencies:
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
@@ -3324,7 +3324,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: af329bfb5e4cd5c62d52575d9b291c097acb69364dd4b20fff94ab125c72da52690c643085b6a6c4370ffcc45224e26f5702533fbbd7b7b90b08a59929ab727c
+  checksum: 16dcb2ec864624b134147c30fba188d6749f3fce4b3c4d9aa64b0b07a1a029e279d6bfcfd91a303c39a535da34d136af820c3917ba4b47875792376603510855
   languageName: node
   linkType: hard
 
@@ -3370,10 +3370,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:2.2.2":
-  version: 2.2.2
-  resolution: "@eeacms/volto-description-block@npm:2.2.2"
-  checksum: 6a862e4f640607a8b71d9edd865d793ffc0fed8f7f78f34281203fb63720aedc0d7b0d31330630e058ba2f0dc0e5392c11cc421a8db184274d7f08cf8bc5adb3
+"@eeacms/volto-description-block@npm:2.2.3":
+  version: 2.2.3
+  resolution: "@eeacms/volto-description-block@npm:2.2.3"
+  checksum: 5765d9bc5f21f4120404d011162129e81b8003ac8c8dd0a6fe09c8e23d2279ece5b3abee0038dbdbf094ee8f3f84447d410401636c5cd24a0c4fcd46d9c93277
   languageName: node
   linkType: hard
 
@@ -3392,9 +3392,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:26.4.3":
-  version: 26.4.3
-  resolution: "@eeacms/volto-eea-kitkat@npm:26.4.3"
+"@eeacms/volto-eea-kitkat@npm:26.4.4":
+  version: 26.4.4
+  resolution: "@eeacms/volto-eea-kitkat@npm:26.4.4"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 11.0.4
@@ -3406,11 +3406,11 @@ __metadata:
     "@eeacms/volto-block-style": 7.2.1
     "@eeacms/volto-block-toc": 6.2.0
     "@eeacms/volto-call-to-action-block": 5.1.3
-    "@eeacms/volto-chatbot": 0.1.11
+    "@eeacms/volto-chatbot": 0.1.12
     "@eeacms/volto-columns-block": 8.0.2
     "@eeacms/volto-controlpanel": 1.0.2
     "@eeacms/volto-corsproxy": 4.0.0
-    "@eeacms/volto-description-block": 2.2.2
+    "@eeacms/volto-description-block": 2.2.3
     "@eeacms/volto-group-block": 7.1.1
     "@eeacms/volto-hero-block": 7.1.0
     "@eeacms/volto-listing-block": 8.1.2
@@ -3422,7 +3422,7 @@ __metadata:
     "@eeacms/volto-resize-helper": 2.0.0
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-slate-footnote": 7.2.3
-    "@eeacms/volto-slate-label": 1.0.0
+    "@eeacms/volto-slate-label": 1.0.1
     "@eeacms/volto-slate-metadata-mentions": 8.2.0
     "@eeacms/volto-slate-zotero": 6.0.0
     "@eeacms/volto-statistic-block": 5.0.1
@@ -3437,7 +3437,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: fa6321207ce29e2b5b47faef0a85925a28576bc5f69bcf59decd21bbd3350e724437052200da912ae22031965f268516701d468fefe5d223b5bd2facd4717f59
+  checksum: b2e508111ac83e4784cbdd17641ef683717e93c7afbd3cd9fbf7c499506e9dba405f5810c9c062236c8366c906f6345265a3a98add4089a2c5a3c324e63b58c2
   languageName: node
   linkType: hard
 
@@ -3721,10 +3721,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-label@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-slate-label@npm:1.0.0"
-  checksum: f23752566b1dac85a73e093dc4762816e8f3950cfc905074727f4223e8e834d1e33daf848e82aec73e25d6acd3e3577186661cea90d232e84c5ccaab52413a8b
+"@eeacms/volto-slate-label@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eeacms/volto-slate-label@npm:1.0.1"
+  checksum: 9fe768e26d1e6a3e907286a4ddd05e779d3a4ce9d088876b7cdb61e66784b0dc4ddb59f0ae234e175ba48d014c95ac7540725e65ad12087296d2bfc18b3635ba
   languageName: node
   linkType: hard
 
@@ -11754,7 +11754,7 @@ __metadata:
     "@eeacms/volto-block-toc": 6.2.0
     "@eeacms/volto-datablocks": 7.2.7
     "@eeacms/volto-eea-design-system": 1.36.2
-    "@eeacms/volto-eea-kitkat": 26.4.3
+    "@eeacms/volto-eea-kitkat": 26.4.4
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.5.4
     "@eeacms/volto-embed": 10.1.3
