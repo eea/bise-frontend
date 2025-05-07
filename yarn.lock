@@ -3461,9 +3461,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:26.7.0":
-  version: 26.7.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:26.7.0"
+"@eeacms/volto-eea-kitkat@npm:27.0.0":
+  version: 27.0.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:27.0.0"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 11.0.4
@@ -3482,9 +3482,9 @@ __metadata:
     "@eeacms/volto-description-block": 2.2.3
     "@eeacms/volto-group-block": 7.1.1
     "@eeacms/volto-hero-block": 7.1.0
-    "@eeacms/volto-listing-block": 8.1.2
+    "@eeacms/volto-listing-block": 8.1.3
     "@eeacms/volto-matomo": 5.0.0
-    "@eeacms/volto-metadata-block": 8.0.3
+    "@eeacms/volto-metadata-block": 8.0.4
     "@eeacms/volto-nextcloud-video-block": 1.0.0
     "@eeacms/volto-object-widget": 7.0.0
     "@eeacms/volto-quote-block": 2.0.1
@@ -3495,7 +3495,7 @@ __metadata:
     "@eeacms/volto-slate-metadata-mentions": 8.3.0
     "@eeacms/volto-slate-zotero": 6.0.0
     "@eeacms/volto-statistic-block": 6.0.1
-    "@eeacms/volto-tabs-block": 9.0.2
+    "@eeacms/volto-tabs-block": 9.0.3
     "@eeacms/volto-tags-block": 3.0.1
     "@eeacms/volto-taxonomy": 5.1.1
     "@eeacms/volto-timeline-block": 2.0.1
@@ -3506,7 +3506,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: af3136693c23e716c9b98246448509affe46b812020788a7be434128bcdcb57c5f26bfbfa6c140e9aa2719e9ff6da992fed943bb9576f28a361fbb5976c23078
+  checksum: 111174be1e877d21a4660362e6d975e2794027e03dadf8c9caf67bc2276a798efc8a943662d773ae19b33bba1a080d2024ef3c6862c508cee0cb68be2a450958
   languageName: node
   linkType: hard
 
@@ -3618,6 +3618,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-listing-block@npm:8.1.3":
+  version: 8.1.3
+  resolution: "@eeacms/volto-listing-block@npm:8.1.3"
+  dependencies:
+    "@eeacms/volto-widget-theme-picker": "*"
+    react-resize-detector: 7.1.2
+    react-slick: ^0.30.1
+    slick-carousel: 1.8.1
+  checksum: 12dd2dbc0e9ed2b7320895574509ed683c1728c75759a0fcd165830f79b4200f122dd83d0ab2530dbbbd618e1d0f1f2c6b857532167b680a1e483c155d048969
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-matomo@npm:*, @eeacms/volto-matomo@npm:5.0.0":
   version: 5.0.0
   resolution: "@eeacms/volto-matomo@npm:5.0.0"
@@ -3627,12 +3639,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-metadata-block@npm:8.0.3":
-  version: 8.0.3
-  resolution: "@eeacms/volto-metadata-block@npm:8.0.3"
+"@eeacms/volto-metadata-block@npm:8.0.4":
+  version: 8.0.4
+  resolution: "@eeacms/volto-metadata-block@npm:8.0.4"
   dependencies:
     razzle-plugin-scss: 4.2.18
-  checksum: 87e2bd6dfe1d3e468ece0450c3b6ca1e4175e49c864a58f12e2935474a8acc9c7baa6b152e0dda4993ddff7dbd44ae4efaac5a3c300a1f8f3c125fa2b73429f9
+  checksum: d96ed24fa6cbe393940757812af6994ef267c643f82242ada8d0f3c129b92433ca04ae31a0f9ee9a5feab87775f3c57a8c7f7494f47a840101640bd9e42ba77f
   languageName: node
   linkType: hard
 
@@ -3855,16 +3867,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@eeacms/volto-tabs-block@npm:9.0.2"
+"@eeacms/volto-tabs-block@npm:9.0.3":
+  version: 9.0.3
+  resolution: "@eeacms/volto-tabs-block@npm:9.0.3"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.30.1
     slick-carousel: ^1.8.1
-  checksum: a5b8530932229f24e804356ffac677ada78d0eff894df28966e963474dd54382e1bf94056c1ee0caf9bb27e2b12bf8dabb55daa3ec38ab6a155298591d3bcffb
+  checksum: 580aeea61bbd1c548ea82617eca858250f15061338236b41dd9f327922b56b92042a7cd2383d2b07a08d57dae042cd64fad159de62ec667fc5743a7369903f4a
   languageName: node
   linkType: hard
 
@@ -11844,7 +11856,7 @@ __metadata:
     "@eeacms/volto-block-toc": 6.2.0
     "@eeacms/volto-datablocks": 7.2.11
     "@eeacms/volto-eea-design-system": 1.36.5
-    "@eeacms/volto-eea-kitkat": 26.7.0
+    "@eeacms/volto-eea-kitkat": 27.0.0
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.6.1
     "@eeacms/volto-embed": 10.1.3
