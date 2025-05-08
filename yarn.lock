@@ -3199,9 +3199,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/react-chart-editor@npm:0.47.1":
-  version: 0.47.1
-  resolution: "@eeacms/react-chart-editor@npm:0.47.1"
+"@eeacms/react-chart-editor@npm:0.47.2":
+  version: 0.47.2
+  resolution: "@eeacms/react-chart-editor@npm:0.47.2"
   dependencies:
     "@eeacms/react-colorscales": 2.1.1
     "@plotly/draft-js-export-html": ^1.2.0
@@ -3232,7 +3232,7 @@ __metadata:
     plotly.js: ">=1.58.5 <3.0.0"
     react: ">=16"
     react-dom: ">=16"
-  checksum: 1bf7b3fb4001689f06fc137b7ced161cd11c5ca5c7d73ac301d5683aff72b9a364eecf3c90e1ed3cedfca2d40e419f27bf66580f390360c118204541b72dcdf1
+  checksum: 7c6bfea48f98e8c033ca53829cea69dc106356076aa8affecf2c116e23a536fdc8e033753e3c625904dfa8851bcd7fa45033cc39c2e9637dcb8213b5739fe5ca
   languageName: node
   linkType: hard
 
@@ -3684,11 +3684,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:12.0.1":
-  version: 12.0.1
-  resolution: "@eeacms/volto-plotlycharts@npm:12.0.1"
+"@eeacms/volto-plotlycharts@npm:12.0.2":
+  version: 12.0.2
+  resolution: "@eeacms/volto-plotlycharts@npm:12.0.2"
   dependencies:
-    "@eeacms/react-chart-editor": 0.47.1
+    "@eeacms/react-chart-editor": 0.47.2
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -3696,7 +3696,7 @@ __metadata:
     jsoneditor: 10.2.0
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
-  checksum: 3d9b7840d71a7206f6139a1b6d639909829e2101ac72f7ea6f6d9516dba5b411efc4476e93194aba58289d253478f0d74c9d796d045b91d6b4efe4287b9e92cb
+  checksum: 2db8132b9c90defbed0547c0ceb6095eabae6cd3751014bc52f61343c246bfdc1e1ef123c0fcde8a85e3e1452e835fb71dad8d9be3f6fa1562325d370dffc754
   languageName: node
   linkType: hard
 
@@ -11852,7 +11852,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.1.0
     "@eeacms/volto-n2k": 1.1.5
     "@eeacms/volto-openlayers-map": 0.3.2
-    "@eeacms/volto-plotlycharts": 12.0.1
+    "@eeacms/volto-plotlycharts": 12.0.2
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 8.1.4
