@@ -3617,12 +3617,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@eeacms/volto-openlayers-map@npm:0.3.2"
+"@eeacms/volto-openlayers-map@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-openlayers-map@npm:1.0.0"
   dependencies:
     ol: 6.6.x
-  checksum: 801eff2466aee3451f0c47abb1eb4ea5b2df2978f9e2e532851d32bb8ea2e5b945742e9fe59e402af1284301ebcfe861bbf83b5a57b61a3ebea3a7fd5556aca9
+  checksum: d19eb2ac0a35ebab4068e49b748dff149779f49edaece87c56d5765c7650e4d97b0979d2a7b1ca349fbdf75bdc1f5e065f3fe400fd8617adc32d1bee798ad81f
   languageName: node
   linkType: hard
 
@@ -11771,7 +11771,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-n2k": 1.1.5
-    "@eeacms/volto-openlayers-map": 0.3.2
+    "@eeacms/volto-openlayers-map": 1.0.0
     "@eeacms/volto-plotlycharts": ^11.0.2
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-slate-dataentity": 4.0.2
