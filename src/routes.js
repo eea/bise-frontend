@@ -35,7 +35,7 @@ const routes = [
     ],
   },
   {
-    path: '/sites/cdda/:site_code', // 11155
+    path: '/sites/national/:site_code', // 11155
     realPathname: '/natura2000/sites/site_cdda',
     component: FakeLocation,
     renderComponent: App,
@@ -53,7 +53,25 @@ const routes = [
     ],
   },
   {
-    path: '/habitats/:code_2000', // 8240
+    path: '/sites/emerald/:site_code', // AL0000017
+    realPathname: '/natura2000/sites/emerald',
+    component: FakeLocation,
+    renderComponent: App,
+    routes: [
+      // Add your routes here
+      // addon routes have a higher priority then default routes
+      ...defaultRoutes.map((route) => ({
+        ...route,
+        ...(route.path === '/**' ? { path: route.path + '/:site_code' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:site_code/edit' } : {}),
+        realPathname: '/natura2000/sites/emerald',
+        component: FakeLocation,
+        renderComponent: route.component,
+      })),
+    ],
+  },
+  {
+    path: '/habitats/:habitat_unique_id', // ANNEX1_8240
     realPathname: '/natura2000/habitats/habitat',
     component: FakeLocation,
     renderComponent: App,
@@ -62,8 +80,8 @@ const routes = [
       // addon routes have a higher priority then default routes
       ...defaultRoutes.map((route) => ({
         ...route,
-        ...(route.path === '/**' ? { path: route.path + '/:code_2000' } : {}),
-        ...(route.path === '/**/edit' ? { path: '/**/:code_2000/edit' } : {}),
+        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
         realPathname: '/natura2000/habitats/habitat',
         component: FakeLocation,
         renderComponent: route.component,
