@@ -71,6 +71,78 @@ const routes = [
     ],
   },
   {
+    path: '/habitats_eunis2012/:habitat_unique_id', // EUNIS2012_B2.2
+    realPathname: '/natura2000/habitats/habitats_eunis2012',
+    component: FakeLocation,
+    renderComponent: App,
+    routes: [
+      // Add your routes here
+      // addon routes have a higher priority then default routes
+      ...defaultRoutes.map((route) => ({
+        ...route,
+        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        realPathname: '/natura2000/habitats/habitats_eunis2012',
+        component: FakeLocation,
+        renderComponent: route.component,
+      })),
+    ],
+  },
+  {
+    path: '/habitats_eunis_revised/:habitat_unique_id', // EUNISrev_N122
+    realPathname: '/natura2000/habitats/habitats_eunis_revised',
+    component: FakeLocation,
+    renderComponent: App,
+    routes: [
+      // Add your routes here
+      // addon routes have a higher priority then default routes
+      ...defaultRoutes.map((route) => ({
+        ...route,
+        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        realPathname: '/natura2000/habitats/habitats_eunis_revised',
+        component: FakeLocation,
+        renderComponent: route.component,
+      })),
+    ],
+  },
+  {
+    path: '/habitats_rl/:habitat_unique_id', // REDLIST_RLB1.1b
+    realPathname: '/natura2000/habitats/habitats_rl',
+    component: FakeLocation,
+    renderComponent: App,
+    routes: [
+      // Add your routes here
+      // addon routes have a higher priority then default routes
+      ...defaultRoutes.map((route) => ({
+        ...route,
+        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        realPathname: '/natura2000/habitats/habitats_rl',
+        component: FakeLocation,
+        renderComponent: route.component,
+      })),
+    ],
+  },
+  {
+    path: '/habitats_res4/:habitat_unique_id', // EUNIS2012_E2.3
+    realPathname: '/natura2000/habitats/habitats_res4',
+    component: FakeLocation,
+    renderComponent: App,
+    routes: [
+      // Add your routes here
+      // addon routes have a higher priority then default routes
+      ...defaultRoutes.map((route) => ({
+        ...route,
+        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
+        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        realPathname: '/natura2000/habitats/habitats_res4',
+        component: FakeLocation,
+        renderComponent: route.component,
+      })),
+    ],
+  },
+  {
     path: '/habitats/:habitat_unique_id', // ANNEX1_8240
     realPathname: '/natura2000/habitats/habitat',
     component: FakeLocation,
