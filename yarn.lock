@@ -4295,9 +4295,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.17":
-  version: 1.2.17
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.17"
+"@eeacms/volto-bise-policy@npm:1.2.18":
+  version: 1.2.18
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.18"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -4308,7 +4308,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: 7f67d97fa6e825047b398b7f06591586b323d07aabc39e4fe9298505264f5dd9c7551e8e61afe82a0b8a926190de6263256b291b8afc759dcedbb764efb1d758
+  checksum: 021f74103bd722988b3f1a3032911d85a0f367b4ff33f04f5fe739445ad204c0ea5285c1483e88a4968f42680a55344b40b3e1c10c67bb2310a0aba707ed4bc0
   languageName: node
   linkType: hard
 
@@ -4431,9 +4431,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.3.0":
-  version: 7.3.0
-  resolution: "@eeacms/volto-datablocks@npm:7.3.0"
+"@eeacms/volto-datablocks@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@eeacms/volto-datablocks@npm:7.3.1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -4446,7 +4446,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: d384736f89a831a84d526f6c5fa014a32b221712db600bdc0fd016fc7dec65bdc8710565bd73c5ed42c00c8a505f978c5b59e35e8fe75e04c42a8800c3784c46
+  checksum: b658158a202e7ba0f08c05341869b63ed2e3330c22d347d2e09a12ce500bb45aab32c1b35317c1f8902e1d9241ef836fa3bc86ede989f3f8197c31268627f0a4
   languageName: node
   linkType: hard
 
@@ -4485,9 +4485,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.37.0":
-  version: 1.37.0
-  resolution: "@eeacms/volto-eea-design-system@npm:1.37.0"
+"@eeacms/volto-eea-design-system@npm:1.37.1":
+  version: 1.37.1
+  resolution: "@eeacms/volto-eea-design-system@npm:1.37.1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -4496,7 +4496,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: b4c8495db587123ee4de392000b577220fa932ca038b766642f110c9056fc18175dc511a305e7842aaafdbee19db4d7365bb77b28c38612698cbef76fc4fdf52
+  checksum: a55ea50870fa0fabe7fba12d0ed2f84c697349ec853b808df0169a6ba24dc7967b6d5ff6ed0d10a6ce1eda414fa30cbd9b801b9ef2f4d982e079dc8b05ce651d
   languageName: node
   linkType: hard
 
@@ -4691,9 +4691,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@1.1.5, @eeacms/volto-n2k@workspace:src/addons/volto-n2k":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-n2k@workspace:src/addons/volto-n2k"
+"@eeacms/volto-n2k@npm:1.1.6":
+  version: 1.1.6
+  resolution: "@eeacms/volto-n2k@npm:1.1.6"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-datablocks": "*"
@@ -4716,8 +4716,9 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  languageName: unknown
-  linkType: soft
+  checksum: 5e8edd12263c6e745eda341c0ad262839c102699c7935265b5383b01391ef7f740e2f8fefbd7b0f223b9a1705876869126bbaf22bd90a2876061c75916f88d0f
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-nextcloud-video-block@npm:1.0.0":
   version: 1.0.0
@@ -4737,12 +4738,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@eeacms/volto-openlayers-map@npm:0.3.2"
+"@eeacms/volto-openlayers-map@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eeacms/volto-openlayers-map@npm:1.0.1"
   dependencies:
     ol: 6.6.x
-  checksum: 801eff2466aee3451f0c47abb1eb4ea5b2df2978f9e2e532851d32bb8ea2e5b945742e9fe59e402af1284301ebcfe861bbf83b5a57b61a3ebea3a7fd5556aca9
+  checksum: efbd9bd2fcd481d7e4b8b157015e2e71d7bcbefd4b537550aeb03c356b0ad923b7659bad1886f32331f50689694968783d8919ba5630896bae8f79d2caafc3a6
   languageName: node
   linkType: hard
 
@@ -13188,17 +13189,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.17
-    "@eeacms/volto-datablocks": 7.3.0
-    "@eeacms/volto-eea-design-system": 1.37.0
+    "@eeacms/volto-bise-policy": 1.2.18
+    "@eeacms/volto-datablocks": 7.3.1
+    "@eeacms/volto-eea-design-system": 1.37.1
     "@eeacms/volto-eea-kitkat": 27.1.1
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.7.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-n2k": 1.1.5
-    "@eeacms/volto-openlayers-map": 0.3.2
+    "@eeacms/volto-n2k": 1.1.6
+    "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ^11.0.2
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-slate-dataentity": 4.0.2
