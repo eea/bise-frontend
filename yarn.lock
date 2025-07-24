@@ -3668,9 +3668,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@eeacms/volto-searchlib@npm:2.1.3"
+"@eeacms/volto-searchlib@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@eeacms/volto-searchlib@npm:2.1.4"
   dependencies:
     "@eeacms/volto-matomo": 5.0.0
     "@elastic/react-search-ui": 1.20.2
@@ -3708,7 +3708,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: e9975220d16c36b4fce26f43408366ffeb1de26abd5848fb86a25fc2a0442f1a5a0a052b03f9f48a1968d932431f4d05c45239ca51adc781672180cb50a81d45
+  checksum: 21bdb1133e96adfa3ea9b47849b3405b2ad53db5f0b3de68423fd58084d6db231af80239fdace3fc24b5bd8e4fde6171dc9470753d2b448f8225585611f2af7b
   languageName: node
   linkType: hard
 
@@ -11783,7 +11783,7 @@ __metadata:
     "@eeacms/volto-n2k": 1.1.7
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ^11.0.2
-    "@eeacms/volto-searchlib": 2.1.3
+    "@eeacms/volto-searchlib": 2.1.4
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 8.1.4
     "@eeacms/volto-workflow-progress": 5.0.0
