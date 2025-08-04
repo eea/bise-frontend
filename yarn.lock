@@ -3330,11 +3330,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.2.4":
-  version: 0.2.4
-  resolution: "@eeacms/volto-chatbot@npm:0.2.4"
+"@eeacms/volto-chatbot@npm:0.2.5":
+  version: 0.2.5
+  resolution: "@eeacms/volto-chatbot@npm:0.2.5"
   dependencies:
-    "@eeacms/volto-matomo": 6.0.0
+    "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
     highlight.js: 11.10.0
@@ -3346,7 +3346,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 3dedb58518d62f78c31ab603a27972598816651306eb3730d02c42d87c3af6aef3c6517c8bb8d08613befcce3fdad22235afb7d2cf0b828e46b4c0c50172da4d
+  checksum: 92022e329daebbd8b8a25ad0d1073c50763b094c8be5c6a0b8f5adfd3b0e9dfc041cff128e3910114ccc2f5c15ec54f5a8fd4a1d3b8b4e75aa8df82f4bca8921
   languageName: node
   linkType: hard
 
@@ -3414,9 +3414,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:28.0.1":
-  version: 28.0.1
-  resolution: "@eeacms/volto-eea-kitkat@npm:28.0.1"
+"@eeacms/volto-eea-kitkat@npm:28.0.2":
+  version: 28.0.2
+  resolution: "@eeacms/volto-eea-kitkat@npm:28.0.2"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 11.0.4
@@ -3428,7 +3428,7 @@ __metadata:
     "@eeacms/volto-block-style": 8.0.0
     "@eeacms/volto-block-toc": 8.0.0
     "@eeacms/volto-call-to-action-block": 5.1.3
-    "@eeacms/volto-chatbot": 0.2.4
+    "@eeacms/volto-chatbot": 0.2.5
     "@eeacms/volto-columns-block": 8.1.0
     "@eeacms/volto-controlpanel": 1.0.2
     "@eeacms/volto-corsproxy": 4.0.0
@@ -3459,7 +3459,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 5f5e842a1d585178b1dd3e849478e51641e532c3d15e022e88dcc24dc1f6f213140fa0faf56c6509105dc7a5f81b02fa65462c924ab407a231b84bcfdfc5b127
+  checksum: 8297ff162fa911c37166938d658030685f6ac0f44697f2c59588514ff1481e0306eb70c09efc2a676a1baf1a213e6affaa860399fcf7bc3dccc6c67c419a0580
   languageName: node
   linkType: hard
 
@@ -3579,15 +3579,6 @@ __metadata:
   dependencies:
     "@datapunt/matomo-tracker-react": 0.3.1
   checksum: 238fe12d34eb1d108998d536c036b8ca4f68afd35d409d6a12a9331a0b93c87dd048079712d9922bef4ec0dbc3aded188aac98e3a4c5ab9ee9cd6e8b6c0eb27a
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-matomo@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@eeacms/volto-matomo@npm:6.0.0"
-  dependencies:
-    "@datapunt/matomo-tracker-react": 0.3.1
-  checksum: 93295f22e1eed040f802c1857ece026ae53554a2c88e6100e78cc281f4e2431d701414701158cc36dc40260a8af17b77f3ef180c5175a640d220cb651580c620
   languageName: node
   linkType: hard
 
@@ -11802,7 +11793,7 @@ __metadata:
     "@eeacms/volto-bise-policy": 1.2.20
     "@eeacms/volto-datablocks": 7.3.3
     "@eeacms/volto-eea-design-system": 1.38.3
-    "@eeacms/volto-eea-kitkat": 28.0.1
+    "@eeacms/volto-eea-kitkat": 28.0.2
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.8.0
     "@eeacms/volto-embed": 10.1.3
