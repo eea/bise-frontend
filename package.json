@@ -186,7 +186,7 @@
     "@eeacms/volto-plotlycharts": "^11.0.2",
     "@eeacms/volto-searchlib": "2.1.7",
     "@eeacms/volto-slate-dataentity": "4.0.2",
-    "@eeacms/volto-tableau": "8.1.4",
+    "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
     "@elastic/search-ui": "1.21.2",
     "d3-array": "^2.12.1",
@@ -213,7 +213,7 @@
     "@eeacms/volto-plotlycharts": "^11.0.2",
     "@eeacms/volto-searchlib": "2.1.7",
     "@eeacms/volto-slate-dataentity": "4.0.2",
-    "@eeacms/volto-tableau": "8.1.4",
+    "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
     "@plone/volto": "17.20.1"
   },
