@@ -61,7 +61,8 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-n2k",
-    "@eeacms/volto-bise-policy"
+    "@eeacms/volto-bise-policy",
+    "@plone-collective/volto-authomatic"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -188,6 +189,7 @@
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@elastic/search-ui": "1.21.2",
     "d3-array": "^2.12.1",
     "d3": "6.7.0",
@@ -215,6 +217,7 @@
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.20.1"
   },
   "devDependencies": {
