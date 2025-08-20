@@ -3311,13 +3311,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@eeacms/volto-block-toc@npm:8.0.0"
+"@eeacms/volto-block-toc@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@eeacms/volto-block-toc@npm:8.1.0"
   dependencies:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
-  checksum: 09ecc99975d9fff634d397c0be8daf44a9e299582e17c7346e4a877d699b29b8efb5388688c1b7ee06b93233bc7798a1fbc49327f0b3b1cfe0bee55478d53a06
+  checksum: 29ea754908d6de15ac612edcc637403b87aa0f75f0f835d65f7dfcd43b8d328b1bc779f41ccad10013e75c4d9c3c03399d3aff94a415d85bd7bb6bd270e5d478
   languageName: node
   linkType: hard
 
@@ -3330,9 +3330,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.2.5":
-  version: 0.2.5
-  resolution: "@eeacms/volto-chatbot@npm:0.2.5"
+"@eeacms/volto-chatbot@npm:0.3.1":
+  version: 0.3.1
+  resolution: "@eeacms/volto-chatbot@npm:0.3.1"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -3346,7 +3346,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 92022e329daebbd8b8a25ad0d1073c50763b094c8be5c6a0b8f5adfd3b0e9dfc041cff128e3910114ccc2f5c15ec54f5a8fd4a1d3b8b4e75aa8df82f4bca8921
+  checksum: 65f9633b9003924af185f24c041cefbe1a46fb336b8921c4c1f86fd8d5c7480e5e844097762082c76e6c29ca753c1477a12b4c8d43e08450724a944e825ac5e4
   languageName: node
   linkType: hard
 
@@ -3414,9 +3414,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:28.0.2":
-  version: 28.0.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:28.0.2"
+"@eeacms/volto-eea-kitkat@npm:28.0.3":
+  version: 28.0.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:28.0.3"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 11.0.4
@@ -3426,16 +3426,16 @@ __metadata:
     "@eeacms/volto-block-divider": 7.0.2
     "@eeacms/volto-block-image-cards": 3.0.0
     "@eeacms/volto-block-style": 8.0.0
-    "@eeacms/volto-block-toc": 8.0.0
+    "@eeacms/volto-block-toc": 8.1.0
     "@eeacms/volto-call-to-action-block": 5.1.3
-    "@eeacms/volto-chatbot": 0.2.5
+    "@eeacms/volto-chatbot": 0.3.1
     "@eeacms/volto-columns-block": 8.1.0
     "@eeacms/volto-controlpanel": 1.0.2
     "@eeacms/volto-corsproxy": 4.0.0
     "@eeacms/volto-description-block": 2.2.3
     "@eeacms/volto-group-block": 7.1.1
     "@eeacms/volto-hero-block": 8.0.0
-    "@eeacms/volto-listing-block": 9.0.1
+    "@eeacms/volto-listing-block": 9.0.2
     "@eeacms/volto-matomo": 6.0.1
     "@eeacms/volto-metadata-block": 8.0.5
     "@eeacms/volto-nextcloud-video-block": 2.0.0
@@ -3459,7 +3459,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 8297ff162fa911c37166938d658030685f6ac0f44697f2c59588514ff1481e0306eb70c09efc2a676a1baf1a213e6affaa860399fcf7bc3dccc6c67c419a0580
+  checksum: eae89dec291fef557baab4e93c15496ac3358bb25f17e8728c183419a20404a079ab886ac0a33322dafa31fe65f39b5e859b1aac87327dc9738604f466a136fb
   languageName: node
   linkType: hard
 
@@ -3560,16 +3560,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@eeacms/volto-listing-block@npm:9.0.1"
+"@eeacms/volto-listing-block@npm:9.0.2":
+  version: 9.0.2
+  resolution: "@eeacms/volto-listing-block@npm:9.0.2"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 11dd21c3d76d1a7867556f053fe462b0fe8d0c6d417a68d48af8eb7851294c3a95e5fcfa3df4b4674ea31d5fcff8d706f55605746580b7b677fb574dfcf90936
+  checksum: 5030702105da49a90b2fbe1fef0f24e801448410652467ab506b99beb28afebb0146e5ab1a544ba089f8630e8ddfa3c431c36a00fdca6d87edd768e60a6fcddd
   languageName: node
   linkType: hard
 
@@ -11793,7 +11793,7 @@ __metadata:
     "@eeacms/volto-bise-policy": 1.2.21
     "@eeacms/volto-datablocks": 7.3.3
     "@eeacms/volto-eea-design-system": 1.38.3
-    "@eeacms/volto-eea-kitkat": 28.0.2
+    "@eeacms/volto-eea-kitkat": 28.0.3
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.8.0
     "@eeacms/volto-embed": 10.1.3
