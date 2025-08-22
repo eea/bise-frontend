@@ -61,8 +61,8 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-n2k",
-    "@eeacms/volto-bise-policy",
-    "@plone-collective/volto-authomatic"
+    "@plone-collective/volto-authomatic",
+    "@eeacms/volto-bise-policy"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
