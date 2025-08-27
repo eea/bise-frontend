@@ -47,6 +47,7 @@
   ],
   "theme": "@eeacms/volto-bise-policy",
   "addons": [
+    "@eeacms/volto-tree-view-block",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-embed",
     "@eeacms/volto-datablocks",
@@ -216,6 +217,7 @@
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-spotlight": "2.1.1",
     "@eeacms/volto-tableau": "8.1.4",
+    "@eeacms/volto-tree-view-block": "0.1.1",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone/volto": "17.20.1"
   },
