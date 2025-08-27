@@ -2430,9 +2430,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:13.0.6":
-  version: 13.0.6
-  resolution: "@eeacms/volto-plotlycharts@npm:13.0.6"
+"@eeacms/volto-plotlycharts@npm:13.0.8":
+  version: 13.0.8
+  resolution: "@eeacms/volto-plotlycharts@npm:13.0.8"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.7
     "@eeacms/volto-datablocks": "*"
@@ -2445,7 +2445,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: cadd000b491cd831799125338701dc5c1934063c1701815cced99ad7936e121ca6e9c93de012b550a88f3e88e8d52a0ffb05696e70594abd6902e161681568b0
+  checksum: aa29105c36f7d2356460d0e174ac48595feb14badd3c6c28715c9db5097b104b20400834344e0d64ada8612fa28fb5977afb617d8066f2ce16ae32670ad1b9f6
   languageName: node
   linkType: hard
 
@@ -2624,6 +2624,16 @@ __metadata:
   version: 2.0.1
   resolution: "@eeacms/volto-toolbar-actions@npm:2.0.1"
   checksum: 6bec49572f34213f705a65545559c6e5454b4413da728ac8b1e2c3c14e4868f15c47e6b64d938669e7e141c395001df85d9abc5c677c72348bc878b4c39ba2d9
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-tree-view-block@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@eeacms/volto-tree-view-block@npm:0.1.1"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+    react-complex-tree: 2.6.0
+  checksum: 5c0b8e1b02e96937bcea7c765843384414ddc1cd428e260f5ae33793436708af919225fa3b0387f0b7c3b6233abe00a17286803983f185523336b9d1bd4597da
   languageName: node
   linkType: hard
 
@@ -10019,6 +10029,7 @@ __metadata:
     "@eeacms/volto-searchlib": 2.1.8
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 8.1.5
+    "@eeacms/volto-tree-view-block": 0.1.1
     "@eeacms/volto-workflow-progress": 5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
@@ -26181,6 +26192,15 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: e432b7cb0df57e8f0bcdc3b012d2e93fcbcb6092c9e0f85654788d5ebfc4442536d8cc35b2418061ba3c4afb8b7788cc101c606d86a1732407921de7a9244c8d
+  languageName: node
+  linkType: hard
+
+"react-complex-tree@npm:2.6.0":
+  version: 2.6.0
+  resolution: "react-complex-tree@npm:2.6.0"
+  peerDependencies:
+    react: ">=16.0.0"
+  checksum: f4cef85e05f40b79f0334f36cfa35197e384c17561c621d8db2976c7fad05f56b6c86970a6bb3b491cc927eca9452c9259c514989e8bff437cb6d2f02737d2b9
   languageName: node
   linkType: hard
 
