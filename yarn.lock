@@ -2696,6 +2696,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-tree-view-block@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@eeacms/volto-tree-view-block@npm:0.1.1"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+    react-complex-tree: 2.6.0
+  checksum: 5c0b8e1b02e96937bcea7c765843384414ddc1cd428e260f5ae33793436708af919225fa3b0387f0b7c3b6233abe00a17286803983f185523336b9d1bd4597da
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-widget-dataprovenance@npm:1.0.0":
   version: 1.0.0
   resolution: "@eeacms/volto-widget-dataprovenance@npm:1.0.0"
@@ -10089,6 +10099,7 @@ __metadata:
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-spotlight": 2.1.1
     "@eeacms/volto-tableau": 8.1.4
+    "@eeacms/volto-tree-view-block": 0.1.1
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.20.1
@@ -26250,6 +26261,15 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: e432b7cb0df57e8f0bcdc3b012d2e93fcbcb6092c9e0f85654788d5ebfc4442536d8cc35b2418061ba3c4afb8b7788cc101c606d86a1732407921de7a9244c8d
+  languageName: node
+  linkType: hard
+
+"react-complex-tree@npm:2.6.0":
+  version: 2.6.0
+  resolution: "react-complex-tree@npm:2.6.0"
+  peerDependencies:
+    react: ">=16.0.0"
+  checksum: f4cef85e05f40b79f0334f36cfa35197e384c17561c621d8db2976c7fad05f56b6c86970a6bb3b491cc927eca9452c9259c514989e8bff437cb6d2f02737d2b9
   languageName: node
   linkType: hard
 
