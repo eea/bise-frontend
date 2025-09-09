@@ -2233,9 +2233,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:28.0.5":
-  version: 28.0.5
-  resolution: "@eeacms/volto-eea-kitkat@npm:28.0.5"
+"@eeacms/volto-eea-kitkat@npm:28.0.6":
+  version: 28.0.6
+  resolution: "@eeacms/volto-eea-kitkat@npm:28.0.6"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 11.0.4
@@ -2262,7 +2262,7 @@ __metadata:
     "@eeacms/volto-quote-block": 3.0.0
     "@eeacms/volto-resize-helper": 2.0.0
     "@eeacms/volto-sentry-rancher-config": 5.0.0
-    "@eeacms/volto-slate-footnote": 7.2.4
+    "@eeacms/volto-slate-footnote": 7.2.5
     "@eeacms/volto-slate-label": 1.0.1
     "@eeacms/volto-slate-metadata-mentions": 8.3.0
     "@eeacms/volto-slate-zotero": 6.0.0
@@ -2278,7 +2278,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 0a99786bf96dfbcab8bb0b354865d554f8ae2c254041fa563c626db17cc25967150a736f507b92552d674ca59bf6096ab53cf9d24e1195f9dfdafcdd6971fa98
+  checksum: 6d4506a136969431d9ff586952b4208bd2165233b12b899f40970c21295443cb942c549ceb0f35d0c17b8f0ccd0399dcc88901e702663f41e8b7e4a47afb154d
   languageName: node
   linkType: hard
 
@@ -2532,10 +2532,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:*, @eeacms/volto-slate-footnote@npm:7.2.4":
+"@eeacms/volto-slate-footnote@npm:*":
   version: 7.2.4
   resolution: "@eeacms/volto-slate-footnote@npm:7.2.4"
   checksum: 62b25f944390670763e0afa55dfcada341e062e254b21f513251764b2bde4d491a1aa6c8edcdcfaad43fc58d2cc5cd580e0ae1b0858a15b663ed73c2f0991b65
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-slate-footnote@npm:7.2.5":
+  version: 7.2.5
+  resolution: "@eeacms/volto-slate-footnote@npm:7.2.5"
+  checksum: cdd5226840fa258aee2d7caa3e367b35455d0a2a78fe0b9f5e463802a5febb99b70c265e2a6793886b33926be3ec7ac4076554510ae77eaef490d20028ace403
   languageName: node
   linkType: hard
 
@@ -10024,7 +10031,7 @@ __metadata:
     "@eeacms/volto-bise-policy": 1.2.23
     "@eeacms/volto-datablocks": 7.3.3
     "@eeacms/volto-eea-design-system": 1.39.0
-    "@eeacms/volto-eea-kitkat": 28.0.5
+    "@eeacms/volto-eea-kitkat": 28.0.6
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.9.1
     "@eeacms/volto-embed": 10.1.3
