@@ -2300,16 +2300,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.9.1":
-  version: 3.9.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.9.1"
+"@eeacms/volto-eea-website-theme@npm:3.9.2":
+  version: 3.9.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.9.2"
   dependencies:
+    "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 641733fe283b923c684fc7adca51ecfd69b529b92b12eb57b51951f5f9476d48545ede53d666b2274d89d8592240669c9c44884a197e2d8b9004b9721743db95
+  checksum: e7edb991cf41b97f64d110eeeb9b9a37ddf700dde753185b5f2127112aee1004766beef5ddf5b33fd3db54b099b20a570091a1142bf250601f0392d004f19bc0
   languageName: node
   linkType: hard
 
@@ -10033,7 +10034,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.39.1
     "@eeacms/volto-eea-kitkat": 28.0.8
     "@eeacms/volto-eea-map": 5.0.8
-    "@eeacms/volto-eea-website-theme": 3.9.1
+    "@eeacms/volto-eea-website-theme": 3.9.2
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
