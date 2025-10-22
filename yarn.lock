@@ -2024,9 +2024,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/react-chart-editor@npm:0.47.7":
-  version: 0.47.7
-  resolution: "@eeacms/react-chart-editor@npm:0.47.7"
+"@eeacms/react-chart-editor@npm:0.47.8":
+  version: 0.47.8
+  resolution: "@eeacms/react-chart-editor@npm:0.47.8"
   dependencies:
     "@eeacms/react-colorscales": 2.1.1
     "@plotly/draft-js-export-html": ^1.2.0
@@ -2055,7 +2055,7 @@ __metadata:
     plotly.js: ">=1.58.5 <3.0.0"
     react: ">=16"
     react-dom: ">=16"
-  checksum: 8238de3cc8aaff871f7bbdb3f7e83def9980f6b0140267fbeded433ad3ac8636428d5509996a3460cd38b851554655742f7401fafad13d267cbc1bdc5acd356b
+  checksum: c57a8f0975ab94fa0b385bb9c95fecae645b1990443456c34985cca8be3265a4d196b30691e45d5c96742e8b151280ae944b2fa511c67268b91e3b74dcdf9c82
   languageName: node
   linkType: hard
 
@@ -2098,9 +2098,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.23":
-  version: 1.2.23
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.23"
+"@eeacms/volto-bise-policy@npm:1.2.24":
+  version: 1.2.24
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.24"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2112,7 +2112,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: 6a104b76b1132aa81d762a87b979b8be53520a50d7a18fd628c8d1323d02267e4b01c885fddf2b815625d898cfb51a538c18aaafbb5423bf493ffb4a4465f3fc
+  checksum: e8ad2767bc0b59daa4311fa6be43b9e7eeba3d95aae43c9fa46eab540dc4284b406bba27db44bf328ae334608ce2cb4de7d961ef429fe4f45b5d27d82e4c6194
   languageName: node
   linkType: hard
 
@@ -2375,13 +2375,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:10.1.3":
-  version: 10.1.3
-  resolution: "@eeacms/volto-embed@npm:10.1.3"
+"@eeacms/volto-embed@npm:10.1.4":
+  version: 10.1.4
+  resolution: "@eeacms/volto-embed@npm:10.1.4"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: 5f6fa4b3e1573f2081bcca054c9b24741d63fee2c3f3b2866191fd838d8f69ede207df1d84d2a19653a05de133799f0b2e3cb1f427351d8d0d71d12ff5a2689b
+  checksum: 75d06382f986e8c6485fcca7a6b79414580b8aa73a0c44bf82f05e19fb9654dbb3a495a9fac1dc912eab1901c8e2405dd695c4b8386de571159c8b8c22ea6884
   languageName: node
   linkType: hard
 
@@ -2464,9 +2464,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.1.7":
-  version: 1.1.7
-  resolution: "@eeacms/volto-n2k@npm:1.1.7"
+"@eeacms/volto-n2k@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@eeacms/volto-n2k@npm:1.1.8"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2481,7 +2481,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: 74bf3363c5456d1de0e0da6f1fff101b45a037bc858ca993f8278ae994ee0f69652dc2bea26ae3607c131875e9372817b6cd637aa3f455bc4083f2c9afc1b030
+  checksum: b016fb9412be0630c4cbac0bb0b2082f2a5dcec5c7fde4b85725886ac4f14bc6a7c2a3f1fd8d7a3f3abbd1aa0a359d3060824fafb188ce46d0f2818462d10ec9
   languageName: node
   linkType: hard
 
@@ -2519,11 +2519,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:^13.0.6":
-  version: 13.0.6
-  resolution: "@eeacms/volto-plotlycharts@npm:13.0.6"
+"@eeacms/volto-plotlycharts@npm:^13.1.2":
+  version: 13.1.2
+  resolution: "@eeacms/volto-plotlycharts@npm:13.1.2"
   dependencies:
-    "@eeacms/react-chart-editor": 0.47.7
+    "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2534,7 +2534,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: cadd000b491cd831799125338701dc5c1934063c1701815cced99ad7936e121ca6e9c93de012b550a88f3e88e8d52a0ffb05696e70594abd6902e161681568b0
+  checksum: 3033438619e8a85a8d616b068129446fbc80e53399926003b8efc298b397616a1d84bbee5aa1dc7a097d50453d38ac0d19feb732c7d2721ffea775ca46f82511
   languageName: node
   linkType: hard
 
@@ -10275,13 +10275,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.23
+    "@eeacms/volto-bise-policy": 1.2.24
     "@eeacms/volto-datablocks": 7.3.1
     "@eeacms/volto-eea-design-system": 1.37.1
     "@eeacms/volto-eea-kitkat": 27.1.1
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.7.0
-    "@eeacms/volto-embed": 10.1.3
+    "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-n2k": 1.1.8
