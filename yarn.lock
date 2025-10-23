@@ -2058,21 +2058,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.24":
-  version: 1.2.24
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.24"
+"@eeacms/volto-bise-policy@npm:1.2.25":
+  version: 1.2.25
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.25"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-resize-helper": "*"
-    "@eeacms/volto-spotlight": "*"
     "@plone-collective/volto-authomatic": 2.0.1
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: e8ad2767bc0b59daa4311fa6be43b9e7eeba3d95aae43c9fa46eab540dc4284b406bba27db44bf328ae334608ce2cb4de7d961ef429fe4f45b5d27d82e4c6194
+  checksum: fb1dc4ae44620b83698d3d4f8b4f6806d00d43eede90aa1c0895b6509d25c9dd4e10b4eb9cd2b7b56ff0e647a3243cec7e813fc838d78b8002cb638a21a60d0f
   languageName: node
   linkType: hard
 
@@ -2590,15 +2589,6 @@ __metadata:
   dependencies:
     "@eeacms/volto-slate-footnote": "*"
   checksum: 56031a8fc3351cbe2a0cacd9e815b2d15e91e87da0e9e119b25902c009b2948d787d9cc214f2cd11157ef9c1d2ce236f6b8f2600ddfec5b93a523e51f827c342
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-spotlight@npm:2.1.1":
-  version: 2.1.1
-  resolution: "@eeacms/volto-spotlight@npm:2.1.1"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-  checksum: e3bad8558554cd9b1ef4c976f850b46b3ee46cbcdbd4edc99b883af0ea255e40a1b43b5c5438e35475a0a132d064051546afe082cf76852c111cba2626de2154
   languageName: node
   linkType: hard
 
@@ -10059,7 +10049,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.24
+    "@eeacms/volto-bise-policy": 1.2.25
     "@eeacms/volto-datablocks": 7.3.3
     "@eeacms/volto-eea-design-system": 1.39.1
     "@eeacms/volto-eea-kitkat": 28.1.1
