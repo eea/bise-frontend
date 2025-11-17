@@ -2201,6 +2201,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-design-tokens@npm:*":
+  version: 1.1.1
+  resolution: "@eeacms/volto-design-tokens@npm:1.1.1"
+  checksum: 0d4ad7d300868452d2446751556b069384d4b4ec36011c0aa8e7bebc7692a9216e8f834043fa716644a368d5d10ed99f4b0a78ec028f948aeb4a5e17547b9a41
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-design-system@npm:1.40.0":
   version: 1.40.0
   resolution: "@eeacms/volto-eea-design-system@npm:1.40.0"
@@ -2365,15 +2372,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-matomo@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-matomo@npm:5.0.0"
-  dependencies:
-    "@datapunt/matomo-tracker-react": 0.3.1
-  checksum: 238fe12d34eb1d108998d536c036b8ca4f68afd35d409d6a12a9331a0b93c87dd048079712d9922bef4ec0dbc3aded188aac98e3a4c5ab9ee9cd6e8b6c0eb27a
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-metadata-block@npm:8.0.5":
   version: 8.0.5
   resolution: "@eeacms/volto-metadata-block@npm:8.0.5"
@@ -2463,11 +2461,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.0.16":
-  version: 2.0.16
-  resolution: "@eeacms/volto-searchlib@npm:2.0.16"
+"@eeacms/volto-searchlib@npm:2.1.10":
+  version: 2.1.10
+  resolution: "@eeacms/volto-searchlib@npm:2.1.10"
   dependencies:
-    "@eeacms/volto-matomo": 5.0.0
+    "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-matomo": "*"
     "@elastic/react-search-ui": 1.20.2
     "@elastic/react-search-ui-views": 1.20.2
     "@elastic/search-ui": 1.20.2
@@ -2503,7 +2502,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: cf8a0f8c6d1c113824c036c2ad42141264d3a799fa7df63c55a2568781b2f812542e5e2ef06adbc858c90eb99053d232785b2da4dd29241fc4713e7183efdce1
+  checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
   languageName: node
   linkType: hard
 
