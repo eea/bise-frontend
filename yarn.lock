@@ -2381,9 +2381,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.1.9":
-  version: 1.1.9
-  resolution: "@eeacms/volto-n2k@npm:1.1.9"
+"@eeacms/volto-n2k@npm:1.1.10":
+  version: 1.1.10
+  resolution: "@eeacms/volto-n2k@npm:1.1.10"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2397,7 +2397,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: 69a6a8d92d222113a057da68ef36653ec8436ef688d980eb00f956809a3bf729ab8967bf51e29965114955b62998028e97529731ed78363f549f98bcf73065bb
+  checksum: c7ad2392f6853895eba5c24b21caed659f83227301bad0b18609f31690cee4d7f6f75f733339b1a5265cf6f0b04c3f727fc1bec444d96d498fbd579dc80332e3
   languageName: node
   linkType: hard
 
@@ -10102,7 +10102,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-n2k": 1.1.9
+    "@eeacms/volto-n2k": 1.1.10
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ^13.0.6
     "@eeacms/volto-searchlib": 2.1.10
@@ -15171,15 +15171,6 @@ __metadata:
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
   checksum: 23001801f14c1d16bf0a837ca7970d9dd94e7b560384b41db378b49b6e32dc43d6e2790de1bd737a652a86f81a08d6a91f402525061b47719328f586a57e86c3
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-react-hooks@npm:^4.3.0":
-  version: 4.6.2
-  resolution: "eslint-plugin-react-hooks@npm:4.6.2"
-  peerDependencies:
-    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: 395c433610f59577cfcf3f2e42bcb130436c8a0b3777ac64f441d88c5275f4fcfc89094cedab270f2822daf29af1079151a7a6579a8e9ea8cee66540ba0384c4
   languageName: node
   linkType: hard
 
