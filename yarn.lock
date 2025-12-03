@@ -2048,9 +2048,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.31":
-  version: 1.2.31
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.31"
+"@eeacms/volto-bise-policy@npm:1.2.32":
+  version: 1.2.32
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.32"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2061,7 +2061,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: 5bdb3dc014cf943e91dea314a15e353029797d80768c8dab8b55f94c342ede266ce8352906e288770759942e9d8de51403ca89b00b66d69e3ba1d41837b0deed
+  checksum: 2ecea8cf161240df12253044d674bd05bb065cc47b2333960c28668d3b460f2a33abbed7f5bd86633231f9dba5bc90014a3064df924204e943ec36cb1efd2cef
   languageName: node
   linkType: hard
 
@@ -10093,7 +10093,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.31
+    "@eeacms/volto-bise-policy": 1.2.32
     "@eeacms/volto-datablocks": 7.3.3
     "@eeacms/volto-eea-design-system": 1.40.0
     "@eeacms/volto-eea-kitkat": 29.0.1
