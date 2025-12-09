@@ -2632,10 +2632,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-visualization-utils@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@eeacms/volto-visualization-utils@npm:1.0.3"
-  checksum: bb12aec30d5e4b60e49117463b3617181eaee49af30769bfc8212101d3c7f756437993f6ced0bbe66c41991baa9b5236e2a1465fb548ae8484d3e32ee4bcce10
+"@eeacms/volto-visualization-utils@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@eeacms/volto-visualization-utils@npm:1.0.4"
+  checksum: 3c225b2a64e423084bd19621d99cfbef75803274cd87ecd0d4abbd85d87c51b1299bfb888a7b212723b65e6f73534b546548a48ce3eb995a1f23fe625e5df4cc
   languageName: node
   linkType: hard
 
@@ -10116,7 +10116,7 @@ __metadata:
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-tree-view-block": 0.1.3
-    "@eeacms/volto-visualization-utils": 1.0.3
+    "@eeacms/volto-visualization-utils": 1.0.4
     "@eeacms/volto-workflow-progress": 5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
