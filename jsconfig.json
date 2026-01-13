@@ -19,7 +19,8 @@
         "../node_modules/@plone/volto/src/*",
         "../node_modules/@plone/volto/types/*"
       ],
-      "@root/*": ["."]
+      "@root/*": ["."],
+      "@eeacms/volto-tree-view-block": ["addons/volto-tree-view-block/src"]
     },
     "baseUrl": "src"
   },
