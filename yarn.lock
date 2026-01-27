@@ -2389,9 +2389,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.1.10":
-  version: 1.1.10
-  resolution: "@eeacms/volto-n2k@npm:1.1.10"
+"@eeacms/volto-n2k@npm:1.1.11":
+  version: 1.1.11
+  resolution: "@eeacms/volto-n2k@npm:1.1.11"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2405,7 +2405,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: c7ad2392f6853895eba5c24b21caed659f83227301bad0b18609f31690cee4d7f6f75f733339b1a5265cf6f0b04c3f727fc1bec444d96d498fbd579dc80332e3
+  checksum: 18caa69e81c79c5f65d712ac16d875bebb93faafe6cbb2a5f4e09c7937c8125cc19b7a4e4b6ca45ae8484b8c8573b2f6b4a803f756f62704a5fa7ffd2245c0c0
   languageName: node
   linkType: hard
 
@@ -10098,7 +10098,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 3.0.0
-    "@eeacms/volto-n2k": 1.1.10
+    "@eeacms/volto-n2k": 1.1.11
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ^13.0.6
     "@eeacms/volto-searchlib": ^2.1.10
