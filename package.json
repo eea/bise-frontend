@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "3.29.2",
+  "version": "3.30.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -175,7 +175,7 @@
     "node": "^16 || ^18 || ^20"
   },
   "resolutions": {
-    "@eeacms/volto-bise-policy": "1.2.34",
+    "@eeacms/volto-bise-policy": "1.2.37",
     "@eeacms/volto-chatbot": "^0.6.1",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-eea-design-system": "1.40.2",
@@ -185,7 +185,7 @@
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-embed": "10.1.4",
     "@eeacms/volto-globalsearch": "3.0.0",
-    "@eeacms/volto-n2k": "1.1.12",
+    "@eeacms/volto-n2k": "1.2.1",
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@eeacms/volto-plotlycharts": "^13.1.2",
     "@eeacms/volto-searchlib": "^2.1.10",
@@ -204,7 +204,7 @@
     "react": "17.0.2"
   },
   "dependencies": {
-    "@eeacms/volto-bise-policy": "1.2.34",
+    "@eeacms/volto-bise-policy": "1.2.37",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-eea-design-system": "1.40.2",
     "@eeacms/volto-eea-kitkat": "30.1.1",
@@ -213,7 +213,7 @@
     "@eeacms/volto-embed": "10.1.4",
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-globalsearch": "3.0.0",
-    "@eeacms/volto-n2k": "1.1.12",
+    "@eeacms/volto-n2k": "1.2.1",
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@eeacms/volto-plotlycharts": "^13.0.6",
     "@eeacms/volto-searchlib": "^2.1.10",
