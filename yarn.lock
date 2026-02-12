@@ -2123,12 +2123,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-call-to-action-block@npm:5.1.3":
-  version: 5.1.3
-  resolution: "@eeacms/volto-call-to-action-block@npm:5.1.3"
+"@eeacms/volto-call-to-action-block@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@eeacms/volto-call-to-action-block@npm:5.2.0"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: c3cfff6697947246e35c8d8318771fd5d27fa33ff6356fe540fa2ddc0901b6aa7eff2da3d61ceb7f1303ac50b09549044ba884708d9f7712d86aee39e2ace640
+  checksum: e57507b76bed6baf394c3785c5a9aecbb3281adf744ac4b6396f36d2d7d3b3f29eddd60c603321d2fa176edd693289c9c28629d6405cb6e6203c34a10c233024
   languageName: node
   linkType: hard
 
@@ -2224,9 +2224,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:30.1.1":
-  version: 30.1.1
-  resolution: "@eeacms/volto-eea-kitkat@npm:30.1.1"
+"@eeacms/volto-eea-kitkat@npm:31.0.0":
+  version: 31.0.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:31.0.0"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 12.0.0
@@ -2237,15 +2237,15 @@ __metadata:
     "@eeacms/volto-block-image-cards": 3.0.0
     "@eeacms/volto-block-style": 8.0.0
     "@eeacms/volto-block-toc": 8.2.0
-    "@eeacms/volto-call-to-action-block": 5.1.3
-    "@eeacms/volto-chatbot": 1.0.8
+    "@eeacms/volto-call-to-action-block": 5.2.0
+    "@eeacms/volto-chatbot": 0.6.4
     "@eeacms/volto-columns-block": 8.1.0
     "@eeacms/volto-controlpanel": 1.0.2
     "@eeacms/volto-corsproxy": 4.0.0
     "@eeacms/volto-description-block": 2.2.3
-    "@eeacms/volto-group-block": 8.1.1
+    "@eeacms/volto-group-block": 9.0.0
     "@eeacms/volto-hero-block": 8.0.0
-    "@eeacms/volto-listing-block": 9.1.0
+    "@eeacms/volto-listing-block": 9.1.1
     "@eeacms/volto-matomo": 6.0.1
     "@eeacms/volto-metadata-block": 8.0.5
     "@eeacms/volto-nextcloud-video-block": 2.0.1
@@ -2269,7 +2269,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.4.0
-  checksum: c20c53e129691cbe1fd1336301e639cafc26ff5a563686aa151129e38d8b3c19c3f24548fd1c6471e690dce537cfa0e03b9c620794218cc2b5f9c4d1c449f909
+  checksum: 9030a99aa16121b309aa04fd06e542c2ba4eac2c7183ad8108ee6558e897dcf555d2bbce08a29e2fa7bda64d2f126b64f9e378ea5d8f8b6dcdd881afbb8e222a
   languageName: node
   linkType: hard
 
@@ -2341,10 +2341,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@npm:8.1.1":
-  version: 8.1.1
-  resolution: "@eeacms/volto-group-block@npm:8.1.1"
-  checksum: 6717d4a220c4aa014693b4a4f7af3f5ff77ca0bd3fb0b88225c2f09d2ceea0621e80f1243db4b010c7864089c73e832c0935b371d029e8b59cd8c009f683bb6c
+"@eeacms/volto-group-block@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@eeacms/volto-group-block@npm:9.0.0"
+  checksum: 9c1b2cb1ec2781e7074335d78628bb396760c376e86f0bc4523802b70c8e0374b425115583e72c75c268bc4cc3558fb70554b6aa1498398a12774facfa69f1dc
   languageName: node
   linkType: hard
 
@@ -2358,7 +2358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:9.1.0":
+"@eeacms/volto-listing-block@npm:*":
   version: 9.1.0
   resolution: "@eeacms/volto-listing-block@npm:9.1.0"
   dependencies:
@@ -2368,6 +2368,19 @@ __metadata:
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
   checksum: 08fc31ac3684dea52b31e804111c72adb478c0176153ba002a75debad984cdb1fd25434cb08923ccd2f534dbc5f3e9931c4408c734570d8eb00bd54665b6e0aa
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-listing-block@npm:9.1.1":
+  version: 9.1.1
+  resolution: "@eeacms/volto-listing-block@npm:9.1.1"
+  dependencies:
+    "@eeacms/volto-object-widget": "*"
+    "@eeacms/volto-widget-theme-picker": "*"
+    react-resize-detector: 7.1.2
+    react-slick: ^0.30.1
+    slick-carousel: 1.8.1
+  checksum: 2d1aac26a31ebc5c54f07c471b5f5f6b7ea707eaf35c59cf06e3f78b36ef7da876a01ef3f7fadee9addc0b866b38861ffcd076f8a088431d92ec5176591ac9d0
   languageName: node
   linkType: hard
 
@@ -10092,7 +10105,7 @@ __metadata:
     "@eeacms/volto-bise-policy": 1.2.38
     "@eeacms/volto-datablocks": 7.3.4
     "@eeacms/volto-eea-design-system": 1.40.3
-    "@eeacms/volto-eea-kitkat": 30.1.1
+    "@eeacms/volto-eea-kitkat": 31.0.0
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.19.0
     "@eeacms/volto-embed": 10.1.4
