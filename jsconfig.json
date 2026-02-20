@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
     "module": "commonjs",
     "allowJs": true,
     "skipLibCheck": true,
@@ -19,11 +23,15 @@
         "../node_modules/@plone/volto/src/*",
         "../node_modules/@plone/volto/types/*"
       ],
-      "@root/*": ["."]
+      "@root/*": [
+        "."
+      ]
     },
     "baseUrl": "src"
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [
     "node_modules",
     "build",
