@@ -175,7 +175,7 @@
     "node": "^16 || ^18 || ^20"
   },
   "resolutions": {
-    "@eeacms/volto-bise-policy": "1.2.38",
+    "@eeacms/volto-bise-policy": "1.2.39",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-eea-design-system": "1.40.3",
     "@eeacms/volto-eea-kitkat": "32.0.0",
@@ -203,7 +203,7 @@
     "react": "17.0.2"
   },
   "dependencies": {
-    "@eeacms/volto-bise-policy": "1.2.38",
+    "@eeacms/volto-bise-policy": "1.2.39",
     "@eeacms/volto-chatbot": "^0.6.4",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-eea-design-system": "1.40.3",
