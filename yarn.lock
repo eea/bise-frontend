@@ -2085,9 +2085,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-image-cards@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-block-image-cards@npm:3.0.1"
+"@eeacms/volto-block-image-cards@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@eeacms/volto-block-image-cards@npm:3.0.2"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     react-lazy-load-image-component: ^1.4.0
@@ -2098,7 +2098,7 @@ __metadata:
     classnames: 2.2.6
     react-loadable: 5.5.0
     uuid: 8.3.1
-  checksum: 6d5a2a4b11396f3648d8280ca97830320737021b157fba9a400e35603c853a70e379138481730a6a48adedcc1a31522f21f3471272186cac5c8d4577c51faca8
+  checksum: dbd4b7773f673d8e56b151d2105c8861a630a92557c7ef50263e84eff7f73a4ee09f75f4d8d288a1f3a4de8af3f8dea29efa3ba408cc8e079480ff75a5473515
   languageName: node
   linkType: hard
 
@@ -2224,9 +2224,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:32.0.1":
-  version: 32.0.1
-  resolution: "@eeacms/volto-eea-kitkat@npm:32.0.1"
+"@eeacms/volto-eea-kitkat@npm:32.0.2":
+  version: 32.0.2
+  resolution: "@eeacms/volto-eea-kitkat@npm:32.0.2"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 12.0.0
@@ -2234,7 +2234,7 @@ __metadata:
     "@eeacms/volto-banner": 4.0.2
     "@eeacms/volto-block-data-table": 1.3.0
     "@eeacms/volto-block-divider": 7.0.2
-    "@eeacms/volto-block-image-cards": 3.0.1
+    "@eeacms/volto-block-image-cards": 3.0.2
     "@eeacms/volto-block-style": 8.0.1
     "@eeacms/volto-block-toc": 8.2.0
     "@eeacms/volto-call-to-action-block": 5.2.0
@@ -2268,7 +2268,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.4.0
-  checksum: 46bbef1b92b1cf31d884a3ff8b934891a0136c03c2583ffd9dcff26b58c71b1326fc840c1282ef75ff92a616f96c87c0b01dc9d384d54270a2b06ff4d5bca95f
+  checksum: 8d22febbabe5f9a2562646af1788e6358a86d9d5eca4df3bcb1fc324f0a373d07264906ce84cb839b3072382ec2dbd1f8319cfbde7ecfa09c00bb008ea668f29
   languageName: node
   linkType: hard
 
@@ -10107,7 +10107,7 @@ __metadata:
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-datablocks": 7.3.4
     "@eeacms/volto-eea-design-system": 1.40.3
-    "@eeacms/volto-eea-kitkat": 32.0.1
+    "@eeacms/volto-eea-kitkat": 32.0.2
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.19.1
     "@eeacms/volto-embed": 10.1.4
