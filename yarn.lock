@@ -2048,9 +2048,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.38":
-  version: 1.2.38
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.38"
+"@eeacms/volto-bise-policy@npm:1.2.39":
+  version: 1.2.39
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.39"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2062,7 +2062,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: 9b8f3b0bb2a810e333fd3a50cd7848b592c60efdd99ab86630ad4e70420162f6089fd6c2897dd4abe22c5b4fd5b0338772f2df6aac18c05a915c1ccbf047b062
+  checksum: 4f9e9ddb845c5d13a95702aa79bb2ed52edfedde8558ba3314c354939a8ab4b71baddec21f8dbdeff5f2fdf5503a9ef9a95544b205552f4c19abd69fef4bffa7
   languageName: node
   linkType: hard
 
@@ -2102,7 +2102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:*, @eeacms/volto-block-style@npm:8.0.0":
+"@eeacms/volto-block-style@npm:*":
   version: 8.0.0
   resolution: "@eeacms/volto-block-style@npm:8.0.0"
   dependencies:
@@ -2110,6 +2110,17 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
   checksum: 7a372e70f220aaa8a6fab99617e86d223a5cda2d9c793134589176bd3c2bcc1477745f47d382897158cc602f54f69f42e94f275c4d46732694abbcb169b77253
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-block-style@npm:8.0.1":
+  version: 8.0.1
+  resolution: "@eeacms/volto-block-style@npm:8.0.1"
+  dependencies:
+    "@eeacms/volto-resize-helper": "*"
+    "@eeacms/volto-widget-theme-picker": "*"
+    react-color: ~2.18.1
+  checksum: c38d9c49396ba2599eca2b83d84a9d54587c2d313a7ba3af9aed568c0ab15e1f37445b2d5df25aee68bf1436bbc38ea70b1f1737aa53795b09a0004d75859771
   languageName: node
   linkType: hard
 
@@ -2224,9 +2235,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:32.0.0":
-  version: 32.0.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:32.0.0"
+"@eeacms/volto-eea-kitkat@npm:32.0.1":
+  version: 32.0.1
+  resolution: "@eeacms/volto-eea-kitkat@npm:32.0.1"
   dependencies:
     "@eeacms/countup": 2.0.7
     "@eeacms/volto-accordion-block": 12.0.0
@@ -2235,7 +2246,7 @@ __metadata:
     "@eeacms/volto-block-data-table": 1.3.0
     "@eeacms/volto-block-divider": 7.0.2
     "@eeacms/volto-block-image-cards": 3.0.1
-    "@eeacms/volto-block-style": 8.0.0
+    "@eeacms/volto-block-style": 8.0.1
     "@eeacms/volto-block-toc": 8.2.0
     "@eeacms/volto-call-to-action-block": 5.2.0
     "@eeacms/volto-columns-block": 8.1.1
@@ -2268,7 +2279,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.4.0
-  checksum: 06e726ab1fc763a3fb1d37b2a9aecd333d69c9879a66767aa2909a8a3bf69513faea3971b607519759b0e13b308df66bfd3ad2ae2086a9896e453d3d76a60d03
+  checksum: 46bbef1b92b1cf31d884a3ff8b934891a0136c03c2583ffd9dcff26b58c71b1326fc840c1282ef75ff92a616f96c87c0b01dc9d384d54270a2b06ff4d5bca95f
   languageName: node
   linkType: hard
 
@@ -2290,9 +2301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.19.0"
+"@eeacms/volto-eea-website-theme@npm:3.19.1":
+  version: 3.19.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.19.1"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2300,7 +2311,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#develop"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 4959e33261d50324195a0700301b17a925bf796d8e91c9f9ace1eb91bca4ca5ce0d2c4c0113ffb2cde4adbece1f560eec9276cace2aca08b5121d971eaee8583
+  checksum: e21be4e844e94a7260c4dc30962248abb50069e66e23a475a8a75375478434db7a46ed2326ee5a24146398c939503f00bc459052ab6445d3701caa273c60be26
   languageName: node
   linkType: hard
 
@@ -10101,13 +10112,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.38
+    "@eeacms/volto-bise-policy": 1.2.39
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-datablocks": 7.3.4
     "@eeacms/volto-eea-design-system": 1.40.3
-    "@eeacms/volto-eea-kitkat": 32.0.0
+    "@eeacms/volto-eea-kitkat": 32.0.1
     "@eeacms/volto-eea-map": 5.0.8
-    "@eeacms/volto-eea-website-theme": 3.19.0
+    "@eeacms/volto-eea-website-theme": 3.19.1
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 3.0.0
