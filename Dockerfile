@@ -23,7 +23,6 @@ ARG MAX_OLD_SPACE_SIZE=16384
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium 
 
-RUN critical-cli -o ./public/critical.css https://biodiversity.europa.eu/
 
 RUN yarn \
   && yarn build \
