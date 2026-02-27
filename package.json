@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "3.33.0",
+  "version": "3.34.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -175,10 +175,10 @@
     "node": "^16 || ^18 || ^20"
   },
   "resolutions": {
-    "@eeacms/volto-bise-policy": "1.2.39",
+    "@eeacms/volto-bise-policy": "1.2.40",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-eea-design-system": "1.40.3",
-    "@eeacms/volto-eea-kitkat": "32.0.1",
+    "@eeacms/volto-eea-kitkat": "32.0.2",
     "@eeacms/volto-eea-map": "5.0.8",
     "@eeacms/volto-eea-website-theme": "3.19.1",
     "@eeacms/volto-embed-static-content": "0.5.1",
@@ -203,11 +203,11 @@
     "react": "17.0.2"
   },
   "dependencies": {
-    "@eeacms/volto-bise-policy": "1.2.39",
+    "@eeacms/volto-bise-policy": "1.2.40",
     "@eeacms/volto-chatbot": "^0.6.4",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-eea-design-system": "1.40.3",
-    "@eeacms/volto-eea-kitkat": "32.0.1",
+    "@eeacms/volto-eea-kitkat": "32.0.2",
     "@eeacms/volto-eea-map": "5.0.8",
     "@eeacms/volto-eea-website-theme": "3.19.1",
     "@eeacms/volto-embed": "10.1.4",
