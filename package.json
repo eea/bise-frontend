@@ -2,7 +2,7 @@
   "name": "bise-frontend",
   "description": "Website frontend for BISE",
   "license": "MIT",
-  "version": "3.34.1",
+  "version": "3.35.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -176,7 +176,7 @@
   },
   "resolutions": {
     "@eeacms/volto-bise-policy": "1.2.40",
-    "@eeacms/volto-datablocks": "7.3.4",
+    "@eeacms/volto-datablocks": "7.3.5",
     "@eeacms/volto-eea-design-system": "1.40.3",
     "@eeacms/volto-eea-kitkat": "32.0.2",
     "@eeacms/volto-eea-map": "5.0.8",
@@ -205,7 +205,7 @@
   "dependencies": {
     "@eeacms/volto-bise-policy": "1.2.40",
     "@eeacms/volto-chatbot": "^0.6.4",
-    "@eeacms/volto-datablocks": "7.3.4",
+    "@eeacms/volto-datablocks": "7.3.5",
     "@eeacms/volto-eea-design-system": "1.40.3",
     "@eeacms/volto-eea-kitkat": "32.0.2",
     "@eeacms/volto-eea-map": "5.0.8",
@@ -220,7 +220,7 @@
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-tree-view-block": "1.0.0",
-    "@eeacms/volto-visualization-utils": "1.0.4",
+    "@eeacms/volto-visualization-utils": "1.0.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.20.1"
