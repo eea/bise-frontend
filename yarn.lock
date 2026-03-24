@@ -2313,13 +2313,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:10.1.4":
-  version: 10.1.4
-  resolution: "@eeacms/volto-embed@npm:10.1.4"
+"@eeacms/volto-embed@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@eeacms/volto-embed@npm:11.0.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: 75d06382f986e8c6485fcca7a6b79414580b8aa73a0c44bf82f05e19fb9654dbb3a495a9fac1dc912eab1901c8e2405dd695c4b8386de571159c8b8c22ea6884
+  checksum: be13d6317b9c50e516acf46330f3066d8a894484d52261a57e8d4a7edc49ecab02950cc8fa517049b8d500813c94209e8e8a27297bbad72eeabefe1d262dd2fa
   languageName: node
   linkType: hard
 
@@ -10110,7 +10110,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 32.0.2
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-website-theme": 3.19.1
-    "@eeacms/volto-embed": 10.1.4
+    "@eeacms/volto-embed": 11.0.0
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 3.0.0
     "@eeacms/volto-n2k": 1.2.2
