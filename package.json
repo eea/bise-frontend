@@ -190,7 +190,7 @@
     "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "9.0.0",
-    "@eeacms/volto-workflow-progress": "5.0.0",
+    "@eeacms/volto-workflow-progress": "6.0.0",
     "@elastic/search-ui": "1.21.2",
     "d3-array": "^2.12.1",
     "d3": "6.7.0",
@@ -221,7 +221,7 @@
     "@eeacms/volto-tableau": "9.0.0",
     "@eeacms/volto-tree-view-block": "1.0.0",
     "@eeacms/volto-visualization-utils": "1.0.5",
-    "@eeacms/volto-workflow-progress": "5.0.1",
+    "@eeacms/volto-workflow-progress": "6.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.20.1"
   },

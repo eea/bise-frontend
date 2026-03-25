@@ -2672,10 +2672,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-workflow-progress@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-workflow-progress@npm:5.0.0"
-  checksum: 9acc7368c6a846d0f9a69297b6c45a1292980263f8c92990d5faae3ac8fdd8a7ea8193b62b353cc34bb8fe554f7158978cf5bd72337e0a9c7ffa66f281c2eddf
+"@eeacms/volto-workflow-progress@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@eeacms/volto-workflow-progress@npm:6.0.0"
+  checksum: 67dc0103eef42d6c96903b0059ddfa81147a8d0557f6cd7ab08821142864bb4c97f83fc33a537169b366632fc4c74bb3e9cbab56ad101fdf9ff74ad87178cfea
   languageName: node
   linkType: hard
 
@@ -10121,7 +10121,7 @@ __metadata:
     "@eeacms/volto-tableau": 9.0.0
     "@eeacms/volto-tree-view-block": 1.0.0
     "@eeacms/volto-visualization-utils": 1.0.5
-    "@eeacms/volto-workflow-progress": 5.0.1
+    "@eeacms/volto-workflow-progress": 6.0.0
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.20.1
