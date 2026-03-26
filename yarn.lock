@@ -2310,6 +2310,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-eea-chatbot@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.0"
+  dependencies:
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    "@plone-collective/volto-sentry": "*"
+    compromise: 14.14.5
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    luxon: 3.5.0
+    marked: 13.0.3
+    node-fetch: 2.7.0
+    react-markdown: 8.0.7
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  checksum: 1caa593890835db0edfe3d8469acc4b47930844a8245afd74c7430093919236c4e129e7a2d8e016034fc7e606f2e75cc9879051714de7e8453600c929ccbd0e5
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-design-system@npm:^1.50.0":
   version: 1.50.0
   resolution: "@eeacms/volto-eea-design-system@npm:1.50.0"
@@ -2584,11 +2606,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:^2.1.10":
-  version: 2.1.10
-  resolution: "@eeacms/volto-searchlib@npm:2.1.10"
+"@eeacms/volto-searchlib@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "@eeacms/volto-searchlib@npm:3.0.3"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-eea-chatbot": "*"
     "@eeacms/volto-matomo": "*"
     "@elastic/react-search-ui": 1.20.2
     "@elastic/react-search-ui-views": 1.20.2
@@ -2625,7 +2648,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
+  checksum: 4f6795fbfd4b55877e7d0a09dfa3c5310b1f84c34a7dc4322fcb17c1d7a33074035a934e6c919ef53e080f1d10cda9cd694e5239403e32d27087f39f98bf66a8
   languageName: node
   linkType: hard
 
@@ -2854,15 +2877,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@elastic/search-ui@npm:^1.21.2":
-  version: 1.24.2
-  resolution: "@elastic/search-ui@npm:1.24.2"
+"@elastic/search-ui@npm:1.21.2":
+  version: 1.21.2
+  resolution: "@elastic/search-ui@npm:1.21.2"
   dependencies:
     date-fns: ^1.30.1
     deep-equal: ^1.0.1
     history: ^4.9.0
-    qs: ^6.9.7
-  checksum: 42eae247a2b64936f90c012b89bf72eedf16a761baac738361103a9e864197d68ba5106003ae28c0eca6c1f3a6b94a1d50de9550260e54221c4205cbb9951908
+    qs: ^6.7.0
+  checksum: 945b6133ca4b4f464b4454ef7143903b3779659d66e9d4a98d8d06777d064e6a085a1152634cd7307bbb127b40b10d118b6d5470c58f0575a7a714df70594a07
   languageName: node
   linkType: hard
 
@@ -10443,7 +10466,7 @@ __metadata:
     "@eeacms/volto-n2k": 1.2.3
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ^13.0.6
-    "@eeacms/volto-searchlib": ^2.1.10
+    "@eeacms/volto-searchlib": ^3.0.3
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": ^8.1.5
     "@eeacms/volto-tree-view-block": 1.0.0
@@ -12138,6 +12161,17 @@ __metadata:
     safe-buffer: 5.2.1
     vary: ~1.1.2
   checksum: 906325935180cd3507d30ed898fb129deccab03689383d55536245a94610f5003923bb14c95ee6adc8d658ee13be549407eb4346ef55169045f3e41e9969808e
+  languageName: node
+  linkType: hard
+
+"compromise@npm:14.14.5":
+  version: 14.14.5
+  resolution: "compromise@npm:14.14.5"
+  dependencies:
+    efrt: 2.7.0
+    grad-school: 0.0.5
+    suffix-thumb: 5.0.2
+  checksum: ec091600c93b7b107030d546ab4dabde719dbd9a19870f64ea96f33a68bee81a5f2eb2b3afad8c827f461cb2b84f8acf94d54695f841e945f0f1db6421be8111
   languageName: node
   linkType: hard
 
@@ -14839,6 +14873,13 @@ __metadata:
   version: 1.1.1
   resolution: "ee-first@npm:1.1.1"
   checksum: 1b4cac778d64ce3b582a7e26b218afe07e207a0f9bfe13cc7395a6d307849cfe361e65033c3251e00c27dd060cab43014c2d6b2647676135e18b77d2d05b3f4f
+  languageName: node
+  linkType: hard
+
+"efrt@npm:2.7.0":
+  version: 2.7.0
+  resolution: "efrt@npm:2.7.0"
+  checksum: 649da95aa60adc411563e04d8f953e67a67ebafca6f3479d5768cab2d011068de4379ad978ba8a87d574d7ea2494a82ecbe3a8f9f8f9bca3ddcc3d5cb4ea11ae
   languageName: node
   linkType: hard
 
@@ -17950,6 +17991,13 @@ __metadata:
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: ac85f94da92d8eb6b7f5a8b20ce65e43d66761c55ce85ac96df6865308390da45a8d3f0296dd3a663de65d30ba497bd46c696cc1e248c72b13d6d567138a4fc7
+  languageName: node
+  linkType: hard
+
+"grad-school@npm:0.0.5":
+  version: 0.0.5
+  resolution: "grad-school@npm:0.0.5"
+  checksum: 1330b02b71ef37f9a507261c1219056d19caa46f99e65fe30fe9b5c98235b5dec23d74928ed166516054b30c4cf470903de482311d2d25d985e904989b53c69a
   languageName: node
   linkType: hard
 
@@ -26618,7 +26666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.10.0, qs@npm:^6.12.3, qs@npm:^6.5.1, qs@npm:^6.9.7":
+"qs@npm:^6.10.0, qs@npm:^6.12.3, qs@npm:^6.5.1, qs@npm:^6.7.0":
   version: 6.15.0
   resolution: "qs@npm:6.15.0"
   dependencies:
@@ -31434,6 +31482,13 @@ __metadata:
     sucrase: bin/sucrase
     sucrase-node: bin/sucrase-node
   checksum: 9a3ae3900f85ede60468bdaebc07a32691d5e44c80bb008734088dcde49cd0e05ead854786d90fbb6e63ed1c50592146cb50536321212773f6d72d1c85b2a51b
+  languageName: node
+  linkType: hard
+
+"suffix-thumb@npm:5.0.2":
+  version: 5.0.2
+  resolution: "suffix-thumb@npm:5.0.2"
+  checksum: 4c4f37168b9455c460451c9531fd2708dcd20aadbb3bc505901a0bb616fa9239a582661cd002625de3cf499ce747fbac45d074e75f0f1bccd7b88fb9c6f4fac9
   languageName: node
   linkType: hard
 
