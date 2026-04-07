@@ -2219,9 +2219,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.0"
+"@eeacms/volto-eea-chatbot@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.1"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2237,7 +2237,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 1caa593890835db0edfe3d8469acc4b47930844a8245afd74c7430093919236c4e129e7a2d8e016034fc7e606f2e75cc9879051714de7e8453600c929ccbd0e5
+  checksum: c04cf6ee997d7cd691d7b91b34e84c21890e2dac35f1d0a41ed2f2999d7abdc93eeebc810485cf6f6a1d843b7577f29f75c058be34d3811b2aacbe741bf73526
   languageName: node
   linkType: hard
 
@@ -10142,7 +10142,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.50.0
     "@eeacms/volto-eea-kitkat": 32.0.2
     "@eeacms/volto-eea-map": ^5.0.8
-    "@eeacms/volto-eea-website-theme": 3.19.1
+    "@eeacms/volto-eea-website-theme": 4.0.0
     "@eeacms/volto-embed": ^10.1.4
     "@eeacms/volto-embed-static-content": ^0.5.1
     "@eeacms/volto-globalsearch": ^3.0.0
