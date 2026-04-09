@@ -10142,7 +10142,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.50.1
     "@eeacms/volto-eea-kitkat": 32.0.2
     "@eeacms/volto-eea-map": ^5.0.8
-    "@eeacms/volto-eea-website-theme": 4.0.2
+    "@eeacms/volto-eea-website-theme": 4.0.3
     "@eeacms/volto-embed": ^10.1.4
     "@eeacms/volto-embed-static-content": ^0.5.1
     "@eeacms/volto-globalsearch": ^3.0.0
