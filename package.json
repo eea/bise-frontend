@@ -218,7 +218,7 @@
     "@eeacms/volto-searchlib": "^3.0.3",
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "^8.1.5",
-    "@eeacms/volto-tree-view-block": "1.0.0",
+    "@eeacms/volto-tree-view-block": "1.0.1",
     "@eeacms/volto-visualization-utils": "1.0.5",
     "@eeacms/volto-workflow-progress": "^5.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",

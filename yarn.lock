@@ -2648,13 +2648,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tree-view-block@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-tree-view-block@npm:1.0.0"
+"@eeacms/volto-tree-view-block@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eeacms/volto-tree-view-block@npm:1.0.1"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     react-complex-tree: 2.6.0
-  checksum: 7264ccc6193d7fa294b8cdb5540910161b754e53f2e6e26cdb66488a4d8b7cff807d839410ea79e79046f5ec358e8f903c0deb9631f5cd2deedad7322af1ad05
+  checksum: 3688186b63dce46054034e24bf4d3c6583bd41d8b563bb3a580ba12c3c2f756cf75074b09b19d6a0f05a1e7aafe1d8c3351d5101c7ae0b1a5670aab806dba67c
   languageName: node
   linkType: hard
 
@@ -10152,7 +10152,7 @@ __metadata:
     "@eeacms/volto-searchlib": ^3.0.3
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": ^8.1.5
-    "@eeacms/volto-tree-view-block": 1.0.0
+    "@eeacms/volto-tree-view-block": 1.0.1
     "@eeacms/volto-visualization-utils": 1.0.5
     "@eeacms/volto-workflow-progress": ^5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
