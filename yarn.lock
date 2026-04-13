@@ -2048,9 +2048,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:^1.2.40":
-  version: 1.2.40
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.40"
+"@eeacms/volto-bise-policy@npm:1.2.43":
+  version: 1.2.43
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.43"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2062,7 +2062,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: ee4ea9d40fd305ea90dfd51413fa02f06b3d48a0564b56463f2bbc6a650d97c65dee1bac17881902106ee4deea8943ce33e39eebf58efa78ee43bb1f5c57c26a
+  checksum: a9a9e6b9a7efc4247d47d68a3e210b0918b4b9a44245b1b26c52854cec06109719856385b75bdacd42daf4a5da5740cb6a1912f76f6338482fa6ae37bbaa2c49
   languageName: node
   linkType: hard
 
@@ -2413,9 +2413,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@eeacms/volto-n2k@npm:1.2.3"
+"@eeacms/volto-n2k@npm:1.2.4":
+  version: 1.2.4
+  resolution: "@eeacms/volto-n2k@npm:1.2.4"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2429,7 +2429,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: e19ed815eccf4a096b9f5a00c8e1c7355d3ee8184e5f23ec502c6f5283b523d96a11f28ac43f42b08380a2dd8754f18986ac227055069a599ce0f0aaab2f3697
+  checksum: fb4f46f2b4de6fbd85fd3c2164841739b97ffc9230ff52699876e3dde483ceb972012d710632b326a3fe33c04e7e30c9363dc27faef4f46d60a598f72f650140
   languageName: node
   linkType: hard
 
@@ -2648,13 +2648,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tree-view-block@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-tree-view-block@npm:1.0.0"
+"@eeacms/volto-tree-view-block@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eeacms/volto-tree-view-block@npm:1.0.1"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     react-complex-tree: 2.6.0
-  checksum: 7264ccc6193d7fa294b8cdb5540910161b754e53f2e6e26cdb66488a4d8b7cff807d839410ea79e79046f5ec358e8f903c0deb9631f5cd2deedad7322af1ad05
+  checksum: 3688186b63dce46054034e24bf4d3c6583bd41d8b563bb3a580ba12c3c2f756cf75074b09b19d6a0f05a1e7aafe1d8c3351d5101c7ae0b1a5670aab806dba67c
   languageName: node
   linkType: hard
 
@@ -10136,7 +10136,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.42
+    "@eeacms/volto-bise-policy": 1.2.43
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-datablocks": 8.0.2
     "@eeacms/volto-eea-design-system": 1.50.2
@@ -10152,7 +10152,7 @@ __metadata:
     "@eeacms/volto-searchlib": ^3.0.3
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": ^8.1.5
-    "@eeacms/volto-tree-view-block": 1.0.0
+    "@eeacms/volto-tree-view-block": 1.0.1
     "@eeacms/volto-visualization-utils": 1.0.5
     "@eeacms/volto-workflow-progress": ^5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
