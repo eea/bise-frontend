@@ -2048,9 +2048,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.43":
-  version: 1.2.43
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.43"
+"@eeacms/volto-bise-policy@npm:1.2.44":
+  version: 1.2.44
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.44"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2062,7 +2062,7 @@ __metadata:
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
     react-plotly.js: 2.6.0
-  checksum: a9a9e6b9a7efc4247d47d68a3e210b0918b4b9a44245b1b26c52854cec06109719856385b75bdacd42daf4a5da5740cb6a1912f76f6338482fa6ae37bbaa2c49
+  checksum: aa932377f3d174a59ab6a8e5bfb6b508e866e0fac096b16451ca8dec6d392eba873546a4f8c729bf2a1cb45f73921c2dbf76961bc5c6e707cc2a4cff8282db03
   languageName: node
   linkType: hard
 
@@ -2413,9 +2413,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@eeacms/volto-n2k@npm:1.2.4"
+"@eeacms/volto-n2k@npm:1.2.5":
+  version: 1.2.5
+  resolution: "@eeacms/volto-n2k@npm:1.2.5"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2429,7 +2429,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: fb4f46f2b4de6fbd85fd3c2164841739b97ffc9230ff52699876e3dde483ceb972012d710632b326a3fe33c04e7e30c9363dc27faef4f46d60a598f72f650140
+  checksum: 7f5fd8f9c048228d1d42180a53bb1e492eb473d9280ea6422c4c63eff7f1dd13546531b423478e04fdb76666590752fbcbbea1f04908683ad1450bdf0b6c3389
   languageName: node
   linkType: hard
 
@@ -10136,7 +10136,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.43
+    "@eeacms/volto-bise-policy": 1.2.44
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-datablocks": 8.0.2
     "@eeacms/volto-eea-design-system": 1.50.2
@@ -10146,7 +10146,7 @@ __metadata:
     "@eeacms/volto-embed": ^10.1.4
     "@eeacms/volto-embed-static-content": ^0.5.1
     "@eeacms/volto-globalsearch": ^3.0.0
-    "@eeacms/volto-n2k": 1.2.4
+    "@eeacms/volto-n2k": 1.2.5
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ^13.0.6
     "@eeacms/volto-searchlib": ^3.0.3
