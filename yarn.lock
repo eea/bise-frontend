@@ -10150,7 +10150,7 @@ __metadata:
     "@eeacms/volto-openlayers-map": 2.0.0
     "@eeacms/volto-plotlycharts": ^13.0.6
     "@eeacms/volto-searchlib": ^3.0.3
-    "@eeacms/volto-slate-dataentity": 4.0.2
+    "@eeacms/volto-slate-dataentity": 5.0.0
     "@eeacms/volto-tableau": ^8.1.5
     "@eeacms/volto-tree-view-block": 2.0.0
     "@eeacms/volto-visualization-utils": 2.0.0
