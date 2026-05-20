@@ -68,6 +68,7 @@ const customModifyWebpackConfig = ({
   }
 
   if (process.env.ADDONS) {
+    const addonsFromEnvVar = process.env.ADDONS.split(',');
     addonsFromEnvVar.forEach((addon) => {
       const normalizedAddonName = addon.split(':')[0];
       const p = fs.realpathSync(
