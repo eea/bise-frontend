@@ -2257,9 +2257,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.2"
+"@eeacms/volto-eea-chatbot@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.3"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2275,7 +2275,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 6a5cfe630565df515d64adb68fb206fc00e434f524633d3ac0c89c866615abefffa2338d06dbd9a6ad53fd4c049c2f6e2a45d3018f98704318e53879b4677957
+  checksum: 821e2a660b842fb853a945939cc50a767ec0866e5240aa61276a1f6f1c8ac329501159319d9217a7b753155d9eaace5ead55a2caffdba07d8c644f28537b80f0
   languageName: node
   linkType: hard
 
@@ -2412,13 +2412,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:*, @eeacms/volto-embed@npm:11.0.1":
+"@eeacms/volto-embed@npm:*":
   version: 11.0.1
   resolution: "@eeacms/volto-embed@npm:11.0.1"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
   checksum: b08e84f12566d2a044c695ba0d7934f78ac38bc23f22776b6251e8edc57fc52f1e651d0ffd82c7b71c52e9fbd3d500aab0b65576b52bf622ea77587e2557d6da
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-embed@npm:11.0.2":
+  version: 11.0.2
+  resolution: "@eeacms/volto-embed@npm:11.0.2"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    "@eeacms/volto-datablocks": "*"
+  checksum: f508069e784b409e2878b0702d2865b686d6fadf834f0bd9eb2b6c74bbeb469dd7bcaa0f8d5ae385c904a15ef6895dfed04f0524d78363c934706e00d0748e8d
   languageName: node
   linkType: hard
 
@@ -10284,7 +10294,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 33.0.4
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-website-theme": 4.3.2
-    "@eeacms/volto-embed": 11.0.1
+    "@eeacms/volto-embed": 11.0.2
     "@eeacms/volto-embed-static-content": ^0.5.1
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-n2k": 1.2.5
