@@ -2573,22 +2573,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:14.0.3":
-  version: 14.0.3
-  resolution: "@eeacms/volto-plotlycharts@npm:14.0.3"
+"@eeacms/volto-plotlycharts@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@eeacms/volto-plotlycharts@npm:14.0.4"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
-    "@plone/scripts": "*"
+    "@plone/scripts": ^3.10.6
     handsontable: ^15.2.0
     jsoneditor: 10.2.0
     jszip: 3.10.1
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: 0681bc28422bac6c6d6243a5682e7ff487f38e911b06684a86bd4f3d01b0f0552b47d59b2cacb8850cc882fa37ef96f2f6af94dc690ecbe02f25736ad2e15838
+  checksum: 1199d1d9671b478de0f9329a9c39c3f53f1e0e0e318a98d845d092fb488c89cab1895f9560ef88878b96d06374190036575fc3676a5c38980e3eec284418d49f
   languageName: node
   linkType: hard
 
@@ -10439,7 +10439,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-n2k": 1.2.5
     "@eeacms/volto-openlayers-map": 2.0.0
-    "@eeacms/volto-plotlycharts": 14.0.3
+    "@eeacms/volto-plotlycharts": 14.0.4
     "@eeacms/volto-searchlib": 4.1.0
     "@eeacms/volto-slate-dataentity": 5.0.0
     "@eeacms/volto-tableau": 9.0.2
