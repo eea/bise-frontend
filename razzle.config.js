@@ -5,19 +5,19 @@
 const path = require('path');
 const fs = require('fs');
 const nodeExternals = require('webpack-node-externals');
+const { AddonRegistry } = require('@plone/registry/addon-registry');
+const { createAddonsLoader } = require('@plone/registry/create-addons-loader');
 
 const projectRootPath = path.resolve('.');
 let voltoPath = `${projectRootPath}/node_modules/@plone/volto`;
 
-const AddonConfigurationRegistry = require(`${voltoPath}/addon-registry`);
 const defaultVoltoRazzleConfig = require(`${voltoPath}/razzle.config`);
-const createAddonsLoader = require(`${voltoPath}/create-addons-loader`);
 
 const { modifyWebpackConfig } = defaultVoltoRazzleConfig;
 
 const packageJson = require(path.join(projectRootPath, 'package.json'));
 
-const registry = new AddonConfigurationRegistry(projectRootPath);
+const { registry } = AddonRegistry.init(projectRootPath);
 
 const customModifyWebpackConfig = ({
   env: { target, dev },
