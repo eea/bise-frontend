@@ -2145,9 +2145,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.46":
+"@eeacms/volto-bise-policy@github:eea/volto-bise-policy#1.3.0-beta.1":
   version: 1.2.46
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.46"
+  resolution: "@eeacms/volto-bise-policy@https://github.com/eea/volto-bise-policy.git#commit=488d6e187a376224177dbabb5b662b33fe7877d1"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2158,8 +2158,9 @@ __metadata:
     "@plone-collective/volto-authomatic": 2.0.1
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
+    querystring: 0.2.1
     react-plotly.js: 2.6.0
-  checksum: 06a26eec2b1ea7d8fc36fea6211d3d44dd51b670b6238a02ff7798ec1b825cf9e93b9bb49f1a2efc5cce12482a9758c227dbe76e040256ddfce84a638720dc56
+  checksum: 453c935d0f09f9af98936a17d55a1086fed2ac2d5ff90354928d520210224bdfe117cbb46bdcb93436924cda1476ba0e14e6beaf670ec658e6244775b3d72982
   languageName: node
   linkType: hard
 
@@ -2172,7 +2173,7 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-    "@eeacms/volto-openlayers-map": 1.0.1
+    "@eeacms/volto-openlayers-map": 2.0.0
     "@eeacms/volto-resize-helper": "*"
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": "*"
@@ -2185,6 +2186,7 @@ __metadata:
     lint-staged: ^14.0.1
     md5: ^2.3.0
     plotly.js: ^2.28.0
+    querystring: 0.2.1
     react-plotly.js: 2.6.0
   languageName: unknown
   linkType: soft
@@ -2588,9 +2590,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-n2k@npm:1.2.5":
+"@eeacms/volto-n2k@github:eea/volto-n2k#1.3.0-beta.1":
   version: 1.2.5
-  resolution: "@eeacms/volto-n2k@npm:1.2.5"
+  resolution: "@eeacms/volto-n2k@https://github.com/eea/volto-n2k.git#commit=b98fd1151aa06ff26efdd516a81652b5c0bc73d4"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-openlayers-map": "*"
@@ -2604,7 +2606,7 @@ __metadata:
     resize-observer-polyfill: 1.5.1
     slick-carousel: 1.8.1
     swiper: 9.1.1
-  checksum: 7f5fd8f9c048228d1d42180a53bb1e492eb473d9280ea6422c4c63eff7f1dd13546531b423478e04fdb76666590752fbcbbea1f04908683ad1450bdf0b6c3389
+  checksum: da1bd3bee208786c7adefcada2c27f09c93e832103db391ac9f770f0e19409e75e593d0ea24ce0639b1d0ad93e05bec4dc2dc98ec6842b69236b6e000b40fce6
   languageName: node
   linkType: hard
 
@@ -2653,7 +2655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@*, @eeacms/volto-openlayers-map@1.0.1, @eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map":
+"@eeacms/volto-openlayers-map@*, @eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-openlayers-map@workspace:src/addons/volto-openlayers-map"
   dependencies:
@@ -11122,7 +11124,7 @@ __metadata:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
-    "@eeacms/volto-bise-policy": 1.2.46
+    "@eeacms/volto-bise-policy": "github:eea/volto-bise-policy#1.3.0-beta.1"
     "@eeacms/volto-chatbot": ^2.0.3
     "@eeacms/volto-datablocks": 8.0.2
     "@eeacms/volto-eea-design-system": ^1.60.3
@@ -11132,7 +11134,7 @@ __metadata:
     "@eeacms/volto-embed": 11.0.1
     "@eeacms/volto-embed-static-content": ^1.0.4
     "@eeacms/volto-globalsearch": 4.0.1
-    "@eeacms/volto-n2k": 1.2.5
+    "@eeacms/volto-n2k": "github:eea/volto-n2k#1.3.0-beta.1"
     "@eeacms/volto-openlayers-map": 2.0.0
     "@eeacms/volto-plotlycharts": 14.0.3
     "@eeacms/volto-searchlib": 4.0.3
@@ -27289,7 +27291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"querystring@npm:^0.2.0":
+"querystring@npm:0.2.1, querystring@npm:^0.2.0":
   version: 0.2.1
   resolution: "querystring@npm:0.2.1"
   checksum: 7b83b45d641e75fd39cd6625ddfd44e7618e741c61e95281b57bbae8fde0afcc12cf851924559e5cc1ef9baa3b1e06e22b164ea1397d65dd94b801f678d9c8ce
