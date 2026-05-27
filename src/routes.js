@@ -3,7 +3,7 @@
  * @module routes
  */
 
-import { App } from '@plone/volto/components/theme/App/App';
+//import App from '@plone/volto/components/theme/App/App';
 import FakeLocation from './FakeLocation';
 import { defaultRoutes } from '@plone/volto/routes';
 import config from '@plone/volto/registry';
@@ -14,6 +14,8 @@ import { Sitemap } from '@eeacms/volto-n2k/components';
  * @array
  * @returns {array} Routes.
  */
+
+const App = config.getComponent('App').component;
 
 const routes = [
   {
