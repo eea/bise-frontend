@@ -2309,9 +2309,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:33.0.4":
-  version: 33.0.4
-  resolution: "@eeacms/volto-eea-kitkat@npm:33.0.4"
+"@eeacms/volto-eea-kitkat@npm:33.0.5":
+  version: 33.0.5
+  resolution: "@eeacms/volto-eea-kitkat@npm:33.0.5"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.0.3
@@ -2352,8 +2352,8 @@ __metadata:
     "@eeacms/volto-widget-temporal-coverage": 7.0.1
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
-    "@plone-collective/volto-sentry": 0.4.0
-  checksum: c03b4fc1d082ba7bba64230a0ecfe3eeff2e75336dce63b82aa93cd6f7a6f05fd53c4233ca870eb845b0041c2c8ced2a143f96ae743a6fafd21029d4d4d41057
+    "@plone-collective/volto-sentry": 1.0.0
+  checksum: 660eefb4723fd458e223ad7cf15c263b531348e6f31525dc0d70a468e4d24cde246f30fa747b19401d9d3cfb41de3b617bd57c0b7c2f074b3d1fa5a51bb28202
   languageName: node
   linkType: hard
 
@@ -4461,7 +4461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:*, @plone-collective/volto-sentry@npm:0.4.0":
+"@plone-collective/volto-sentry@npm:*":
   version: 0.4.0
   resolution: "@plone-collective/volto-sentry@npm:0.4.0"
   dependencies:
@@ -4470,6 +4470,18 @@ __metadata:
     "@sentry/node": 7.15.0
     "@sentry/webpack-plugin": 1.19.1
   checksum: db8660ac3a82320d917222e940842479f2aa2945f3e6b8614d40fc12f96b5b4eb997fb4ab92ab7087492ec0cbb653b65fd2ee0f6f37d39ad5125e9c37c233c49
+  languageName: node
+  linkType: hard
+
+"@plone-collective/volto-sentry@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@plone-collective/volto-sentry@npm:1.0.0"
+  dependencies:
+    "@sentry/browser": 7.15.0
+    "@sentry/integrations": 7.15.0
+    "@sentry/node": 7.15.0
+    "@sentry/webpack-plugin": 1.19.1
+  checksum: 858253fa262c4ee9c9602b79d9f0db5fcdf822bfb9f05710bfb395275b2b8e34abfda3dfd01fb263b55ea3773bcda653849d318f0fa5252615d982dcc40c739d
   languageName: node
   linkType: hard
 
@@ -10440,7 +10452,7 @@ __metadata:
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-datablocks": 8.0.2
     "@eeacms/volto-eea-design-system": 1.60.5
-    "@eeacms/volto-eea-kitkat": 33.0.4
+    "@eeacms/volto-eea-kitkat": 33.0.5
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-website-theme": 4.3.5
     "@eeacms/volto-embed": 11.0.4
