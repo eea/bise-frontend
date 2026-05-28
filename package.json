@@ -177,7 +177,7 @@
   "resolutions": {
     "@eeacms/volto-datablocks": "^7.3.5",
     "@eeacms/volto-embed-static-content": "^0.5.1",
-    "@eeacms/volto-eea-chatbot": "2.0.3",
+    "@eeacms/volto-eea-chatbot": "2.0.4",
     "@eeacms/volto-slate-dataentity": "^4.0.2",
     "@eeacms/volto-workflow-progress": "^5.0.0",
     "@elastic/search-ui": "1.21.2",
