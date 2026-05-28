@@ -2257,9 +2257,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.3"
+"@eeacms/volto-eea-chatbot@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.4"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2275,7 +2275,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 821e2a660b842fb853a945939cc50a767ec0866e5240aa61276a1f6f1c8ac329501159319d9217a7b753155d9eaace5ead55a2caffdba07d8c644f28537b80f0
+  checksum: cb20e4e0c981c51af3fa610f3a88444da7830d18f2fb148fbafc2e3489af425305e2c6317bcc80b30e25f601390b476641237978405d2383f0c2f815e01655f2
   languageName: node
   linkType: hard
 
@@ -2389,9 +2389,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.3.4":
-  version: 4.3.4
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.4"
+"@eeacms/volto-eea-website-theme@npm:4.3.5":
+  version: 4.3.5
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.5"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2399,7 +2399,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 5cfb02c48c328313aae70f058230d1e3a509b739dd8e3f910ec5417679211162bdf053c09205d62186d9b3fdb07dcd28a086687246914e31dc49fbf090bfd5bb
+  checksum: 26243c4ae57de2a632e67e88c07b49840ccd134637fbec077b59f8872e941793aa37007fb85b80c11f6768cbadad45d487f76d262eeb719b1ae49878afb82444
   languageName: node
   linkType: hard
 
@@ -10442,7 +10442,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.60.5
     "@eeacms/volto-eea-kitkat": 33.0.4
     "@eeacms/volto-eea-map": 6.0.1
-    "@eeacms/volto-eea-website-theme": 4.3.4
+    "@eeacms/volto-eea-website-theme": 4.3.5
     "@eeacms/volto-embed": 11.0.4
     "@eeacms/volto-embed-static-content": ^0.5.1
     "@eeacms/volto-globalsearch": 4.0.1
