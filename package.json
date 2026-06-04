@@ -205,7 +205,7 @@
     "@eeacms/volto-n2k": "1.2.5",
     "@eeacms/volto-openlayers-map": "2.0.1",
     "@eeacms/volto-plotlycharts": "14.0.4",
-    "@eeacms/volto-searchlib": "4.1.0",
+    "@eeacms/volto-searchlib": "4.1.1",
     "@eeacms/volto-slate-dataentity": "5.0.0",
     "@eeacms/volto-tableau": "9.0.2",
     "@eeacms/volto-tree-view-block": "2.0.0",
