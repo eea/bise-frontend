@@ -195,7 +195,7 @@
     "@eeacms/volto-bise-policy": "1.2.46",
     "@eeacms/volto-chatbot": "^0.6.4",
     "@eeacms/volto-datablocks": "8.0.2",
-    "@eeacms/volto-eea-design-system": "1.60.5",
+    "@eeacms/volto-eea-design-system": "1.60.6",
     "@eeacms/volto-eea-kitkat": "33.0.6",
     "@eeacms/volto-eea-map": "6.0.1",
     "@eeacms/volto-eea-website-theme": "4.3.7",
