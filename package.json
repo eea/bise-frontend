@@ -207,7 +207,7 @@
     "@eeacms/volto-plotlycharts": "14.0.5",
     "@eeacms/volto-searchlib": "4.1.1",
     "@eeacms/volto-slate-dataentity": "5.0.0",
-    "@eeacms/volto-tableau": "9.0.3",
+    "@eeacms/volto-tableau": "9.0.4",
     "@eeacms/volto-tree-view-block": "2.0.0",
     "@eeacms/volto-visualization-utils": "2.0.0",
     "@eeacms/volto-workflow-progress": "^5.0.1",
