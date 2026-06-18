@@ -57,6 +57,7 @@
     "@eeacms/volto-tableau",
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-slate-dataentity",
+    "@eeacms/volto-embed-static-content",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-searchlib",
     "@eeacms/volto-globalsearch",
