@@ -1,15 +1,15 @@
 const fs = require('fs');
-const path = require('path');
+const { AddonRegistry } = require('@plone/registry/addon-registry');
+
 const projectRootPath = __dirname;
-const packageJson = require(path.join(projectRootPath, 'package.json'));
 
 let voltoPath = './node_modules/@plone/volto';
 
 let configFile;
-if (fs.existsSync(`${this.projectRootPath}/tsconfig.json`))
-  configFile = `${this.projectRootPath}/tsconfig.json`;
-else if (fs.existsSync(`${this.projectRootPath}/jsconfig.json`))
-  configFile = `${this.projectRootPath}/jsconfig.json`;
+if (fs.existsSync(`${projectRootPath}/tsconfig.json`))
+  configFile = `${projectRootPath}/tsconfig.json`;
+else if (fs.existsSync(`${projectRootPath}/jsconfig.json`))
+  configFile = `${projectRootPath}/jsconfig.json`;
 
 if (configFile) {
   const jsConfig = require(configFile).compilerOptions;
@@ -18,29 +18,35 @@ if (configFile) {
     voltoPath = `./${jsConfig.baseUrl}/${pathsConfig['@plone/volto'][0]}`;
 }
 
-const AddonConfigurationRegistry = require(`${voltoPath}/addon-registry.js`);
-const reg = new AddonConfigurationRegistry(__dirname);
+const { registry } = AddonRegistry.init(projectRootPath);
 
-// Extends ESlint configuration for adding the aliases to `src` directories in Volto addons
-const addonAliases = Object.keys(reg.packages).map((o) => [
-  o,
-  reg.packages[o].modulePath,
+// Extends ESLint configuration for adding aliases to local Volto add-ons.
+const addonAliases = Object.keys(registry.packages).map((pkgName) => [
+  pkgName,
+  registry.packages[pkgName].modulePath,
 ]);
 
-const addonExtenders = reg.getEslintExtenders().map((m) => require(m));
+const addonExtenders = registry
+  .getEslintExtenders()
+  .map((modulePath) => require(modulePath));
 
 const defaultConfig = {
   extends: `${voltoPath}/.eslintrc`,
+  ignorePatterns: [
+    'src/addons/**/node_modules',
+    'src/addons/**/cypress',
+    'src/addons/**/build',
+  ],
   settings: {
     'import/resolver': {
       alias: {
         map: [
           ['@plone/volto', '@plone/volto/src'],
-          ['@plone/volto-slate', '@plone/volto/packages/volto-slate/src'],
+          ['@plone/volto-slate', '@plone/volto-slate/src'],
           ...addonAliases,
-          ['@package', `${__dirname}/src`],
-          ['@root', `${__dirname}/src`],
-          ['~', `${__dirname}/src`],
+          ['@package', `${projectRootPath}/src`],
+          ['@root', `${projectRootPath}/src`],
+          ['~', `${projectRootPath}/src`],
         ],
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       },
@@ -51,9 +57,7 @@ const defaultConfig = {
   },
 };
 
-const config = addonExtenders.reduce(
-  (acc, extender) => extender.modify(acc),
+module.exports = addonExtenders.reduce(
+  (config, extender) => extender.modify(config),
   defaultConfig,
 );
-
-module.exports = config;
