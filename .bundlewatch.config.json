@@ -41,10 +41,6 @@
         "maxSize": "70kB"
       },
       {
-        "path": "build/public/static/js/citation*.js",
-        "maxSize": "375kB"
-      },
-      {
         "path": "build/public/static/js/client*.js",
         "maxSize": "2.2MB"
       },
