@@ -3,6 +3,7 @@ logs
 *.log
 npm-debug.log*
 .DS_Store
+.claude
 
 coverage
 
@@ -67,6 +68,7 @@ selenium-screenshot-*.png
 /selenium/
 cypress/videos/
 cypress/screenshots
+cypress/downloads/
 
 # Local environment setup
 .env
@@ -74,6 +76,9 @@ cypress/screenshots
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Development workspace backups
+package.json.backup
 
 # generic
 data
@@ -92,5 +97,3 @@ src/addons/*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-!src/addons/volto-bise-frontend-2

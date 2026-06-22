@@ -3,7 +3,7 @@
  * @module routes
  */
 
-import { App } from '@plone/volto/components';
+//import App from '@plone/volto/components/theme/App/App';
 import FakeLocation from './FakeLocation';
 import { defaultRoutes } from '@plone/volto/routes';
 import config from '@plone/volto/registry';
@@ -14,6 +14,8 @@ import { Sitemap } from '@eeacms/volto-n2k/components';
  * @array
  * @returns {array} Routes.
  */
+
+const App = config.getComponent('App').component;
 
 const routes = [
   {
@@ -80,8 +82,12 @@ const routes = [
       // addon routes have a higher priority then default routes
       ...defaultRoutes.map((route) => ({
         ...route,
-        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
-        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        ...(route.path === '/**'
+          ? { path: route.path + '/:habitat_unique_id' }
+          : {}),
+        ...(route.path === '/**/edit'
+          ? { path: '/**/:habitat_unique_id/edit' }
+          : {}),
         realPathname: '/natura2000/habitats/habitats_eunis2012',
         component: FakeLocation,
         renderComponent: route.component,
@@ -98,8 +104,12 @@ const routes = [
       // addon routes have a higher priority then default routes
       ...defaultRoutes.map((route) => ({
         ...route,
-        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
-        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        ...(route.path === '/**'
+          ? { path: route.path + '/:habitat_unique_id' }
+          : {}),
+        ...(route.path === '/**/edit'
+          ? { path: '/**/:habitat_unique_id/edit' }
+          : {}),
         realPathname: '/natura2000/habitats/habitats_eunis_revised',
         component: FakeLocation,
         renderComponent: route.component,
@@ -116,8 +126,12 @@ const routes = [
       // addon routes have a higher priority then default routes
       ...defaultRoutes.map((route) => ({
         ...route,
-        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
-        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        ...(route.path === '/**'
+          ? { path: route.path + '/:habitat_unique_id' }
+          : {}),
+        ...(route.path === '/**/edit'
+          ? { path: '/**/:habitat_unique_id/edit' }
+          : {}),
         realPathname: '/natura2000/habitats/habitats_rl',
         component: FakeLocation,
         renderComponent: route.component,
@@ -134,8 +148,12 @@ const routes = [
       // addon routes have a higher priority then default routes
       ...defaultRoutes.map((route) => ({
         ...route,
-        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
-        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        ...(route.path === '/**'
+          ? { path: route.path + '/:habitat_unique_id' }
+          : {}),
+        ...(route.path === '/**/edit'
+          ? { path: '/**/:habitat_unique_id/edit' }
+          : {}),
         realPathname: '/natura2000/habitats/habitats_res4',
         component: FakeLocation,
         renderComponent: route.component,
@@ -152,8 +170,12 @@ const routes = [
       // addon routes have a higher priority then default routes
       ...defaultRoutes.map((route) => ({
         ...route,
-        ...(route.path === '/**' ? { path: route.path + '/:habitat_unique_id' } : {}),
-        ...(route.path === '/**/edit' ? { path: '/**/:habitat_unique_id/edit' } : {}),
+        ...(route.path === '/**'
+          ? { path: route.path + '/:habitat_unique_id' }
+          : {}),
+        ...(route.path === '/**/edit'
+          ? { path: '/**/:habitat_unique_id/edit' }
+          : {}),
         realPathname: '/natura2000/habitats/habitat',
         component: FakeLocation,
         renderComponent: route.component,

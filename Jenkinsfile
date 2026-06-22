@@ -14,74 +14,96 @@ pipeline {
 
   stages {
 
-  	stage('Integration tests') {
-      parallel {
-//         stage('Cypress') {
-//				   allOf {
-//           	when {
-//             	environment name: 'CHANGE_ID', value: ''      
-//       			 	not { branch 'master' }
-//             	not { changelog '.*^Automated release [0-9\\.]+$' }
-//             	not { buildingTag() }     
-//           	}
-//					}
-//           steps {
-//             node(label: 'docker') {
-//               script {
-//                 try {
-//                   sh '''docker pull plone; docker run -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="profile-plone.restapi:blocks" plone fg'''
-//                   sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
-//                 } finally {
-//                   try {
-//                     sh '''rm -rf cypress-reports cypress-results'''
-//                     sh '''mkdir -p cypress-reports cypress-results'''
-//                     sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
-//                     sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
-//                     archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
-//                   }
-//                   finally {
-//                     catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-//                         junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
-//                     }
-//                     sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
-//                     sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
-//                     sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
-//                   }
-//                 }
-//               }
-//             }
-//           }
-//         }
-        
-        stage("Docker test build") {
-             when {
-               allOf {
+  stage('Integration tests') {
+     parallel {
+      //  stage('Cypress') {
+      //    when {
+      //      allOf {
+      //        environment name: 'CHANGE_ID', value: ''
+      //        not { branch 'master' }
+      //        not { changelog '.*^Automated release [0-9\\.]+$' }
+      //        not { buildingTag() }
+      //      }
+      //    }
+      //    steps {
+      //      node(label: 'docker') {
+      //        script {
+      //          try {
+      //            sh '''docker pull plone; docker run -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="profile-plone.restapi:blocks" plone fg'''
+      //            sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
+      //          } finally {
+      //            try {
+      //              sh '''rm -rf cypress-reports cypress-results'''
+      //              sh '''mkdir -p cypress-reports cypress-results'''
+      //              sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
+      //              sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
+      //              archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+      //            }
+      //            finally {
+      //              catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+      //                  junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
+      //              }
+      //              sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
+      //              sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
+      //              sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
+      //            }
+      //          }
+      //        }
+      //      }
+      //    }
+      //  }
+
+       stage("Docker test build") {
+            when {
+              allOf {
                 not { changelog '.*^Automated release [0-9\\.]+$' }
                 not { environment name: 'CHANGE_ID', value: '' }
                 environment name: 'CHANGE_TARGET', value: 'master'
               }
-             }
-             environment {
-              IMAGE_NAME = BUILD_TAG.toLowerCase()
-             }
-             steps {
-               node(label: 'docker-big-jobs') {
-                 script {
-                   checkout scm
-                   try {
-                     dockerImage = docker.build("${IMAGE_NAME}", "--no-cache .")
-                   } finally {
-                     sh script: "docker rmi ${IMAGE_NAME}", returnStatus: true
-                   }
-                 }
-               }
-             }
+            }
+            environment {
+             IMAGE_NAME = BUILD_TAG.toLowerCase()
+            }
+            steps {
+              node(label: 'docker-host') {
+                script {
+                  checkout scm
+                  try {
+                    dockerImage = docker.build("${IMAGE_NAME}", "--no-cache .")
+                  } finally {
+                    sh script: "docker rmi ${IMAGE_NAME}", returnStatus: true
+                  }
+                }
+              }
+            }
+         }
+
+
+     stage('Bundlewatch') {
+      when {
+        branch 'develop'
+        not { changelog '.*^Automated release [0-9\\.]+$' }
+      }
+      steps {
+        node(label: 'docker-big-jobs') {
+          script {
+            checkout scm
+            env.NODEJS_HOME = "${tool 'NodeJS'}"
+            env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+            env.CI=false
+            sh "yarn config set -H enableImmutableInstalls false"
+            sh "yarn"
+            sh "make develop"
+            sh "make install"
+            sh "make build"
+            sh "make bundlewatch"
           }
-          
-        
+        }
       }
     }
-    
+   }
+   }
+
     stage('Pull Request') {
       when {
         allOf {
@@ -93,8 +115,8 @@ pipeline {
       steps {
         node(label: 'docker') {
           script {
-            if ( env.CHANGE_BRANCH != "develop" &&  !( env.CHANGE_BRANCH.startsWith("hotfix")) ) {
-                error "Pipeline aborted due to PR not made from develop or hotfix branch"
+            if ( env.CHANGE_BRANCH != "develop" ) {
+                error "Pipeline aborted due to PR not made from develop branch"
             }
            withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
             sh '''docker pull eeacms/gitflow'''
@@ -105,7 +127,7 @@ pipeline {
       }
     }
 
-  
+
     stage('Release') {
       when {
         allOf {
@@ -130,7 +152,7 @@ pipeline {
         }
       }
       steps{
-        node(label: 'docker-big-jobs') {
+        node(label: 'docker-host') {
           script {
             checkout scm
             if (env.BRANCH_NAME == 'master') {
@@ -144,14 +166,14 @@ pipeline {
                 dockerImage.push()
               }
             } finally {
-            	sh script: "docker rmi $registry:$tagName", returnStatus: true
+              sh script: "docker rmi $registry:$tagName", returnStatus: true
             }
           }
         }
       }
     }
-    
-     stage('Release catalog ( on tag )') {
+
+    stage('Release catalog ( on tag )') {
       when {
         buildingTag()
       }
@@ -163,7 +185,7 @@ pipeline {
         }
       }
     }
-    
+
     stage('Upgrade demo ( on tag )') {
       when {
         not {
@@ -182,25 +204,26 @@ pipeline {
       }
     }
 
-     stage('Update SonarQube Tags') {
-       when {
-         not {
-           environment name: 'SONARQUBE_TAG', value: ''
-         }
-         buildingTag()
-       }
-       steps{
-         node(label: 'docker') {
-           withSonarQubeEnv('Sonarqube') {
-             withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GIT_TOKEN')]) {
-               sh '''docker pull eeacms/gitflow'''
-               sh '''docker run -i --rm --name="${BUILD_TAG}-sonar" -e GIT_NAME=${GIT_NAME} -e GIT_TOKEN="${GIT_TOKEN}" -e SONARQUBE_TAG=${SONARQUBE_TAG} -e SONARQUBE_TOKEN=${SONAR_AUTH_TOKEN} -e SONAR_HOST_URL=${SONAR_HOST_URL}  eeacms/gitflow /update_sonarqube_tags.sh'''
-             }
-           }
-         }
-       }
-     }
+    stage('Update SonarQube Tags') {
+      when {
+        not {
+          environment name: 'SONARQUBE_TAG', value: ''
+        }
+        buildingTag()
+      }
+      steps{
+        node(label: 'docker') {
+          withSonarQubeEnv('Sonarqube') {
+            withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GIT_TOKEN')]) {
+              sh '''docker pull eeacms/gitflow'''
+              sh '''docker run -i --rm --name="${BUILD_TAG}-sonar" -e GIT_NAME=${GIT_NAME} -e GIT_TOKEN="${GIT_TOKEN}" -e SONARQUBE_TAG=${SONARQUBE_TAG} -e SONARQUBE_TOKEN=${SONAR_AUTH_TOKEN} -e SONAR_HOST_URL=${SONAR_HOST_URL}  eeacms/gitflow /update_sonarqube_tags.sh'''
+            }
+          }
+        }
+      }
+    }
   }
+
 
 
   post {
