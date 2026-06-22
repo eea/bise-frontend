@@ -2068,21 +2068,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.2.46":
-  version: 1.2.46
-  resolution: "@eeacms/volto-bise-policy@npm:1.2.46"
+"@eeacms/volto-bise-policy@npm:1.2.47":
+  version: 1.2.47
+  resolution: "@eeacms/volto-bise-policy@npm:1.2.47"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-    "@eeacms/volto-openlayers-map": 2.0.0
+    "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-resize-helper": "*"
     "@plone-collective/volto-authomatic": 2.0.1
     esri-loader: 3.7.0
     plotly.js: ^2.28.0
+    querystring: 0.2.1
     react-plotly.js: 2.6.0
-  checksum: 06a26eec2b1ea7d8fc36fea6211d3d44dd51b670b6238a02ff7798ec1b825cf9e93b9bb49f1a2efc5cce12482a9758c227dbe76e040256ddfce84a638720dc56
+  checksum: 7aa62a19d75f379001238221158522731ccb7410a518e1d0c59f1de84f30f262c0511b87bec0084f2d5895e4452aae05c92cf6758b22d59a27d86519bfbf64b2
   languageName: node
   linkType: hard
 
@@ -2586,15 +2587,6 @@ __metadata:
   dependencies:
     ol: 6.6.x
   checksum: e4b003bce1ccd7d7a4d6f7e0cf9924c506fdd89f1a1e504c55c28c05da91a4c2f5969ab2b2224c3b8b5b3cfb9674961ebe22c211f25fe64c465b22c3ab087131
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-openlayers-map@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-openlayers-map@npm:2.0.0"
-  dependencies:
-    ol: 6.6.x
-  checksum: 74379666d34ab8c79397b0da7be0dff31244c09e9d49b9480c2b1b84846af474e6c7b84415a5c3750c5df9f8afeb141b6c72198b423d008ba6fea42b263ef4e7
   languageName: node
   linkType: hard
 
@@ -10464,7 +10456,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bise-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-bise-policy": 1.2.46
+    "@eeacms/volto-bise-policy": 1.2.47
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-eea-design-system": 1.60.8
@@ -26297,7 +26289,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"querystring@npm:^0.2.0":
+"querystring@npm:0.2.1, querystring@npm:^0.2.0":
   version: 0.2.1
   resolution: "querystring@npm:0.2.1"
   checksum: 7b83b45d641e75fd39cd6625ddfd44e7618e741c61e95281b57bbae8fde0afcc12cf851924559e5cc1ef9baa3b1e06e22b164ea1397d65dd94b801f678d9c8ce
