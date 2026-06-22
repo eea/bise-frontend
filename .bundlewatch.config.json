@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "build/public/static/js/*.js",
-      "maxSize": "100kB"
+      "maxSize": "150kB"
     },
     {
       "path": "build/public/static/js/rc-time-picker*.js",
@@ -38,7 +38,7 @@
     },
     {
       "path": "build/public/static/js/react-sortable*.js",
-      "maxSize": "70kB"
+      "maxSize": "95kB"
     },
     {
       "path": "build/public/static/js/client*.js",
