@@ -1,3 +1,56 @@
 {
-  "files": []
+   "files": [
+      {
+        "path": "build/public/static/js/*.js",
+        "maxSize": "50kB"
+      },
+      {
+        "path": "build/public/static/js/rc-time-picker*.js",
+        "maxSize": "60kB"
+      },
+      {
+        "path": "build/public/static/js/sanitize-*.js",
+        "maxSize": "95kB"
+      },
+      {
+        "path": "build/public/static/js/PlotlyEditor*.js",
+        "maxSize": "2.1MB"
+      },
+      {
+        "path": "build/public/static/js/react-plotly*.js",
+        "maxSize": "1.3MB"
+      },
+      {
+        "path": "build/public/static/js/plotly-js-dist-plotly-with-meta*.js",
+        "maxSize": "1.38MB"
+      },
+      {
+        "path": "build/public/static/js/plotly-js-dist-plotly-min*.js",
+        "maxSize": "1.3MB"
+      },
+      {
+        "path": "build/public/static/js/d3*.js",
+        "maxSize": "103kB"
+      },
+      {
+        "path": "build/public/static/js/jsoneditor*.js",
+        "maxSize": "545kB"
+      },
+      {
+        "path": "build/public/static/js/react-sortable*.js",
+        "maxSize": "70kB"
+      },
+      {
+        "path": "build/public/static/js/citation*.js",
+        "maxSize": "375kB"
+      },
+      {
+        "path": "build/public/static/js/client*.js",
+        "maxSize": "2.2MB"
+      },
+      {
+        "path": "build/public/static/js/rehype-prism-plus*.js",
+        "maxSize": "250kB"
+      }
+    ]
 }
