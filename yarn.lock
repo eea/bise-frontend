@@ -2614,7 +2614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:*, @eeacms/volto-eea-map@npm:6.0.1":
+"@eeacms/volto-eea-map@npm:*":
   version: 6.0.1
   resolution: "@eeacms/volto-eea-map@npm:6.0.1"
   dependencies:
@@ -2629,6 +2629,24 @@ __metadata:
     react-color: ~2.19.3
     react-querybuilder: 6.5.5
   checksum: 8268bb6d39a12b655bededbf601d557acb3fc5fe99494fd1e29a325570edd0f9b5e0d27485cf1fdf86fd246858da828f178a62efb8512775de191db4a02db529
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-map@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@eeacms/volto-eea-map@npm:6.0.2"
+  dependencies:
+    "@arcgis/core": 4.29.10
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-object-widget": "*"
+    "@plone/scripts": "*"
+    esri-loader: 3.6.0
+    jsoneditor: 10.1.0
+    lodash: 4.17.21
+    razzle-plugin-scss: 4.2.18
+    react-color: ~2.19.3
+    react-querybuilder: 6.5.5
+  checksum: 5539709b9c64d030f55be365141a04c637fc282f230ab9546fe9ccffc442e2a65bfa7f947c0e63415cac8f41dc18856f5e1174275b06a7581d3e63ffbd924a8a
   languageName: node
   linkType: hard
 
@@ -11235,7 +11253,7 @@ __metadata:
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-eea-design-system": 1.60.8
     "@eeacms/volto-eea-kitkat": 33.0.7
-    "@eeacms/volto-eea-map": 6.0.1
+    "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-website-theme": 4.3.9
     "@eeacms/volto-embed": 11.0.4
     "@eeacms/volto-embed-content": ^0.2.2
