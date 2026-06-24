@@ -2431,27 +2431,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:^2.0.3":
-  version: 2.0.4
-  resolution: "@eeacms/volto-chatbot@npm:2.0.4"
-  dependencies:
-    "@eeacms/volto-matomo": "*"
-    "@microsoft/fetch-event-source": 2.0.1
-    "@plone-collective/volto-sentry": "*"
-    fast-json-patch: 3.1.1
-    highlight.js: 11.10.0
-    luxon: 3.5.0
-    marked: 13.0.3
-    node-fetch: 2.7.0
-    react-markdown: 8.0.7
-    react-textarea-autosize: ^8.5.3
-    rehype-prism-plus: 1.6.0
-    remark-gfm: 3.0.1
-    uuid: 10.0.0
-  checksum: 57ee6d33c0efb0bd2f1d67b2c2e173dae7f5ecf63ee0db45b7f08d882c7e41041821febba729a4cdbd9638e13b27bc3beebfa75227311a0790ae3b333675d948
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-columns-block@npm:9.0.4":
   version: 9.0.4
   resolution: "@eeacms/volto-columns-block@npm:9.0.4"
@@ -2482,7 +2461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:^8.0.2":
+"@eeacms/volto-datablocks@npm:8.0.3":
   version: 8.0.3
   resolution: "@eeacms/volto-datablocks@npm:8.0.3"
   dependencies:
@@ -2514,9 +2493,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.4":
-  version: 2.0.4
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.4"
+"@eeacms/volto-eea-chatbot@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.5"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2532,7 +2511,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: cb20e4e0c981c51af3fa610f3a88444da7830d18f2fb148fbafc2e3489af425305e2c6317bcc80b30e25f601390b476641237978405d2383f0c2f815e01655f2
+  checksum: a75826d0570a60988614c4cf936d5a384558b106d220738ed3aaf616dd463d6487145e2b7027b6c88608b188eeb2b8c43ed9309a30c73ee4c6ca8048769af3e1
   languageName: node
   linkType: hard
 
@@ -11249,8 +11228,8 @@ __metadata:
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
     "@eeacms/volto-bise-policy": 1.3.1
-    "@eeacms/volto-chatbot": ^2.0.3
     "@eeacms/volto-datablocks": 8.0.3
+    "@eeacms/volto-eea-chatbot": 2.0.5
     "@eeacms/volto-eea-design-system": 1.60.8
     "@eeacms/volto-eea-kitkat": 33.0.8
     "@eeacms/volto-eea-map": 6.0.2
