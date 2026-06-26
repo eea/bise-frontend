@@ -2545,9 +2545,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:33.0.8":
-  version: 33.0.8
-  resolution: "@eeacms/volto-eea-kitkat@npm:33.0.8"
+"@eeacms/volto-eea-kitkat@npm:33.1.0":
+  version: 33.1.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:33.1.0"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.0.3
@@ -2584,12 +2584,12 @@ __metadata:
     "@eeacms/volto-timeline-block": 3.0.1
     "@eeacms/volto-toolbar-actions": 3.0.1
     "@eeacms/volto-widget-dataprovenance": 2.0.1
-    "@eeacms/volto-widget-geolocation": 7.0.4
+    "@eeacms/volto-widget-geolocation": 8.0.0
     "@eeacms/volto-widget-temporal-coverage": 7.0.1
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
     "@plone-collective/volto-sentry": 1.0.1
-  checksum: 8d2a7e30fe20a6b524d75d1cf067f81b9916a129d085b0c7bde7da79fcb99e9a56d7c31087d55fb12f179d7e247500b99ae9112e1df895d549e2722eef1a10a0
+  checksum: 519b078a9c4f87d217e3013858b801c953567f0ec285486c0e80bd2a528ea422af3b77c7cc7254baaeb2c2493058e289b839b71be7b077d153faa4a78ae8e8ce
   languageName: node
   linkType: hard
 
@@ -3131,13 +3131,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:*, @eeacms/volto-widget-geolocation@npm:7.0.4":
+"@eeacms/volto-widget-geolocation@npm:*":
   version: 7.0.4
   resolution: "@eeacms/volto-widget-geolocation@npm:7.0.4"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     i18n-iso-countries: 6.2.1
   checksum: fce14852fd364956a6a8d155f3ad0780688127d5785e6f7760387a35814e419eac97884ea248d5a3671d54da698fad8ae20998f09e8ffb7750eb89cbfe0c1957
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-widget-geolocation@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@eeacms/volto-widget-geolocation@npm:8.0.0"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: 2cea2f0ee951edaf640c5f7180408a7ec7aa0934e2f83027551aa145b31c464054d732fae3a9119eb5a6a099459310d53faaef6ef0fcd16b248c097771de1429
   languageName: node
   linkType: hard
 
@@ -11231,7 +11241,7 @@ __metadata:
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-eea-chatbot": 2.0.5
     "@eeacms/volto-eea-design-system": 1.60.8
-    "@eeacms/volto-eea-kitkat": 33.0.8
+    "@eeacms/volto-eea-kitkat": 33.1.0
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-website-theme": 4.4.0
     "@eeacms/volto-embed": 11.0.5
