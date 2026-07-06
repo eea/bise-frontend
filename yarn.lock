@@ -3107,13 +3107,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tree-view-block@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-tree-view-block@npm:2.0.1"
+"@eeacms/volto-tree-view-block@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@eeacms/volto-tree-view-block@npm:2.0.2"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     react-complex-tree: 2.6.0
-  checksum: 7f8de7ff44823f881385e1165d2e6a144c6a2228e76bbc3907d53ee5894ff2762e366c562775d4ed6caf2ad961599f56d9cc81c3d0f7d4a3bc029e8517f97341
+  checksum: 9be5c25000010bf7a06cbeefcda32c5b7f1c00d78470b6f70ea4add715ddf7897d9e4903004a4b018529dda4ae679d5f2c212e055ba168aafcd9d6a8a0784fcf
   languageName: node
   linkType: hard
 
@@ -11253,7 +11253,7 @@ __metadata:
     "@eeacms/volto-searchlib": 5.0.0
     "@eeacms/volto-slate-dataentity": 5.0.0
     "@eeacms/volto-tableau": 9.0.4
-    "@eeacms/volto-tree-view-block": 2.0.1
+    "@eeacms/volto-tree-view-block": 2.0.2
     "@eeacms/volto-visualization-utils": 2.0.0
     "@eeacms/volto-workflow-progress": 6.0.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
