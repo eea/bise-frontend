@@ -206,7 +206,7 @@
     "@eeacms/volto-embed": "11.0.5",
     "@eeacms/volto-embed-content": "^0.2.2",
     "@eeacms/volto-globalsearch": "4.0.1",
-    "@eeacms/volto-n2k": "1.3.2",
+    "@eeacms/volto-n2k": "1.3.3",
     "@eeacms/volto-openlayers-map": "2.0.1",
     "@eeacms/volto-plotlycharts": "14.0.6",
     "@eeacms/volto-searchlib": "5.0.0",
