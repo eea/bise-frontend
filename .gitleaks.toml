@@ -88,6 +88,12 @@ regex = '''(?s).{1,}'''
 tags = ["file", "secret-file"]
 
 [[allowlists]]
+description = "Allow i18n translation strings in locale files (default ruleset false positives, e.g. generic-password/generic-username on keys like 'login.password')"
+paths = [
+  '''(^|/)locales/.*\.(po|json)$''',
+]
+
+[[allowlists]]
 description = "Allow Jenkinsfile SonarQube token environment variable reference"
 paths = [
   '''(^|/)Jenkinsfile$''',
