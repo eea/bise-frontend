@@ -39,6 +39,9 @@ keywords = [
   "connection_string"
 ]
 tags = ["literal-secret"]
+filter = '''
+attributes["path"] matches `(?i)(^|/)locales/.*\.(po|json)$`
+'''
 
 [[rules]]
 id = "env-short-secret-assignment"
@@ -51,6 +54,9 @@ keywords = [
   "SECRET"
 ]
 tags = ["env", "literal-secret"]
+filter = '''
+attributes["path"] matches `(?i)(^|/)locales/.*\.(po|json)$`
+'''
 
 [[rules]]
 id = "standalone-sk-token"
@@ -82,10 +88,19 @@ regex = '''(?s).{1,}'''
 tags = ["file", "secret-file"]
 
 [[allowlists]]
-description = "Allow Jenkins SonarQube token environment variable reference"
+description = "Allow i18n translation strings in locale files (default ruleset false positives, e.g. generic-password/generic-username on keys like 'login.password')"
+paths = [
+  '''(^|/)locales/.*\.(po|json)$''',
+]
+
+[[allowlists]]
+description = "Allow Jenkinsfile SonarQube token environment variable reference"
+paths = [
+  '''(^|/)Jenkinsfile$''',
+]
 regexTarget = "match"
 regexes = [
-  '''SONAR_AUTH_TOKEN''',
+  '''\$\{SONAR_AUTH_TOKEN\}''',
 ]
 
 [[allowlists]]
