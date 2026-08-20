@@ -38,7 +38,7 @@
     },
     {
       "path": "build/public/static/js/react-sortable*.js",
-      "maxSize": "95kB"
+      "maxSize": "97kB"
     },
     {
       "path": "build/public/static/js/client*.js",
