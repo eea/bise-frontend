@@ -2547,9 +2547,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:33.1.2":
-  version: 33.1.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:33.1.2"
+"@eeacms/volto-eea-kitkat@npm:33.1.3":
+  version: 33.1.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:33.1.3"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.0.3
@@ -2582,7 +2582,7 @@ __metadata:
     "@eeacms/volto-statistic-block": 7.0.1
     "@eeacms/volto-tabs-block": 10.0.4
     "@eeacms/volto-tags-block": 4.0.1
-    "@eeacms/volto-taxonomy": 6.0.4
+    "@eeacms/volto-taxonomy": 6.0.5
     "@eeacms/volto-timeline-block": 3.0.1
     "@eeacms/volto-toolbar-actions": 3.0.1
     "@eeacms/volto-widget-dataprovenance": 2.0.1
@@ -2591,7 +2591,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
     "@plone-collective/volto-sentry": 1.0.1
-  checksum: c6f447e4df3aecdaa48166a424ee1d7c292839460a9c8de6cdbb20c3b27e7ec7a8554568c9e31b6a068e4349a96c043379f49ac006f51470fb9c6a1994e232be
+  checksum: 803dd667e4ba926df9e534e9369e3855c8c80b95ad22e7683c30c30f61627e46f0ccee28812acb6939859851321111247de8a429d776deeeaf4a589f51e4cf08
   languageName: node
   linkType: hard
 
@@ -3104,9 +3104,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-taxonomy@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@eeacms/volto-taxonomy@npm:6.0.4"
+"@eeacms/volto-taxonomy@npm:6.0.5":
+  version: 6.0.5
+  resolution: "@eeacms/volto-taxonomy@npm:6.0.5"
   dependencies:
     react-dnd: 11.1.3
     react-dnd-html5-backend: 11.1.3
@@ -3114,7 +3114,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: b45ad86864c36850607674309cc79ab05e868bbb08de59a56bff59c385183b03e59e0fa23b6a92e9e4bdd3ed2db8b28aaa4f734c45e872679fed5cac1537e26f
+  checksum: a786e7d5e26e0bb04fabda8668f51350c649349d321c5ab20902ca53c435eb18d699bf088319c8ce7ff17e00c86c79ef394d0d7ccd0d10e7b415a1a0d20f3b6c
   languageName: node
   linkType: hard
 
@@ -11266,7 +11266,7 @@ __metadata:
     "@eeacms/volto-datablocks": 9.0.1
     "@eeacms/volto-eea-chatbot": ^3.0.1
     "@eeacms/volto-eea-design-system": 1.60.8
-    "@eeacms/volto-eea-kitkat": 33.1.2
+    "@eeacms/volto-eea-kitkat": 33.1.3
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-website-theme": 4.4.1
     "@eeacms/volto-embed": 11.0.6
