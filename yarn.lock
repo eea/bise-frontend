@@ -2462,9 +2462,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:9.0.3":
-  version: 9.0.3
-  resolution: "@eeacms/volto-datablocks@npm:9.0.3"
+"@eeacms/volto-datablocks@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-datablocks@npm:9.0.4"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2475,8 +2475,8 @@ __metadata:
     humanize-plus: ^1.8.2
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
-    sanitize-html: 2.17.7
-  checksum: 59b6054ee372dcaede94713ffba08bd42e34861269a6418fd888866082320ec1b380b227e9b513827d7ae05251f03d325153ef0f9b4cdaaafb3771848b69be0f
+    sanitize-html: 2.18.0
+  checksum: 9462dd8446c79b56692cd5b448f03bf7d04471e145d9afa9c5d86592fe9020d7b20b5bf4a180dd18a28f6ed06241914d14e72f78e231a111379e2a9a624d72d7
   languageName: node
   linkType: hard
 
@@ -11265,7 +11265,7 @@ __metadata:
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
     "@eeacms/volto-bise-policy": 1.3.10
-    "@eeacms/volto-datablocks": 9.0.3
+    "@eeacms/volto-datablocks": 9.0.4
     "@eeacms/volto-eea-chatbot": ^3.0.1
     "@eeacms/volto-eea-design-system": 1.61.5
     "@eeacms/volto-eea-kitkat": 33.2.1
@@ -14715,7 +14715,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.7":
+"dayjs@npm:^1.11.23":
   version: 1.11.23
   resolution: "dayjs@npm:1.11.23"
   checksum: 2149ddb54548066e892a35099c7d90cba3eb467fe717b5df16f04ff4225e64bd653e14e7b420dd02bcf10566c1879508705798ca604f91c2424cc10de9135e84
@@ -14892,7 +14892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.2.2":
+"deepmerge@npm:^4.2.2, deepmerge@npm:^4.3.1":
   version: 4.3.1
   resolution: "deepmerge@npm:4.3.1"
   checksum: 2024c6a980a1b7128084170c4cf56b0fd58a63f2da1660dcfe977415f27b17dbe5888668b59d0b063753f3220719d5e400b7f113609489c90160bb9a5518d052
@@ -20748,6 +20748,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-plain-object@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "is-plain-object@npm:5.1.0"
+  checksum: 100adc3c2a7ef53968957346aecd1ee427053e1cfa5a12a0b6e49466dd86703d9f52440772f0aa296539691ac164deadfdff5c24c7cadb8635c6a00a9fcaf7ba
+  languageName: node
+  linkType: hard
+
 "is-potential-custom-element-name@npm:^1.0.1":
   version: 1.0.1
   resolution: "is-potential-custom-element-name@npm:1.0.1"
@@ -22437,12 +22444,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"launder@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "launder@npm:1.7.1"
+"launder@npm:^1.7.2":
+  version: 1.7.2
+  resolution: "launder@npm:1.7.2"
   dependencies:
-    dayjs: ^1.11.7
-  checksum: d9b9f33b12a69b95523e48f0541f0ab2179d8af8bfa386dd9fa91dd95db46b21f430d0000a82e94505473fabc05fd55802a90ea006c50e3b0ef9773a1b0d6dc6
+    dayjs: ^1.11.23
+  checksum: 4822c9b511faa2e5617ac9555866435b82aa8ff13e6ccf60c57138e45561f6d788b713c3be75401ad99fea572ccd0a891aeb2b0aed3c284af4c62d6fc20590a5
   languageName: node
   linkType: hard
 
@@ -24517,6 +24524,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 0f645685aefba48aae06acfb390be660041d91b4ec63d85544ed01b619c6d661c985170bfbcd29b7265b6c1c3369c631e5dcb2f34c34e2c0023108bc158531d1
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.3.20":
+  version: 3.3.20
+  resolution: "nanoid@npm:3.3.20"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: e5061282c25412663f527abe382b3dc7165585f18b5edb7c6500a5f56d9570b1de8b26500c231ae5e28e299f20d3877f839268ed5c302f997b5627237a04dcf9
   languageName: node
   linkType: hard
 
@@ -26764,7 +26780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.15, postcss@npm:^8.2.4, postcss@npm:^8.2.7, postcss@npm:^8.3.11, postcss@npm:^8.4.40":
+"postcss@npm:^8.2.15, postcss@npm:^8.2.4, postcss@npm:^8.2.7, postcss@npm:^8.4.40":
   version: 8.5.6
   resolution: "postcss@npm:8.5.6"
   dependencies:
@@ -26783,6 +26799,17 @@ __metadata:
     picocolors: ^1.1.1
     source-map-js: ^1.2.1
   checksum: 82e046d5bd0c537e7bcae1b97ec366968cac4ebdbd38773b69a2a4ad437f26641643a48f120317dd167199ac718ff8a0ab7dd102258430e4c919daaef0e57904
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.5.27":
+  version: 8.5.31
+  resolution: "postcss@npm:8.5.31"
+  dependencies:
+    nanoid: ^3.3.20
+    picocolors: ^1.1.1
+    source-map-js: ^1.2.2
+  checksum: f8686ff435a010bb2df06ac736fed2e8832eba83dcf31f9592f61470bbccd29ceb83f3f405768b7c7dd5cbcfd171c4342d0bbd1380a162c8332d652035a6722f
   languageName: node
   linkType: hard
 
@@ -30163,18 +30190,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanitize-html@npm:2.17.7":
-  version: 2.17.7
-  resolution: "sanitize-html@npm:2.17.7"
+"sanitize-html@npm:2.18.0":
+  version: 2.18.0
+  resolution: "sanitize-html@npm:2.18.0"
   dependencies:
-    deepmerge: ^4.2.2
+    deepmerge: ^4.3.1
     escape-string-regexp: ^4.0.0
     htmlparser2: ^12.0.0
-    is-plain-object: ^5.0.0
-    launder: ^1.7.1
+    is-plain-object: ^5.1.0
+    launder: ^1.7.2
     parse-srcset: ^1.0.2
-    postcss: ^8.3.11
-  checksum: 733e94ae3bae45559be0fe6dc46fe68a0d5ea5877953e29361cd1808cc840ce8854af0e6ca280ea530efd49083cbfe802655f82f7f881dd73067bd8dd7e737c4
+    postcss: ^8.5.27
+  checksum: 6a4e57f8c9714699a6e67bc9694e5a326d250f41dddda75e954f244cfaec5e25e3f89f11df7635228d542c8970b24b9eada56f2d5b9c2879a1ec282b6c0c6e33
   languageName: node
   linkType: hard
 
@@ -31112,6 +31139,13 @@ __metadata:
   version: 1.2.1
   resolution: "source-map-js@npm:1.2.1"
   checksum: 4eb0cd997cdf228bc253bcaff9340afeb706176e64868ecd20efbe6efea931465f43955612346d6b7318789e5265bdc419bc7669c1cebe3db0eb255f57efa76b
+  languageName: node
+  linkType: hard
+
+"source-map-js@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "source-map-js@npm:1.2.2"
+  checksum: d4f3adc1921e145fe84574b5852d7f5bf11e93d6c008a250ffe66a3e698331f066008cc3ba63e720dde07fe74871f1610d2e74532d33b27126e82e57c00df3bf
   languageName: node
   linkType: hard
 
