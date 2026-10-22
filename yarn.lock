@@ -2355,12 +2355,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-table@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-block-data-table@npm:2.0.2"
+"@eeacms/volto-block-data-table@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@eeacms/volto-block-data-table@npm:2.0.5"
   dependencies:
     "@eeacms/volto-datablocks": "*"
-  checksum: 6989fd3fcaa43e9a5b7d47d850e4e0e017171f129e0de5dfa2f964c8d192e3c8471b5a0c15ac35c8399c49017d2a448fe6dc9cba604bbf280a1693fa8fe089b9
+  checksum: 91a8e8acacd794b17dbad21f61d41206f0d8218a858085d220cb9ab4c6f20731bd1d5098755ee91e324e69153956a99148d47b93a47ddb3c2bf85e8451b044b5
   languageName: node
   linkType: hard
 
@@ -2413,13 +2413,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:9.0.1":
+"@eeacms/volto-block-toc@npm:*":
   version: 9.0.1
   resolution: "@eeacms/volto-block-toc@npm:9.0.1"
   dependencies:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
   checksum: 0098c9d8a679dc33cc0f9d98e5dffbb6ebdb7d9d09bf4ab03794eafdff3f17bd3816887f984be42d660f6b274c67cd9b47b647ee4b018993af8a1deaea72a97f
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-block-toc@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-block-toc@npm:9.0.4"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: ae5461f42569e6f2f6e7e25d61a8f3080b8f56ca485320e12fec59029c4f42c12aa811e01ed680c0fc73d4f5e505bebb9c19e35e649306b6e70429dcbc5a753b
   languageName: node
   linkType: hard
 
@@ -2547,19 +2557,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:33.2.1":
-  version: 33.2.1
-  resolution: "@eeacms/volto-eea-kitkat@npm:33.2.1"
+"@eeacms/volto-eea-kitkat@npm:33.2.2":
+  version: 33.2.2
+  resolution: "@eeacms/volto-eea-kitkat@npm:33.2.2"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.1.0
     "@eeacms/volto-anchors": 2.0.1
     "@eeacms/volto-banner": 5.1.2
-    "@eeacms/volto-block-data-table": 2.0.2
+    "@eeacms/volto-block-data-table": 2.0.5
     "@eeacms/volto-block-divider": 8.0.2
     "@eeacms/volto-block-image-cards": 4.0.2
     "@eeacms/volto-block-style": 9.0.1
-    "@eeacms/volto-block-toc": 9.0.1
+    "@eeacms/volto-block-toc": 9.0.4
     "@eeacms/volto-call-to-action-block": 6.0.1
     "@eeacms/volto-columns-block": 9.0.4
     "@eeacms/volto-controlpanel": 2.0.1
@@ -2591,7 +2601,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
     "@plone-collective/volto-sentry": 1.0.1
-  checksum: 2f4617c8c292fde27f6876befb98061ba547b7bee2ed49cfd799a53a13cb5ab09e7d39fc99503a0d55e91364a3c58c8b20af77e71b0ddfabc321967fdf5117f9
+  checksum: ec2c4b98adb03f8ce52d033494c230139a5b77bfabe548c65836345544435cbc310b05d43c4b8f00aad35d9867210ff76681979f0561e3e47dda3109398e5b9d
   languageName: node
   linkType: hard
 
@@ -11268,7 +11278,7 @@ __metadata:
     "@eeacms/volto-datablocks": 9.0.4
     "@eeacms/volto-eea-chatbot": ^3.0.1
     "@eeacms/volto-eea-design-system": 1.61.5
-    "@eeacms/volto-eea-kitkat": 33.2.1
+    "@eeacms/volto-eea-kitkat": 33.2.2
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-website-theme": 4.5.3
     "@eeacms/volto-embed": 11.0.6
