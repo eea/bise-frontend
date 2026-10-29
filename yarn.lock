@@ -2323,9 +2323,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-bise-policy@npm:1.3.10":
-  version: 1.3.10
-  resolution: "@eeacms/volto-bise-policy@npm:1.3.10"
+"@eeacms/volto-bise-policy@npm:1.3.11":
+  version: 1.3.11
+  resolution: "@eeacms/volto-bise-policy@npm:1.3.11"
   dependencies:
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-datablocks": "*"
@@ -2339,7 +2339,7 @@ __metadata:
     plotly.js: ^2.28.0
     querystring: 0.2.1
     react-plotly.js: 2.6.0
-  checksum: 483f4cd01a042e230d1092f4b26ff01973889b047889a019c0689f7e234150a437d0ee78b12d9e4423c05bbfab81b383302aec484f11a253c5f1b0024421aff0
+  checksum: dcce6cd1c35f931506d5154194a89a132c5dba878d199d8984ea8d72f54b1fd56dc537439beea69e8000dfb072c1a622fb6dd6910e31888991154b5302cc76c5
   languageName: node
   linkType: hard
 
@@ -11264,7 +11264,7 @@ __metadata:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
-    "@eeacms/volto-bise-policy": 1.3.10
+    "@eeacms/volto-bise-policy": 1.3.11
     "@eeacms/volto-block-toc": 9.0.4
     "@eeacms/volto-datablocks": 9.0.5
     "@eeacms/volto-eea-chatbot": ^3.0.1
