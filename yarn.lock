@@ -2462,9 +2462,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:9.0.5":
-  version: 9.0.5
-  resolution: "@eeacms/volto-datablocks@npm:9.0.5"
+"@eeacms/volto-datablocks@npm:9.0.6":
+  version: 9.0.6
+  resolution: "@eeacms/volto-datablocks@npm:9.0.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2475,8 +2475,8 @@ __metadata:
     humanize-plus: ^1.8.2
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
-    sanitize-html: 2.18.0
-  checksum: 7ef3920c7b112a53c498d3d220a4f45e94442e40c98505c5d1233438da440df656cd38e384fdea93b205c3584b1af34a0a3a52f00cc6fb4e3735a9a6c82334f7
+    sanitize-html: 2.18.1
+  checksum: eecdaf88286c59a5a55e75c1057a1a3337fa0f48b03a2703df607ca0348d19b9ea8c382b49b54429beb438fbb161045b582c6937b4347533a537f859b7a52c3f
   languageName: node
   linkType: hard
 
@@ -11266,7 +11266,7 @@ __metadata:
     "@dnd-kit/utilities": 3.2.2
     "@eeacms/volto-bise-policy": 1.3.11
     "@eeacms/volto-block-toc": 9.0.4
-    "@eeacms/volto-datablocks": 9.0.5
+    "@eeacms/volto-datablocks": 9.0.6
     "@eeacms/volto-eea-chatbot": ^3.0.1
     "@eeacms/volto-eea-design-system": 1.61.6
     "@eeacms/volto-eea-kitkat": 33.2.2
@@ -14893,7 +14893,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.2.2, deepmerge@npm:^4.3.1":
+"deepmerge@npm:^4.2.2":
   version: 4.3.1
   resolution: "deepmerge@npm:4.3.1"
   checksum: 2024c6a980a1b7128084170c4cf56b0fd58a63f2da1660dcfe977415f27b17dbe5888668b59d0b063753f3220719d5e400b7f113609489c90160bb9a5518d052
@@ -30191,18 +30191,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanitize-html@npm:2.18.0":
-  version: 2.18.0
-  resolution: "sanitize-html@npm:2.18.0"
+"sanitize-html@npm:2.18.1":
+  version: 2.18.1
+  resolution: "sanitize-html@npm:2.18.1"
   dependencies:
-    deepmerge: ^4.3.1
     escape-string-regexp: ^4.0.0
     htmlparser2: ^12.0.0
     is-plain-object: ^5.1.0
     launder: ^1.7.2
     parse-srcset: ^1.0.2
     postcss: ^8.5.27
-  checksum: 6a4e57f8c9714699a6e67bc9694e5a326d250f41dddda75e954f244cfaec5e25e3f89f11df7635228d542c8970b24b9eada56f2d5b9c2879a1ec282b6c0c6e33
+  checksum: 32162f79a425d2fdfed5ee9c77886d86c1f64d098caa86bab75b3cb861d72f1062562080f414ea07f11a69378d5c96ab91aee413bdd0643d50d089cba5acd785
   languageName: node
   linkType: hard
 
