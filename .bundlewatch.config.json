@@ -9,6 +9,10 @@
       "maxSize": "60kB"
     },
     {
+      "path": "build/public/static/js/6831*.js",
+      "maxSize": "250kB"
+    },
+    {
       "path": "build/public/static/js/sanitize-*.js",
       "maxSize": "95kB"
     },
