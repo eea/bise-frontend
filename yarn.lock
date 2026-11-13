@@ -2548,9 +2548,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:34.0.3":
-  version: 34.0.3
-  resolution: "@eeacms/volto-eea-kitkat@npm:34.0.3"
+"@eeacms/volto-eea-kitkat@npm:34.0.4":
+  version: 34.0.4
+  resolution: "@eeacms/volto-eea-kitkat@npm:34.0.4"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.1.1
@@ -2591,8 +2591,8 @@ __metadata:
     "@eeacms/volto-widget-temporal-coverage": 7.0.1
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
-    "@plone-collective/volto-sentry": 1.0.1
-  checksum: 0cbbdd95c609207d335ddeb62d8ce48dd431e33202a700130b1548cbb1235a2de09729e489da05004bc9ccb3905c0afe93ad72feb93e7dc90f8f1fe0d9104d73
+    "@plone-collective/volto-sentry": 1.0.2
+  checksum: a3fd23885d9fbac368b96cb2cb47a39cc2a965a5c317e7f79a5de48110ed55b2f64911d492dddae49ee8b08b3caf4744c7ae941760915eb762ae68b8a05c2c3f
   languageName: node
   linkType: hard
 
@@ -5494,15 +5494,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@plone-collective/volto-sentry@npm:1.0.1"
+"@plone-collective/volto-sentry@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@plone-collective/volto-sentry@npm:1.0.2"
   dependencies:
     "@sentry/browser": 7.15.0
     "@sentry/integrations": 7.15.0
     "@sentry/node": 7.15.0
     "@sentry/webpack-plugin": 1.19.1
-  checksum: 8eec663fd35e70e9902fc1761a0be102c6fe336f5131cc8b11cea6080408e1ad9eff920be9b9488a85269aa1aade030aa753b9cde4325847ba3a9b5be8324616
+  checksum: c80e109c3e81f41f1a0cef76ca21e98de544694068726e889e29693221aacba331f0fcb72cb49636d906de211e04c2effa00425d281b24843d9b1f860ad0e9dd
   languageName: node
   linkType: hard
 
@@ -11284,7 +11284,7 @@ __metadata:
     "@eeacms/volto-datablocks": 9.0.6
     "@eeacms/volto-eea-chatbot": ^3.0.1
     "@eeacms/volto-eea-design-system": 1.61.9
-    "@eeacms/volto-eea-kitkat": 34.0.3
+    "@eeacms/volto-eea-kitkat": 34.0.4
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-website-theme": 5.0.7
     "@eeacms/volto-embed": 11.0.6
