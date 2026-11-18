@@ -2967,9 +2967,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@eeacms/volto-searchlib@npm:7.0.0"
+"@eeacms/volto-searchlib@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@eeacms/volto-searchlib@npm:7.0.1"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
@@ -3011,7 +3011,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 3f36c2b2018c2999cfa7c963e95cdd05e4a325e12b88aa8d400314dfce384af625fe8a2c4303e988bc98dc841a07c2b2c29701ece35d972b6c405faac2acfef5
+  checksum: 7d278aac9c8904126f02fab3c26f2a16908df31ffebdbe568f2c0df82e5978cf2f5a2964712ef9c7897fbc752acf2c80dee94a501bc6b703f3ab70276befed85
   languageName: node
   linkType: hard
 
@@ -11293,7 +11293,7 @@ __metadata:
     "@eeacms/volto-n2k": 1.3.6
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.7
-    "@eeacms/volto-searchlib": 7.0.0
+    "@eeacms/volto-searchlib": 7.0.1
     "@eeacms/volto-slate-dataentity": 5.0.1
     "@eeacms/volto-tableau": 9.0.4
     "@eeacms/volto-tree-view-block": 2.0.2
