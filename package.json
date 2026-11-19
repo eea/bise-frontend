@@ -206,7 +206,7 @@
     "@eeacms/volto-eea-kitkat": "34.0.4",
     "@eeacms/volto-eea-map": "6.0.2",
     "@eeacms/volto-eea-website-theme": "5.0.7",
-    "@eeacms/volto-embed": "11.0.6",
+    "@eeacms/volto-embed": "12.0.0",
     "@eeacms/volto-embed-content": "^0.2.2",
     "@eeacms/volto-globalsearch": "4.1.1",
     "@eeacms/volto-n2k": "1.3.6",
