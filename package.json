@@ -204,7 +204,7 @@
     "@eeacms/volto-eea-chatbot": "^3.0.1",
     "@eeacms/volto-eea-design-system": "1.61.10",
     "@eeacms/volto-eea-kitkat": "34.0.4",
-    "@eeacms/volto-eea-map": "6.0.2",
+    "@eeacms/volto-eea-map": "7.0.0",
     "@eeacms/volto-eea-website-theme": "5.0.7",
     "@eeacms/volto-embed": "12.0.0",
     "@eeacms/volto-embed-content": "^0.2.2",

@@ -2620,21 +2620,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:6.0.2":
-  version: 6.0.2
-  resolution: "@eeacms/volto-eea-map@npm:6.0.2"
+"@eeacms/volto-eea-map@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@eeacms/volto-eea-map@npm:7.0.0"
   dependencies:
     "@arcgis/core": 4.29.10
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
-    "@plone/scripts": "*"
     esri-loader: 3.6.0
+    events: 3.3.0
     jsoneditor: 10.1.0
     lodash: 4.17.21
-    razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 6.5.5
-  checksum: 5539709b9c64d030f55be365141a04c637fc282f230ab9546fe9ccffc442e2a65bfa7f947c0e63415cac8f41dc18856f5e1174275b06a7581d3e63ffbd924a8a
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 27d35f4a9dc2d565f546573fcb8f6510e60bd84f697e67af9550b7f32fc0dea7df1079867e11a8c4df96d17386de9678bec3c84ca710826742ec1f5e3fc59fd3
   languageName: node
   linkType: hard
 
@@ -11317,7 +11319,7 @@ __metadata:
     "@eeacms/volto-eea-chatbot": ^3.0.1
     "@eeacms/volto-eea-design-system": 1.61.10
     "@eeacms/volto-eea-kitkat": 34.0.4
-    "@eeacms/volto-eea-map": 6.0.2
+    "@eeacms/volto-eea-map": 7.0.0
     "@eeacms/volto-eea-website-theme": 5.0.7
     "@eeacms/volto-embed": 12.0.0
     "@eeacms/volto-embed-content": ^0.2.2
@@ -17032,7 +17034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"events@npm:^3.0.0, events@npm:^3.2.0":
+"events@npm:3.3.0, events@npm:^3.0.0, events@npm:^3.2.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
   checksum: f6f487ad2198aa41d878fa31452f1a3c00958f46e9019286ff4787c84aac329332ab45c9cdc8c445928fc6d7ded294b9e005a7fce9426488518017831b272780
