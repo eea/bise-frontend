@@ -2539,18 +2539,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.61.10":
-  version: 1.61.10
-  resolution: "@eeacms/volto-eea-design-system@npm:1.61.10"
+"@eeacms/volto-eea-design-system@npm:1.70.0":
+  version: 1.70.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.70.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
     "@fontsource/roboto": 4.5.8
+    "@semantic-ui-react/event-stack": 3.1.3
     react-lazy-load-image-component: 1.5.6
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 082f433c52a3846d664492eadda7f963a82fe0065d084dbe9971e74e3fde060d89e4ced6b5a8e970786c5f78f85f9204e867d99d4683d8145c5fc5475214e87b
+  peerDependencies:
+    "@plone/volto": ">=18.0.0 <20.0.0"
+    classnames: ">=2.0.0"
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+    react-intl: ">=3.0.0"
+    semantic-ui-react: ">=2.0.0"
+  checksum: edc448893c4d4c860ce10795e7a0ab2e4f915850f05cc2a7b0cc4fb5e1cb18b841a1cbd70b50c185a9d442745829ec0d713f1288199caf7b382b7e468f247bc9
   languageName: node
   linkType: hard
 
@@ -6131,7 +6139,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-ui-react/event-stack@npm:^3.1.2, @semantic-ui-react/event-stack@npm:^3.1.3":
+"@semantic-ui-react/event-stack@npm:3.1.3, @semantic-ui-react/event-stack@npm:^3.1.2, @semantic-ui-react/event-stack@npm:^3.1.3":
   version: 3.1.3
   resolution: "@semantic-ui-react/event-stack@npm:3.1.3"
   dependencies:
@@ -11327,7 +11335,7 @@ __metadata:
     "@eeacms/volto-block-toc": 10.0.0
     "@eeacms/volto-datablocks": 10.0.0
     "@eeacms/volto-eea-chatbot": ^3.0.1
-    "@eeacms/volto-eea-design-system": 1.61.10
+    "@eeacms/volto-eea-design-system": 1.70.0
     "@eeacms/volto-eea-kitkat": 34.0.4
     "@eeacms/volto-eea-map": 7.0.0
     "@eeacms/volto-eea-website-theme": 5.0.7
