@@ -217,7 +217,7 @@
     "@eeacms/volto-tableau": "10.0.0",
     "@eeacms/volto-tree-view-block": "2.0.2",
     "@eeacms/volto-visualization-utils": "2.0.0",
-    "@eeacms/volto-workflow-progress": "6.0.1",
+    "@eeacms/volto-workflow-progress": "7.0.0",
     "@loadable/component": "5.14.1",
     "@loadable/server": "5.14.0",
     "@plone-collective/volto-authomatic": "2.0.1",

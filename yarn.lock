@@ -11332,7 +11332,7 @@ __metadata:
     "@eeacms/volto-tableau": 10.0.0
     "@eeacms/volto-tree-view-block": 2.0.2
     "@eeacms/volto-visualization-utils": 2.0.0
-    "@eeacms/volto-workflow-progress": 6.0.1
+    "@eeacms/volto-workflow-progress": 7.0.0
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
     "@jest/globals": ^29.7.0
     "@loadable/babel-plugin": 5.13.2
