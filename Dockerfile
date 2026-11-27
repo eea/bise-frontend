@@ -23,14 +23,15 @@ ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN yarn \
   && yarn build \
-  && rm -rf /home/node/.cache \
   && rm -rf /home/node/.yarn \
   && rm -rf /home/node/.npm \
   && rm -rf /app/.yarn/cache
+
+ENV NODE_ENV=production
 
 USER root
 
 EXPOSE 3000 3001
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["yarn", "start:prod"]
+CMD ["node", "build/server.js"]

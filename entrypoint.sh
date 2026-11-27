@@ -11,7 +11,7 @@ function apply_rebuild {
 # Should we re-build
 test -n "$REBUILD" && apply_rebuild
 
-if [[ "$1" == "yarn"* ]]; then
+if [[ "$1" == "yarn"* || "$1" == "node"* ]]; then
   echo "Starting Volto"
   exec gosu node "$@"
 fi
