@@ -85,7 +85,9 @@
     ],
     "moduleNameMapper": {
       "@plone/volto/cypress/(.*)$": "<rootDir>/node_modules/@plone/volto/cypress/$1",
-      "@plone/volto/addon-registry": "<rootDir>/node_modules/@plone/volto/addon-registry",
+      "@plone/registry$": "<rootDir>/node_modules/@plone/registry/dist/index.cjs",
+      "@plone/volto/addon-registry": "<rootDir>/node_modules/@plone/registry/addon-registry",
+      "@plone/registry/addon-registry": "<rootDir>/node_modules/@plone/registry/addon-registry",
       "@plone/volto/webpack-plugins/webpack-less-plugin": "<rootDir>/node_modules/@plone/volto/webpack-plugins/webpack-less-plugin",
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
@@ -106,7 +108,7 @@
     },
     "setupFiles": [
       "@plone/volto/test-setup-globals.js",
-      "@plone/volto/test-setup-config.js"
+      "@plone/volto/test-setup-config.jsx"
     ],
     "globals": {
       "__DEV__": true
@@ -222,7 +224,7 @@
     "@loadable/server": "5.14.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/scripts": "^3.6.0",
-    "@plone/volto": "18.32.4",
+    "@plone/volto": "18.36.0",
     "@redux-devtools/extension": "^3.3.0",
     "classnames": "2.5.1",
     "connected-react-router": "6.8.0",
