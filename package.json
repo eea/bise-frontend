@@ -18,7 +18,7 @@
     "stylelint:overrides": "stylelint 'theme/**/*.overrides' 'src/**/*.overrides' --allow-empty-input",
     "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
     "test": "razzle test --passWithNoTests",
-    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "typecheck": "tsc --project jsconfig.json --noEmit",
     "cypress:open": "NODE_ENV=test cypress open",
     "cypress:run": "NODE_ENV=test cypress run",
     "cypress:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn start",
